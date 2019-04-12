@@ -2,9 +2,9 @@
 *.tmp
 src/ontology/mirror
 src/ontology/mirror/*
-src/ontology/ddpheno.obo
-src/ontology/ddpheno.owl
-src/ontology/ddpheno-base.owl
+src/ontology/ddpheno.*
+src/ontology/ddpheno-base.*
+src/ontology/ddpheno-full.*
 semantic.cache
 bin/
 src/ontology/seed.txt

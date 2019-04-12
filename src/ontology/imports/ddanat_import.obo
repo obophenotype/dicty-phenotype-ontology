@@ -1,0 +1,319 @@
+format-version: 1.2
+data-version: ddpheno/releases/2019-04-12/imports/ddanat_import.owl
+ontology: ddpheno/imports/ddanat_import
+
+[Term]
+id: DDANAT:0000002
+name: vegetative amoebae
+namespace: Dictyostelium_discoideum_anatomy
+def: "Unicellular haploid myxamoebae that feeds on bacteria by phagocytosis and divides by binary fission. The size of vegetative cells range from 12-20 microns by 8-12 microns. The cells exhibit a roughly rounded but rather irregular shape." [DDB:pg, PMID:4338436]
+synonym: "amoebae" BROAD []
+synonym: "vegetative cell" EXACT []
+synonym: "vegetative cell (sensu Mycetozoa)" EXACT [CL:0000263]
+xref: CL:0000263 "Cell Line Ontology"
+is_a: DDANAT:0000083 ! Dictyostelium discoideum single cell organism
+relationship: develops_from DDANAT:0000414 ! spore
+relationship: part_of DDANAT:0000013 ! stream
+
+[Term]
+id: DDANAT:0000003
+name: aggregation territory
+namespace: Dictyostelium_discoideum_anatomy
+def: "Area covered by a group of chemotactic cells converging toward the same aggregation center. Can reach a diameter of up to 1 cm." [DDB:pg, PMID:14458213, PMID:20268085]
+is_a: DDANAT:0010082 ! whole organism
+
+[Term]
+id: DDANAT:0000004
+name: loose aggregate
+namespace: Dictyostelium_discoideum_anatomy
+def: "First adherent mass of cells observed during development, relatively flat with indistinct borders." [DDB:pg]
+synonym: "loose mound" EXACT []
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000003 ! aggregation territory
+
+[Term]
+id: DDANAT:0000005
+name: mound
+namespace: Dictyostelium_discoideum_anatomy
+def: "Hemispherical structure composed of post-aggregative cells that are undergoing differentiation." [DDB:pg, PMID:20268085]
+synonym: "pseudoplasmodium" BROAD [PMID:18366659]
+synonym: "tight aggregate" EXACT []
+synonym: "tight mound" EXACT []
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000004 ! loose aggregate
+
+[Term]
+id: DDANAT:0000006
+name: tipped mound
+namespace: Dictyostelium_discoideum_anatomy
+def: "Hemispherical structure composed of post-aggregative cells that are undergoing differentiation and that have formed a tip." [DDB:pg, PMID:20268085]
+synonym: "pseudoplasmodium" BROAD []
+synonym: "tipped aggregate" EXACT [PMID:7553878]
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000005 ! mound
+
+[Term]
+id: DDANAT:0000007
+name: standing slug
+namespace: Dictyostelium_discoideum_anatomy
+def: "Cylindrical structure that is formed by elongation of the mound under the control of the tip. The elongating tip is called the first finger." [DDB:pg, PMID:18366659]
+comment: Synonym from Kessin book p. 166.
+synonym: "finger" EXACT []
+synonym: "first finger" NARROW []
+synonym: "pseudoplasmodium" BROAD []
+xref: ISBN:0521583640
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000006 ! tipped mound
+
+[Term]
+id: DDANAT:0000008
+name: migratory slug
+namespace: Dictyostelium_discoideum_anatomy
+def: "When the conditions are not optimal for the completion of development, the standing slug bends from a vertical position to a horizontal position, producing a migratory that slug has the ability to migrate towards more favorable environmental conditions. The slug is cylindrical in shape with a rounded, tapering region at its anterior end that is raised with respect to the substratum. It usually measures between 0.8 to 1.2 mm in length with a diameter of 0.15 to 0.25 mm. Slugs sense and respond to light, temperature and acidity, and do not enter culmination until the conditions are optimal. The slug can move at a speed of 0.5 to 2 mm per hour. A trail of slime is deposited on the surface during migration." [DDB:pg, PMID:2513127, PMID:8223266]
+synonym: "pseudoplasmodium" BROAD [PMID:18366659]
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000007 ! standing slug
+
+[Term]
+id: DDANAT:0000009
+name: early culminant
+namespace: Dictyostelium_discoideum_anatomy
+def: "Structure formed after the arrest of slug migration formed when cells of the posterior region of the slug move under the tip. Stalk tube formation is initiated at this stage." [DDB:pg, PMID:18366659, PMID:1879341]
+synonym: "culminant" BROAD []
+synonym: "mexican hat" NARROW []
+synonym: "pseudoplasmodium" BROAD [PMID:18366659]
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000007 ! standing slug
+
+[Term]
+id: DDANAT:0000010
+name: mid culminant
+namespace: Dictyostelium_discoideum_anatomy
+def: "Structure in which stalk tube formation has progressed down the prespore zone. Basal disc formation begins at this stage, with the migration of pstA and pstB cells to the lower part of the culminant to form the basal disc." [DDB:pg, PMID:9799430]
+synonym: "culminant" BROAD []
+synonym: "pseudoplasmodium" BROAD [PMID:18366659]
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000009 ! early culminant
+
+[Term]
+id: DDANAT:0000011
+name: late culminant
+namespace: Dictyostelium_discoideum_anatomy
+def: "Structure in which stalk tube formation has progressed down to the basal disc. The sorogen ascents up the stalk to it apical position during this stage. Terminal differentiation occurs at this stage: death of the stalk cells and encapsulation of the spores." [DDB:pg, PMID:1879341]
+comment: Kessin book p. 201.
+synonym: "culminant" BROAD []
+synonym: "pseudoplasmodium" RELATED [PMID:18366659]
+xref: ISBN:0521583640
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000010 ! mid culminant
+
+[Term]
+id: DDANAT:0000012
+name: fruiting body
+namespace: Dictyostelium_discoideum_anatomy
+def: "Dicty asexual organism which is terminally differentiated and consists of a long stalk on top of which sits the sorus that contains spores. The mature fruiting body measures between 1.5 to 3 mm in height." [DDB:18366659, DDB:pg]
+comment: Synonym from Kessin book p. 12-13.
+synonym: "sorocarp" EXACT []
+xref: ISBN:0521583640
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000011 ! late culminant
+
+[Term]
+id: DDANAT:0000013
+name: stream
+namespace: Dictyostelium_discoideum_anatomy
+def: "Macroscopic appearance of groups of chemotactic cells orienting themselves in a head to tail fashion as they are migrating in the direction of the chemotactic stimulus to form aggregates." [DDB:18366659, DDB:pg]
+synonym: "pseudoplasmodial stream" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+relationship: part_of DDANAT:0000003 ! aggregation territory
+
+[Term]
+id: DDANAT:0000017
+name: prespore region of the tipped mound
+namespace: Dictyostelium_discoideum_anatomy
+def: "Region of the tipped mound mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB." [DDB:pg]
+synonym: "psp region of the tipped mound" EXACT []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000005 ! mound
+relationship: part_of DDANAT:0000006 ! tipped mound
+
+[Term]
+id: DDANAT:0000024
+name: prespore region of the standing slug
+namespace: Dictyostelium_discoideum_anatomy
+def: "Region of the standing slug mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." [DDB:pg]
+synonym: "psp region of the standing slug" EXACT []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000017 ! prespore region of the tipped mound
+relationship: part_of DDANAT:0000007 ! standing slug
+
+[Term]
+id: DDANAT:0000033
+name: prespore region of the migratory slug
+namespace: Dictyostelium_discoideum_anatomy
+def: "Region of the migratory slug composed mostly of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." [DDB:pg]
+synonym: "psp region of the migratory slug" BROAD []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000024 ! prespore region of the standing slug
+relationship: part_of DDANAT:0000008 ! migratory slug
+
+[Term]
+id: DDANAT:0000041
+name: prespore region of the early culminant
+namespace: Dictyostelium_discoideum_anatomy
+def: "Region of the early culminant mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." [DDB:pg]
+synonym: "psp region of the early culminant" EXACT []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000024 ! prespore region of the standing slug
+relationship: part_of DDANAT:0000009 ! early culminant
+
+[Term]
+id: DDANAT:0000054
+name: prespore region of the mid culminant
+namespace: Dictyostelium_discoideum_anatomy
+def: "Region of the mid culminant mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." [DDB:pg]
+synonym: "psp region of the mid culminant" BROAD []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000041 ! prespore region of the early culminant
+relationship: part_of DDANAT:0000010 ! mid culminant
+
+[Term]
+id: DDANAT:0000061
+name: sorus of the late culminant
+namespace: Dictyostelium_discoideum_anatomy
+def: "Ovoid structure of the late culminant supported by the stalk and that contains the spores." [DDB:pg, ISBN:0198529171]
+synonym: "spore head of the late culminant" EXACT []
+is_a: DDANAT:0000094 ! sorus
+relationship: develops_from DDANAT:0000054 ! prespore region of the mid culminant
+relationship: part_of DDANAT:0000011 ! late culminant
+
+[Term]
+id: DDANAT:0000070
+name: sorus of the fruiting body
+namespace: Dictyostelium_discoideum_anatomy
+def: "Structure of the fruiting body supported by the stalk and that contains the spores. The sorus is 125-300 microns in diameter, lemon-shaped, and grayish white to pale yellow in color." [DDB:pg]
+synonym: "spore head of the fruiting body" EXACT []
+is_a: DDANAT:0000094 ! sorus
+relationship: develops_from DDANAT:0000061 ! sorus of the late culminant
+relationship: part_of DDANAT:0000012 ! fruiting body
+
+[Term]
+id: DDANAT:0000083
+name: Dictyostelium discoideum single cell organism
+namespace: Dictyostelium_discoideum_anatomy
+def: "Cell that is an individual member of the species Dictyostelium discoideum." [CARO:MAH, DDB:PG]
+synonym: "Dictyostelium discoideum single cell organism" EXACT []
+xref: CARO:0000064
+is_a: DDANAT:0000401 ! cell
+
+[Term]
+id: DDANAT:0000086
+name: prespore region
+namespace: Dictyostelium_discoideum_anatomy
+def: "Region mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." [DDB:pg]
+synonym: "psp region" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+
+[Term]
+id: DDANAT:0000094
+name: sorus
+namespace: Dictyostelium_discoideum_anatomy
+def: "Ovoid structure supported by the stalk and that contains the spores." [DDB:pg]
+synonym: "spore head" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+
+[Term]
+id: DDANAT:0000401
+name: cell
+namespace: Dictyostelium_discoideum_anatomy
+def: "Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [CARO:MAH]
+is_a: DDANAT:0010001 ! Dictyostelium discoideum anatomical structure
+
+[Term]
+id: DDANAT:0000402
+name: chemotactic amoeboid cell
+namespace: Dictyostelium_discoideum_anatomy
+def: "Starved cell that secretes and responds to chemoattractants (cAMP)." [DDB:pg, PMID:4338436]
+synonym: "amoebae" BROAD []
+synonym: "chemotactic amoeboid cell (sensu Mycetozoa)" EXACT [CL:0000289]
+xref: CL:0000289 "Cell Line Ontology"
+is_a: DDANAT:0000083 ! Dictyostelium discoideum single cell organism
+relationship: develops_from DDANAT:0000414 ! spore
+relationship: part_of DDANAT:0000013 ! stream
+
+[Term]
+id: DDANAT:0000403
+name: aggregate cell
+namespace: Dictyostelium_discoideum_anatomy
+def: "Differentiating cell composing the aggregate that has acquired adhesive properties." [DDB:pg]
+xref: CL:0000259 "Cell Line Ontology"
+is_a: DDANAT:0000401 ! cell
+relationship: develops_from DDANAT:0000402 ! chemotactic amoeboid cell
+relationship: part_of DDANAT:0000003 ! aggregation territory
+relationship: part_of DDANAT:0000004 ! loose aggregate
+relationship: part_of DDANAT:0000005 ! mound
+
+[Term]
+id: DDANAT:0000405
+name: prespore cell
+namespace: Dictyostelium_discoideum_anatomy
+def: "Cell that is undergoing differentiation to become a spore. Characterized by the presence of prespore vesicles (PV)." [DDB:pg, PMID:4330277]
+synonym: "psp cell" EXACT []
+xref: CL:0000267 "Cell Line Ontology"
+is_a: DDANAT:0000401 ! cell
+relationship: develops_from DDANAT:0000403 ! aggregate cell
+relationship: part_of DDANAT:0000004 ! loose aggregate
+relationship: part_of DDANAT:0000017 ! prespore region of the tipped mound
+relationship: part_of DDANAT:0000024 ! prespore region of the standing slug
+relationship: part_of DDANAT:0000033 ! prespore region of the migratory slug
+relationship: part_of DDANAT:0000041 ! prespore region of the early culminant
+relationship: part_of DDANAT:0000054 ! prespore region of the mid culminant
+relationship: part_of DDANAT:0000061 ! sorus of the late culminant
+
+[Term]
+id: DDANAT:0000414
+name: spore
+namespace: Dictyostelium_discoideum_anatomy
+def: "Dormant cell protected by a tri-layer spore coat. The spore has an elliptical shape and is approximately 6-9 microns by 3 microns." [DDB:pg, PMID:4338436]
+synonym: "spore (sensu Mycetozoa)" EXACT [CL:0000291]
+xref: CL:0000291 "Cell Line Ontology"
+is_a: DDANAT:0000083 ! Dictyostelium discoideum single cell organism
+relationship: develops_from DDANAT:0000405 ! prespore cell
+relationship: part_of DDANAT:0000070 ! sorus of the fruiting body
+
+[Term]
+id: DDANAT:0010001
+name: Dictyostelium discoideum anatomical structure
+namespace: Dictyostelium_discoideum_anatomy
+alt_id: DDANAT:0000001
+def: "Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the Dictyostelium discoideum genome." [CARO:MAH]
+
+[Term]
+id: DDANAT:0010082
+name: whole organism
+namespace: Dictyostelium_discoideum_anatomy
+alt_id: DDANAT:0000082
+def: "Anatomical structure that is an individual member of the Dictyostelium discoideum species and consists of more than one cell." [CARO:MAH]
+xref: CARO:0000012
+is_a: DDANAT:0010001 ! Dictyostelium discoideum anatomical structure
+
+[Term]
+id: DDANAT:0010085
+name: subdivision
+namespace: Dictyostelium_discoideum_anatomy
+alt_id: DDANAT:0000085
+def: "Anatomical structure which is a primary subdivision of whole Dictyostelium organism. The mereological sum of these is the whole organism." [DDB:pg]
+xref: CARO:0000032
+is_a: DDANAT:0010001 ! Dictyostelium discoideum anatomical structure
+
+[Typedef]
+id: develops_from
+name: develops_from
+namespace: Dictyostelium_discoideum_anatomy
+
+[Typedef]
+id: part_of
+name: part of
+namespace: Dictyostelium_discoideum_anatomy
+is_transitive: true
+

@@ -1,0 +1,1007 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0010085",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical structure which is a primary subdivision of whole Dictyostelium organism. The mereological sum of these is the whole organism.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "xrefs" : [ {
+          "val" : "CARO:0000032"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DDANAT:0000085"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "subdivision"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000414",
+      "meta" : {
+        "definition" : {
+          "val" : "Dormant cell protected by a tri-layer spore coat. The spore has an elliptical shape and is approximately 6-9 microns by 3 microns.",
+          "xrefs" : [ "DDB:pg", "PMID:4338436" ]
+        },
+        "xrefs" : [ {
+          "val" : "CL:0000291"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "spore (sensu Mycetozoa)",
+          "xrefs" : [ "CL:0000291" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "spore"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0010082",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical structure that is an individual member of the Dictyostelium discoideum species and consists of more than one cell.",
+          "xrefs" : [ "CARO:MAH" ]
+        },
+        "xrefs" : [ {
+          "val" : "CARO:0000012"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DDANAT:0000082"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "whole organism"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000017",
+      "meta" : {
+        "definition" : {
+          "val" : "Region of the tipped mound mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "psp region of the tipped mound",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prespore region of the tipped mound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000033",
+      "meta" : {
+        "definition" : {
+          "val" : "Region of the migratory slug composed mostly of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "psp region of the migratory slug",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prespore region of the migratory slug"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000011",
+      "meta" : {
+        "definition" : {
+          "val" : "Structure in which stalk tube formation has progressed down to the basal disc. The sorogen ascents up the stalk to it apical position during this stage. Terminal differentiation occurs at this stage: death of the stalk cells and encapsulation of the spores.",
+          "xrefs" : [ "DDB:pg", "PMID:1879341" ]
+        },
+        "xrefs" : [ {
+          "val" : "ISBN:0521583640"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pseudoplasmodium",
+          "xrefs" : [ "PMID:18366659" ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "culminant",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Kessin book p. 201."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "late culminant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000010",
+      "meta" : {
+        "definition" : {
+          "val" : "Structure in which stalk tube formation has progressed down the prespore zone. Basal disc formation begins at this stage, with the migration of pstA and pstB cells to the lower part of the culminant to form the basal disc.",
+          "xrefs" : [ "DDB:pg", "PMID:9799430" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "pseudoplasmodium",
+          "xrefs" : [ "PMID:18366659" ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "culminant",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mid culminant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000054",
+      "meta" : {
+        "definition" : {
+          "val" : "Region of the mid culminant mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "psp region of the mid culminant",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prespore region of the mid culminant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000013",
+      "meta" : {
+        "definition" : {
+          "val" : "Macroscopic appearance of groups of chemotactic cells orienting themselves in a head to tail fashion as they are migrating in the direction of the chemotactic stimulus to form aggregates.",
+          "xrefs" : [ "DDB:18366659", "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "pseudoplasmodial stream",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "stream"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000012",
+      "meta" : {
+        "definition" : {
+          "val" : "Dicty asexual organism which is terminally differentiated and consists of a long stalk on top of which sits the sorus that contains spores. The mature fruiting body measures between 1.5 to 3 mm in height.",
+          "xrefs" : [ "DDB:18366659", "DDB:pg" ]
+        },
+        "xrefs" : [ {
+          "val" : "ISBN:0521583640"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sorocarp",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Synonym from Kessin book p. 12-13."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fruiting body"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000061",
+      "meta" : {
+        "definition" : {
+          "val" : "Ovoid structure of the late culminant supported by the stalk and that contains the spores.",
+          "xrefs" : [ "DDB:pg", "ISBN:0198529171" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "spore head of the late culminant",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sorus of the late culminant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000083",
+      "meta" : {
+        "definition" : {
+          "val" : "Cell that is an individual member of the species Dictyostelium discoideum.",
+          "xrefs" : [ "CARO:MAH", "DDB:PG" ]
+        },
+        "xrefs" : [ {
+          "val" : "CARO:0000064"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Dictyostelium discoideum single cell organism",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Dictyostelium discoideum single cell organism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000086",
+      "meta" : {
+        "definition" : {
+          "val" : "Region mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "psp region",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prespore region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000041",
+      "meta" : {
+        "definition" : {
+          "val" : "Region of the early culminant mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "psp region of the early culminant",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prespore region of the early culminant"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000008",
+      "meta" : {
+        "definition" : {
+          "val" : "When the conditions are not optimal for the completion of development, the standing slug bends from a vertical position to a horizontal position, producing a migratory that slug has the ability to migrate towards more favorable environmental conditions. The slug is cylindrical in shape with a rounded, tapering region at its anterior end that is raised with respect to the substratum. It usually measures between 0.8 to 1.2 mm in length with a diameter of 0.15 to 0.25 mm. Slugs sense and respond to light, temperature and acidity, and do not enter culmination until the conditions are optimal. The slug can move at a speed of 0.5 to 2 mm per hour. A trail of slime is deposited on the surface during migration.",
+          "xrefs" : [ "DDB:pg", "PMID:2513127", "PMID:8223266" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "pseudoplasmodium",
+          "xrefs" : [ "PMID:18366659" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "migratory slug"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000403",
+      "meta" : {
+        "definition" : {
+          "val" : "Differentiating cell composing the aggregate that has acquired adhesive properties.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "xrefs" : [ {
+          "val" : "CL:0000259"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "aggregate cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000007",
+      "meta" : {
+        "definition" : {
+          "val" : "Cylindrical structure that is formed by elongation of the mound under the control of the tip. The elongating tip is called the first finger.",
+          "xrefs" : [ "DDB:pg", "PMID:18366659" ]
+        },
+        "xrefs" : [ {
+          "val" : "ISBN:0521583640"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "pseudoplasmodium",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "finger",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "first finger",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Synonym from Kessin book p. 166."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "standing slug"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000009",
+      "meta" : {
+        "definition" : {
+          "val" : "Structure formed after the arrest of slug migration formed when cells of the posterior region of the slug move under the tip. Stalk tube formation is initiated at this stage.",
+          "xrefs" : [ "DDB:pg", "PMID:18366659", "PMID:1879341" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "pseudoplasmodium",
+          "xrefs" : [ "PMID:18366659" ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "mexican hat",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "culminant",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "early culminant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "meta" : {
+        "definition" : {
+          "val" : "Cell that is undergoing differentiation to become a spore. Characterized by the presence of prespore vesicles (PV).",
+          "xrefs" : [ "DDB:pg", "PMID:4330277" ]
+        },
+        "xrefs" : [ {
+          "val" : "CL:0000267"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "psp cell",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prespore cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "develops_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000004",
+      "meta" : {
+        "definition" : {
+          "val" : "First adherent mass of cells observed during development, relatively flat with indistinct borders.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "loose mound",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "loose aggregate"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000003",
+      "meta" : {
+        "definition" : {
+          "val" : "Area covered by a group of chemotactic cells converging toward the same aggregation center. Can reach a diameter of up to 1 cm.",
+          "xrefs" : [ "DDB:pg", "PMID:14458213", "PMID:20268085" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "aggregation territory"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000006",
+      "meta" : {
+        "definition" : {
+          "val" : "Hemispherical structure composed of post-aggregative cells that are undergoing differentiation and that have formed a tip.",
+          "xrefs" : [ "DDB:pg", "PMID:20268085" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "pseudoplasmodium",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tipped aggregate",
+          "xrefs" : [ "PMID:7553878" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "tipped mound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000402",
+      "meta" : {
+        "definition" : {
+          "val" : "Starved cell that secretes and responds to chemoattractants (cAMP).",
+          "xrefs" : [ "DDB:pg", "PMID:4338436" ]
+        },
+        "xrefs" : [ {
+          "val" : "CL:0000289"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "chemotactic amoeboid cell (sensu Mycetozoa)",
+          "xrefs" : [ "CL:0000289" ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "amoebae",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "chemotactic amoeboid cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000005",
+      "meta" : {
+        "definition" : {
+          "val" : "Hemispherical structure composed of post-aggregative cells that are undergoing differentiation.",
+          "xrefs" : [ "DDB:pg", "PMID:20268085" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "tight aggregate",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tight mound",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "pseudoplasmodium",
+          "xrefs" : [ "PMID:18366659" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000401",
+      "meta" : {
+        "definition" : {
+          "val" : "Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.",
+          "xrefs" : [ "CARO:MAH" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000002",
+      "meta" : {
+        "definition" : {
+          "val" : "Unicellular haploid myxamoebae that feeds on bacteria by phagocytosis and divides by binary fission. The size of vegetative cells range from 12-20 microns by 8-12 microns. The cells exhibit a roughly rounded but rather irregular shape.",
+          "xrefs" : [ "DDB:pg", "PMID:4338436" ]
+        },
+        "xrefs" : [ {
+          "val" : "CL:0000263"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "vegetative cell (sensu Mycetozoa)",
+          "xrefs" : [ "CL:0000263" ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "amoebae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "vegetative cell",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "vegetative amoebae"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000024",
+      "meta" : {
+        "definition" : {
+          "val" : "Region of the standing slug mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "psp region of the standing slug",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prespore region of the standing slug"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000001",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000231",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000227"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "http://purl.obolibrary.org/obo/DDANAT_0010001"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "true"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000094",
+      "meta" : {
+        "definition" : {
+          "val" : "Ovoid structure supported by the stalk and that contains the spores.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "spore head",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sorus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000070",
+      "meta" : {
+        "definition" : {
+          "val" : "Structure of the fruiting body supported by the stalk and that contains the spores. The sorus is 125-300 microns in diameter, lemon-shaped, and grayish white to pale yellow in color.",
+          "xrefs" : [ "DDB:pg" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "spore head of the fruiting body",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sorus of the fruiting body"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0010001",
+      "meta" : {
+        "definition" : {
+          "val" : "Material anatomical entity that has inherent 3D shape and is generated by coordinated expression of the Dictyostelium discoideum genome.",
+          "xrefs" : [ "CARO:MAH" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DDANAT:0000001"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Dictyostelium discoideum anatomical structure"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_broad_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_narrow_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "lbl" : "has_alternative_id"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000403"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000403",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000033",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000403",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000401"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0010082",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000041"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000061",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000054",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000041"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000402",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000403",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000414",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000401",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000011",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000013",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000403",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000402"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000033"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000403",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000401"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000414",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000405"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000041",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000402",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000414"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000010",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000086",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000024",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000005",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010085"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000054",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000061",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000414"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000041",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000006",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0010085",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000414",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000402",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000009",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000033",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000017",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000401"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/ddpheno/imports/ddanat_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2019-04-12/imports/ddanat_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
