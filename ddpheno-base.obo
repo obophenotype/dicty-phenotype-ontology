@@ -1,0 +1,11 @@
+format-version: 1.2
+data-version: ddpheno/releases/2019-04-12/ddpheno-base.obo
+ontology: ddpheno/ddpheno-base.obo
+property_value: http://purl.org/dc/elements/1.1/description "Ontology about the phenotypes observed in Dicty" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Dicty Phenotype Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
+
+[Term]
+id: DDPHENO:00000000
+name: root node
+

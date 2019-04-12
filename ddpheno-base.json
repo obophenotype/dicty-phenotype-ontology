@@ -1,0 +1,30 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/DDPHENO_00000000",
+      "type" : "CLASS",
+      "lbl" : "root node"
+    } ],
+    "edges" : [ ],
+    "id" : "http://purl.obolibrary.org/obo/ddpheno/ddpheno-base.json",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "val" : "Ontology about the phenotypes observed in Dicty"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/title",
+        "val" : "Dicty Phenotype Ontology"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "CC-BY"
+      } ],
+      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2019-04-12/ddpheno-base.json"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}
