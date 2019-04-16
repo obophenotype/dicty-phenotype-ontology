@@ -1,0 +1,1004 @@
+term,label,definition
+http://purl.obolibrary.org/obo/DDPHENO_0000183,decreased number of astral microtubules,"Reduction in extent, amount, or degree of astral microtubules."
+http://purl.obolibrary.org/obo/DDPHENO_0001217,aberrant cellular localization,"Deviation from the normal, usual, or expected events during localization within the cell."
+http://purl.obolibrary.org/obo/DDPHENO_0001511,aberrant protein localization to cell surface,"Deviation from the normal, usual, or expected events during localization of a protein to the cell surface."
+http://purl.obolibrary.org/obo/DDPHENO_0000108,increased intracellular glucose level,Increase in amount or accumulation of cytosolic glucose.
+http://purl.obolibrary.org/obo/DDPHENO_0000402,increased intracellular cAMP level,Increase in amount or accumulation of intracellular cAMP.
+http://purl.obolibrary.org/obo/DDPHENO_0000196,increased protein kinase A activity,"Increase in extent, amount, or degree of  protein kinase A activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001052,decreased bleb formation,"Reduction in extent, amount, or degree of bleb formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000490,decreased extracellular Ca2+ uptake,"Reduction in extent, amount, or degree of uptake of extracellular calcium."
+http://purl.obolibrary.org/obo/DDPHENO_0001524,aberrant chromatin assembly,"Deviation from the normal, usual, or expected during chromatin assembly."
+http://purl.obolibrary.org/obo/DDPHENO_0000415,mislocalized prespore gene expression,Prestalk gene expression occurring in an abnormal position or in an unusual manner or form.
+http://purl.obolibrary.org/obo/DDPHENO_0001065,increased myosin light chain kinase activation,"Increase in extent, amount, or degree of activation of myosin light chain kinase."
+http://purl.obolibrary.org/obo/DDPHENO_0000250,increased single-strand break repair,"Increased tolerance of the normal, usual, or expected events in single-strand break repair of DNA."
+http://purl.obolibrary.org/obo/DDPHENO_0000428,decreased fatty acid level,"Reduction in extent, amount or accumulation of fatty acid."
+http://purl.obolibrary.org/obo/DDPHENO_0001078,aberrant mitochondrion morphology,"Deviation from the normal, usual, or expected morphology of the mitochondrion."
+http://purl.obolibrary.org/obo/DDPHENO_0001372,decreased upper cup size,Reduction in relative or proportionate dimensions of the upper cup.
+http://purl.obolibrary.org/obo/DDPHENO_0000263,aberrant nucleus morphology,"Deviation from the normal, usual, or expected morphology of the nucleus."
+http://purl.obolibrary.org/obo/DDPHENO_0000010,abolished post-transciptional gene silencing by RNA,Complete inability for post-transciptional gene silencing by RNA.
+http://purl.obolibrary.org/obo/DDPHENO_0001385,increased cytochrome C oxidase activity,"Increase in extent, amount, or degree of cytochrome C oxidase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000276,increased resistance to DNA-damaging agents,"Increased tolerance of the normal, usual, or expected events in the presence of DNA damaging agents."
+http://purl.obolibrary.org/obo/DDPHENO_0001132,decreased activation of adenylate cyclase,"Reduction in extent, amount, or degree of activation of adenylate cyclase."
+http://purl.obolibrary.org/obo/DDPHENO_0000570,abolished lipid droplet formation,Complete inability to form lipid droplets.
+http://purl.obolibrary.org/obo/DDPHENO_0001398,decreased period cAMP wave formation,Shortened duration for cAMP wave formation.
+http://purl.obolibrary.org/obo/DDPHENO_0000289,increased infection rate by a gram-negative pathogenic bacterium,"Increase in extent, amount, or degree of the infection rate by a gram-negative pathogenic bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0001145,decreased positive regulation of Rab GTPase activity,"Reduction in extent, amount, or degree of positive regulation of Rab GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000583,aberrant mating type determination,"Deviation from the normal, usual, or expected events when determining the mating type of a cell."
+http://purl.obolibrary.org/obo/DDPHENO_0000330,abolished cAMP binding,Complete absence of cAMP binding.
+http://purl.obolibrary.org/obo/DDPHENO_0001158,increased cellulose biosynthesis,"Increase in extent, amount, or degree of cellulose biosynthesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000049,abolished phosphatidylinositol biosynthesis,Complete inability for the production of  phosphatidylinositol.
+http://purl.obolibrary.org/obo/DDPHENO_0001452,abolished protein serine phosphorylation,Complete inability for protein serine phosphorylation.
+http://purl.obolibrary.org/obo/DDPHENO_0000343,abolished activation of GTPase activity,Complete inability for activation of GTPase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001465,aberrant regulation of chemotaxis to cAMP in response to DIF-2,"Deviation from the normal, usual, or expected events during the regulation of the locomotory response to cAMP in response to DIF-2."
+http://purl.obolibrary.org/obo/DDPHENO_0000356,decreased endocytic recycling,"Reduction in extent, amount, or degree of endocytic recycling."
+http://purl.obolibrary.org/obo/DDPHENO_0001212,increased translation,"Increase in extent, amount, or degree of translation."
+http://purl.obolibrary.org/obo/DDPHENO_0000103,decreased localization to nucleolus,Reduction in amount or accumulation in the nucleolus.
+http://purl.obolibrary.org/obo/DDPHENO_0000191,decreased prestalk cell differentiation,"Reduction in extent, amount, or degree of differentiation into prestalk cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001478,abolished cell-cell adhesion,Complete inability of cell-cell adhesion.
+http://purl.obolibrary.org/obo/DDPHENO_0000369,decreased prestalk gene expression,"Reduction in extent, amount, or degree of prestalk gene expression."
+http://purl.obolibrary.org/obo/DDPHENO_0001225,aberrant negative chemotaxis,"Deviation from the normal, usual, or expected events during the locomotory response towards a decreasing chemical concentration."
+http://purl.obolibrary.org/obo/DDPHENO_0000116,increased cell motility,"Increase in extent, amount, or degree of cell motility."
+http://purl.obolibrary.org/obo/DDPHENO_0001238,aberrant post-lysosome organization and biogenesis,"Deviation from the normal, usual, or expected events during post-lysosome organization and biogenesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000129,increased resistance to naringenin,"Increase in extent, amount, or degree of resistance to the flavonoid naringenin."
+http://purl.obolibrary.org/obo/DDPHENO_0001532,aberrant positive regulation of vegetative growth,"Deviation from the normal, usual, or expected events during the positive regulation of vegetative growth."
+http://purl.obolibrary.org/obo/DDPHENO_0000423,decreased infection rate by Legionella pneumophila,"Reduction in extent, amount, or degree of the infection rate by Legionella pneumophila."
+http://purl.obolibrary.org/obo/DDPHENO_0001086,increased chemotaxis to cAMP,"Increase in extent, amount, or degree of chemotaxis in response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0001380,increased intracellular ammonia level,Increase in amount or accumulation of intracellular ammonia.
+http://purl.obolibrary.org/obo/DDPHENO_0000271,decreased number of mitochondria,Quantitative reduction in mitochondria.
+http://purl.obolibrary.org/obo/DDPHENO_0000449,obsolete_no synthetic interaction,OBSOLETE.
+http://purl.obolibrary.org/obo/DDPHENO_0001305,abolished cAMP-induced cGMP pulse,Complete inability to produce a cGMP pulse upon cAMP stimulation.
+http://purl.obolibrary.org/obo/DDPHENO_0001099,delayed DIF production,Late onset or slower progression in the production of DIF.
+http://purl.obolibrary.org/obo/DDPHENO_0001393,abolished protein localization,Complete inability to localize a protein to a cellular compartment or structure.
+http://purl.obolibrary.org/obo/DDPHENO_0000284,aberrant infection rate by a gram-positive pathogenic bacterium,"Deviation from the normal, usual, or expected events during infection of Dictyostelium by a gram-positive pathogenic  bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0001140,aberrant regulation of Ras GTPase activity,"Deviation from the normal, usual, or expected events during the regulation of the activity of a Ras GTPase."
+http://purl.obolibrary.org/obo/DDPHENO_0000031,abolished rate of endocytosis,Complete inability for endocytosis.
+http://purl.obolibrary.org/obo/DDPHENO_0001318,aberrant peptidyl-proline modification,"Deviation from the normal, usual, or expected during peptidyl-proline modification."
+http://purl.obolibrary.org/obo/DDPHENO_0000209,aberrant response to osmotic stress,"Deviation from the normal, usual, or expected events during the response to osmotic stress."
+http://purl.obolibrary.org/obo/DDPHENO_0000503,precocious culmination,Early onset or faster progression through culmination.
+http://purl.obolibrary.org/obo/DDPHENO_0001153,increased positive regulation of Ras GTPase activity,"Increase in extent, amount, or degree of positive regulation of Ras GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000297,increased protein binding,"Increased in extent, amount, or degree of binding a protein."
+http://purl.obolibrary.org/obo/DDPHENO_0000044,aberrant SDF production,"Deviation from the normal, usual, or expected during SDF production, peptides that promote terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0000516,abolished prespore cell differentiation,Complete inability for differentiation of prespore cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001166,increased prestalk B cell differentiation,"Increase in extent, amount, or degree of differentiation into prestalk B cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000057,decreased localization to cell cortex,Reduction in amount or accumulation at the cell cortex.
+http://purl.obolibrary.org/obo/DDPHENO_0000574,increased double-strand break repair via homologous recombination,"Increased tolerance of the normal, usual, or expected events in double-strand break repair of DNA via homologous recombination."
+http://purl.obolibrary.org/obo/DDPHENO_0000351,abolished macropinocytosis,Complete inability to perform macropinocytosis.
+http://purl.obolibrary.org/obo/DDPHENO_0000529,increased stalk cell differentiation,"Increase in extent, amount, or degree of differentiation into stalk cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001179,decreased F-actin polymerization at the leading edge,"Reduction in extent, amount, or degree of F-actin polymerization in the area closest to the direction of movement in a motile cell."
+http://purl.obolibrary.org/obo/DDPHENO_0001473,aberrant glucose catabolic process,"Deviation from the normal, usual, or expected events during glucose catabolism."
+http://purl.obolibrary.org/obo/DDPHENO_0000364,increased macropinocytosis,"Increase in extent, amount, or degree of macropinocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001220,aberrant nucleus localization,"Deviation from the normal, usual, or expected localization of the nucleus."
+http://purl.obolibrary.org/obo/DDPHENO_0000111,increased aggregate size,Increase in relative or proportionate dimensions of the aggregate.
+http://purl.obolibrary.org/obo/DDPHENO_0001486,aberrant spindle elongation,"Deviation from the normal, usual, or expected during spindle elongation."
+http://purl.obolibrary.org/obo/DDPHENO_0000377,increased filopodium formation,"Increase in extent, amount, or degree of formation of filopodia."
+http://purl.obolibrary.org/obo/DDPHENO_0001233,decreased protein secretion,"Reduction in extent, amount, or degree of protein secretion."
+http://purl.obolibrary.org/obo/DDPHENO_0000124,increased cAMP-induced cAMP pulse,"Increase in extent, amount, or degree of cAMP pulse in response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0001499,increased protein localization to cell surface,Increase in amount or accumulation of a protein to the cell surface.
+http://purl.obolibrary.org/obo/DDPHENO_0001246,abolished cAMP wave formation,Complete inability for cAMP wave formation.
+http://purl.obolibrary.org/obo/DDPHENO_0000137,decreased basal F-actin level,Reduction in amount or accumulation of basal F-actin.
+http://purl.obolibrary.org/obo/DDPHENO_0001081,decreased number of spherical mitochondria,Quantitative decrease in spherical mitochondria.
+http://purl.obolibrary.org/obo/DDPHENO_0001259,decreased binding,"A reduction in extent, amount, or degree of binding."
+http://purl.obolibrary.org/obo/DDPHENO_0001006,aberrant phagocytosis,"Deviation from the normal, usual, or expected events during phagocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0000444,increased intracellular counting factor component(s) level,Increase in amount or accumulation of intracellular counting factor component(s).
+http://purl.obolibrary.org/obo/DDPHENO_0001300,abolished protein kinase B activity,Complete absence of protein kinase B activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001094,precocious response to DIF,Early onset or faster progression in the response to DIF.
+http://purl.obolibrary.org/obo/DDPHENO_0000457,aberrant phosphorylation of actin,"Deviation from the normal, usual, or expected events during actin phosphorylation."
+http://purl.obolibrary.org/obo/DDPHENO_0001313,aberrant peptidyl-proline 4-dioxygenase activity,"Deviation from the normal, usual, or expected activity of peptidyl-proline 4-dioxygenase."
+http://purl.obolibrary.org/obo/DDPHENO_0000204,decreased extracellular counting factor component(s) level,Reduction in amount or accumulation of extracellular counting factor component(s).
+http://purl.obolibrary.org/obo/DDPHENO_0001326,increased protein modification,Increase in level of modification of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0001161,decreased superoxide production,"Reduction in extent, amount, or degree of production of superoxide."
+http://purl.obolibrary.org/obo/DDPHENO_0000052,increased response to hypo-osmotic stress,"Increase in extent, amount, or degree of the response to hypo=osmotic stress."
+http://purl.obolibrary.org/obo/DDPHENO_0001339,abolished secretion of lysosomal enzyme,Complete inability for secretion of lysosomal enzyme.
+http://purl.obolibrary.org/obo/DDPHENO_0000524,increased sorting to prestalk region,"Increase in extent, amount, or degree of cell sorting to the prestalk region during the slug stage."
+http://purl.obolibrary.org/obo/DDPHENO_0001174,increased aspidocyte differentiation,"Increase in extent, amount, or degree of differentiation into aspidocytes."
+http://purl.obolibrary.org/obo/DDPHENO_0000065,decreased localization to coated pits,Reduction in amount or accumulation at coated pits.
+http://purl.obolibrary.org/obo/DDPHENO_0000537,increased extracellular ammonia level,Increase in amount or accumulation of extracellular ammonia.
+http://purl.obolibrary.org/obo/DDPHENO_0001187,"decreased intracellular 2,3-bisphosphoglycerate level","Reduction in amount or accumulation of intracellular 2,3-bisphosphoglycerate."
+http://purl.obolibrary.org/obo/DDPHENO_0000078,increased localization to microtubules,Increase in amount or accumulation at the microtubules.
+http://purl.obolibrary.org/obo/DDPHENO_0001481,aberrant actin cytoskeleton organization,"Deviation from the normal, usual, or expected events during organization of the actin cytoskeleton."
+http://purl.obolibrary.org/obo/DDPHENO_0001406,decreased protein localization to coated pits,Reduction in amount or accumulation of a protein to coated pits.
+http://purl.obolibrary.org/obo/DDPHENO_0001494,aberrant intracellular distribution of mitochondria,"Deviation from the normal, usual, or expected events during intracellular distribution of mitochondria."
+http://purl.obolibrary.org/obo/DDPHENO_0000385,abolished cytokinesis,Complete inability for cytokinesis.
+http://purl.obolibrary.org/obo/DDPHENO_0001241,aberrant protein level,"Deviation from the normal, usual, or expected level of proteins."
+http://purl.obolibrary.org/obo/DDPHENO_0000132,increased basal F-actin level,Increase in amount or accumulation of basal F-actin.
+http://purl.obolibrary.org/obo/DDPHENO_0001419,aberrant spindle organization,"Deviation from the normal, usual, or expected during spindle organization."
+http://purl.obolibrary.org/obo/DDPHENO_0000398,obsolete_no synthetic interaction observed between rasS and gefB,OBSOLETE.
+http://purl.obolibrary.org/obo/DDPHENO_0001254,increased MAP kinase activation,"Increase in extent, amount, or degree of activation of a MAP kinase."
+http://purl.obolibrary.org/obo/DDPHENO_0000145,decreased spore viability,"Reduction in extent, amount, or degree of spore viability."
+http://purl.obolibrary.org/obo/DDPHENO_0001001,aberrant initiation of development,"Deviation from the normal, usual, or expected during the initiation of development."
+http://purl.obolibrary.org/obo/DDPHENO_0001267,aberrant cell death,"Deviation from the normal, usual, or expected events during regular cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000158,decreased aggregate size,Reduction in relative or proportionate dimensions of the aggregate.
+http://purl.obolibrary.org/obo/DDPHENO_0001014,aberrant slug formation,"Deviation from the normal, usual, or expected events during slug formation."
+http://purl.obolibrary.org/obo/DDPHENO_0001027,aberrant pseudopod formation,"Deviation from the normal, usual, or expected events during pseudopod formation."
+http://purl.obolibrary.org/obo/DDPHENO_0001321,aberrant peptidyl-proline hydroxylation,"Deviation from the normal, usual, or expected during peptidyl-proline hydroxylation."
+http://purl.obolibrary.org/obo/DDPHENO_0000212,aberrant macroautophagy,"Deviation from the normal, usual, or expected events during macroautophagy."
+http://purl.obolibrary.org/obo/DDPHENO_0000478,increased lateral pseudopod formation,"Increase in extent, amount, or degree of formation of lateral pseudopods."
+http://purl.obolibrary.org/obo/DDPHENO_0001334,increased catalase activity,"Increase in extent, amount, or degree of catalase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000225,decreased slug migration,"Reduction in extent, amount, or degree of slug migration."
+http://purl.obolibrary.org/obo/DDPHENO_0000060,increased localization to cell surface,Increase in amount or accumulation on the cell surface.
+http://purl.obolibrary.org/obo/DDPHENO_0001347,decreased protein theronine phosphorylation,Reduction in amount or accumulation of threonine phosphorylation of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0000238,aberrant DNA mediated transformation,"Deviation from the normal, usual, or expected events during introduction and uptake of foreign genetic material (DNA or RNA)."
+http://purl.obolibrary.org/obo/DDPHENO_0000532,increased number of contractile vacuoles,Quantitative increase in contractile vacuoles.
+http://purl.obolibrary.org/obo/DDPHENO_0001182,decreased spore size,Decrease in relative or proportionate dimensions of the spore.
+http://purl.obolibrary.org/obo/DDPHENO_0000073,decreased localization to microtubule organizing center,Reduction in amount or accumulation at the microtubule organizing center.
+http://purl.obolibrary.org/obo/DDPHENO_0001107,increased lysosomal enzyme activity,"Increase in extent, amount, or degree of activity of lysosomal enzyme."
+http://purl.obolibrary.org/obo/DDPHENO_0000545,increased iron ion transport,"Increase in extent, amount, or degree of transport of iron."
+http://purl.obolibrary.org/obo/DDPHENO_0001401,decreased protein localization to microtubule organizing center,Reduction in amount or accumulation of a protein to the microtubule organizing center.
+http://purl.obolibrary.org/obo/DDPHENO_0001195,decreased infection rate by a microorganism,"Reduction in extent, amount, or degree of the infection rate by a microorganism."
+http://purl.obolibrary.org/obo/DDPHENO_0000086,decreased localization to nucleus,Reduction in amount or accumulation in the nucleus.
+http://purl.obolibrary.org/obo/DDPHENO_0000558,aberrant pore formation during contractile vacuole discharge,"Deviation from the normal, usual, or expected events during pore formation, part of contractile vacuole discharge."
+http://purl.obolibrary.org/obo/DDPHENO_0001414,increased protein localization to pseudopodium,Increase in amount or accumulation of a protein in pseudopodia.
+http://purl.obolibrary.org/obo/DDPHENO_0000305,abolished down-regulation of growth phase genes,Complete inability to down-regulate growth pahse genes during development.
+http://purl.obolibrary.org/obo/DDPHENO_0000099,decreased chemotaxis rate,"Reduction in extent, amount, or degree of chemotaxis rate during the locomotory response to a chemical concentration gradient."
+http://purl.obolibrary.org/obo/DDPHENO_0000393,decreased cell-substrate adhesion,"Reduction in extent, amount, or degree of cell-substrate adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0001427,aberrant protein localization to nuclear envelope,"Deviation from the normal, usual, or expected events during localization of a protein to the nuclear envelope."
+http://purl.obolibrary.org/obo/DDPHENO_0000318,abolished tip formation,Complete inability to form a tip.
+http://purl.obolibrary.org/obo/DDPHENO_0001262,aberrant adaptation of signaling pathway,"Deviation from the normal, usual, or expected events during the adaptation of a signaling pathway."
+http://purl.obolibrary.org/obo/DDPHENO_0000153,decreased chemorepellant activity,"Reduction in extent, amount, or degree of  chemorepellant activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001275,aberrant engulfment during phagocytosis,"Deviation from the normal, usual, or expected events during engulfment of attached, recognized, external material."
+http://purl.obolibrary.org/obo/DDPHENO_0000166,decreased sorus size,Reduction in relative or proportionate dimensions of the sorus.
+http://purl.obolibrary.org/obo/DDPHENO_0001022,aberrant positive regulation of stalk cell differentiation,"Deviation from the normal, usual, or expected events during positive regulation of stalk cell differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001288,decreased guanylyl cyclase activity,"Reduction in extent, amount, or degree of guanylyl cyclase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001035,aberrant response to heat,"Deviation from the normal, usual, or expected events during the response to heat."
+http://purl.obolibrary.org/obo/DDPHENO_0000473,increased cell polarity,"Increase in extent, amount, or degree of cell polarity."
+http://purl.obolibrary.org/obo/DDPHENO_0001507,aberrant protein localization to cell cortex,"Deviation from the normal, usual, or expected events during localization of a protein to the cell cortex."
+http://purl.obolibrary.org/obo/DDPHENO_0001048,aberrant cell projection biogenesis,"Deviation from the normal, usual, or expected events during cell projection biogenesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000486,increased resistance to spectinomycin,"Increase in extent, amount, or degree of resistance to the antibiotic spectinomycin."
+http://purl.obolibrary.org/obo/DDPHENO_0001342,aberrant protein phosphorylation,"Deviation from the normal, usual, or expected events during phosphorylation of a protein."
+http://purl.obolibrary.org/obo/DDPHENO_0000233,aberrant contractile vacuole organization and biogenesis,"Deviation from the normal, usual, or expected organization and biogenesis of the contractile vacuole."
+http://purl.obolibrary.org/obo/DDPHENO_0000499,abolished cell-substrate adhesion,Complete inability for cell-substrate adhesion.
+http://purl.obolibrary.org/obo/DDPHENO_0001355,decreased basal disc size,Reduction in relative or proportionate dimensions of the basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0000246,decreased single-strand break repair,"Reduction in extent, amount, or degree of single-strand break repair of DNA."
+http://purl.obolibrary.org/obo/DDPHENO_0001102,abolished chemotaxis to folate,Complete inability for chemotaxis in response to folate.
+http://purl.obolibrary.org/obo/DDPHENO_0000540,increased pseudopod size,Increase in relative or proportionate dimensions of the pseudopod.
+http://purl.obolibrary.org/obo/DDPHENO_0001190,increased macroautophagy,"Increase in extent, amount, or degree of macroautophagy."
+http://purl.obolibrary.org/obo/DDPHENO_0000081,increased localization to nuclear envelope,Increase in amount or accumulation at the nuclear envelope.
+http://purl.obolibrary.org/obo/DDPHENO_0001368,abolished upper cup formation,Complete inability to form an upper cup.
+http://purl.obolibrary.org/obo/DDPHENO_0001115,delayed gene expression,Late onset or slower progression in the expression of genes.
+http://purl.obolibrary.org/obo/DDPHENO_0000006,increased autophagy,"Increase in extent, amount, or degree of autophagy."
+http://purl.obolibrary.org/obo/DDPHENO_0000553,aberrant establishment of contractile vacuole localization,"Deviation from the normal, usual, or expected establishment of contractile vacuole localization."
+http://purl.obolibrary.org/obo/DDPHENO_0000300,decreased gene expression,"Reduction in extent, amount, or degree of gene expression."
+http://purl.obolibrary.org/obo/DDPHENO_0001422,aberrant sister chromosome segregation,"Deviation from the normal, usual, or expected events during sister chromosome segragation, resulting in an abnormal number of chromosomes."
+http://purl.obolibrary.org/obo/DDPHENO_0001128,decreased thermotaxis,"Reduction in extent, amount, or degree of thermotaxis."
+http://purl.obolibrary.org/obo/DDPHENO_0000019,abolished culmination,Complete inability for culmination.
+http://purl.obolibrary.org/obo/DDPHENO_0000566,aberrant lipid storage,"Deviation from the normal, usual, or expected storage of lipids."
+http://purl.obolibrary.org/obo/DDPHENO_0000313,decreased MPBD production,"Reduction in extent, amount, or degree of production of MPBD, a polyketide."
+http://purl.obolibrary.org/obo/DDPHENO_0000579,aberrant sensitivity to cheating,"Deviation from the normal, usual, or expected sorting when mixed with cheater cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001435,decreased histone deacetylase activity,"Reduction in extent, amount, or degree of histone deacetylase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001270,increased non-apoptotic programmed cell death,"Increase in extent, amount, or degree of non-apoptotic programmed cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000161,delayed culmination,Late onset or slower progression through culmination.
+http://purl.obolibrary.org/obo/DDPHENO_0001448,decreased F-actin depolymerization,"Reduction in extent, amount, or degree of F-actin depolymerization."
+http://purl.obolibrary.org/obo/DDPHENO_0001283,decreased protein kinase A activity,"Reduction in extent, amount, or degree of  protein kinase A activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001030,aberrant protein secretion,"Deviation from the normal, usual, or expected events during protein secretion."
+http://purl.obolibrary.org/obo/DDPHENO_0001208,increased lysosome size,Increase in relative or proportionate dimensions of the lysosome.
+http://purl.obolibrary.org/obo/DDPHENO_0001502,increased protein stabilization,"Increase in extent, amount, or degree of protein stabilization."
+http://purl.obolibrary.org/obo/DDPHENO_0001296,abolished GTP-gamma-S-stimulated guanylyl cyclase activity,Complete absence of GTP-gamma-S-stimulated guanylyl cyclase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000187,aberrant cell-substrate adhesion,"Deviation from the normal, usual, or expected events during cell-substrate adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0001043,aberrant organelle organization and biogenesis,"Deviation from the normal, usual, or expected events during organelle organization and biogenesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000481,decreased phosphorylation of actin,"Reduction in extent, amount, or degree of phosphorylation of actin."
+http://purl.obolibrary.org/obo/DDPHENO_0001515,aberrant mitochondrial fusion,"Deviation from the normal, usual, or expected events during mitochondrial fusion."
+http://purl.obolibrary.org/obo/DDPHENO_0000406,increased cell size,Increase in relative or proportionate dimensions of the cell.
+http://purl.obolibrary.org/obo/DDPHENO_0001056,decreased F-actin polymerization,"Reduction in extent, amount, or degree of F-actin polymerization."
+http://purl.obolibrary.org/obo/DDPHENO_0000494,aberrant adaptation of adenylate cyclase,"Deviation from the normal, usual, or expected events during the adaptation of adenylate cyclase."
+http://purl.obolibrary.org/obo/DDPHENO_0001350,decreased protein serine phosphorylation,Reduction in amount or accumulation of serine phosphorylation of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0000241,abolished DNA mediated transformation,Complete inability for DNA mediated transformation.
+http://purl.obolibrary.org/obo/DDPHENO_0001528,abolished prestalk U cell differentiation,Complete inability for differentiation of prestalk U cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001069,delayed response to hyperosmotic stress,Late onset or slower progression in the response to hyperosmotic stress.
+http://purl.obolibrary.org/obo/DDPHENO_0001363,increased inner basal disc size,Increase in relative or proportionate dimensions of the inner basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0000254,aberrant chemotaxis to calcium,"Deviation from the normal, usual, or expected events during the locomotory response guided by increasing chemical concentration of calcium."
+http://purl.obolibrary.org/obo/DDPHENO_0001110,aberrant exocytosis,"Deviation from the normal, usual, or expected events during exocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0000001,aberrant spore color,"Deviation from the normal, usual, or expected spore color."
+http://purl.obolibrary.org/obo/DDPHENO_0001376,increased intracellular glycogen level,Increase in amount or accumulation of intracellular glycogen.
+http://purl.obolibrary.org/obo/DDPHENO_0001123,increased phototaxis,"Increase in extent, amount, or degree of phototaxis."
+http://purl.obolibrary.org/obo/DDPHENO_0000014,abolished microRNA processing,Complete inability for microRNA processing.
+http://purl.obolibrary.org/obo/DDPHENO_0000561,decreased endosomal vesicle fusion,"Reduction in extent, amount, or degree of homotypic fusion of endocytic vesicles to form or add to an early endosome."
+http://purl.obolibrary.org/obo/DDPHENO_0001389,aberrant protein localization to cytoplasm,"Deviation from the normal, usual, or expected events during localization of a protein to the cytoplasm."
+http://purl.obolibrary.org/obo/DDPHENO_0001136,increased chemoattractant-mediated F-actin polymerization,"Increased in extent, amount, or degree of F-actin polymerization in response to chemoattractants."
+http://purl.obolibrary.org/obo/DDPHENO_0000027,abolished phagosome re-neutralization,Complete inability for phagosome re-neutralization.
+http://purl.obolibrary.org/obo/DDPHENO_0001430,increased protein localization to nuclear envelope,Increase in amount or accumulation of a protein in the nuclear envelope.
+http://purl.obolibrary.org/obo/DDPHENO_0000321,aberrant cellulose binding,"Deviation from the normal, usual, or expected binding  of cellulose."
+http://purl.obolibrary.org/obo/DDPHENO_0001149,decreased positive regulation of Ran GTPase activity,"Reduction in extent, amount, or degree of positive regulation of Ran GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001443,aberrant cell fate determination,"Deviation from the normal, usual, or expected events when determining cells for a specific fate regardless of its environment."
+http://purl.obolibrary.org/obo/DDPHENO_0000334,abolished folic acid binding,Complete absence of folic acid binding.
+http://purl.obolibrary.org/obo/DDPHENO_0001456,aberrant response to cisplatin,"Deviation from the normal, usual, or expected events during the response to cisplatin."
+http://purl.obolibrary.org/obo/DDPHENO_0000347,abolished protein kinase activity,Complete absence of protein kinase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001203,aberrant response to nutrients,"Deviation from the normal, usual, or expected events during the response to nutrients."
+http://purl.obolibrary.org/obo/DDPHENO_0001291,"abolished 3',5'-cyclic-GMP phosphodiesterase activity","Complete absence of 3',5'-cyclic-GMP phosphodiesterase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001469,aberrant centromere complex assembly,"Deviation from the normal, usual, or expected events during centromere complex assembly."
+http://purl.obolibrary.org/obo/DDPHENO_0001216,increased calcium-independent cell-cell adhesion,"Increase in extent, amount, or degree of calcium-independent cell-cell adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0001510,increased protein localization to cell cortex,Increase in amount or accumulation of a protein to the cell cortex.
+http://purl.obolibrary.org/obo/DDPHENO_0000195,decreased stalk cell differentiation,"Reduction in extent, amount, or degree of differentiation into stalk cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001051,abolished chemotaxis during aggregation,Complete inability for chemotaxis during aggregation.
+http://purl.obolibrary.org/obo/DDPHENO_0001229,"decreased 3',5'-cyclic-AMP phosphodiesterase activity","Reduction in extent, amount, or degree of 3',5'-cyclic-AMP phosphodiesterase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001523,increased resistance  to fluid shear stress,"Increased tolerance of  the normal, usual, or expected events during the cellular response to fluid shear stress."
+http://purl.obolibrary.org/obo/DDPHENO_0000414,increased sensitivity to heat shock,"Decreased tolerance of the normal, usual, or expected events towards heat."
+http://purl.obolibrary.org/obo/DDPHENO_0001064,decreased myosin light chain kinase activation,"Reduction in extent, amount, or degree of activation of myosin light chain kinase."
+http://purl.obolibrary.org/obo/DDPHENO_0001536,aberrant nucleus organization,"Deviation from the normal, usual, or expected events during nucleus organization."
+http://purl.obolibrary.org/obo/DDPHENO_0001077,aberrant slug migration,"Deviation from the normal, usual, or expected events during slug migration."
+http://purl.obolibrary.org/obo/DDPHENO_0001371,increased upper cup size,Increase in relative or proportionate dimensions of the upper cup.
+http://purl.obolibrary.org/obo/DDPHENO_0000262,decreased prestalk 0 cell differentiation,"Reduction in extent, amount, or degree of differentiation into prestalk 0 cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001384,decreased cytochrome C oxidase activity,"Reduction in extent, amount, or degree of cytochrome C oxidase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001131,abolished taxis,Complete inability to respond to an external stimulus.
+http://purl.obolibrary.org/obo/DDPHENO_0000022,aberrant production of siRNA involved in RNA interference,"Deviation from the normal, usual, or expected events during production of siRNA involved in RNA interference."
+http://purl.obolibrary.org/obo/DDPHENO_0001309,abolished activation of Ran GTPase activity,Complete inability to activate Ran GTPase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001397,increased period of cAMP wave formation,Extended duration for cAMP wave formation.
+http://purl.obolibrary.org/obo/DDPHENO_0000288,decreased infection rate by a gram-negative pathogenic bacterium,"Reduction in extent, amount, or degree of the infection rate by a gram-negative pathogenic bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0001144,aberrant regulation of Rap GTPase activity,"Deviation from the normal, usual, or expected events during the regulation of the activity of a Rap GTPase."
+http://purl.obolibrary.org/obo/DDPHENO_0000035,abolished contractile vacuole discharge,Complete inability for contractile vacuole discharge.
+http://purl.obolibrary.org/obo/DDPHENO_0000582,abolished sensitivity to cheating,Complete resistance to cheating when mixed with cheater cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001157,abolished cellulose biosynthesis,Complete inability for cellulose biosynthesis.
+http://purl.obolibrary.org/obo/DDPHENO_0000048,increased phosphatidylinositol biosynthesis,Increase in amount or accumulation of  phosphatidylinositol biosynthesis.
+http://purl.obolibrary.org/obo/DDPHENO_0001451,abolished phosphorylation of actin,Complete inability for actin phosphorylation.
+http://purl.obolibrary.org/obo/DDPHENO_0000342,decreased membrane organization during endocytosis,"Decrease from the normal, usual, or expected plasma membrane organization during endocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001464,aberrant regulation of chemotaxis to cAMP in response to DIF-1,"Deviation from the normal, usual, or expected events during the regulation of the locomotory response to cAMP in response to DIF-1."
+http://purl.obolibrary.org/obo/DDPHENO_0000355,abolished endocytic recycling,Complete inability of endocytic recycling.
+http://purl.obolibrary.org/obo/DDPHENO_0001211,decreased translation,"Reduction in extent, amount, or degree of translation."
+http://purl.obolibrary.org/obo/DDPHENO_0000102,increased number of aggregates,Quantitative increase in aggregates.
+http://purl.obolibrary.org/obo/DDPHENO_0000190,aberrant negative regulation of chemorepellant activity,"Deviation from the normal, usual, or expected events during the negative regulation of chemorepellant activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001477,abolished histone H3-K9 methylation,Complete inability for methylation of histone H3 at lysine 9.
+http://purl.obolibrary.org/obo/DDPHENO_0000368,delayed prestalk gene expression,Late onset or slower progression in the expression of prestalk genes.
+http://purl.obolibrary.org/obo/DDPHENO_0001224,aberrant positive chemotaxis,"Deviation from the normal, usual, or expected events during the locomotory response guided by increasing chemical concentration gradient."
+http://purl.obolibrary.org/obo/DDPHENO_0000115,aberrant substrate adhesion-dependent cell spreading,"Deviation from the normal, usual, or expected events during substrate adhesion-dependent cell spreading."
+http://purl.obolibrary.org/obo/DDPHENO_0001237,aberrant lysosome organization and biogenesis,"Deviation from the normal, usual, or expected events during organelle organization and biogenesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000128,decreased socially cooperative development,Reduction in social cooperation during development.
+http://purl.obolibrary.org/obo/DDPHENO_0001531,abolished negative regulation of vegetative growth,Complete inability to negatively regulate vegetative growth.
+http://purl.obolibrary.org/obo/DDPHENO_0001072,delayed response to hypo-osmotic stress,Late onset or slower progression in the response to hypo-osmotic stress.
+http://purl.obolibrary.org/obo/DDPHENO_0001085,increased number of rod-shaped mitochondria,"Quantitative increase in rod-shaped mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular."
+http://purl.obolibrary.org/obo/DDPHENO_0000270,increased number of tubular mitochondria,"Quantitative increase in tubular mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular."
+http://purl.obolibrary.org/obo/DDPHENO_0000448,increased pinocytosis,"Increase in extent, amount, or degree of pinocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001304,aberrant regulation of adenylate cyclase activity,"Deviation from the normal, usual, or expected events during the regulation of the activity of adenylate cyclase."
+http://purl.obolibrary.org/obo/DDPHENO_0001098,increased DIF production,"Increase in extent, amount, or degree of DIF production."
+http://purl.obolibrary.org/obo/DDPHENO_0001392,abolished protein localization to cytoplasm,Complete inability to localize a protein to the cytoplasm.
+http://purl.obolibrary.org/obo/DDPHENO_0000030,abolished slug formation,Complete inability to form slugs during development.
+http://purl.obolibrary.org/obo/DDPHENO_0001317,aberrant protein modification,"Deviation from the normal, usual, or expected during protein modification."
+http://purl.obolibrary.org/obo/DDPHENO_0000296,decreased protein binding,"A reduction in extent, amount, or degree of binding to a protein."
+http://purl.obolibrary.org/obo/DDPHENO_0001152,increased positive regulation of Rap GTPase activity,"Increase in extent, amount, or degree of positive regulation of Rap GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000043,decreased membrane ruffling,"Reduction in extent, amount, or degree of membrane ruffling."
+http://purl.obolibrary.org/obo/DDPHENO_0001165,decreased prestalk B cell differentiation,"Reduction in extent, amount, or degree of differentiation into prestalk B cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000056,increased localization to cell cortex,Increase in amount or accumulation at the cell cortex.
+http://purl.obolibrary.org/obo/DDPHENO_0000350,aberrant macropinocytosis,"Deviation from the normal, usual, or expected events during macropinocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0000528,increased rate of endocytosis,"Increase in extent, amount, or degree of endocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001178,decreased pseudopod size,Increase in relative or proportionate dimensions of the pseudopod.
+http://purl.obolibrary.org/obo/DDPHENO_0000069,decreased localization to cytoplasm,Reduction in amount or accumulation in the cytoplasm.
+http://purl.obolibrary.org/obo/DDPHENO_0001472,aberrant inositol phosphate metabolic process,"Deviation from the normal, usual, or expected events during inositol phosphate metabolism."
+http://purl.obolibrary.org/obo/DDPHENO_0000363,increased resistance to nocodazole,"Increase in extent, amount, or degree of resistance to nocodazole."
+http://purl.obolibrary.org/obo/DDPHENO_0000110,abolished cellular localization,Complete inability to localize to a cellular compartment or structure.
+http://purl.obolibrary.org/obo/DDPHENO_0001485,increased spindle stabilization,Increase in spindle stabilization.
+http://purl.obolibrary.org/obo/DDPHENO_0000376,abolished filopodium formation,Complete inability to form pseudopods.
+http://purl.obolibrary.org/obo/DDPHENO_0001232,increased protein secretion,"Increase in extent, amount, or degree of protein secretion."
+http://purl.obolibrary.org/obo/DDPHENO_0000123,decreased cAMP-induced cGMP pulse,"Reduction in extent, amount, or degree of cGMP pulse in response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0001498,decreased protein localization to cell surface,Reduction in amount or accumulation of a protein on the cell surface.
+http://purl.obolibrary.org/obo/DDPHENO_0000389,increased sorus size,Increase in relative or proportionate dimensions of the sorus.
+http://purl.obolibrary.org/obo/DDPHENO_0001245,aberrant cAMP wave formation,"Deviation from the normal, usual, or expected events during cAMP wave formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000136,decreased myosin II assembly,"Reduction in extent, amount, or degree of myosin II assembly."
+http://purl.obolibrary.org/obo/DDPHENO_0000430,decreased pinocytosis,"Reduction in extent, amount, or degree of pinocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001080,abolished aggregation,Complete inability for aggregation.
+http://purl.obolibrary.org/obo/DDPHENO_0000149,aberrant cytokinesis,"Deviation from the normal, usual, or expected events during cytokinesis."
+http://purl.obolibrary.org/obo/DDPHENO_0001005,aberrant cellular metabolic process,"Deviation from the normal, usual, or expected events during cellular metabolism."
+http://purl.obolibrary.org/obo/DDPHENO_0000443,decreased secretion of lysosomal enzyme,"Reduction in extent, amount, or degree of secretion of lysosomal enzyme."
+http://purl.obolibrary.org/obo/DDPHENO_0001093,delayed response to DIF,Late onset or slower progression in the response to DIF.
+http://purl.obolibrary.org/obo/DDPHENO_0000456,increased basal phosphorylated actin level,Increase in amount or accumulation of phosphorylated actin.
+http://purl.obolibrary.org/obo/DDPHENO_0001312,abolished activation of Ras GTPase activity,Complete inability to activate Ras GTPase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000203,increased number of microtubule-organizing centers,Quantitative increase in microtubule-organizing centers.
+http://purl.obolibrary.org/obo/DDPHENO_0000291,abolished resistance to a gram-negative pathogenic bacterium,Complete inability for resisting any gram-negative pathogenic bacterium.
+http://purl.obolibrary.org/obo/DDPHENO_0001325,abolished peptidyl-proline hydroxylation,Complete inability for peptidyl-proline  hydroxylation.
+http://purl.obolibrary.org/obo/DDPHENO_0000216,aberrant spore coat morphology,"Deviation from the normal, usual, or expected morphology of the spore coat."
+http://purl.obolibrary.org/obo/DDPHENO_0000510,aberrant stalk morphogenesis,"Deviation from the normal, usual, or expected events during stalk morphogenesis."
+http://purl.obolibrary.org/obo/DDPHENO_0001160,abolished superoxide production,Complete inability for the production of superoxide.
+http://purl.obolibrary.org/obo/DDPHENO_0000051,decreased response to hypo-osmotic stress,"Reduction in extent, amount, or degree of the response to hypo-osmotic stress."
+http://purl.obolibrary.org/obo/DDPHENO_0001338,decreased protein localization,Reduction in amount or accumulation of a protein at a certain location.
+http://purl.obolibrary.org/obo/DDPHENO_0000229,abolished negative regulation of chemorepellant activity,Complete inability of the negative regulation of chemorepellant activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000523,decreased chemotaxis to folate,"Reduction in extent, amount, or degree of chemotaxis in response to folate."
+http://purl.obolibrary.org/obo/DDPHENO_0001173,aberrant aspidocyte differentiation,"Deviation from the normal, usual, or expected events during formation of aspidocytes."
+http://purl.obolibrary.org/obo/DDPHENO_0000064,increased localization to coated pits,Increase in amount or accumulation at coated pits.
+http://purl.obolibrary.org/obo/DDPHENO_0000536,increased intracellular glutamate level,Increase in amount or accumulation of intracellular glutamate.
+http://purl.obolibrary.org/obo/DDPHENO_0001186,"increased intracellular 2,3-bisphosphoglycerate level","Increase in amount or accumulation of intracellular 2,3-bisphosphoglycerate."
+http://purl.obolibrary.org/obo/DDPHENO_0000077,decreased fruiting body size,Reduction in relative or proportionate dimensions of the fruiting body.
+http://purl.obolibrary.org/obo/DDPHENO_0001480,abolished calcium-independent cell-cell adhesion,Complete inability of calcium-independent cell-cell adhesion.
+http://purl.obolibrary.org/obo/DDPHENO_0000371,decreased prespore gene expression,"Reduction in extent, amount, or degree of prespore gene expression."
+http://purl.obolibrary.org/obo/DDPHENO_0000549,decreased stalk width,Having a relative thin stalk.
+http://purl.obolibrary.org/obo/DDPHENO_0001405,abolished protein localization to coated pits,Complete inability to localize a protein to coated pits.
+http://purl.obolibrary.org/obo/DDPHENO_0001199,decreased actin-dependent ATPase activity,"Reduction in extent, amount, or degree of decreased actin-dependent ATPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001493,aberrant mitochondrion distribution,"Deviation from the normal, usual, or expected events during mitochondrion distribution."
+http://purl.obolibrary.org/obo/DDPHENO_0000384,aberrant sorus morphology,"Deviation from the normal, usual, or expected morphology of the sorus."
+http://purl.obolibrary.org/obo/DDPHENO_0001240,decreased CRAC localization to the plasma membrane,Reduction in the ability for localization of CRAC (dagA) from the cytoplasm to the plasma membrane in response to a stimulus.
+http://purl.obolibrary.org/obo/DDPHENO_0000131,increased secretion of counting factor (CF),"Increase in extent, amount, or degree of secretion of counting factor (CF)."
+http://purl.obolibrary.org/obo/DDPHENO_0001418,aberrant cell cycle,"Deviation from the normal, usual, or expected cell cycle event."
+http://purl.obolibrary.org/obo/DDPHENO_0000309,decreased SDF-1 production,"Reduction in extent, amount, or degree of production of SDF-1, a  peptide that promotes terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001253,decreased MAP kinase activation,"Reduction in extent, amount, or degree of activation of a MAP kinase."
+http://purl.obolibrary.org/obo/DDPHENO_0000397,aberrant cytoskeleton organisation,"Deviation from the normal, usual, or expected events during cytoskeleton organization."
+http://purl.obolibrary.org/obo/DDPHENO_0000144,increased negative chemotaxis,"Increase in extent, amount, or degree of  chemotaxis towards a decreasing chemical concentration."
+http://purl.obolibrary.org/obo/DDPHENO_0001266,decreased autophagic cell death,"Reduction in extent, amount, or degree of autophagic cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000157,delayed tip formation,Late onset or slower progression through the formation of the tip.
+http://purl.obolibrary.org/obo/DDPHENO_0001013,aberrant cell differentiation,"Deviation from the normal, usual, or expected events during cell differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0000451,increased number of peripheral cells during sexual reproduction,Quantitative increase in peripheral cells during sexual reproduction.
+http://purl.obolibrary.org/obo/DDPHENO_0001279,decreased autophagic vacuole formation,"Reduction in extent, amount, or degree of autophagic vacuole formation."
+http://purl.obolibrary.org/obo/DDPHENO_0001320,decreased peptidyl-proline modification,Reduction in level of modification of proline residues on a peptide.
+http://purl.obolibrary.org/obo/DDPHENO_0001026,aberrant ion transport,"Deviation from the normal, usual, or expected events during ion transport."
+http://purl.obolibrary.org/obo/DDPHENO_0000464,aberrant localization to contractile vacuole,"Deviation from the normal, usual, or expected localization to contractile vacuole."
+http://purl.obolibrary.org/obo/DDPHENO_0000211,aberrant cellular response to nitrogen starvation,"Deviation from the normal, usual, or expected events during the cellular response to nitrogen starvation."
+http://purl.obolibrary.org/obo/DDPHENO_0001039,aberrant cellular response to starvation,"Deviation from the normal, usual, or expected events during the cellular response to starvation."
+http://purl.obolibrary.org/obo/DDPHENO_0000477,decreased lateral pseudopod traction,"Reduction in extent, amount, or degree of traction of lateral pseudopods."
+http://purl.obolibrary.org/obo/DDPHENO_0001333,decreased catalase activity,"Reduction in extent, amount, or degree of catalase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001346,increased protein tyrosine phosphorylation,Increase in amount or accumulation of tyrosine phosphorylation of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0000237,decreased cell death,"Reduction in extent, amount, or degree of cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000531,increased contractile vacuole size,Increase in relative or proportionate dimensions of the contractile vacuole.
+http://purl.obolibrary.org/obo/DDPHENO_0001181,delayed pseudopod formation,Late onset or slower progression during pseudopod formation.
+http://purl.obolibrary.org/obo/DDPHENO_0000072,increased localization to microtubule organizing center,Increase in amount or accumulation at the microtubule organizing center.
+http://purl.obolibrary.org/obo/DDPHENO_0001359,abolished outer basal disc formation,Complete absence of the outer basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0001106,decreased lysosomal enzyme activity,"Reduction in extent, amount, or degree of activity of lysosomal enzyme."
+http://purl.obolibrary.org/obo/DDPHENO_0001400,abolished protein localization to microtubule organizing center,Complete inability to localize a protein to the microtubule organizing center.
+http://purl.obolibrary.org/obo/DDPHENO_0000544,abolished iron ion transport,Complete inability to transport iron.
+http://purl.obolibrary.org/obo/DDPHENO_0001194,increased infection rate by a microorganism,"Increase in extent, amount, or degree of the infection rate by a microorganism."
+http://purl.obolibrary.org/obo/DDPHENO_0000085,increased localization to nucleus,Increase in amount or accumulation in the nucleus.
+http://purl.obolibrary.org/obo/DDPHENO_0001119,aberrant regulation of protein kinase activity,"Deviation from the normal, usual, or expected events during the regulation of protein kinase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000557,abolished contractile vacuole dissociation from plasma membrane,Complete inability of contractile vacuole dissociation from plasma membrane after discharge.
+http://purl.obolibrary.org/obo/DDPHENO_0001413,decreased protein localization to pseudopodium,Reduction in amount or accumulation of a protein in pseudopodia.
+http://purl.obolibrary.org/obo/DDPHENO_0000304,increased membrane ruffling,"Increase in extent, amount, or degree of membrane ruffling."
+http://purl.obolibrary.org/obo/DDPHENO_0000098,aberrant prestalk A cell differentiation,"Deviation from the normal, usual, or expected events during differentiation of prestalk A cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000392,decreased cell polarity,"Reduction in extent, amount, or degree of cell polarity."
+http://purl.obolibrary.org/obo/DDPHENO_0001426,increased number of centrosomes,Quantitative increase in centrosomes.
+http://purl.obolibrary.org/obo/DDPHENO_0000317,abolished response to SDF-1,"Complete inability for the response to SDF-1, a  peptide that promotes terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001261,decreased cAMP binding,"A reduction in extent, amount, or degree of binding to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0000152,increased chemorepellant activity,"Increase in extent, amount, or degree of  chemorepellant activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001439,decreased necrotic cell death,"Reduction in extent, amount, or degree of necrotic cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0001274,abolished phagocytosis,Complete inability for phagocytosis.
+http://purl.obolibrary.org/obo/DDPHENO_0000165,increased stalk length,Having a relative long stalk.
+http://purl.obolibrary.org/obo/DDPHENO_0001021,aberrant negative regulation of stalk cell differentiation,"Deviation from the normal, usual, or expected events during negative regulation of stalk cell differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001287,increased guanylyl cyclase activity,"Increase in extent, amount, or degree of guanylyl cyclase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000178,precocious tip formation,Early onset or faster progression through tip formation.
+http://purl.obolibrary.org/obo/DDPHENO_0001034,aberrant cellular response to stress,"Deviation from the normal, usual, or expected events during the cellular response to stress."
+http://purl.obolibrary.org/obo/DDPHENO_0000472,aberrant regulation of protein modification,"Deviation from the normal, usual, or expected events during the regulation of protein modification."
+http://purl.obolibrary.org/obo/DDPHENO_0001506,aberrant defense response to a microorganism,"Deviation from the normal, usual, or expected response to the presence of a microorganism that acts to protect the cell."
+http://purl.obolibrary.org/obo/DDPHENO_0001047,aberrant transport,"Deviation from the normal, usual, or expected events during transport."
+http://purl.obolibrary.org/obo/DDPHENO_0001341,increased protein localization to nucleus,Increase in amount or accumulation of a protein in the nucleus.
+http://purl.obolibrary.org/obo/DDPHENO_0000232,decreased spore germination,"Reduction in extent, amount, or degree of spore germination."
+http://purl.obolibrary.org/obo/DDPHENO_0001519,decreased mitochondrial fission,Quantitative reduction of mitochondrial fission.
+http://purl.obolibrary.org/obo/DDPHENO_0000498,abolished autophagic vacuole formation,Complete inability to form autophagic vacuoles.
+http://purl.obolibrary.org/obo/DDPHENO_0001354,aberrant basal disc formation,"Deviation from the normal, usual, or expected during the formation of the basal disc."
+http://purl.obolibrary.org/obo/DDPHENO_0000245,decreased double-strand break repair,"Reduction in extent, amount, or degree of double strand break DNA repair."
+http://purl.obolibrary.org/obo/DDPHENO_0001101,abolished chemotaxis to cAMP,Complete inability for chemotaxis in response to cAMP.
+http://purl.obolibrary.org/obo/DDPHENO_0000080,abolished localization to nuclear envelope,Complete inability to localize to the nuclear envelope.
+http://purl.obolibrary.org/obo/DDPHENO_0001367,abolished lower cup formation,Complete inability to form a lower cup.
+http://purl.obolibrary.org/obo/DDPHENO_0001114,abolished gene expression,Complete inability for expression of genes.
+http://purl.obolibrary.org/obo/DDPHENO_0000552,abolished contractile vacuole organization and biogenesis,Complete inability to form a functional contractile vacuole.
+http://purl.obolibrary.org/obo/DDPHENO_0000005,aberrant autophagy,"Deviation from the normal, usual, or expected events during autophagy."
+http://purl.obolibrary.org/obo/DDPHENO_0000093,abolished localization to pseudopodium,Complete inability to localize to pseudopodia.
+http://purl.obolibrary.org/obo/DDPHENO_0001127,decreased phototaxis,"Reduction in extent, amount, or degree of phototaxis."
+http://purl.obolibrary.org/obo/DDPHENO_0000565,increased endoplasmic reticulum membrane accumulation,Quantitative increase in endoplasmic reticulum membrane accumulation.
+http://purl.obolibrary.org/obo/DDPHENO_0000018,abolished transitive RNA interference,Complete inability for transitive RNA interference.
+http://purl.obolibrary.org/obo/DDPHENO_0001421,decreased spindle stabilization,Reduction in spindle stabilization.
+http://purl.obolibrary.org/obo/DDPHENO_0000312,abolished MPBD production,"Complete inability for the production of MPBD, a polyketide."
+http://purl.obolibrary.org/obo/DDPHENO_0000578,increased double-strand break repair via nonhomologous end joining,"Increased tolerance of the normal, usual, or expected events in double-strand break repair of DNA nonhomologous end joining."
+http://purl.obolibrary.org/obo/DDPHENO_0001434,abolished histone deacetylase activity,Complete absence of histone deacetylase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000160,increased slug size,Increase in relative or proportionate dimensions of the slug.
+http://purl.obolibrary.org/obo/DDPHENO_0001447,abolished F-actin depolymerization,Complete inability to depolymerize actin into F-actin.
+http://purl.obolibrary.org/obo/DDPHENO_0000338,abolished electrotaxis,Complete inability of  electrotaxis in response to an electrical field.
+http://purl.obolibrary.org/obo/DDPHENO_0001282,increased adenylate cyclase activity,"Increase in extent, amount, or degree of adenylate cyclase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000173,precocious spore germination,Early onset or faster progression of spores through germination.
+http://purl.obolibrary.org/obo/DDPHENO_0001207,decreased lysosome size,Decrease in relative or proportionate dimensions of the lysosome.
+http://purl.obolibrary.org/obo/DDPHENO_0001501,decreased protein stabilization,"Reduction in extent, amount, or degree of protein stabilization."
+http://purl.obolibrary.org/obo/DDPHENO_0001295,abolished guanylyl cyclase activity,Complete absence of guanylyl cyclase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001042,aberrant cellular component organization or biogenesis,"Deviation from the normal, usual, or expected events during  cellular component organization or biogenesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000480,aberrant cAMP signaling,"Deviation from the normal, usual, or expected events during cAMP signaling."
+http://purl.obolibrary.org/obo/DDPHENO_0001514,aberrant protein localization to microtubules,"Deviation from the normal, usual, or expected events during localization of a protein to the microtubules."
+http://purl.obolibrary.org/obo/DDPHENO_0000405,increased phagocytosis,"Increase in extent, amount, or degree of phagocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0000493,abolished CRAC localization to the plasma membrane,Complete inability for translocation of CRAC (dagA) from the cytoplasm to the plasma membrane in response to a stimulus.
+http://purl.obolibrary.org/obo/DDPHENO_0000240,increased DNA mediated transformation,"Increase in extent, amount, or degree of DNA mediated transformation."
+http://purl.obolibrary.org/obo/DDPHENO_0001527,aberrant prestalk U differentiation,"Deviation from the normal, usual, or expected events during differentiation of prestalk U cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001068,aberrant response to hypo-osmotic stress,"Deviation from the normal, usual, or expected events during the response to hypo-osmotic stress."
+http://purl.obolibrary.org/obo/DDPHENO_0001362,decreased outer basal disc size,Reduction in relative or proportionate dimensions of the outer basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0000253,aberrant negative regulation of mitochondrial membrane potential,"Deviation from the normal, usual, or expected events during negative regulation of  the electric potential existing across the mitochondrial membrane arising from charges in the membrane itself and from the charges present in the media on either side of the membrane."
+http://purl.obolibrary.org/obo/DDPHENO_0001375,aberrant cellular homeostasis,"Deviation from the normal, usual, or expected events during cellular homeostasis."
+http://purl.obolibrary.org/obo/DDPHENO_0001122,aberrant chemotaxis,"Deviation from the normal, usual, or expected events during the locomotory response to a chemical concentration gradient."
+http://purl.obolibrary.org/obo/DDPHENO_0000560,aberrant endosomal vesicle fusion,"Deviation from the normal, usual, or expected events during homotypic fusion of endocytic vesicles to form or add to an early endosome."
+http://purl.obolibrary.org/obo/DDPHENO_0001388,increased CRAC localization to the plasma membrane,Increase in the ability for localization of CRAC (dagA) from the cytoplasm to the plasma membrane in response to a stimulus.
+http://purl.obolibrary.org/obo/DDPHENO_0000279,increased infection rate by a pathogenic bacterium,"Increase in extent, amount, or degree of the infection rate by a pathogenic bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0001135,abolished chemoattractant-mediated F-actin polymerization,Complete inability for F-actin polymerization in response to chemoattractants.
+http://purl.obolibrary.org/obo/DDPHENO_0000026,development arrests at mound stage,Development cannot progress past the mound stage.
+http://purl.obolibrary.org/obo/DDPHENO_0000573,abolished double-strand break repair via homologous recombination,Complete inability for double strand break repair of DNA via homologous recombination.
+http://purl.obolibrary.org/obo/DDPHENO_0000320,aberrant polysaccharide binding,"Deviation from the normal, usual, or expected binding  a polysaccharide."
+http://purl.obolibrary.org/obo/DDPHENO_0001148,increased positive regulation of Rac GTPase activity,"Increase in extent, amount, or degree of positive regulation of Rac GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000039,aberrant plasma membrane organization and biogenesis,"Deviation from the normal, usual, or expected events during plasma membrane organization and biogenesis."
+http://purl.obolibrary.org/obo/DDPHENO_0001442,decreased cell fate commitment,"Reduction in extent, amount, or degree when committing cells for a specific fate in their normal environment."
+http://purl.obolibrary.org/obo/DDPHENO_0000333,increased folic acid binding,"Increased in extent, amount, or degree of binding to folic acid."
+http://purl.obolibrary.org/obo/DDPHENO_0001455,aberrant intracellular pH level,"Deviation from the normal, usual, or expected regulation of the intracellular pH level."
+http://purl.obolibrary.org/obo/DDPHENO_0000346,decreased protein kinase activity,"Reduction in extent, amount, or degree of protein kinase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001290,"abolished 3',5'-cyclic-AMP phosphodiesterase activity","Complete absence of 3',5'-cyclic-AMP phosphodiesterase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000181,abolished slug migration,Complete inability for slugs to migrate.
+http://purl.obolibrary.org/obo/DDPHENO_0001468,increased microtubule nucleation,Increase in amount or rate of microtubule nucleation.
+http://purl.obolibrary.org/obo/DDPHENO_0000359,increased response to cAMP,"Increase in extent, amount, or degree of  response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0001215,increased calcium-dependent cell-cell adhesion,"Increase in extent, amount, or degree of calcium-dependent cell-cell adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0000400,increased chemotaxis rate,"Increase in extent, amount, or degree of chemotaxis rate during the locomotory response to a chemical concentration gradient."
+http://purl.obolibrary.org/obo/DDPHENO_0001050,abolished bleb formation,Complete inability to form blebs.
+http://purl.obolibrary.org/obo/DDPHENO_0001228,aberrant detection of prestarvation factor,"Deviation from the normal, usual, or expected events during the detection of prestarvation factor (PSF) found in conditioned media (CM)."
+http://purl.obolibrary.org/obo/DDPHENO_0000119,increased substrate adhesion-dependent cell spreading,"Increase in extent, amount, or degree of substrate adhesion-dependent cell spreading."
+http://purl.obolibrary.org/obo/DDPHENO_0001522,increased sensitivity to fluid shear stress,"Decreased tolerance of  the normal, usual, or expected events during the cellular response to fluid shear stress."
+http://purl.obolibrary.org/obo/DDPHENO_0000413,aberrant microtubule cytoskeleton organization,"Deviation from the normal, usual, or expected events during organization of the microtubule cytoskeleton."
+http://purl.obolibrary.org/obo/DDPHENO_0001063,abolished myosin light chain kinase activation,Complete inability for activation of myosin light chain kinase upon stimulus.
+http://purl.obolibrary.org/obo/DDPHENO_0001535,decreased phagosomal proteolysis,"Reduction in extent, amount, or degree of phagosomal proteolysis."
+http://purl.obolibrary.org/obo/DDPHENO_0001076,abolished prestalk A cell differentiation,Complete inability for differentiation of prestalk A cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001370,decreased lower cup size,Reduction in relative or proportionate dimensions of the lower cup.
+http://purl.obolibrary.org/obo/DDPHENO_0000261,abolished prestalk cell differentiation in response to DIF-1,Complete inability for prestalk cell differentiation in response to DIF-1.
+http://purl.obolibrary.org/obo/DDPHENO_0000439,increased resistance to 5-Fluoroorotic acid (5-FOA),"Increase in extent, amount, or degree of resistance to 5-Fluoroorotic acid."
+http://purl.obolibrary.org/obo/DDPHENO_0000274,abolished SDF production,"Complete inability for the production of SDF-1 or SDF-2, peptides that promote terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001130,decreased taxis,"Reduction in extent, amount, or degree of the response to external stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0001308,abolished activation of Rac GTPase activity,Complete inability to activate Rac GTPase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001396,increased protein localization to plasma membrane,Increase in the ability for localization of a protein from the cytoplasm to the plasma membrane.
+http://purl.obolibrary.org/obo/DDPHENO_0001143,aberrant regulation of Ran GTPase activity,"Deviation from the normal, usual, or expected events during the regulation of the activity of a Ran GTPase."
+http://purl.obolibrary.org/obo/DDPHENO_0000287,aberrant infection rate by a gram-negative pathogenic bacterium,"Deviation from the normal, usual, or expected events during infection of Dictyostelium by a gram-negative pathogenic  bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0000034,aberrant contractile vacuole discharge,"Deviation from the normal, usual, or expected events during contractile vacuole discharge."
+http://purl.obolibrary.org/obo/DDPHENO_0000581,increased sensitivity to cheating,Increased sensitivity to cheating when mixed with cheater cells compared to wild type.
+http://purl.obolibrary.org/obo/DDPHENO_0001156,aberrant cellulose biosynthesis,"Deviation from the normal, usual, or expected events during cellulose biosynthesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000047,decreased phosphatidylinositol biosynthesis,"Reduction in extent, amount, or degree of phosphatidylinositol biosynthesis."
+http://purl.obolibrary.org/obo/DDPHENO_0001450,abolished protein phosphorylation,Complete inability for protein phosphorylation.
+http://purl.obolibrary.org/obo/DDPHENO_0000341,aberrant membrane organization during endocytosis,"Deviation from the normal, usual, or expected plasma membrane organization during endocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0000519,aberrant localization to contractile vacuole membrane,"Deviation from the normal, usual, or expected localization to contractile vacuole membrane."
+http://purl.obolibrary.org/obo/DDPHENO_0001169,delayed cytokinesis,Late onset or slower progression through cytokinesis.
+http://purl.obolibrary.org/obo/DDPHENO_0001463,aberrant regulation of positive chemotaxis,"Deviation from the normal, usual, or expected events during the regulation of the locomotory response."
+http://purl.obolibrary.org/obo/DDPHENO_0000354,aberrant endocytic recycling,"Deviation from the normal, usual, or expected events during endocytic recycling."
+http://purl.obolibrary.org/obo/DDPHENO_0001210,abolished translation,Complete inability for translation.
+http://purl.obolibrary.org/obo/DDPHENO_0000101,increased localization to nucleolus,Increase in amount or accumulation in the nucleolus.
+http://purl.obolibrary.org/obo/DDPHENO_0001476,abolished histone lysine methylation,Complete inability for methylation of a lysine in histone H3.
+http://purl.obolibrary.org/obo/DDPHENO_0000367,mislocalized prestalk gene expression,Prestalk gene expression occurring in an abnormal position or in an unusual manner or form.
+http://purl.obolibrary.org/obo/DDPHENO_0001223,decreased phagolysosome formation,"Reduction in extent, amount, or degree of phagolysosome formation."
+http://purl.obolibrary.org/obo/DDPHENO_0001489,abolished phagosome acidification,Complete inability for phagosome acidification.
+http://purl.obolibrary.org/obo/DDPHENO_0001236,increased intracellular ATP level,Increase in amount or accumulation of intracellular ATP.
+http://purl.obolibrary.org/obo/DDPHENO_0000127,aberrant socially cooperative development,"Deviation from the normal, usual, or expected social cooperation during aggregation."
+http://purl.obolibrary.org/obo/DDPHENO_0001530,aberrant negative regulation of vegetative growth,"Deviation from the normal, usual, or expected events during the negative regulation of vegetative growth."
+http://purl.obolibrary.org/obo/DDPHENO_0001071,precocious response to hypo-osmotic stress,Early onset or faster progression in the response to hypo-osmotic stress.
+http://purl.obolibrary.org/obo/DDPHENO_0001249,abolished C-terminal protein amino acid methylation,Complete inability for C-terminal protein amino acid methylation.
+http://purl.obolibrary.org/obo/DDPHENO_0000434,aberrant pinosome maturation,"Deviation from the normal, usual, or expected events during pinosome maturation."
+http://purl.obolibrary.org/obo/DDPHENO_0001084,aberrant vegetative growth,"Deviation from the normal, usual, or expected events during vegetative growth."
+http://purl.obolibrary.org/obo/DDPHENO_0001009,aberrant localization,"Deviation from the normal, usual, or expected events during localization."
+http://purl.obolibrary.org/obo/DDPHENO_0000447,increased myosin protein level,Increase in amount or accumulation of myosin.
+http://purl.obolibrary.org/obo/DDPHENO_0001303,aberrant regulation of catalytic activity,"Deviation from the normal, usual, or expected events during the regulation of a catalytic activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001097,decreased DIF production,"Reduction in extent, amount, or degree of production of DIF."
+http://purl.obolibrary.org/obo/DDPHENO_0001391,decreased protein localization to cytoplasm,Reduction in amount or accumulation of a protein in the cytoplasm.
+http://purl.obolibrary.org/obo/DDPHENO_0001316,abolished peptidyl-proline 4-dioxygenase activity,Complete absence of peptidyl-proline 4-dioxygenase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000501,increased number of pinosomes,Quantitative increase in pinosomes.
+http://purl.obolibrary.org/obo/DDPHENO_0000295,abolished protein binding,Complete absence of protein binding.
+http://purl.obolibrary.org/obo/DDPHENO_0001151,decreased positive regulation of Rap GTPase activity,"Reduction in extent, amount, or degree of positive regulation of Rap GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000042,aberrant membrane ruffling,"Deviation from the normal, usual, or expected events during membrane ruffling."
+http://purl.obolibrary.org/obo/DDPHENO_0001329,decreased extracellular cAMP level,Reduction in amount or accumulation of intracellular cAMP.
+http://purl.obolibrary.org/obo/DDPHENO_0000514,abolished stalk cell differentiation,Complete inability for differentiation into stalk cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001164,abolished prestalk B cell differentiation,Complete inability for differentiation of prestalk B cells.
+http://purl.obolibrary.org/obo/DDPHENO_0000055,abolished localization to cell cortex,Complete inability to localize to the cell cortex.
+http://purl.obolibrary.org/obo/DDPHENO_0000527,abolished histone H3-K4 methylation,Complete inability for methylation of histone H3 at lysine 4.
+http://purl.obolibrary.org/obo/DDPHENO_0001177,decreased pseudopod formation,"Decrease in extent, amount, or degree of formation of pseudopods."
+http://purl.obolibrary.org/obo/DDPHENO_0000068,increased localization to cytoplasm,Increase in amount or accumulation in the cytoplasm.
+http://purl.obolibrary.org/obo/DDPHENO_0001471,increased response to lithium,"Increase in extent, amount, or degree of response to lithium."
+http://purl.obolibrary.org/obo/DDPHENO_0000362,aberrant response to nocodazole,"Deviation from the normal, usual, or expected events during the response to nocodazole."
+http://purl.obolibrary.org/obo/DDPHENO_0001484,aberrant spindle stabilization,"Deviation from the normal, usual, or expected during spindle stabilization."
+http://purl.obolibrary.org/obo/DDPHENO_0000375,delayed prespore gene expression,Late onset or slower progression in the expression of prespore genes.
+http://purl.obolibrary.org/obo/DDPHENO_0001231,abolished protein secretion,Complete inability for protein secretion.
+http://purl.obolibrary.org/obo/DDPHENO_0000122,aberrant cell-cell self recognition,"Deviation from the normal, usual, or expected events during cell-cell self recognition."
+http://purl.obolibrary.org/obo/DDPHENO_0001409,abolished phosphoinositide binding,Complete absence of phosphoinositide binding.
+http://purl.obolibrary.org/obo/DDPHENO_0001497,abolished protein localization to cell surface,Complete inability to localize a protein to the cell surface.
+http://purl.obolibrary.org/obo/DDPHENO_0001244,abolished protein level,Complete elimination of protein expression.
+http://purl.obolibrary.org/obo/DDPHENO_0000388,abolished vacuolation,Complete inability for vacuolation.
+http://purl.obolibrary.org/obo/DDPHENO_0000135,decreased ABP120 protein level,Reduction in amount or accumulation of actin-binding protein.
+http://purl.obolibrary.org/obo/DDPHENO_0001257,decreased catalytic activity,"A reduction in extent, amount, or degree of catalysis by an enzyme."
+http://purl.obolibrary.org/obo/DDPHENO_0000148,decreased cell motility,"Reduction in extent, amount, or degree of cell motility."
+http://purl.obolibrary.org/obo/DDPHENO_0001004,aberrant cellular physiological process,"OBSOLETE. Deviation from the normal, usual, or expected events during cellular physiological processes."
+http://purl.obolibrary.org/obo/DDPHENO_0000442,increased extracellular counting factor component(s) level,Increase in amount or accumulation of extracellular counting factor component(s).
+http://purl.obolibrary.org/obo/DDPHENO_0001092,abolished response to DIF,Complete inability for response to DIF.
+http://purl.obolibrary.org/obo/DDPHENO_0001017,aberrant regulation of aggregate size,"Deviation from the normal, usual, or expected events during the regulation of aggregate size."
+http://purl.obolibrary.org/obo/DDPHENO_0000455,increased accumulation of cGMP,"Increase in extent, amount, or degree of cGMP."
+http://purl.obolibrary.org/obo/DDPHENO_0001311,aberrant activation of GTPase activity,"Deviation from the normal, usual, or expected events during the activation of the activity of a GTPase."
+http://purl.obolibrary.org/obo/DDPHENO_0000290,abolished resistance to a gram-positive pathogenic bacterium,Complete inability for resisting any gram-positive pathogenic bacterium.
+http://purl.obolibrary.org/obo/DDPHENO_0001324,decreased peptidyl-proline hydroxylation,Reduction in level of hydroxylation of proline residues on a peptide.
+http://purl.obolibrary.org/obo/DDPHENO_0000215,increased spore sensitivity to hydrogen peroxide,"Decreased tolerance of the normal, usual, or expected events in spores towards hydrogen peroxide."
+http://purl.obolibrary.org/obo/DDPHENO_0000050,abolished response to hypo-osmotic stress,Complete inability to respond to hypo-osmotic stress.
+http://purl.obolibrary.org/obo/DDPHENO_0001337,increased protein localization,Increase in amount or accumulation of a protein at a certain location.
+http://purl.obolibrary.org/obo/DDPHENO_0000228,abolished positive regulation of chemorepellant activity,Complete inability of the positive regulation of chemorepellant activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000522,decreased chemotaxis to cAMP,"Reduction in extent, amount, or degree of chemotaxis in response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0001172,increased Ras guanyl-nucleotide exchange factor activity,"Increase in extent, amount, or degree of Ras guanyl-nucleotide exchange factor activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000063,abolished localization to coated pits,Complete inability to localize to coated pits.
+http://purl.obolibrary.org/obo/DDPHENO_0000535,decreased intracellular glycogen level,Reduction in amount or accumulation of intracellular glycogen.
+http://purl.obolibrary.org/obo/DDPHENO_0001185,increased intracellular myo-inositol level,Increase in amount or accumulation of intracellular myo-inositol.
+http://purl.obolibrary.org/obo/DDPHENO_0000076,decreased localization to microtubules,Reduction in amount or accumulation at the microtubules.
+http://purl.obolibrary.org/obo/DDPHENO_0000370,aberrant prespore gene expression,"Deviation from the normal, usual, or expected expression of prespore genes."
+http://purl.obolibrary.org/obo/DDPHENO_0001404,increased protein localization to microtubule organizing center,Increase in amount or accumulation of a protein to the microtubule organizing center.
+http://purl.obolibrary.org/obo/DDPHENO_0001198,increased infection rate by Cryptococcus neoformans,"Increase in extent, amount, or degree of the infection rate by Cryptococcus neoformans."
+http://purl.obolibrary.org/obo/DDPHENO_0000089,decreased localization to plasma membrane,Reduction in amount or accumulation at the plasma membrane.
+http://purl.obolibrary.org/obo/DDPHENO_0001492,delayed phagosome re-neutralization,Late onset or slower progression of phagosome acidification.
+http://purl.obolibrary.org/obo/DDPHENO_0000383,decreased stalk length,Having a relative short stalk.
+http://purl.obolibrary.org/obo/DDPHENO_0000130,decreased cAMP-induced cAMP pulse,"Reduction in extent, amount, or degree of cAMP pulse in response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0000308,abolished SDF-2 production,"Complete inability for the production of SDF-2, a  peptide that promotes terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001252,abolished MAP kinase activation,Complete inability for activation of MAP kinase upon stimulus.
+http://purl.obolibrary.org/obo/DDPHENO_0001265,increased autophagic cell death,"Increase in extent, amount, or degree of autophagic cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000156,delayed aggregation,Late onset or slower progression through aggregation.
+http://purl.obolibrary.org/obo/DDPHENO_0001012,aberrant stalk formation,"Deviation from the normal, usual, or expected events during stalk formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000450,decreased number of aggregates,Quantitative reduction in aggregates.
+http://purl.obolibrary.org/obo/DDPHENO_0001278,aberrant vacuolation,"Deviation from the normal, usual, or expected events during vacuolation."
+http://purl.obolibrary.org/obo/DDPHENO_0000169,increased prestalk cell differentiation,"Increase in extent, amount, or degree of prestalk cell differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001025,aberrant prespore cell differentiation,"Deviation from the normal, usual, or expected events during differentiation of prespore cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000463,precocious prespore gene expression,Early onset or faster progression in the expression of prespore genes.
+http://purl.obolibrary.org/obo/DDPHENO_0000210,delayed slug formation,Late onset or slower progression through the formation of the slug.
+http://purl.obolibrary.org/obo/DDPHENO_0001038,aberrant cAMP signaling during aggregation,"Deviation from the normal, usual, or expected events during cAMP signaling during aggregation."
+http://purl.obolibrary.org/obo/DDPHENO_0000476,aberrant aggregation during macrocyst formation,"Deviation from the normal, usual, or expected events during formation of aggregation during macrocyst formation."
+http://purl.obolibrary.org/obo/DDPHENO_0001332,abolished catalase activity,Complete absence of catalase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000223,aberrant thermotaxis,"Deviation from the normal, usual, or expected events during the response to temperature changes."
+http://purl.obolibrary.org/obo/DDPHENO_0000489,increased cytosolic Ca2+ response,"Increase in extent, amount, or degree of cytosolic Ca2+ response."
+http://purl.obolibrary.org/obo/DDPHENO_0001345,aberrant protein tyrosine phosphorylation,"Deviation from the normal, usual, or expected events during tyrosine phosphorylation of a protein."
+http://purl.obolibrary.org/obo/DDPHENO_0000236,aberrant cell morphology,"Deviation from the normal, usual, or expected morphology of a cell."
+http://purl.obolibrary.org/obo/DDPHENO_0000530,increased post-transciptional gene silencing by RNA,"Increase in extent, amount, or degree of post-transciptional gene silencing by RNA."
+http://purl.obolibrary.org/obo/DDPHENO_0001180,increased F-actin polymerization at the leading edge,"Increase in extent, amount, or degree of F-actin polymerization in the area closest to the direction of movement in a motile cell."
+http://purl.obolibrary.org/obo/DDPHENO_0000071,abolished localization to microtubule organizing center,Complete inability to localize to the microtubule organizing center.
+http://purl.obolibrary.org/obo/DDPHENO_0001358,aberrant inner basal disc formation,"Deviation from the normal, usual, or expected during the formation of the inner basal disc."
+http://purl.obolibrary.org/obo/DDPHENO_0000249,increased double-strand break repair,"Increased tolerance of the normal, usual, or expected events in double-strand break repair."
+http://purl.obolibrary.org/obo/DDPHENO_0001105,aberrant catalytic activity,"Deviation from the normal, usual, or expected activity of a catalyst."
+http://purl.obolibrary.org/obo/DDPHENO_0000543,increased infection rate by Mycobacterium avium,"Increase in extent, amount, or degree of the infection rate by Mycobacterium avium."
+http://purl.obolibrary.org/obo/DDPHENO_0001193,aberrant infection rate by a microorganism,"Deviation from the normal, usual, or expected events during infection of Dictyostelium by a microorganism."
+http://purl.obolibrary.org/obo/DDPHENO_0000084,abolished localization to nucleus,Complete inability to localize to the nucleus.
+http://purl.obolibrary.org/obo/DDPHENO_0001118,aberrant signal transduction,"Deviation from the normal, usual, or expected events during signal transduction."
+http://purl.obolibrary.org/obo/DDPHENO_0000009,aberrant fruiting body morphology,"Deviation from the normal, usual, or expected morphology of the fruiting body."
+http://purl.obolibrary.org/obo/DDPHENO_0000556,aberrant contractile vacuole dissociation from plasma membrane,"Deviation from the normal, usual, or expected events during contractile vacuole dissociation from plasma membrane after discharge."
+http://purl.obolibrary.org/obo/DDPHENO_0001412,aberrant protein localization to pseudopodium,"Deviation from the normal, usual, or expected events during localization of a protein to pseudopodia."
+http://purl.obolibrary.org/obo/DDPHENO_0000303,increased actin bundle formation,"Increase in extent, amount, or degree of actin bundle formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000097,aberrant localization to nucleolus,"Deviation from the normal, usual, or expected localization to the nucleolus."
+http://purl.obolibrary.org/obo/DDPHENO_0000391,obsolete_partial suppression of tagB mutation,OBSOLETE.
+http://purl.obolibrary.org/obo/DDPHENO_0000569,increased lipid droplet formation,Increase in amount or accumulation of lipid droplets.
+http://purl.obolibrary.org/obo/DDPHENO_0001425,aberrant centrosome organization,"Deviation from the normal, usual, or expected events during centrosome organization."
+http://purl.obolibrary.org/obo/DDPHENO_0000316,aberrant response to SDF-1,"Deviation from the normal, usual, or expected during the response to SDF-1."
+http://purl.obolibrary.org/obo/DDPHENO_0001260,increased cAMP binding,"Increased in extent, amount, or degree of binding to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0000151,aberrant F-actin organization,"Deviation from the normal, usual, or expected events during actin filament organization."
+http://purl.obolibrary.org/obo/DDPHENO_0001438,abolished necrotic cell death,Complete inability for necrotic cell death.
+http://purl.obolibrary.org/obo/DDPHENO_0000329,decreased small molecule binding,"A reduction in extent, amount, or degree of binding to a small molecule."
+http://purl.obolibrary.org/obo/DDPHENO_0001273,decreased uropod retraction,"Reduction in extent, amount, or degree of uropod retraction."
+http://purl.obolibrary.org/obo/DDPHENO_0000164,aberrant regulation of chemorepellant activity,"Deviation from the normal, usual, or expected events during the regulation of chemorepellant activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001020,aberrant regulation of stalk cell differentiation,"Deviation from the normal, usual, or expected events during the regulation of stalk cell differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001286,increased glycogen synthase kinase 3 activity,"Increase in extent, amount, or degree of glycogen synthase kinase 3 activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000177,aberrant positive regulation of chemorepellant activity,"Deviation from the normal, usual, or expected events during the positive regulation of chemorepellant activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001033,aberrant macrocyst morphology,"Deviation from the normal, usual, or expected morphology of the macrocyst."
+http://purl.obolibrary.org/obo/DDPHENO_0000471,aberrant protein localization,"Deviation from the normal, usual, or expected localization of a protein."
+http://purl.obolibrary.org/obo/DDPHENO_0001505,aberrant cellular defense response,"Deviation from the normal, usual, or expected response triggered in response to the presence of a foreign body or the prevention/recovery from an infection."
+http://purl.obolibrary.org/obo/DDPHENO_0001299,abolished Ras guanyl-nucleotide exchange factor activity,Complete absence of Ras guanyl-nucleotide exchange factor activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001046,aberrant spore germination,"Deviation from the normal, usual, or expected events during spore germination."
+http://purl.obolibrary.org/obo/DDPHENO_0001340,decreased protein localization to nucleus,Reduction in amount or accumulation of a protein in the nucleus.
+http://purl.obolibrary.org/obo/DDPHENO_0000231,increased cell death,"Increase in extent, amount, or degree of cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0001518,aberrant mitochondrial fission,"Deviation from the normal, usual, or expected events during mitochondrial fission."
+http://purl.obolibrary.org/obo/DDPHENO_0001059,abolished chemotaxis to cAMP during aggregation,Complete inability for chemotaxis to cAMP during aggregation.
+http://purl.obolibrary.org/obo/DDPHENO_0000497,decreased number of vacuoles,Quantitative reduction in vacuoles.
+http://purl.obolibrary.org/obo/DDPHENO_0001353,increased protein theronine phosphorylation,Increase in amount or accumulation of threonine phosphorylation of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0000244,aberrant double-strand break repair,"Deviation from the normal, usual, or expected events during double-strand break DNA repair."
+http://purl.obolibrary.org/obo/DDPHENO_0001100,precocious DIF production,Early onset or faster progression in the production of DIF.
+http://purl.obolibrary.org/obo/DDPHENO_0001366,aberrant upper cup formation,"Deviation from the normal, usual, or expected morphology of the upper cup."
+http://purl.obolibrary.org/obo/DDPHENO_0000257,abolished chemotaxis to calcium,Complete inability for chemotaxis in response to calcium.
+http://purl.obolibrary.org/obo/DDPHENO_0001113,aberrant gene expression,"Deviation from the normal, usual, or expected expression of genes."
+http://purl.obolibrary.org/obo/DDPHENO_0000004,decreased slug size,Decrease in relative or proportionate dimensions of the slug.
+http://purl.obolibrary.org/obo/DDPHENO_0000551,increased pseudopod formation,"Increase in extent, amount, or degree of formation of pseudopods."
+http://purl.obolibrary.org/obo/DDPHENO_0000092,aberrant localization to pseudopodium,"Deviation from the normal, usual, or expected localization to pseudopodia."
+http://purl.obolibrary.org/obo/DDPHENO_0001379,decreased intracellular ammonia level,Reduction in amount or accumulation of intracellular ammonia.
+http://purl.obolibrary.org/obo/DDPHENO_0001126,abolished thermotaxis,Complete inability for thermotaxis.
+http://purl.obolibrary.org/obo/DDPHENO_0000017,aberrant transitive RNA interference,"Deviation from the normal, usual, or expected events during transitive RNA interference."
+http://purl.obolibrary.org/obo/DDPHENO_0000564,aberrant endoplasmic reticulum membrane organization,"Deviation from the normal, usual, or expected events during endoplasmic reticulum membrane organization."
+http://purl.obolibrary.org/obo/DDPHENO_0001420,precocious spindle elongation,Early onset or faster progression through spindle elongation.
+http://purl.obolibrary.org/obo/DDPHENO_0000311,aberrant MPBD production,"Deviation from the normal, usual, or expected during MPBD production, a polyketide."
+http://purl.obolibrary.org/obo/DDPHENO_0001139,increased positive regulation of GTPase activity,"Increase in extent, amount, or degree of positive regulation of GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000577,decreased double-strand break repair via nonhomologous end joining,"Reduction in extent, amount, or degree of double strand break repair of DNA via nonhomologous end joining."
+http://purl.obolibrary.org/obo/DDPHENO_0001433,aberrant gamma-aminobutyric acid signaling pathway,"Deviation from the normal, usual, or expected events during the gamma-aminobutyric acid signaling pathway."
+http://purl.obolibrary.org/obo/DDPHENO_0000324,aberrant cyclic nucleotide binding,"Deviation from the normal, usual, or expected binding of a cyclic nucleotide."
+http://purl.obolibrary.org/obo/DDPHENO_0001446,aberrant F-actin depolymerization,Complete inability to depolymerize actin into F-actin.
+http://purl.obolibrary.org/obo/DDPHENO_0000337,increased electrotaxis,"Increase in extent, amount, or degree of  electrotaxis rate during the locomotory response to an electrical field."
+http://purl.obolibrary.org/obo/DDPHENO_0001281,"increased 3',5'-cyclic-GMP phosphodiesterase activity","Increase in extent, amount, or degree of 3',5'-cyclic-GMP phosphodiesterase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000172,obsolete_insensitive to ammonia,OBSOLETE.
+http://purl.obolibrary.org/obo/DDPHENO_0000572,decreased double-strand break repair via homologous recombination,"Reduction in extent, amount, or degree of double strand break repair of DNA via homologous recombination."
+http://purl.obolibrary.org/obo/DDPHENO_0001206,aberrant lysosome morphology,"Deviation from the normal, usual, or expected morphology of the endosome."
+http://purl.obolibrary.org/obo/DDPHENO_0001500,aberrant protein stabilization,"Deviation from the normal, usual, or expected stabilization of proteins."
+http://purl.obolibrary.org/obo/DDPHENO_0001294,abolished glycogen synthase kinase 3 activity,Complete absence of glycogen synthase kinase 3 activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000185,increased sensitivity to nocodazole,"Increase in extent, amount, or degree of sensitivity to nocodazole."
+http://purl.obolibrary.org/obo/DDPHENO_0001041,aberrant vacuole organization and biogenesis,"Deviation from the normal, usual, or expected process of vacuole organization and biogenesis."
+http://purl.obolibrary.org/obo/DDPHENO_0001219,aberrant Golgi localization,"Deviation from the normal, usual, or expected localization of the Golgi apparatus."
+http://purl.obolibrary.org/obo/DDPHENO_0001513,aberrant protein localization to microtubule organizing center,"Deviation from the normal, usual, or expected events during localization of a protein to the microtubule organizing center."
+http://purl.obolibrary.org/obo/DDPHENO_0000404,increased prespore gene expression,"Increase in extent, amount, or degree of expression of prespore genes."
+http://purl.obolibrary.org/obo/DDPHENO_0000198,aberrant activation of adenylate cyclase activity,"Deviation from the normal, usual, or expected events during the activation of adenylate cyclase."
+http://purl.obolibrary.org/obo/DDPHENO_0000492,abolished streaming,Complete inability for streaming.
+http://purl.obolibrary.org/obo/DDPHENO_0001526,decreased prestalk U cell differentiation,"Reduction in extent, amount, or degree of differentiation into prestalk U cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001067,aberrant response to hyperosmotic stress,"Deviation from the normal, usual, or expected events during the response to hyperosmotic stress."
+http://purl.obolibrary.org/obo/DDPHENO_0001361,decreased inner basal disc size,Reduction in relative or proportionate dimensions of the inner basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0000252,aberrant positive regulation of mitochondrial membrane potential,"Deviation from the normal, usual, or expected events during positive regulation of  the electric potential existing across the mitochondrial membrane arising from charges in the membrane itself and from the charges present in the media on either side of the membrane."
+http://purl.obolibrary.org/obo/DDPHENO_0001374,increased chemotaxis to arachidonic acid,"Increase in extent, amount, or degree of chemotaxis in response to arachidonic acid."
+http://purl.obolibrary.org/obo/DDPHENO_0000265,aberrant myosin II organization,"Deviation from the normal, usual, or expected events during myosin II organization."
+http://purl.obolibrary.org/obo/DDPHENO_0001121,aberrant taxis,"Deviation from the normal, usual, or expected events during the response to an external stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0000012,aberrant microRNA processing,"Deviation from the normal, usual, or expected events during microRNA processing."
+http://purl.obolibrary.org/obo/DDPHENO_0001387,aberrant CRAC localization to the plasma membrane,"Deviation from the normal, usual, or expected events during CRAC (dagA) protein localization from the cytoplasm to the plasma membrane in response to a stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0000278,decreased infection rate by a pathogenic bacterium,"Reduction in extent, amount, or degree of the infection rate by a pathogenic bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0001134,increased activation of adenylate cyclase,"Increase in extent, amount, or degree of activation of  adenylate cyclase."
+http://purl.obolibrary.org/obo/DDPHENO_0000025,abolished exocytosis,Complete inability for exocytosis.
+http://purl.obolibrary.org/obo/DDPHENO_0001147,decreased positive regulation of Rac GTPase activity,"Reduction in extent, amount, or degree of positive regulation of Rac GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000038,increased contractile vacuole discharge,"Increase in extent, amount, or degree of contractile vacuole discharge."
+http://purl.obolibrary.org/obo/DDPHENO_0001441,aberrant cell fate commitment,"Deviation from the normal, usual, or expected events when committing cells for a specific fate in their normal environment."
+http://purl.obolibrary.org/obo/DDPHENO_0000332,decreased folic acid binding,"A reduction in extent, amount, or degree of binding to folic acid."
+http://purl.obolibrary.org/obo/DDPHENO_0001454,abolished protein tyrosine phosphorylation,Complete inability for protein tyrosine phosphorylation.
+http://purl.obolibrary.org/obo/DDPHENO_0000345,increased activation of GTPase activity,"Increase in extent, amount, or degree of activation of  GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001467,decreased microtubule nucleation,"Reduction in extent, amount, or degree of microtubule nucleation."
+http://purl.obolibrary.org/obo/DDPHENO_0000358,aberrant response to cAMP,"Deviation from the normal, usual, or expected events during the response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0001214,decreased calcium-independent cell-cell adhesion,"Reduction in extent, amount, or degree of calcium-independentcell-cell adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0000193,abolished DIF production,Complete inability for DIF production.
+http://purl.obolibrary.org/obo/DDPHENO_0001227,aberrant response to prestarvation factor,"Deviation from the normal, usual, or expected events during the response to prestarvation factor (PSF) found in conditioned media (CM)."
+http://purl.obolibrary.org/obo/DDPHENO_0000118,decreased substrate adhesion-dependent cell spreading,"Reduction in extent, amount, or degree of substrate adhesion-dependent cell spreading."
+http://purl.obolibrary.org/obo/DDPHENO_0001521,aberrant cellular response to fluid shear stress,"Deviation from the normal, usual, or expected events during the cellular response to fluid shear stress."
+http://purl.obolibrary.org/obo/DDPHENO_0000412,aberrant cell-cell adhesion,"Deviation from the normal, usual, or expected events during cell-cell adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0001062,abolished protein kinase activation,Complete inability for activation of protein kinases.
+http://purl.obolibrary.org/obo/DDPHENO_0001534,increased lysosomal pH,Quantitative increase in lysosomal pH.
+http://purl.obolibrary.org/obo/DDPHENO_0001075,decreased prestalk A cell differentiation,"Reduction in extent, amount, or degree of differentiation into prestalk A cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000260,decreased sorting to prestalk region,"Reduction in extent, amount, or degree of cell sorting to prestalk region during the slug stage."
+http://purl.obolibrary.org/obo/DDPHENO_0001088,aberrant response to DIF,"Deviation from the normal, usual, or expected during the response to differentiation inducing factor."
+http://purl.obolibrary.org/obo/DDPHENO_0001382,increased extracellular glucose level,Increase in amount or accumulation of extracellular glucose.
+http://purl.obolibrary.org/obo/DDPHENO_0000273,decreased SDF production,"Reduction in extent, amount, or degree of production of SDF-1 or SDF-2, peptides that promote terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0000020,aberrant RNA interference,"Deviation from the normal, usual, or expected events during RNA interference."
+http://purl.obolibrary.org/obo/DDPHENO_0001307,abolished activation of Rab GTPase activity,Complete inability to activate Rab GTPase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001395,decreased protein localization to plasma membrane,Reduction in the ability for localization of a protein from the cytoplasm to the plasma.
+http://purl.obolibrary.org/obo/DDPHENO_0000286,increased infection rate by a gram-positive pathogenic bacterium,"Increase in extent, amount, or degree of the infection rate by a gram-positive pathogenic bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0001142,aberrant regulation of Rab GTPase activity,"Deviation from the normal, usual, or expected events during the regulation of the activity of a Rab GTPase."
+http://purl.obolibrary.org/obo/DDPHENO_0000033,aberrant secretion,"Deviation from the normal, usual, or expected events during secretion of a substance."
+http://purl.obolibrary.org/obo/DDPHENO_0000580,decreased sensitivity to cheating,Partial resistance to cheating when mixed with cheater cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001155,aberrant macromolecule biosynthesis,"Deviation from the normal, usual, or expected events during macromolecule biosynthesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000046,aberrant phosphatidylinositol biosynthesis,"Deviation from the normal, usual, or expected events during phosphatidylinositol biosynthesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000340,abolished response to SDF-2,"Complete inability for the response to SDF-2, a  peptide that promotes terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0000518,increased stalk width,Having a relative thick stalk.
+http://purl.obolibrary.org/obo/DDPHENO_0001168,aberrant chemotaxis to folate,"Deviation from the normal, usual, or expected events during the locomotory response to folate (folic acid)."
+http://purl.obolibrary.org/obo/DDPHENO_0000059,abolished localization to cell surface,Complete inability to localize to the cell surface.
+http://purl.obolibrary.org/obo/DDPHENO_0001462,aberrant chemotaxis to cAMP in response to DIF-2,"Deviation from the normal, usual, or expected events during the locomotory response to cAMP in response to DIF-2."
+http://purl.obolibrary.org/obo/DDPHENO_0000353,aberrant endosomal transport,"Deviation from the normal, usual, or expected events during endosomal transport."
+http://purl.obolibrary.org/obo/DDPHENO_0000100,abolished localization to nucleolus,Complete inability to localize to the nucleolus.
+http://purl.obolibrary.org/obo/DDPHENO_0001475,abolished histone H3-K79 methylation,Complete inability for methylation of histone H3 at lysine 79.
+http://purl.obolibrary.org/obo/DDPHENO_0000366,precocious prestalk gene expression,Early onset or faster progression in the expression of prestalk genes.
+http://purl.obolibrary.org/obo/DDPHENO_0001222,aberrant phagolysosome formation,"Deviation from the normal, usual, or expected events during phagolysosome formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000113,increased cellular localization,Increase in amount or accumulation at a certain cellular location.
+http://purl.obolibrary.org/obo/DDPHENO_0001488,aberrant phagosome maturation,"Deviation from the normal, usual, or expected events during phagosome maturation."
+http://purl.obolibrary.org/obo/DDPHENO_0000379,decreased cell size,Reduction in relative or proportionate dimensions of the cell.
+http://purl.obolibrary.org/obo/DDPHENO_0001235,decreased intracellular ATP level,Decrease in amount or accumulation of intracellular ATP.
+http://purl.obolibrary.org/obo/DDPHENO_0000126,increased cAMP-induced cGMP pulse,"Increase in extent, amount, or degree of cGMP pulse in response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0001070,precocious response to hyperosmotic stress,Early onset or faster progression in the response to hyperosmotic stress.
+http://purl.obolibrary.org/obo/DDPHENO_0001248,abolished protein methylation,Complete inability for protein methylation.
+http://purl.obolibrary.org/obo/DDPHENO_0000139,decreased sexual fusion,"Reduction in extent, amount, or degree of sexual fusion."
+http://purl.obolibrary.org/obo/DDPHENO_0000433,increased secretion of lysosomal enzyme,"Increase in extent, amount, or degree of secretion of lysosomal enzyme."
+http://purl.obolibrary.org/obo/DDPHENO_0001083,decreased number of rod-shaped mitochondria,"Quantitative decrease in rod-shaped mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular."
+http://purl.obolibrary.org/obo/DDPHENO_0001008,aberrant cellular process,"Deviation from the normal, usual, or expected events during cellular processes."
+http://purl.obolibrary.org/obo/DDPHENO_0000446,aberrant mound color,"Deviation from the normal, usual, or expected mound color."
+http://purl.obolibrary.org/obo/DDPHENO_0001302,increased protein kinase B activity,"Increase in extent, amount, or degree of protein kinase B activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001390,increased protein localization to cytoplasm,Increase in amount or accumulation of a protein in the cytoplasm.
+http://purl.obolibrary.org/obo/DDPHENO_0000459,increased F-actin polymerization,"Increase in extent, amount, or degree of F-actin polymerization."
+http://purl.obolibrary.org/obo/DDPHENO_0001315,increased peptidyl-proline 4-dioxygenase activity,"Increase in extent, amount, or degree of peptidyl-proline 4-dioxygenase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000206,precocious aggregation,Early onset or faster progression through aggregation.
+http://purl.obolibrary.org/obo/DDPHENO_0000500,small pinosomes,Decreased size of pinosomes.
+http://purl.obolibrary.org/obo/DDPHENO_0000294,aberrant protein binding,"Deviation from the normal, usual, or expected binding of a protein."
+http://purl.obolibrary.org/obo/DDPHENO_0001150,increased positive regulation of Ran GTPase activity,"Increase in extent, amount, or degree of positive regulation of Ran GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000041,aberrant response to N-Phenylthiourea,"Deviation from the normal, usual, or expected events during the response to  N-Phenylthiourea."
+http://purl.obolibrary.org/obo/DDPHENO_0001328,abolished protein modification,Complete inability for protein modification.
+http://purl.obolibrary.org/obo/DDPHENO_0000513,aberrant sporulation,"Deviation from the normal, usual, or expected events during sporulation."
+http://purl.obolibrary.org/obo/DDPHENO_0001163,aberrant prestalk B cell differentiation,"Deviation from the normal, usual, or expected events during differentiation of prestalk B cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000054,aberrant localization to cell cortex,"Deviation from the normal, usual, or expected localization to the cell cortex."
+http://purl.obolibrary.org/obo/DDPHENO_0000526,increased prestalk cell differentiation in response to DIF-1,"Increase in extent, amount, or degree of prestalk cell differentiation in response to DIF-1."
+http://purl.obolibrary.org/obo/DDPHENO_0001176,abolished aspidocyte differentiation,Complete inability for differentiation of aspidocytes.
+http://purl.obolibrary.org/obo/DDPHENO_0000067,abolished localization to cytoplasm,Complete inability to localize to the cytoplasm.
+http://purl.obolibrary.org/obo/DDPHENO_0001470,decreased response to lithium,"Reduction in extent, amount, or degree of response to lithium."
+http://purl.obolibrary.org/obo/DDPHENO_0000361,abolished response to cAMP,Complete inability to respond to cAMP.
+http://purl.obolibrary.org/obo/DDPHENO_0001189,decreased macroautophagy,"Reduction in extent, amount, or degree of macroautophagy."
+http://purl.obolibrary.org/obo/DDPHENO_0001483,aberrant cortical actin cytoskeleton stabilization,"Deviation from the normal, usual, or expected events in the maintenance of the cortical actin cytoskeleton."
+http://purl.obolibrary.org/obo/DDPHENO_0001230,"decreased 3',5'-cyclic-GMP phosphodiesterase activity","Reduction in extent, amount, or degree of 3',5'-cyclic-GMP phosphodiesterase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000121,decreased intracellular glucose level,"Reduction in extent, amount or accumulation of cytosolic glucose."
+http://purl.obolibrary.org/obo/DDPHENO_0001408,aberrant protein localization to coated pits,"Deviation from the normal, usual, or expected events during localization of a protein to coated pits."
+http://purl.obolibrary.org/obo/DDPHENO_0001496,increased phagolysosome size,Increase in relative or proportional dimensions of the phagolysosome.
+http://purl.obolibrary.org/obo/DDPHENO_0000387,abolished prespore cell division,Complete inability for division of prespore cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001243,increased protein level,"Increase in extent, amount, or degree of protein expression."
+http://purl.obolibrary.org/obo/DDPHENO_0000134,increased myosin II assembly,"Increase in extent, amount, or degree of assembly of myosin II."
+http://purl.obolibrary.org/obo/DDPHENO_0001256,increased catalytic activity,"Increase in extent, amount, or degree of catalysis by an enzyme."
+http://purl.obolibrary.org/obo/DDPHENO_0000147,aberrant chemorepellant activity,"Deviation from the normal, usual, or expected activity in the directed movement of a motile cell  towards a lower concentration of a signal."
+http://purl.obolibrary.org/obo/DDPHENO_0001003,aberrant response to stimulus,"Deviation from the normal, usual, or expected events during the response to stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0001091,increased response to DIF,"Increase in extent, amount, or degree of response to DIF."
+http://purl.obolibrary.org/obo/DDPHENO_0001269,abolished non-apoptotic programmed cell death,Complete inability non-apoptotic programmed cell death.
+http://purl.obolibrary.org/obo/DDPHENO_0001016,aberrant regulation of fruiting body formation,"Deviation from the normal, usual, or expected events during the regulation of fruiting body formation."
+http://purl.obolibrary.org/obo/DDPHENO_0001310,abolished activation of Rap GTPase activity,Complete inability to activate Rap GTPase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000201,decreased glycogen synthase kinase 3 activity,"Reduction in extent, amount, or degree of glycogen synthase kinase 3 activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001029,aberrant establishment and/or maintenance of cell polarity,"Deviation from the normal, usual, or expected events during establishment and/or maintenance of cell polarity."
+http://purl.obolibrary.org/obo/DDPHENO_0001323,increased peptidyl-proline hydroxylation,Increase in level of hydroxylation of proline residues on a peptide.
+http://purl.obolibrary.org/obo/DDPHENO_0000214,precocious sporulation,Early onset or faster progression through sporulation.
+http://purl.obolibrary.org/obo/DDPHENO_0001336,aberrant protein localization to nucleus,"Deviation from the normal, usual, or expected events during localization of a protein to the nucleus."
+http://purl.obolibrary.org/obo/DDPHENO_0000227,abolished regulation of chemorepellant activity,Complete inability of the regulation of chemorepellant activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000521,abolished localization to contractile vacuole membrane,Complete inability to localize to the contractile vacuole membrane.
+http://purl.obolibrary.org/obo/DDPHENO_0001171,aberrant molecular function,"Deviation from normal, usual, or expected molecular function."
+http://purl.obolibrary.org/obo/DDPHENO_0000062,aberrant localization to coated pits,"Deviation from the normal, usual, or expected localization to coated pits."
+http://purl.obolibrary.org/obo/DDPHENO_0001349,aberrant protein threonine phosphorylation,"Deviation from the normal, usual, or expected events during threonine phosphorylation of a protein."
+http://purl.obolibrary.org/obo/DDPHENO_0001184,decreased intracellular myo-inositol level,Decrease in amount or accumulation of intracellular myo-inositol.
+http://purl.obolibrary.org/obo/DDPHENO_0000075,abolished localization to microtubules,Complete inability to localize to the microtubules.
+http://purl.obolibrary.org/obo/DDPHENO_0001109,aberrant response to valproic acid,"Deviation from the normal, usual, or expected events during the response to valproic acid."
+http://purl.obolibrary.org/obo/DDPHENO_0000547,aberrant culminant morphology,"Deviation from the normal, usual, or expected morphology of the culminant."
+http://purl.obolibrary.org/obo/DDPHENO_0001403,increased protein localization to microtubules,Increase in amount or accumulation of a protein at the microtubules.
+http://purl.obolibrary.org/obo/DDPHENO_0001197,decreased infection rate by Cryptococcus neoformans,"Reduction in extent, amount, or degree of the infection rate by Cryptococcus neoformans."
+http://purl.obolibrary.org/obo/DDPHENO_0000088,abolished localization to plasma membrane,Complete inability to localize to the plasma membrane.
+http://purl.obolibrary.org/obo/DDPHENO_0001491,delayed phagosome acidification,Late onset or slower progression of phagosome acidification.
+http://purl.obolibrary.org/obo/DDPHENO_0000382,obsolete_aberrant morphology,OBSOLETE.
+http://purl.obolibrary.org/obo/DDPHENO_0001416,aberrant cell separation during cytokinesis,"Deviation from the normal, usual, or expected events during cell separation during cytokinesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000307,abolished SDF-1 production,"Complete inability for the production of SDF-1, a  peptide that promotes terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0000395,decreased activation of protein kinase B,"Reduction in extent, amount, or degree of phosphorylation of protein kinase B."
+http://purl.obolibrary.org/obo/DDPHENO_0001251,increased protein kinase B activation,"Increase in extent, amount, or degree of activation of protein kinase B."
+http://purl.obolibrary.org/obo/DDPHENO_0000142,wild type,No phenotypic difference has been reported compared to wild type.
+http://purl.obolibrary.org/obo/DDPHENO_0001429,decreased protein localization to nuclear envelope,Reduction in amount or accumulation of a protein at the nuclear envelope.
+http://purl.obolibrary.org/obo/DDPHENO_0001264,abolished autophagic cell death,Complete inability for autophagic cell death.
+http://purl.obolibrary.org/obo/DDPHENO_0000155,development arrests at tipped mound stage,Development cannot progress past the tipped mound stage.
+http://purl.obolibrary.org/obo/DDPHENO_0001011,decreased intracellular cAMP level,Reduction in amount or accumulation of intracellular cAMP.
+http://purl.obolibrary.org/obo/DDPHENO_0001277,decreased engulfment during phagocytosis,"Reduction in extent, amount, or degree of engulfment of attached, recognized, external material."
+http://purl.obolibrary.org/obo/DDPHENO_0001024,aberrant prestalk 0 cell differentiation,"Deviation from the normal, usual, or expected events during differentiation of prestalk 0 cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000462,decreased filopodium formation,"Reduction in extent, amount, or degree of filopodium formation."
+http://purl.obolibrary.org/obo/DDPHENO_0001037,aberrant signal transduction during aggregation,"Deviation from the normal, usual, or expected events during signal transduction during development."
+http://purl.obolibrary.org/obo/DDPHENO_0000475,increased resistance to bisphosphonate,"Increase in extent, amount, or degree of resistance to the drug bisphosphonate."
+http://purl.obolibrary.org/obo/DDPHENO_0001331,aberrant catalase activity,"Deviation from the normal, usual, or expected activity catalase."
+http://purl.obolibrary.org/obo/DDPHENO_0000222,aberrant phototaxis,"Deviation from the normal, usual, or expected events during the response to light."
+http://purl.obolibrary.org/obo/DDPHENO_0001509,decreased protein localization to cell cortex,Reduction in amount or accumulation of a protein to the cell cortex.
+http://purl.obolibrary.org/obo/DDPHENO_0000488,delayed response to cAMP,Late onset or slower progression in the response to cAMP.
+http://purl.obolibrary.org/obo/DDPHENO_0001344,decreased protein phosphorylation,Reduction in amount or accumulation of phosphorylation of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0000235,increased aneuploidy,"Increase in extent, amount, or degree of aneuploidity."
+http://purl.obolibrary.org/obo/DDPHENO_0000070,aberrant localization to microtubule organizing center,"Deviation from the normal, usual, or expected localization to the microtubule organizing center."
+http://purl.obolibrary.org/obo/DDPHENO_0001357,aberrant outer basal disc formation,"Deviation from the normal, usual, or expected during the formation of the outer basal disc."
+http://purl.obolibrary.org/obo/DDPHENO_0000248,abolished single-strand break repair,Complete inability for single-strand break repair of DNA.
+http://purl.obolibrary.org/obo/DDPHENO_0001104,increased culmination,"Increase in extent, amount, or degree of culminants, resulting in more fruiting bodies."
+http://purl.obolibrary.org/obo/DDPHENO_0000542,increased infection rate by Legionella pneumophila,"Increase in extent, amount, or degree of the infection rate by Legionella pneumophila."
+http://purl.obolibrary.org/obo/DDPHENO_0001192,decreased number of autophagosomes,Quantitative reduction in autophagosomes.
+http://purl.obolibrary.org/obo/DDPHENO_0000083,aberrant localization to nucleus,"Deviation from the normal, usual, or expected localization to the nucleus."
+http://purl.obolibrary.org/obo/DDPHENO_0001117,mislocalized gene expression,Gene expression occurring in an abnormal position or in an unusual manner or form.
+http://purl.obolibrary.org/obo/DDPHENO_0000008,aberrant post-transciptional gene silencing by RNA,"Deviation from the normal, usual, or expected events during post-transciptional gene silencing by RNA."
+http://purl.obolibrary.org/obo/DDPHENO_0000555,abolished contractile vacuole tethering involved in discharge,Complete inability for contractile vacuole tethering involved in discharge.
+http://purl.obolibrary.org/obo/DDPHENO_0001411,aberrant response to conditioned medium factor,"Deviation from the normal, usual, or expected events during the response to conditioned medium factor (CMF) found in conditioned media (CM)."
+http://purl.obolibrary.org/obo/DDPHENO_0000302,abolished growth,Complete inability for cells to proliferate.
+http://purl.obolibrary.org/obo/DDPHENO_0000096,increased localization to pseudopodium,Increase in amount or accumulation at pseudopodia.
+http://purl.obolibrary.org/obo/DDPHENO_0000568,decreased lipid droplet formation,Reduction in amount or accumulation of lipid droplets.
+http://purl.obolibrary.org/obo/DDPHENO_0001424,aberrant perinuclear space,"Deviation from the normal, usual, or expected morphology of the perinuclear space."
+http://purl.obolibrary.org/obo/DDPHENO_0000315,abolished response to MPBD,Complete inability for the response to MPBD.
+http://purl.obolibrary.org/obo/DDPHENO_0000150,abolished chemorepellant activity,Complete inability for chemorepellant activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001437,aberrant necrotic cell death,"Deviation from the normal, usual, or expected events during necrotic cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000328,abolished small molecule binding,Complete absence of small molecule binding.
+http://purl.obolibrary.org/obo/DDPHENO_0001272,decreased pseudopod retraction,"Reduction in extent, amount, or degree of pseudopod retraction."
+http://purl.obolibrary.org/obo/DDPHENO_0000163,aberrant spore morphology,"Deviation from the normal, usual, or expected morphology of the spore."
+http://purl.obolibrary.org/obo/DDPHENO_0001285,decreased adenylate cyclase activity,"Reduction in extent, amount, or degree of adenylate cyclase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000176,increased prestalk 0 cell differentiation,"Increase in extent, amount, or degree of differentiation into prestalk 0 cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001032,aberrant response to biotic stimulus,"Deviation from the normal, usual, or expected events during the response to biotic stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0001504,aberrant response to cation stress,"Deviation from the normal, usual, or expected events during the response to cation stress."
+http://purl.obolibrary.org/obo/DDPHENO_0001298,abolished protein kinase A activity,Complete absence of protein kinase A activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001045,aberrant response to DNA damaging agents,"Deviation from the normal, usual, or expected events during the response to DNA damaging agents."
+http://purl.obolibrary.org/obo/DDPHENO_0000483,aberrant aggregation,"Deviation from the normal, usual, or expected events during aggregation."
+http://purl.obolibrary.org/obo/DDPHENO_0000230,aberrant endosome morphology,"Deviation from the normal, usual, or expected morphology of the endosome."
+http://purl.obolibrary.org/obo/DDPHENO_0001517,increased mitochondrial fusion,Quantitative increase in mitochondrial fusion.
+http://purl.obolibrary.org/obo/DDPHENO_0001058,decreased protein kinase activation,"Reduction in extent, amount, or degree of activation of a protein kinase."
+http://purl.obolibrary.org/obo/DDPHENO_0000243,aberrant single-strand break repair,"Deviation from the normal, usual, or expected events during single-strand break DNA repair."
+http://purl.obolibrary.org/obo/DDPHENO_0001365,aberrant lower cup formation,"Deviation from the normal, usual, or expected morphology of the lower cup."
+http://purl.obolibrary.org/obo/DDPHENO_0000256,abolished  potassium-dependent chemotaxis to cAMP,Complete inability for chemotaxis in response to potassium-dependent cAMP chemotaxis.
+http://purl.obolibrary.org/obo/DDPHENO_0001112,increased exocytosis,"Increase in extent, amount, or degree of exocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0000003,increased slug length,Increase in length of the slug.
+http://purl.obolibrary.org/obo/DDPHENO_0000550,abolished pinocytosis,Complete inability to perform phagocytosis.
+http://purl.obolibrary.org/obo/DDPHENO_0000091,increased localization to plasma membrane,Increase in amount or accumulation at the plasma membrane.
+http://purl.obolibrary.org/obo/DDPHENO_0001378,decreased extracellular ammonia level,Reduction in amount or accumulation of extracellular ammonia.
+http://purl.obolibrary.org/obo/DDPHENO_0000269,increased basal disc size,Increase in relative or proportionate dimensions of the basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0001125,abolished phototaxis,Complete inability for phototaxis.
+http://purl.obolibrary.org/obo/DDPHENO_0000016,decreased microRNA processing,Reduction in level of microRNA processing.
+http://purl.obolibrary.org/obo/DDPHENO_0000563,aberrant endoplasmic reticulum organization,"Deviation from the normal, usual, or expected events during endoplasmic reticulum organization."
+http://purl.obolibrary.org/obo/DDPHENO_0000310,decreased SDF-2 production,"Reduction in extent, amount, or degree of production of SDF-2, a  peptide that promotes terminal spore differentiation."
+http://purl.obolibrary.org/obo/DDPHENO_0001138,decreased positive regulation of GTPase activity,"Reduction in extent, amount, or degree of positive regulation of GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000576,abolished double-strand break repair via nonhomologous end joining,Complete inability for double strand break repair of DNA via nonhomologous end joining.
+http://purl.obolibrary.org/obo/DDPHENO_0000029,increased resistance to N-Phenylthiourea,"Increase in extent, amount, or degree of resistance to N-Phenylthiourea."
+http://purl.obolibrary.org/obo/DDPHENO_0000323,decreased cellulose binding,"A reduction in extent, amount, or degree of binding to cellulose."
+http://purl.obolibrary.org/obo/DDPHENO_0001445,aberrant F-actin polymerization,Complete inability to polymerize actin into F-actin.
+http://purl.obolibrary.org/obo/DDPHENO_0000336,decreased electrotaxis,"Reduction in extent, amount, or degree of electrotaxis rate during the locomotory response to an electrical field."
+http://purl.obolibrary.org/obo/DDPHENO_0001280,"increased 3',5'-cyclic-AMP phosphodiesterase activity","Increase in extent, amount, or degree of 3',5'-cyclic-AMP phosphodiesterase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000171,increased growth rate,"Increase in extent, amount, or degree of cell proliferation."
+http://purl.obolibrary.org/obo/DDPHENO_0000571,aberrant double-strand break repair via homologous recombination,"Deviation from the normal, usual, or expected events during double-strand break repair of DNA via homologous recombination."
+http://purl.obolibrary.org/obo/DDPHENO_0001458,aberrant double-strand break repair via homologous recombination,"Deviation from the normal, usual, or expected events during double-strand break repair via homologous recombination."
+http://purl.obolibrary.org/obo/DDPHENO_0000349,aberrant Ca2+ signaling,"Deviation from the normal, usual, or expected events during calcium signaling."
+http://purl.obolibrary.org/obo/DDPHENO_0001205,decreased endosome size,Decrease in relative or proportionate dimensions of the endosome.
+http://purl.obolibrary.org/obo/DDPHENO_0001293,abolished adenylate cyclase activity,Complete absence of adenylate cyclase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000184,decreased length of astral microtubules,Reduction in extent of astral microtubules.
+http://purl.obolibrary.org/obo/DDPHENO_0001040,obsolete_aberrant response to drug,"OBSOLETE. Deviation from the normal, usual, or expected events during the response to drug. "
+http://purl.obolibrary.org/obo/DDPHENO_0001218,aberrant organelle localization,"Deviation from the normal, usual, or expected localization of an organelle within the cell."
+http://purl.obolibrary.org/obo/DDPHENO_0000109,increased cell-cell adhesion,"Increase in extent, amount, or degree of cell-cell adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0001512,abolished protein localization to pseudopodium,Complete inability to localize a protein pseudopodia.
+http://purl.obolibrary.org/obo/DDPHENO_0000403,increased prestalk gene expression,"Increase in extent, amount, or degree of expression of prestalk genes."
+http://purl.obolibrary.org/obo/DDPHENO_0000197,increased GTP-gamma-S-stimulated guanylyl cyclase activity,"Increase in extent, amount, or degree of GTP-gamma-S-stimulated guanylyl cyclase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001053,increased bleb formation,"Increase in extent, amount, or degree of bleb formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000491,abolished resistance to a pathogenic bacterium,Complete inability for resisting any pathogenic bacterium.
+http://purl.obolibrary.org/obo/DDPHENO_0001525,increased prestalk U cell differentiation,"Increase in extent, amount, or degree of differentiation into prestalk U cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001066,aberrant contractile vacuole morphology,"Deviation from the normal, usual, or expected morphology of the vacuole."
+http://purl.obolibrary.org/obo/DDPHENO_0001360,abolished inner basal disc formation,Complete absence of the inner basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0000251,aberrant regulation of mitochondrial membrane potential,"Deviation from the normal, usual, or expected events during regulation of  the electric potential existing across the mitochondrial membrane arising from charges in the membrane itself and from the charges present in the media on either side of the membrane."
+http://purl.obolibrary.org/obo/DDPHENO_0000429,aberrant vesicle coat assembly,"Deviation from the normal, usual, or expected process of vesicle coat assembly."
+http://purl.obolibrary.org/obo/DDPHENO_0001079,decreased number of tubular mitochondria,"Quantitative decrease in tubular mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular."
+http://purl.obolibrary.org/obo/DDPHENO_0001373,decreased chemotaxis to arachidonic acid,"Reduction in extent, amount, or degree of chemotaxis in response to arachidonic acid."
+http://purl.obolibrary.org/obo/DDPHENO_0000264,aberrant cell motility,"Deviation from the normal, usual, or expected events during cell motility."
+http://purl.obolibrary.org/obo/DDPHENO_0001120,abolished protein kinase B activation,Complete inability for activation of protein kinase B.
+http://purl.obolibrary.org/obo/DDPHENO_0000011,decreased post-transciptional gene silencing by RNA,Reduction in level of modification of post-transciptional gene silencing by RNA.
+http://purl.obolibrary.org/obo/DDPHENO_0001386,abolished cytochrome C oxidase activity,Complete absence of cytochrome C oxidase activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000277,aberrant infection rate by a pathogenic bacterium,"Deviation from the normal, usual, or expected events during infection of Dictyostelium by a pathogenic  bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0001133,abolished activation of adenylate cyclase,Complete inability to activate adenylate cyclase upon stimulus.
+http://purl.obolibrary.org/obo/DDPHENO_0000024,abolished production of siRNA involved in RNA interference,Complete inability for production of siRNA involved in RNA interference.
+http://purl.obolibrary.org/obo/DDPHENO_0001399,abolished protein localization to microtubules,Complete inability to localize a protein to the to microtubules.
+http://purl.obolibrary.org/obo/DDPHENO_0001146,increased positive regulation of Rab GTPase activity,"Increase in extent, amount, or degree of positive regulation of Rab GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000584,abolished mating type determination,Complete inability for determining the mating type of a cell.
+http://purl.obolibrary.org/obo/DDPHENO_0000037,decreased contractile vacuole discharge,"Reduction in extent, amount, or degree of contractile vacuole discharge."
+http://purl.obolibrary.org/obo/DDPHENO_0001440,increased necrotic cell death,"Increase in extent, amount, or degree of necrotic cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000331,aberrant folic acid binding,"Deviation from the normal, usual, or expected binding to folic acid."
+http://purl.obolibrary.org/obo/DDPHENO_0001159,decreased cellulose biosynthesis,"Reduction in extent, amount, or degree of cellulose biosynthesis."
+http://purl.obolibrary.org/obo/DDPHENO_0001453,abolished protein threonine phosphorylation,Complete inability for protein threonine phosphorylation.
+http://purl.obolibrary.org/obo/DDPHENO_0000344,decreased activation of GTPase activity,"Reduction in extent, amount, or degree of activation GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001200,increased actin-dependent ATPase activity,"Increase in extent, amount, or degree of increased actin-dependent ATPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001466,aberrant microtubule nucleation,"Deviation from the normal, usual, or expected events during microtubule nucleation."
+http://purl.obolibrary.org/obo/DDPHENO_0000357,increased endocytic recycling,"Increase in extent, amount, or degree of endocytic recycling."
+http://purl.obolibrary.org/obo/DDPHENO_0001213,decreased calcium-dependent cell-cell adhesion,"Reduction in extent, amount, or degree of calcium-dependentcell-cell adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0000104,aberrant protein localization to nucleolus,"Deviation from the normal, usual, or expected events during localization of a protein to the nucleolus."
+http://purl.obolibrary.org/obo/DDPHENO_0000192,abolished prestalk 0 cell differentiation,Complete inability for differentiation of prestalk 0 cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001479,abolished calcium-dependent cell-cell adhesion,Complete inability of calcium-dependent cell-cell adhesion.
+http://purl.obolibrary.org/obo/DDPHENO_0001226,aberrant cellular response to extracellular stimulus,"Deviation from the normal, usual, or expected during the cellular response to extracellular stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0000117,abolished substrate adhesion-dependent cell spreading,Complete inability for substrate adhesion-dependent cell spreading.
+http://purl.obolibrary.org/obo/DDPHENO_0001520,increased mitochondrial fission,Quantitative increase in mitochondrial fission.
+http://purl.obolibrary.org/obo/DDPHENO_0000411,increased resistance to heat shock,"Increased tolerance of the normal, usual, or expected events towards heat."
+http://purl.obolibrary.org/obo/DDPHENO_0001061,increased protein kinase activation,"Increase in extent, amount, or degree of activation of protein kinases."
+http://purl.obolibrary.org/obo/DDPHENO_0001239,abolished cell motility,Complete inability for cell motility.
+http://purl.obolibrary.org/obo/DDPHENO_0001533,abolished positive regulation of vegetative growth,Complete inability to positively regulate vegetative growth.
+http://purl.obolibrary.org/obo/DDPHENO_0000424,abolished sporulation,Complete inability for sporulation.
+http://purl.obolibrary.org/obo/DDPHENO_0001074,aberrant osmosensory signaling pathway,"Deviation from the normal, usual, or expected events during the osmosensory signaling pathway."
+http://purl.obolibrary.org/obo/DDPHENO_0000437,decreased actin nucleation on plasma membranes,"Reduction in extent, amount, or degree of actin nucleation on plasma membranes."
+http://purl.obolibrary.org/obo/DDPHENO_0001087,increased chemotaxis to folate,"Increase in extent, amount, or degree of chemotaxis in response to folate."
+http://purl.obolibrary.org/obo/DDPHENO_0001381,decreased extracellular glucose level,"Reduction in extent, amount or accumulation of extracellular glucose."
+http://purl.obolibrary.org/obo/DDPHENO_0000272,increased number of mitochondria,Quantitative increase in mitochondria.
+http://purl.obolibrary.org/obo/DDPHENO_0001306,abolished cAMP-induced cAMP pulse,Complete inability to produce a cAMP pulse upon cAMP stimulation.
+http://purl.obolibrary.org/obo/DDPHENO_0001394,abolished protein localization to plasma membrane,Complete inability to localize a protein to the plasma membrane.
+http://purl.obolibrary.org/obo/DDPHENO_0000285,decreased infection rate by a gram-positive pathogenic bacterium,"Reduction in extent, amount, or degree of the infection rate by a gram-positive pathogenic bacterium."
+http://purl.obolibrary.org/obo/DDPHENO_0001141,aberrant regulation of Rac GTPase activity,"Deviation from the normal, usual, or expected events during the regulation of the activity of a Rac GTPase."
+http://purl.obolibrary.org/obo/DDPHENO_0000032,increased sporulation,"Increase in extent, amount, or degree of sporulation."
+http://purl.obolibrary.org/obo/DDPHENO_0001319,increased peptidyl-proline modification,Increase in level of modification of proline residues on a peptide.
+http://purl.obolibrary.org/obo/DDPHENO_0000504,decreased sporulation,"Reduction in extent, amount, or degree of sporulation."
+http://purl.obolibrary.org/obo/DDPHENO_0000298,aberrant lipid binding,"Deviation from the normal, usual, or expected binding  a lipid."
+http://purl.obolibrary.org/obo/DDPHENO_0001154,decreased positive regulation of Ras GTPase activity,"Reduction in extent, amount, or degree of positive regulation of Ras GTPase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000045,aberrant phosphatidylinositol metabolism,"Deviation from the normal, usual, or expected events during phosphatidylinositol metabolism."
+http://purl.obolibrary.org/obo/DDPHENO_0000517,abolished localization to contractile vacuole,Complete inability to localize to the contractile vacuole.
+http://purl.obolibrary.org/obo/DDPHENO_0001167,aberrant chemotaxis to cAMP,"Deviation from the normal, usual, or expected events during the locomotory response to cAMP."
+http://purl.obolibrary.org/obo/DDPHENO_0000058,aberrant localization to cell surface,"Deviation from the normal, usual, or expected localization to the cell surface."
+http://purl.obolibrary.org/obo/DDPHENO_0001461,aberrant chemotaxis to cAMP in response to DIF-1,"Deviation from the normal, usual, or expected events during the locomotory response to cAMP in response to DIF-1."
+http://purl.obolibrary.org/obo/DDPHENO_0000352,decreased macropinocytosis,"Reduction in extent, amount, or degree of macropinocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001474,"increased intracellular 2,3-bisphosphoglycerate","Increase in amount or accumulation of intracellular 2,3-bisphosphoglycerate."
+http://purl.obolibrary.org/obo/DDPHENO_0000365,aberrant prestalk gene expression,"Deviation from the normal, usual, or expected expression of prestalk genes."
+http://purl.obolibrary.org/obo/DDPHENO_0001221,aberrant centrosome localization,"Deviation from the normal, usual, or expected localization of the centrosome."
+http://purl.obolibrary.org/obo/DDPHENO_0000112,decreased cellular localization,Reduction in amount or accumulation at a certain cellular location.
+http://purl.obolibrary.org/obo/DDPHENO_0001487,delayed spindle elongation,Late onset or slower progression of the spindle elongation.
+http://purl.obolibrary.org/obo/DDPHENO_0000378,decreased lateral pseudopod suppression,"Reduction in extent, amount, or degree of suppression of lateral pseudopods."
+http://purl.obolibrary.org/obo/DDPHENO_0001234,aberrant mitochondrion organization,"Deviation from the normal, usual, or expected events during mitochondrion organization."
+http://purl.obolibrary.org/obo/DDPHENO_0001247,aberrant protein amino acid methylation,"Deviation from the normal, usual, or expected events during protein amino acid methylation."
+http://purl.obolibrary.org/obo/DDPHENO_0000138,decreased cell-cell adhesion,"Reduction in extent, amount, or degree of cell-cell adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0000432,aberrant glycogen metabolism,"Deviation from the normal, usual, or expected events during glycogen metabolism."
+http://purl.obolibrary.org/obo/DDPHENO_0001082,increased number of spherical mitochondria,"Quantitative increase in spherical mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular."
+http://purl.obolibrary.org/obo/DDPHENO_0001007,aberrant pinocytosis,"Deviation from the normal, usual, or expected events during pinocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0000445,increased slug migration,"Increase in extent, amount, or degree of migration of slugs."
+http://purl.obolibrary.org/obo/DDPHENO_0001301,decreased protein kinase B activity,"Reduction in extent, amount, or degree of protein kinase B activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001095,aberrant DIF production,"Deviation from the normal, usual, or expected in the production of DIF."
+http://purl.obolibrary.org/obo/DDPHENO_0001314,decreased peptidyl-proline 4-dioxygenase activity,"Reduction in extent, amount, or degree of peptidyl-proline 4-dioxygenase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000040,aberrant response to chemical stimulus,"Deviation from the normal, usual, or expected events during the response to a chemical stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0001327,decreased protein modification,Reduction in level of modification of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0000512,abolished prestalk cell differentiation,Complete inability for differentiation of prestalk cells.
+http://purl.obolibrary.org/obo/DDPHENO_0001162,increased superoxide production,Increase in amount or accumulation of superoxide.
+http://purl.obolibrary.org/obo/DDPHENO_0000053,decreased contractile vacuole size,Decrease in relative or proportionate dimensions of the contractile vacuole.
+http://purl.obolibrary.org/obo/DDPHENO_0001175,decreased aspidocyte differentiation,"Decrease in extent, amount, or degree of differentiation into aspidocytes."
+http://purl.obolibrary.org/obo/DDPHENO_0000066,aberrant localization to cytoplasm,"Deviation from the normal, usual, or expected localization to the cytoplasm."
+http://purl.obolibrary.org/obo/DDPHENO_0000360,decreased response to cAMP,Reduction in the response to cAMP.
+http://purl.obolibrary.org/obo/DDPHENO_0000538,decreased intracellular pteridine level,Reduction in amount or accumulation of intracellular pteridine.
+http://purl.obolibrary.org/obo/DDPHENO_0001188,abolished macroautophagy,Complete inability for macroautophagy.
+http://purl.obolibrary.org/obo/DDPHENO_0000079,aberrant localization to nuclear envelope,"Deviation from the normal, usual, or expected localization to the nuclear envelope."
+http://purl.obolibrary.org/obo/DDPHENO_0001482,aberrant cortical actin cytoskeleton organization,"Deviation from the normal, usual, or expected events during organization of the cortical actin cytoskeleton."
+http://purl.obolibrary.org/obo/DDPHENO_0000120,aberrant cell-cell recognition,"Deviation from the normal, usual, or expected events during cell-cell recognition."
+http://purl.obolibrary.org/obo/DDPHENO_0001407,increased protein localization to coated pits,Increase in amount or accumulation of a protein to coated pits.
+http://purl.obolibrary.org/obo/DDPHENO_0001495,decreased phagolysosome size,Reduction in relative or proportional dimensions of the phagolysosome.
+http://purl.obolibrary.org/obo/DDPHENO_0001242,decreased protein level,"Reduction in extent, amount, or degree of protein expression."
+http://purl.obolibrary.org/obo/DDPHENO_0000133,increased ABP120 protein level,Increase in amount or accumulation of actin-binding protein.
+http://purl.obolibrary.org/obo/DDPHENO_0000399,decreased rate of endocytosis,"Reduction in extent, amount, or degree of endocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001255,aberrant binding,"Deviation from the normal, usual, or expected binding."
+http://purl.obolibrary.org/obo/DDPHENO_0000146,abolished negative chemotaxis,Complete inability for negative chemotaxis.
+http://purl.obolibrary.org/obo/DDPHENO_0001002,aberrant organelle morphology,"Deviation from the normal, usual, or expected morphology of organelles."
+http://purl.obolibrary.org/obo/DDPHENO_0001090,decreased response to DIF,"Reduction in extent, amount, or degree of the response to DIF."
+http://purl.obolibrary.org/obo/DDPHENO_0001268,aberrant non-apoptotic programmed cell death,"Deviation from the normal, usual, or expected events during non-apoptotic programmed cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000159,development arrests at loose mound stage,Development cannot progress past the loose mound stage.
+http://purl.obolibrary.org/obo/DDPHENO_0001015,aberrant culmination,"Deviation from the normal, usual, or expected events during culmination."
+http://purl.obolibrary.org/obo/DDPHENO_0000453,abolished protein localization to nucleus,Complete inability to localize a protein to the nucleus.
+http://purl.obolibrary.org/obo/DDPHENO_0000200,decreased GTP-gamma-S-stimulated guanylyl cyclase activity,"Reduction in extent, amount, or degree of GTP-gamma-S-stimulated guanylyl cyclase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001028,aberrant filopodium formation,"Deviation from the normal, usual, or expected events during filopodium formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000466,abolished positive chemotaxis,Complete inability for chemotaxis.
+http://purl.obolibrary.org/obo/DDPHENO_0001322,abolished peptidyl-proline modification,Complete inability for peptidyl-proline modification.
+http://purl.obolibrary.org/obo/DDPHENO_0000213,increased cell-substrate adhesion,"Increase in extent, amount, or degree of cell-substrate adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0000479,increased sensitivity to DNA-damaging agents,"Decreased tolerance of the normal, usual, or expected events in the presence of DNA damaging agents."
+http://purl.obolibrary.org/obo/DDPHENO_0001335,aberrant protein localization to plasma membrane,"Deviation from the normal, usual, or expected events during  localization of a protein from the cytoplasm to the plasma membrane."
+http://purl.obolibrary.org/obo/DDPHENO_0000226,increased prestalk A cell differentiation,"Increase in extent, amount, or degree of differentiation into prestalk A cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000520,abolished stalk cell differentiation in vitro,Complete inability for differentiation into stalk cells in vitro.
+http://purl.obolibrary.org/obo/DDPHENO_0001170,"aberrant cytokinesis, contractile ring contraction","Deviation from the normal, usual, or expected events during contractile ring contraction during cytokinesis."
+http://purl.obolibrary.org/obo/DDPHENO_0000061,decreased localization to cell surface,Reduction in amount or accumulation on the cell surface.
+http://purl.obolibrary.org/obo/DDPHENO_0001348,aberrant protein serine phosphorylation,"Deviation from the normal, usual, or expected events during serine phosphorylation of a protein."
+http://purl.obolibrary.org/obo/DDPHENO_0000239,decreased DNA mediated transformation,"Reduction in extent, amount, or degree of DNA mediated transformation."
+http://purl.obolibrary.org/obo/DDPHENO_0000533,aberrant anaphase,"Deviation from the normal, usual, or expected events during anaphase."
+http://purl.obolibrary.org/obo/DDPHENO_0001183,increased spore size,Increase in relative or proportionate dimensions of the spore.
+http://purl.obolibrary.org/obo/DDPHENO_0000074,aberrant localization to microtubules,"Deviation from the normal, usual, or expected localization to the microtubules."
+http://purl.obolibrary.org/obo/DDPHENO_0001108,aberrant response to lithium,"Deviation from the normal, usual, or expected events during the response to lithium."
+http://purl.obolibrary.org/obo/DDPHENO_0000546,aberrant stalk cell differentiation,"Deviation from the normal, usual, or expected events during differentiation of stalk cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001402,decreased protein localization to microtubules,Reduction in amount or accumulation of a protein at the microtubules.
+http://purl.obolibrary.org/obo/DDPHENO_0001196,decreased infection rate by Mycobacterium avium,"Reduction in extent, amount, or degree of the infection rate by Mycobacterium avium."
+http://purl.obolibrary.org/obo/DDPHENO_0000087,aberrant localization to plasma membrane,"Deviation from the normal, usual, or expected localization to the plasma membrane."
+http://purl.obolibrary.org/obo/DDPHENO_0001490,precocious phagosome acidification,Early onset or faster progression of phagosome acidification.
+http://purl.obolibrary.org/obo/DDPHENO_0000381,increased sensitivity to TMB-8,"Increase in extent, amount, or degree of sensitivity to TMB-8."
+http://purl.obolibrary.org/obo/DDPHENO_0000559,abolished pore formation during contractile vacuole discharge,"Complete inability for pore formation, part of contractile vacuole discharge."
+http://purl.obolibrary.org/obo/DDPHENO_0001415,increased fruiting body size,Increase in relative or proportionate dimensions of the fruiting body.
+http://purl.obolibrary.org/obo/DDPHENO_0000306,aberrant sorting to prestalk region,"Deviation from the normal, usual, or expected sorting to the prestalk region."
+http://purl.obolibrary.org/obo/DDPHENO_0000394,decreased growth rate,"Reduction in extent, amount, or degree of cell proliferation."
+http://purl.obolibrary.org/obo/DDPHENO_0001250,abolished cell polarity,Complete inability to establish cell polarity.
+http://purl.obolibrary.org/obo/DDPHENO_0000141,decreased negative chemotaxis,"Reduction in extent, amount, or degree of  chemotaxis towards a decreasing chemical concentration."
+http://purl.obolibrary.org/obo/DDPHENO_0001428,abolished protein localization to nuclear envelope,Complete inability to localize a protein to the nuclear envelope.
+http://purl.obolibrary.org/obo/DDPHENO_0000319,development arrests at tight mound stage,Development cannot progress past the tight mound stage.
+http://purl.obolibrary.org/obo/DDPHENO_0001263,aberrant autophagic cell death,"Deviation from the normal, usual, or expected events during autophagic cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000154,aberrant development,"Deviation from the normal, usual, or expected events during development."
+http://purl.obolibrary.org/obo/DDPHENO_0001010,aberrant macrocyst differentiation,"Deviation from the normal, usual, or expected events during formation of macrocysts."
+http://purl.obolibrary.org/obo/DDPHENO_0001276,abolished engulfment during phagocytosis,"Complete inability of engulfment of attached, recognized, external material."
+http://purl.obolibrary.org/obo/DDPHENO_0000167,precocious development,Early onset or faster progression through development.
+http://purl.obolibrary.org/obo/DDPHENO_0001023,aberrant prestalk cell differentiation,"Deviation from the normal, usual, or expected events during differentiation of prestalk cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000461,decreased intracellular pH level,Reduction in amount or accumulation of hydrogen ions in the cell.
+http://purl.obolibrary.org/obo/DDPHENO_0001289,abolished catalytic activity,Complete absence of catalytic activity.
+http://purl.obolibrary.org/obo/DDPHENO_0001036,aberrant response to oxidative stress,"Deviation from the normal, usual, or expected events during the response to oxidative stress."
+http://purl.obolibrary.org/obo/DDPHENO_0000474,decreased lateral pseudopod formation,"Reduction in extent, amount, or degree of formation of lateral pseudopod."
+http://purl.obolibrary.org/obo/DDPHENO_0001330,increased extracellular cAMP level,Increase in amount or accumulation of extracellular cAMP.
+http://purl.obolibrary.org/obo/DDPHENO_0001508,abolished protein localization to cell cortex,Complete inability to localize a protein to the cell cortex.
+http://purl.obolibrary.org/obo/DDPHENO_0001049,aberrant bleb formation,"Deviation from the normal, usual, or expected events during bleb formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000487,abolished sorting to prestalk region,Complete inability for cells to sort to the prestalk region during the slug stage.
+http://purl.obolibrary.org/obo/DDPHENO_0001343,increased protein phosphorylation,Increase in amount or accumulation of phosphorylation of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0000234,aberrant mitosis,"Deviation from the normal, usual, or expected events during mitosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001356,abolished basal disc formation,Complete absence of the basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0000247,abolished double strand break repair,Complete inability for double strand break DNA repair.
+http://purl.obolibrary.org/obo/DDPHENO_0001103,decreased culmination,"Reduction in extent, amount, or degree of culminants, resulting in fewer fruiting bodies."
+http://purl.obolibrary.org/obo/DDPHENO_0001191,increased number of autophagosomes,Quantitative increase in autophagosomes.
+http://purl.obolibrary.org/obo/DDPHENO_0000082,decreased localization to nuclear envelope,Reduction in amount or accumulation at the nuclear envelope.
+http://purl.obolibrary.org/obo/DDPHENO_0001369,increased lower cup size,Increase in relative or proportionate dimensions of the lower cup.
+http://purl.obolibrary.org/obo/DDPHENO_0001116,precocious gene expression,Early onset or faster progression in the expression of genes.
+http://purl.obolibrary.org/obo/DDPHENO_0000007,decreased autophagy,"Reduction in extent, amount, or degree of autophagy."
+http://purl.obolibrary.org/obo/DDPHENO_0000554,aberrant contractile vacuole tethering involved in discharge,"Deviation from the normal, usual, or expected events during contractile vacuole attachment to the plasma membrane involved in discharge."
+http://purl.obolibrary.org/obo/DDPHENO_0001410,"abolished phosphatidylinositol-4,5-bisphosphate binding","Complete absence of phosphatidylinositol-4,5-bisphosphate binding."
+http://purl.obolibrary.org/obo/DDPHENO_0000301,increased gene expression,"Increase in extent, amount, or degree of gene expression."
+http://purl.obolibrary.org/obo/DDPHENO_0000095,decreased localization to pseudopodium,Reduction in amount or accumulation at pseudopodia.
+http://purl.obolibrary.org/obo/DDPHENO_0001129,increased taxis,"Increase in extent, amount, or degree of the response to an external stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0000567,aberrant lipid droplet formation,"Deviation from the normal, usual, or expected formation of lipid droplets."
+http://purl.obolibrary.org/obo/DDPHENO_0001423,aberrant nuclear envelope morphology,"Deviation from the normal, usual, or expected morphology of the nuclear envelope."
+http://purl.obolibrary.org/obo/DDPHENO_0001436,increased histone deacetylase activity,"Increase in extent, amount, or degree of histone deacetylase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000327,aberrant small molecule binding,"Deviation from the normal, usual, or expected binding  a small molecule."
+http://purl.obolibrary.org/obo/DDPHENO_0001271,decreased non-apoptotic programmed cell death,"Reduction in extent, amount, or degree of non-apoptotic programmed cell death."
+http://purl.obolibrary.org/obo/DDPHENO_0000162,delayed development,Late onset or slower progression through development.
+http://purl.obolibrary.org/obo/DDPHENO_0001449,increased F-actin depolymerization,"Increase in extent, amount, or degree of F-actin depolymerization."
+http://purl.obolibrary.org/obo/DDPHENO_0001284,decreased Ras guanyl-nucleotide exchange factor activity,"Redution in extent, amount, or degree of Ras guanyl-nucleotide exchange factor activity."
+http://purl.obolibrary.org/obo/DDPHENO_0000175,decreased prespore cell differentiation,"Reduction in extent, amount, or degree of differentiation into prespore cells."
+http://purl.obolibrary.org/obo/DDPHENO_0001031,aberrant response to abiotic stimulus,"Deviation from the normal, usual, or expected events during the response to abiotic stimulus."
+http://purl.obolibrary.org/obo/DDPHENO_0001209,aberrant translation,"Deviation from the normal, usual, or expected events during translation."
+http://purl.obolibrary.org/obo/DDPHENO_0001503,abolished protein stabilization,Complete elimination of protein stabilization.
+http://purl.obolibrary.org/obo/DDPHENO_0001297,abolished lysosomal enzyme activity,Complete absence of lysosomal enzyme activity.
+http://purl.obolibrary.org/obo/DDPHENO_0000188,decreased phagocytosis,"Reduction in extent, amount, or degree of phagocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001044,aberrant cell adhesion,"Deviation from the normal, usual, or expected events during cell adhesion."
+http://purl.obolibrary.org/obo/DDPHENO_0000482,aberrant streaming,"Deviation from the normal, usual, or expected process of streaming."
+http://purl.obolibrary.org/obo/DDPHENO_0001516,decreased mitochondrial fusion,Quantitative reduction of mitochondrial fusion.
+http://purl.obolibrary.org/obo/DDPHENO_0000407,decreased chemoattractant-mediated F-actin polymerization,"Reduction in extent, amount, or degree of F-actin polymerization in response to chemoattractant."
+http://purl.obolibrary.org/obo/DDPHENO_0001057,abolished F-actin polymerization,Complete inability to polymerize actin into F-actin.
+http://purl.obolibrary.org/obo/DDPHENO_0000495,decreased cytosine methylation in genomic DNA,"Reduction in extent, amount, or degree of cytosine methylation in genomic DNA."
+http://purl.obolibrary.org/obo/DDPHENO_0001351,increased protein serine phosphorylation,Increase in amount or accumulation of serine phosphorylation of a protein.
+http://purl.obolibrary.org/obo/DDPHENO_0001457,aberrant DNA repair,"Deviation from the normal, usual, or expected events during DNA repair."
+http://purl.obolibrary.org/obo/DDPHENO_0000242,aberrant DNA repair,"Deviation from the normal, usual, or expected events during DNA repair."
+http://purl.obolibrary.org/obo/DDPHENO_0001529,aberrant regulation of vegetative growth,"Deviation from the normal, usual, or expected events during the regulation of vegetative growth."
+http://purl.obolibrary.org/obo/DDPHENO_0001364,increased outer basal disc size,Increase in relative or proportionate dimensions of the outer basal disc.
+http://purl.obolibrary.org/obo/DDPHENO_0000255,aberrant potassium-dependent chemotaxis to cAMP,"Deviation from the normal, usual, or expected events during the locomotory response to potassium-dependent  cAMP chemotaxis."
+http://purl.obolibrary.org/obo/DDPHENO_0001111,decreased exocytosis,"Reduction in extent, amount, or degree of exocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0000002,aberrant standing slug morphology,"Deviation from the normal, usual, or expected morphology of the standing slug (finger)."
+http://purl.obolibrary.org/obo/DDPHENO_0000090,aberrant endocytosis,"Deviation from the normal, usual, or expected events during endocytosis."
+http://purl.obolibrary.org/obo/DDPHENO_0001377,increased intracellular pH level,Increase in amount or accumulation of hydrogen ions in the cell.
+http://purl.obolibrary.org/obo/DDPHENO_0001124,increased thermotaxis,"Increase in extent, amount, or degree of thermotaxis."
+http://purl.obolibrary.org/obo/DDPHENO_0000015,increased microRNA processing,Increase in level of microRNA processing.
+http://purl.obolibrary.org/obo/DDPHENO_0000562,increased endosomal vesicle fusion,"Increase in extent, amount, or degree of homotypic fusion of endocytic vesicles to form or add to an early endosome."
+http://purl.obolibrary.org/obo/DDPHENO_0001137,aberrant regulation of GTPase activity,"Deviation from the normal, usual, or expected events during the regulation of the activity of a GTPase."
+http://purl.obolibrary.org/obo/DDPHENO_0000028,abolished stalk formation,Complete inability for formation of the stalk.
+http://purl.obolibrary.org/obo/DDPHENO_0000575,aberrant double-strand break repair via nonhomologous end joining,"Deviation from the normal, usual, or expected events during double-strand break repair of DNA  via nonhomologous end joining."
+http://purl.obolibrary.org/obo/DDPHENO_0001431,aberrant tip formation,"Deviation from the normal, usual, or expected events during tip formation."
+http://purl.obolibrary.org/obo/DDPHENO_0000322,abolished cellulose binding,Complete absence of cellulose binding.
+http://purl.obolibrary.org/obo/DDPHENO_0001444,decreased cell fate determination,"Reduction in extent, amount, or degree when determining cells for a specific fate regardless of its environment."
+http://purl.obolibrary.org/obo/DDPHENO_0000335,aberrant electrotaxis,"Deviation from the normal, usual, or expected events during the locomotory response to an electrical field."
+http://purl.obolibrary.org/obo/DDPHENO_0000170,increased prespore cell differentiation,"Increase in extent, amount, or degree of differentiation into prespore cells."
+http://purl.obolibrary.org/obo/DDPHENO_0000348,increased protein kinase activity,"Increase in extent, amount, or degree of protein kinase activity."
+http://purl.obolibrary.org/obo/DDPHENO_0001204,increased endosome size,Increase in relative or proportionate dimensions of the endosome.
+http://purl.obolibrary.org/obo/DDPHENO_0001292,abolished actin-dependent ATPase activity,Complete absence of actin-dependent ATPase activity.
