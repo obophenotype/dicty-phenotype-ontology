@@ -1,8 +1,9 @@
 format-version: 1.2
-date: 01:03:2019 16:09
+date: 30:05:2019 09:47
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
+ontology: ddpheno
 
 [Term]
 id: DDPHENO:0000001
@@ -238,7 +239,7 @@ creation_date: 2014-01-24T13:54:53Z
 id: DDPHENO:0000031
 name: abolished rate of endocytosis
 def: "Complete inability for endocytosis." [DDB:pf]
-is_a: DDPHENO:0000090 ! aberrant endocytosis
+is_obsolete: true
 created_by: pfey
 creation_date: 2014-01-27T14:30:48Z
 
