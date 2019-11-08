@@ -1,0 +1,21 @@
+
+
+import: http://purl.obolibrary.org/obo/ddpheno/imports/iao_import.obo
+
+import: http://purl.obolibrary.org/obo/ddpheno/imports/go_import.obo
+
+import: http://purl.obolibrary.org/obo/ddpheno/imports/ro_import.obo
+
+import: http://purl.obolibrary.org/obo/ddpheno/imports/pato_import.obo
+
+import: http://purl.obolibrary.org/obo/ddpheno/imports/ddanat_import.obo
+
+
+import: http://purl.obolibrary.org/obo/ddpheno/patterns/definitions.owl
+ontology: ddpheno
+
+[Term]
+id: DDPHENO:00000000
+name: root node
+
+
