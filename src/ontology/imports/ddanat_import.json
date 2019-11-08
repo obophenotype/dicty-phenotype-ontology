@@ -31,13 +31,10 @@
           "val" : "Dormant cell protected by a tri-layer spore coat. The spore has an elliptical shape and is approximately 6-9 microns by 3 microns.",
           "xrefs" : [ "DDB:pg", "PMID:4338436" ]
         },
-        "xrefs" : [ {
-          "val" : "CL:0000291"
-        } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "spore (sensu Mycetozoa)",
-          "xrefs" : [ "CL:0000291" ]
+          "val" : "spore cell",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -234,6 +231,28 @@
       "type" : "CLASS",
       "lbl" : "fruiting body"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000083",
+      "meta" : {
+        "definition" : {
+          "val" : "Cell that is an individual member of the species Dictyostelium discoideum.",
+          "xrefs" : [ "CARO:MAH", "DDB:PG" ]
+        },
+        "xrefs" : [ {
+          "val" : "CARO:0000064"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "D. discoideum single cell organism",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "Dictyostelium_discoideum_anatomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Dictyostelium discoideum single cell organism"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/DDANAT_0000061",
       "meta" : {
         "definition" : {
@@ -252,28 +271,6 @@
       },
       "type" : "CLASS",
       "lbl" : "sorus of the late culminant"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/DDANAT_0000083",
-      "meta" : {
-        "definition" : {
-          "val" : "Cell that is an individual member of the species Dictyostelium discoideum.",
-          "xrefs" : [ "CARO:MAH", "DDB:PG" ]
-        },
-        "xrefs" : [ {
-          "val" : "CARO:0000064"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Dictyostelium discoideum single cell organism",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "Dictyostelium_discoideum_anatomy"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Dictyostelium discoideum single cell organism"
     }, {
       "id" : "http://purl.obolibrary.org/obo/DDANAT_0000086",
       "meta" : {
@@ -317,6 +314,10 @@
       "type" : "PROPERTY",
       "lbl" : "has_obo_namespace"
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_format_version"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "type" : "PROPERTY",
       "lbl" : "definition"
@@ -346,9 +347,6 @@
           "val" : "Differentiating cell composing the aggregate that has acquired adhesive properties.",
           "xrefs" : [ "DDB:pg" ]
         },
-        "xrefs" : [ {
-          "val" : "CL:0000259"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "Dictyostelium_discoideum_anatomy"
@@ -423,9 +421,6 @@
           "val" : "Cell that is undergoing differentiation to become a spore. Characterized by the presence of prespore vesicles (PV).",
           "xrefs" : [ "DDB:pg", "PMID:4330277" ]
         },
-        "xrefs" : [ {
-          "val" : "CL:0000267"
-        } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "psp cell",
@@ -511,14 +506,7 @@
           "val" : "Starved cell that secretes and responds to chemoattractants (cAMP).",
           "xrefs" : [ "DDB:pg", "PMID:4338436" ]
         },
-        "xrefs" : [ {
-          "val" : "CL:0000289"
-        } ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "chemotactic amoeboid cell (sensu Mycetozoa)",
-          "xrefs" : [ "CL:0000289" ]
-        }, {
           "pred" : "hasBroadSynonym",
           "val" : "amoebae",
           "xrefs" : [ ]
@@ -578,14 +566,7 @@
           "val" : "Unicellular haploid myxamoebae that feeds on bacteria by phagocytosis and divides by binary fission. The size of vegetative cells range from 12-20 microns by 8-12 microns. The cells exhibit a roughly rounded but rather irregular shape.",
           "xrefs" : [ "DDB:pg", "PMID:4338436" ]
         },
-        "xrefs" : [ {
-          "val" : "CL:0000263"
-        } ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "vegetative cell (sensu Mycetozoa)",
-          "xrefs" : [ "CL:0000263" ]
-        }, {
           "pred" : "hasBroadSynonym",
           "val" : "amoebae",
           "xrefs" : [ ]
@@ -736,13 +717,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000401"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/DDANAT_0010082",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000401"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000002",
       "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
@@ -808,13 +789,13 @@
       "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
       "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000402"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000012",
-      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
-      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000011"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000006",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
       "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
@@ -997,7 +978,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2019-04-12/imports/ddanat_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-08/imports/ddanat_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

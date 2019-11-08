@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ddpheno/releases/2019-04-12/imports/ddanat_import.owl
+data-version: ddpheno/releases/2019-11-08/imports/ddanat_import.owl
 ontology: ddpheno/imports/ddanat_import
 
 [Term]
@@ -9,8 +9,6 @@ namespace: Dictyostelium_discoideum_anatomy
 def: "Unicellular haploid myxamoebae that feeds on bacteria by phagocytosis and divides by binary fission. The size of vegetative cells range from 12-20 microns by 8-12 microns. The cells exhibit a roughly rounded but rather irregular shape." [DDB:pg, PMID:4338436]
 synonym: "amoebae" BROAD []
 synonym: "vegetative cell" EXACT []
-synonym: "vegetative cell (sensu Mycetozoa)" EXACT [CL:0000263]
-xref: CL:0000263 "Cell Line Ontology"
 is_a: DDANAT:0000083 ! Dictyostelium discoideum single cell organism
 relationship: develops_from DDANAT:0000414 ! spore
 relationship: part_of DDANAT:0000013 ! stream
@@ -202,7 +200,7 @@ id: DDANAT:0000083
 name: Dictyostelium discoideum single cell organism
 namespace: Dictyostelium_discoideum_anatomy
 def: "Cell that is an individual member of the species Dictyostelium discoideum." [CARO:MAH, DDB:PG]
-synonym: "Dictyostelium discoideum single cell organism" EXACT []
+synonym: "D. discoideum single cell organism" EXACT []
 xref: CARO:0000064
 is_a: DDANAT:0000401 ! cell
 
@@ -235,8 +233,6 @@ name: chemotactic amoeboid cell
 namespace: Dictyostelium_discoideum_anatomy
 def: "Starved cell that secretes and responds to chemoattractants (cAMP)." [DDB:pg, PMID:4338436]
 synonym: "amoebae" BROAD []
-synonym: "chemotactic amoeboid cell (sensu Mycetozoa)" EXACT [CL:0000289]
-xref: CL:0000289 "Cell Line Ontology"
 is_a: DDANAT:0000083 ! Dictyostelium discoideum single cell organism
 relationship: develops_from DDANAT:0000414 ! spore
 relationship: part_of DDANAT:0000013 ! stream
@@ -246,7 +242,6 @@ id: DDANAT:0000403
 name: aggregate cell
 namespace: Dictyostelium_discoideum_anatomy
 def: "Differentiating cell composing the aggregate that has acquired adhesive properties." [DDB:pg]
-xref: CL:0000259 "Cell Line Ontology"
 is_a: DDANAT:0000401 ! cell
 relationship: develops_from DDANAT:0000402 ! chemotactic amoeboid cell
 relationship: part_of DDANAT:0000003 ! aggregation territory
@@ -259,7 +254,6 @@ name: prespore cell
 namespace: Dictyostelium_discoideum_anatomy
 def: "Cell that is undergoing differentiation to become a spore. Characterized by the presence of prespore vesicles (PV)." [DDB:pg, PMID:4330277]
 synonym: "psp cell" EXACT []
-xref: CL:0000267 "Cell Line Ontology"
 is_a: DDANAT:0000401 ! cell
 relationship: develops_from DDANAT:0000403 ! aggregate cell
 relationship: part_of DDANAT:0000004 ! loose aggregate
@@ -275,8 +269,7 @@ id: DDANAT:0000414
 name: spore
 namespace: Dictyostelium_discoideum_anatomy
 def: "Dormant cell protected by a tri-layer spore coat. The spore has an elliptical shape and is approximately 6-9 microns by 3 microns." [DDB:pg, PMID:4338436]
-synonym: "spore (sensu Mycetozoa)" EXACT [CL:0000291]
-xref: CL:0000291 "Cell Line Ontology"
+synonym: "spore cell" EXACT []
 is_a: DDANAT:0000083 ! Dictyostelium discoideum single cell organism
 relationship: develops_from DDANAT:0000405 ! prespore cell
 relationship: part_of DDANAT:0000070 ! sorus of the fruiting body
