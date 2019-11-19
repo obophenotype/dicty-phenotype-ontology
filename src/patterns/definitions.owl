@@ -7,6 +7,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ddpheno/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-08/patterns/definitions.owl>
+<http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-19/patterns/definitions.owl>
 
 )

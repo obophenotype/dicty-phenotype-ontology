@@ -1,9 +1,10 @@
 format-version: 1.2
+data-version: ddpheno/releases/2019-11-19/ddpheno-base.owl
 date: 18:11:2019 14:48
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
-ontology: ddpheno
+ontology: ddpheno/ddpheno-base
 
 [Term]
 id: DDPHENO:0000001

@@ -9,9 +9,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ddpheno.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-08/ddpheno.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-19/ddpheno.owl"/>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.2</oboInOwl:auto-generated-by>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30:05:2019 09:47</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18:11:2019 14:48</oboInOwl:date>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petra</oboInOwl:saved-by>
@@ -871,10 +871,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000009"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0001431"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increase in extend, amount, or degree of the number of tips.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased number of tips</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDPHENO:0000036</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple tips</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increase in extend, amount, or degree of the number of tips.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDB:pf</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -6263,7 +6271,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0000318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0001431"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete inability to form a tip.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete inability to form a tip during development.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petra</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-10-08T17:23:04Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
@@ -6273,7 +6281,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000318"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete inability to form a tip.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete inability to form a tip during development.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDB:pf</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -8057,10 +8065,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0000414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0001035"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased tolerance of the normal, usual, or expected events towards heat.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased resistance to heat shock</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDPHENO:0000414</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased sensitivity to heat shock</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased resistance to heat shock</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000414"/>
@@ -9071,7 +9078,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased tolerance of the normal, usual, or expected events in the presence of DNA damaging agents.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDPHENO:0000479</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased sensitivity to DNA-damaging agents</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased resistance to DNA-damaging agents</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000479"/>
@@ -11005,6 +11012,67 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DDPHENO_0000585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0000585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0001034"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deviation from the normal, usual, or expected events during the response to decreased oxygen levels.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petra</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-11-18T14:20:30Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDPHENO:0000585</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aberrant response to decreased oxygen levels</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000585"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deviation from the normal, usual, or expected events during the response to decreased oxygen levels.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDB:pf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDPHENO_0000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0000586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000585"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased tolerance of the normal, usual, or expected events in the presence of decreased oxygen levels.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petra</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-11-18T14:23:53Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDPHENO:0000586</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased resistance to decreased oxygen levels</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000586"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased tolerance of the normal, usual, or expected events in the presence of decreased oxygen levels.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDB:pf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDPHENO_0000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0000587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000585"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased tolerance of the normal, usual, or expected events in the presence of  decreased oxygen levels.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petra</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-11-18T14:28:11Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased resistance to decreased oxygen levels</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDPHENO:0000587</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreased resistance to reduced oxygen levels</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000587"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased tolerance of the normal, usual, or expected events in the presence of  decreased oxygen levels.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDB:pf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DDPHENO_0001000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0001000">
@@ -11991,10 +12059,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0001054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000036"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increase in extend, amount, or degree of the number of tips in the culminant.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased number of tips in culminant</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDPHENO:0001054</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple tips in culminant</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0001054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increase in extend, amount, or degree of the number of tips in the culminant.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDB:pf</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -12002,10 +12078,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDPHENO_0001055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0000036"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increase in extend, amount, or degree of the number of tips in the mound.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increased number of tips in mound</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicty Phenotypes</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDPHENO:0001055</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multiple tips in mound</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DDPHENO_0001055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increase in extend, amount, or degree of the number of tips in the mound.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDB:pf</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 

@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: ddpheno/releases/2019-11-08/ddpheno-full.owl
-date: 30:05:2019 09:47
+data-version: ddpheno/releases/2019-11-19/ddpheno-full.owl
+date: 18:11:2019 14:48
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -280,6 +280,8 @@ creation_date: 2014-01-27T16:15:45Z
 [Term]
 id: DDPHENO:0000036
 name: multiple tips
+def: "Increase in extend, amount, or degree of the number of tips." [DDB:pf]
+synonym: "increased number of tips" EXACT []
 is_a: DDPHENO:0000009 ! aberrant fruiting body morphology
 is_a: DDPHENO:0001431 ! aberrant tip formation
 
@@ -2374,7 +2376,7 @@ creation_date: 2015-06-17T17:29:11Z
 [Term]
 id: DDPHENO:0000318
 name: abolished tip formation
-def: "Complete inability to form a tip." [DDB:pf]
+def: "Complete inability to form a tip during development." [DDB:pf]
 is_a: DDPHENO:0001431 ! aberrant tip formation
 created_by: Petra
 creation_date: 2015-10-08T17:23:04Z
@@ -3047,12 +3049,12 @@ is_a: DDPHENO:0000276 ! increased resistance to DNA-damaging agents
 [Term]
 id: DDPHENO:0000409
 name: increased sensitivity to carboplatin
-is_a: DDPHENO:0000479 ! increased sensitivity to DNA-damaging agents
+is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000410
 name: increased sensitivity to cisplatin
-is_a: DDPHENO:0000479 ! increased sensitivity to DNA-damaging agents
+is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000411
@@ -3074,9 +3076,8 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
 
 [Term]
 id: DDPHENO:0000414
-name: increased sensitivity to heat shock
+name: decreased resistance to heat shock
 def: "Decreased tolerance of the normal, usual, or expected events towards heat." [DDB:pf]
-synonym: "decreased resistance to heat shock" EXACT []
 is_a: DDPHENO:0001035 ! aberrant response to heat
 
 [Term]
@@ -3126,12 +3127,12 @@ is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
 [Term]
 id: DDPHENO:0000426
 name: increased sensitivity to UV light
-is_a: DDPHENO:0000479 ! increased sensitivity to DNA-damaging agents
+is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000427
 name: increased sensitivity to mitomycin C (MMC)
-is_a: DDPHENO:0000479 ! increased sensitivity to DNA-damaging agents
+is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000428
@@ -3406,7 +3407,7 @@ is_a: DDPHENO:0001027 ! aberrant pseudopod formation
 
 [Term]
 id: DDPHENO:0000479
-name: increased sensitivity to DNA-damaging agents
+name: decreased resistance to DNA-damaging agents
 def: "Decreased tolerance of the normal, usual, or expected events in the presence of DNA damaging agents." [DDB:pf]
 is_a: DDPHENO:0001045 ! aberrant response to DNA damaging agents
 
@@ -4118,6 +4119,31 @@ created_by: Petra
 creation_date: 2019-03-01T15:53:27Z
 
 [Term]
+id: DDPHENO:0000585
+name: aberrant response to decreased oxygen levels
+def: "Deviation from the normal, usual, or expected events during the response to decreased oxygen levels." [DDB:pf]
+is_a: DDPHENO:0001034 ! aberrant cellular response to stress
+created_by: Petra
+creation_date: 2019-11-18T14:20:30Z
+
+[Term]
+id: DDPHENO:0000586
+name: increased resistance to decreased oxygen levels
+def: "Increased tolerance of the normal, usual, or expected events in the presence of decreased oxygen levels." [DDB:pf]
+is_a: DDPHENO:0000585 ! aberrant response to decreased oxygen levels
+created_by: Petra
+creation_date: 2019-11-18T14:23:53Z
+
+[Term]
+id: DDPHENO:0000587
+name: decreased resistance to reduced oxygen levels
+def: "Decreased tolerance of the normal, usual, or expected events in the presence of  decreased oxygen levels." [DDB:pf]
+synonym: "decreased resistance to decreased oxygen levels" EXACT []
+is_a: DDPHENO:0000585 ! aberrant response to decreased oxygen levels
+created_by: Petra
+creation_date: 2019-11-18T14:28:11Z
+
+[Term]
 id: DDPHENO:0001001
 name: aberrant initiation of development
 def: "Deviation from the normal, usual, or expected during the initiation of development." [DDB:pg]
@@ -4460,11 +4486,15 @@ is_a: DDPHENO:0001049 ! aberrant bleb formation
 [Term]
 id: DDPHENO:0001054
 name: multiple tips in culminant
+def: "Increase in extend, amount, or degree of the number of tips in the culminant." [DDB:pf]
+synonym: "increased number of tips in culminant" EXACT []
 is_a: DDPHENO:0000036 ! multiple tips
 
 [Term]
 id: DDPHENO:0001055
 name: multiple tips in mound
+def: "Increase in extend, amount, or degree of the number of tips in the mound." [DDB:pf]
+synonym: "increased number of tips in mound" EXACT []
 is_a: DDPHENO:0000036 ! multiple tips
 
 [Term]

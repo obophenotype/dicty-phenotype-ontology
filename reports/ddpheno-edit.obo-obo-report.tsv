@@ -36,7 +36,6 @@ WARN	annotation_whitespace	DDPHENO:0001215	oboInOwl:hasExactSynonym	 increased E
 WARN	annotation_whitespace	DDPHENO:0001406	oboInOwl:hasExactSynonym	decreased localization of protein to clathrin-coated pits 	
 WARN	annotation_whitespace	DDPHENO:0001407	oboInOwl:hasRelatedSynonym	increased localization of protein to clathrin-coated pits 	
 WARN	missing_definition	DDPHENO:0000021	IAO:0000115		
-WARN	missing_definition	DDPHENO:0000036	IAO:0000115		
 WARN	missing_definition	DDPHENO:0000094	IAO:0000115		
 WARN	missing_definition	DDPHENO:0000105	IAO:0000115		
 WARN	missing_definition	DDPHENO:0000106	IAO:0000115		
@@ -77,8 +76,6 @@ WARN	missing_definition	DDPHENO:0000465	IAO:0000115
 WARN	missing_definition	DDPHENO:0000484	IAO:0000115		
 WARN	missing_definition	DDPHENO:0000509	IAO:0000115		
 WARN	missing_definition	DDPHENO:0000525	IAO:0000115		
-WARN	missing_definition	DDPHENO:0001054	IAO:0000115		
-WARN	missing_definition	DDPHENO:0001055	IAO:0000115		
 WARN	missing_definition	DDPHENO:0001201	IAO:0000115		
 WARN	missing_definition	DDPHENO:0001202	IAO:0000115		
 WARN	missing_definition	DDPHENO:0001352	IAO:0000115		
