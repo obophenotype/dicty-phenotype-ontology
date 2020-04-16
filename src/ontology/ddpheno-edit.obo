@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:11:2019 14:48
+date: 16:04:2020 14:05
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -4141,6 +4141,46 @@ synonym: "decreased resistance to decreased oxygen levels" EXACT []
 is_a: DDPHENO:0000585 ! aberrant response to decreased oxygen levels
 created_by: Petra
 creation_date: 2019-11-18T14:28:11Z
+
+[Term]
+id: DDPHENO:0000588
+name: decreased growth on gram-positive bacteria
+def: "Reduction in extent, amount, or degree of cell proliferation using gram-positive bacteria as a food source." [DDB:pf]
+comment: gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus
+synonym: "decreased growth on gram+ bacteria" EXACT []
+is_a: DDPHENO:0000394 ! decreased growth rate
+created_by: Petra
+creation_date: 2020-04-16T13:44:00Z
+
+[Term]
+id: DDPHENO:0000589
+name: abolished growth on gram-positive bacteria
+def: "Complete inability for cells to proliferate using gram-positive bacteria as a food source." [DDB:pf]
+comment: gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus
+synonym: "abolished growth on gram+ bacteria" EXACT []
+is_a: DDPHENO:0000302 ! abolished growth
+created_by: Petra
+creation_date: 2020-04-16T13:48:45Z
+
+[Term]
+id: DDPHENO:0000590
+name: decreased growth on gram-negative bacteria
+def: "Reduction in extent, amount, or degree of cell proliferation using gram-negative bacteria as a food source." [DDB:pf]
+comment: gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa
+synonym: "decreased growth on gram- bacteria" EXACT []
+is_a: DDPHENO:0000394 ! decreased growth rate
+created_by: Petra
+creation_date: 2020-04-16T13:51:28Z
+
+[Term]
+id: DDPHENO:0000591
+name: abolished growth on gram-negative bacteria
+def: "Complete inability for cells to proliferate using gram-negative bacteria as a food source." [DDB:pf]
+comment: gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa
+synonym: "abolished growth on gram- bacteria" EXACT []
+is_a: DDPHENO:0000302 ! abolished growth
+created_by: Petra
+creation_date: 2020-04-16T13:53:46Z
 
 [Term]
 id: DDPHENO:0001001
