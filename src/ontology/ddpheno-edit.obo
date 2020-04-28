@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:04:2020 14:05
+date: 28:04:2020 14:29
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -1933,6 +1933,10 @@ creation_date: 2015-04-13T17:42:45Z
 [Term]
 id: DDPHENO:0000258
 name: aberrant defense response to bacterium
+alt_id: DDPHENO:0000277
+def: "Deviation from the normal, usual, or expected events during defense response to bacterium." [DDB:pf]
+comment: Pathogenic bacteria are defined as being pathogens for humans, though in the any specific study a strain or species less virulent for humans may have been used.
+synonym: "aberrant infection rate by pathogenic bacterium" NARROW []
 is_a: DDPHENO:0001506 ! aberrant defense response to a microorganism
 created_by: Petra
 creation_date: 2015-05-05T14:26:26Z
@@ -2027,34 +2031,26 @@ synonym: "decreased sensitivity to DNA-damaging agents" EXACT []
 is_a: DDPHENO:0001045 ! aberrant response to DNA damaging agents
 
 [Term]
-id: DDPHENO:0000277
-name: aberrant infection rate by a pathogenic bacterium
-def: "Deviation from the normal, usual, or expected events during infection of Dictyostelium by a pathogenic  bacterium." [DDB:pf]
-comment: Pathogenic bacteria are defined as being pathogens for humans, though in the any specific study a strain or species less virulent for humans may have been used.
-is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
-created_by: Petra
-creation_date: 2015-05-05T14:56:22Z
-
-[Term]
 id: DDPHENO:0000278
-name: decreased infection rate by a pathogenic bacterium
-def: "Reduction in extent, amount, or degree of the infection rate by a pathogenic bacterium." [DDB:pf]
-synonym: "increased resistance to infection by a pathogenic bacterium" RELATED []
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: increased defense response to bacterium
+def: "Increase in extent, amount, or degree of the  defense response to bacterium." [DDB:pf]
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T14:58:43Z
 
 [Term]
 id: DDPHENO:0000279
-name: increased infection rate by a pathogenic bacterium
-def: "Increase in extent, amount, or degree of the infection rate by a pathogenic bacterium." [DDB:pf]
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: decreased defense response to bacterium
+def: "Reduction in extent, amount, or degree for defense response to bacterium." [DDB:pf]
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T14:59:45Z
 
 [Term]
 id: DDPHENO:0000280
-name: aberrant defense response to yeast
+name: aberrant defense response to fungus
+def: "Deviation from the normal, usual, or expected events defense response to fungus." [DDB:pf]
+synonym: "aberrant defense response to yeast" NARROW []
 is_a: DDPHENO:0001506 ! aberrant defense response to a microorganism
 created_by: Petra
 creation_date: 2015-05-05T16:05:13Z
@@ -2062,95 +2058,103 @@ creation_date: 2015-05-05T16:05:13Z
 [Term]
 id: DDPHENO:0000281
 name: aberrant infection rate by a yeast
-is_a: DDPHENO:0000280 ! aberrant defense response to yeast
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-05-05T16:06:20Z
 
 [Term]
 id: DDPHENO:0000282
-name: decreased infection rate by a yeast
-is_a: DDPHENO:0000281 ! aberrant infection rate by a yeast
+name: increased defense response to fungus
+def: "Increase in extent, amount, or degree of the defense response to fungus." [DDB:pf]
+synonym: "increased defense response to yeast" NARROW []
+is_a: DDPHENO:0000280 ! aberrant defense response to fungus
 created_by: Petra
 creation_date: 2015-05-05T16:07:54Z
 
 [Term]
 id: DDPHENO:0000283
-name: increased infection rate by a yeast
-is_a: DDPHENO:0000281 ! aberrant infection rate by a yeast
+name: decreased defense response to fungus
+def: "Reduction in extent, amount, or degree for defense response to fungus." [DDB:pf]
+synonym: "decreased defense response to yeast" NARROW []
+is_a: DDPHENO:0000280 ! aberrant defense response to fungus
 created_by: Petra
 creation_date: 2015-05-05T16:08:09Z
 
 [Term]
 id: DDPHENO:0000284
-name: aberrant infection rate by a gram-positive pathogenic bacterium
-def: "Deviation from the normal, usual, or expected events during infection of Dictyostelium by a gram-positive pathogenic  bacterium." [DDB:pf, PMID:23664307]
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: aberrant defense response to Gram-positive bacterium
+def: "Deviation from the normal, usual, or expected events during defense response to Gram-positive bacterium, often after infection." [DDB:pf, PMID:23664307]
+synonym: "aberrant defense response to pathogenic Gram-positive bacterium" NARROW []
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:38:31Z
 
 [Term]
 id: DDPHENO:0000285
-name: decreased infection rate by a gram-positive pathogenic bacterium
-def: "Reduction in extent, amount, or degree of the infection rate by a gram-positive pathogenic bacterium." [DDB:pf]
-synonym: "increased resistance to infection by a gram-positive pathogenic bacterium" RELATED []
-is_a: DDPHENO:0000278 ! decreased infection rate by a pathogenic bacterium
-is_a: DDPHENO:0000284 ! aberrant infection rate by a gram-positive pathogenic bacterium
+name: increased defense response to Gram-positive bacterium
+def: "Increase in extent, amount, or degree of the defense response to Gram-positive bacterium, often after infection." [DDB:pf]
+synonym: "increased defense response to pathogenic Gram-positive bacterium" NARROW []
+is_a: DDPHENO:0000278 ! increased defense response to bacterium
+is_a: DDPHENO:0000284 ! aberrant defense response to Gram-positive bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:42:05Z
 
 [Term]
 id: DDPHENO:0000286
-name: increased infection rate by a gram-positive pathogenic bacterium
-def: "Increase in extent, amount, or degree of the infection rate by a gram-positive pathogenic bacterium." [DDB:pf]
-is_a: DDPHENO:0000279 ! increased infection rate by a pathogenic bacterium
-is_a: DDPHENO:0000284 ! aberrant infection rate by a gram-positive pathogenic bacterium
+name: decreased defense response to Gram-positive bacterium
+def: "Reduction in extent, amount, or degree for defense response to Gram-positive bacterium, often after infection." [DDB:pf]
+synonym: "decreased defense response to pathogenic Gram-positive bacterium" NARROW []
+is_a: DDPHENO:0000279 ! decreased defense response to bacterium
+is_a: DDPHENO:0000284 ! aberrant defense response to Gram-positive bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:42:37Z
 
 [Term]
 id: DDPHENO:0000287
-name: aberrant infection rate by a gram-negative pathogenic bacterium
-def: "Deviation from the normal, usual, or expected events during infection of Dictyostelium by a gram-negative pathogenic  bacterium." [DDB:pf, PMID:23664307]
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: aberrant defense response to Gram-negative bacterium
+def: "Deviation from the normal, usual, or expected events defense response to Gram-negative bacterium, often after infection." [DDB:pf, PMID:23664307]
+synonym: "aberrant defense response to pathogenic Gram-negative bacterium" NARROW []
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:48:58Z
 
 [Term]
 id: DDPHENO:0000288
-name: decreased infection rate by a gram-negative pathogenic bacterium
-def: "Reduction in extent, amount, or degree of the infection rate by a gram-negative pathogenic bacterium." [DDB:pf]
-synonym: "increased resistance to infection by a gram-negative pathogenic bacterium" RELATED []
-is_a: DDPHENO:0000278 ! decreased infection rate by a pathogenic bacterium
-is_a: DDPHENO:0000287 ! aberrant infection rate by a gram-negative pathogenic bacterium
+name: increased defense response to Gram-negative bacterium
+def: "Increase in extent, amount, or degree of the defense response to Gram-negative bacterium, often after infection." [DDB:pf]
+synonym: " increased defense response to pathogenic Gram-negative bacterium" NARROW []
+is_a: DDPHENO:0000278 ! increased defense response to bacterium
+is_a: DDPHENO:0000287 ! aberrant defense response to Gram-negative bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:49:27Z
 
 [Term]
 id: DDPHENO:0000289
-name: increased infection rate by a gram-negative pathogenic bacterium
-def: "Increase in extent, amount, or degree of the infection rate by a gram-negative pathogenic bacterium." [DDB:pf]
-is_a: DDPHENO:0000279 ! increased infection rate by a pathogenic bacterium
-is_a: DDPHENO:0000287 ! aberrant infection rate by a gram-negative pathogenic bacterium
+name: decreased defense response to Gram-negative bacterium
+def: "Reduction in extent, amount, or degree of the defense response to Gram-negative bacterium, often after infection." [DDB:pf]
+synonym: "decreased defense response to pathogenic Gram-negative bacterium" NARROW []
+is_a: DDPHENO:0000279 ! decreased defense response to bacterium
+is_a: DDPHENO:0000287 ! aberrant defense response to Gram-negative bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:49:39Z
 
 [Term]
 id: DDPHENO:0000290
-name: abolished resistance to a gram-positive pathogenic bacterium
-def: "Complete inability for resisting any gram-positive pathogenic bacterium." [DDB:pf]
-synonym: "abolished resistance to a pathogenic gram+ bacterium" NARROW []
-is_a: DDPHENO:0000284 ! aberrant infection rate by a gram-positive pathogenic bacterium
-is_a: DDPHENO:0000491 ! abolished resistance to a pathogenic bacterium
+name: abolished defense response to Gram-positive bacterium
+def: "Complete inability for defense response to Gram-positive bacterium, often after infection." [DDB:pf]
+synonym: "abolished defense response to pathogenic Gram-positive bacterium" NARROW []
+is_a: DDPHENO:0000284 ! aberrant defense response to Gram-positive bacterium
+is_a: DDPHENO:0000491 ! abolished defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:57:55Z
 
 [Term]
 id: DDPHENO:0000291
-name: abolished resistance to a gram-negative pathogenic bacterium
-def: "Complete inability for resisting any gram-negative pathogenic bacterium." [DDB:pf]
-synonym: "abolished resistance to a pathogenic gram-negative bacterium" NARROW []
-is_a: DDPHENO:0000287 ! aberrant infection rate by a gram-negative pathogenic bacterium
-is_a: DDPHENO:0000491 ! abolished resistance to a pathogenic bacterium
+name: abolished defense response to Gram-negative  bacterium
+def: "Complete inability for defense response to Gram-negative  bacterium, often after infection." [DDB:pf]
+synonym: "abolished defense response to pathogenic Gram-negative bacterium" NARROW []
+is_a: DDPHENO:0000287 ! aberrant defense response to Gram-negative bacterium
+is_a: DDPHENO:0000491 ! abolished defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:58:28Z
 
@@ -3483,9 +3487,9 @@ is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0000491
-name: abolished resistance to a pathogenic bacterium
-def: "Complete inability for resisting any pathogenic bacterium." [DDB:pf]
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: abolished defense response to bacterium
+def: "Complete inability for a defense response to a  bacterium." [DDB:pf]
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 
 [Term]
 id: DDPHENO:0000492
@@ -4144,41 +4148,41 @@ creation_date: 2019-11-18T14:28:11Z
 
 [Term]
 id: DDPHENO:0000588
-name: decreased growth on gram-positive bacteria
-def: "Reduction in extent, amount, or degree of cell proliferation using gram-positive bacteria as a food source." [DDB:pf]
-comment: gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus
-synonym: "decreased growth on gram+ bacteria" EXACT []
-is_a: DDPHENO:0000394 ! decreased growth rate
+name: decreased cellular response to Gram-positive bacterium
+def: "Reduction in extent, amount, or degree of the  cellular response to Gram-positive bacterium as a food source." [DDB:pf]
+comment: Gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus.
+synonym: "decreased growth on Gram-positive bacteria" NARROW []
+is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
 created_by: Petra
 creation_date: 2020-04-16T13:44:00Z
 
 [Term]
 id: DDPHENO:0000589
-name: abolished growth on gram-positive bacteria
-def: "Complete inability for cells to proliferate using gram-positive bacteria as a food source." [DDB:pf]
-comment: gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus
-synonym: "abolished growth on gram+ bacteria" EXACT []
-is_a: DDPHENO:0000302 ! abolished growth
+name: abolished cellular response to Gram-positive bacterium
+def: "Complete inability for cells to respond to Gram-positive bacteria as a food source." [DDB:pf]
+comment: Gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus.
+synonym: "abolished growth on Gram-positive bacteria" NARROW []
+is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
 created_by: Petra
 creation_date: 2020-04-16T13:48:45Z
 
 [Term]
 id: DDPHENO:0000590
-name: decreased growth on gram-negative bacteria
-def: "Reduction in extent, amount, or degree of cell proliferation using gram-negative bacteria as a food source." [DDB:pf]
-comment: gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa
-synonym: "decreased growth on gram- bacteria" EXACT []
-is_a: DDPHENO:0000394 ! decreased growth rate
+name: decreased cellular response to Gram-negative bacterium 
+def: "Reduction in extent, amount, or degree of the cellular response to Gram-negative bacterium as a food source." [DDB:pf]
+comment: Gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa.
+synonym: "decreased growth on Gram-negative bacteria" NARROW []
+is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
 created_by: Petra
 creation_date: 2020-04-16T13:51:28Z
 
 [Term]
 id: DDPHENO:0000591
-name: abolished growth on gram-negative bacteria
-def: "Complete inability for cells to proliferate using gram-negative bacteria as a food source." [DDB:pf]
-comment: gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa
-synonym: "abolished growth on gram- bacteria" EXACT []
-is_a: DDPHENO:0000302 ! abolished growth
+name: abolished cellular response to Gram-negative bacterium 
+def: "Complete inability for cellular response to Gram-negative bacteria as a food source." [DDB:pf]
+comment: Gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa.
+synonym: "abolished growth on Gram-negative bacteria" NARROW []
+is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
 created_by: Petra
 creation_date: 2020-04-16T13:53:46Z
 
