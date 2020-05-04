@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:04:2020 14:29
+date: 04:05:2020 14:02
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -2909,9 +2909,9 @@ is_a: DDPHENO:0000384 ! aberrant sorus morphology
 
 [Term]
 id: DDPHENO:0000390
-name: translucent sorus
-synonym: "translucent sori" RELATED []
-is_a: DDPHENO:0000384 ! aberrant sorus morphology
+name: aberrant sorus color
+def: "Deviation from the normal, usual, or expected sorus color." [DDB:pf]
+is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
 id: DDPHENO:0000391
@@ -4148,43 +4148,67 @@ creation_date: 2019-11-18T14:28:11Z
 
 [Term]
 id: DDPHENO:0000588
-name: decreased cellular response to Gram-positive bacterium
-def: "Reduction in extent, amount, or degree of the  cellular response to Gram-positive bacterium as a food source." [DDB:pf]
+name: decreased response to Gram-positive bacterium
+def: "Reduction in extent, amount, or degree of the response to Gram-positive bacterium as a food source." [DDB:pf]
 comment: Gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus.
 synonym: "decreased growth on Gram-positive bacteria" NARROW []
-is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
+is_a: DDPHENO:0000594 ! decreased response to bacterium
 created_by: Petra
 creation_date: 2020-04-16T13:44:00Z
 
 [Term]
 id: DDPHENO:0000589
-name: abolished cellular response to Gram-positive bacterium
+name: abolished response to Gram-positive bacterium
 def: "Complete inability for cells to respond to Gram-positive bacteria as a food source." [DDB:pf]
 comment: Gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus.
 synonym: "abolished growth on Gram-positive bacteria" NARROW []
-is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
+is_a: DDPHENO:0000593 ! abolished response to bacterium
 created_by: Petra
 creation_date: 2020-04-16T13:48:45Z
 
 [Term]
 id: DDPHENO:0000590
-name: decreased cellular response to Gram-negative bacterium 
-def: "Reduction in extent, amount, or degree of the cellular response to Gram-negative bacterium as a food source." [DDB:pf]
+name: decreased response to Gram-negative bacterium
+def: "Reduction in extent, amount, or degree of the response to Gram-negative bacterium as a food source." [DDB:pf]
 comment: Gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa.
 synonym: "decreased growth on Gram-negative bacteria" NARROW []
-is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
+is_a: DDPHENO:0000594 ! decreased response to bacterium
 created_by: Petra
 creation_date: 2020-04-16T13:51:28Z
 
 [Term]
 id: DDPHENO:0000591
-name: abolished cellular response to Gram-negative bacterium 
-def: "Complete inability for cellular response to Gram-negative bacteria as a food source." [DDB:pf]
+name: abolished response to Gram-negative bacterium
+def: "Complete inability for a response to Gram-negative bacteria as a food source." [DDB:pf]
 comment: Gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa.
 synonym: "abolished growth on Gram-negative bacteria" NARROW []
-is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
+is_a: DDPHENO:0000593 ! abolished response to bacterium
 created_by: Petra
 creation_date: 2020-04-16T13:53:46Z
+
+[Term]
+id: DDPHENO:0000592
+name: aberrant response to bacterium
+def: "Deviation from the normal, usual, or expected events during the response to bacteria." [DDB:pf]
+is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
+created_by: Petra
+creation_date: 2020-05-04T13:08:38Z
+
+[Term]
+id: DDPHENO:0000593
+name: abolished response to bacterium
+def: "Complete inability for a response to bacteria as a food source." [DDB:pf]
+is_a: DDPHENO:0000592 ! aberrant response to bacterium
+created_by: Petra
+creation_date: 2020-05-04T13:12:36Z
+
+[Term]
+id: DDPHENO:0000594
+name: decreased response to bacterium
+def: "Reduction in extent, amount, or degree of the response to bacteria as a food source." [DDB:pf]
+is_a: DDPHENO:0000592 ! aberrant response to bacterium
+created_by: Petra
+creation_date: 2020-05-04T13:13:44Z
 
 [Term]
 id: DDPHENO:0001001
