@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:05:2020 14:02
+date: 12:06:2020 14:28
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -395,28 +395,31 @@ creation_date: 2014-03-20T14:12:10Z
 
 [Term]
 id: DDPHENO:0000050
-name: abolished response to hypo-osmotic stress
+name: abolished hypotonic response
 def: "Complete inability to respond to hypo-osmotic stress." [DDB:pf]
+synonym: "abolished response to hypo-osmotic stress" EXACT []
 synonym: "abolished response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 created_by: pfey
 creation_date: 2014-03-26T09:43:34Z
 
 [Term]
 id: DDPHENO:0000051
-name: decreased response to hypo-osmotic stress
+name: decreased hypotonic response
 def: "Reduction in extent, amount, or degree of the response to hypo-osmotic stress." [DDB:pf]
+synonym: "decreased response to hypo-osmotic stress" EXACT []
 synonym: "decreased response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 created_by: pfey
 creation_date: 2014-03-26T09:45:52Z
 
 [Term]
 id: DDPHENO:0000052
-name: increased response to hypo-osmotic stress
-def: "Increase in extent, amount, or degree of the response to hypo=osmotic stress." [DDB:pf]
+name: increased hypotonic response
+def: "Increase in extent, amount, or degree of the response to hypo-osmotic stress." [DDB:pf]
+synonym: "increased response to hypo-osmotic stress" EXACT []
 synonym: "increased response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 created_by: pfey
 creation_date: 2014-03-26T09:49:08Z
 
@@ -785,7 +788,7 @@ creation_date: 2014-05-21T10:43:49Z
 [Term]
 id: DDPHENO:0000094
 name: spores inviable
-is_a: DDPHENO:0001046 ! aberrant spore germination
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000095
@@ -1170,7 +1173,7 @@ creation_date: 2014-12-17T16:14:48Z
 id: DDPHENO:0000145
 name: decreased spore viability
 def: "Reduction in extent, amount, or degree of spore viability." [DDB:pg]
-is_a: DDPHENO:0001046 ! aberrant spore germination
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000146
@@ -1245,15 +1248,15 @@ alt_id: DDPHENO:0000143
 alt_id: DDPHENO:0000374
 alt_id: DDPHENO:0000380
 def: "Deviation from the normal, usual, or expected events during development." [DDB:pg]
-synonym: "merged_development hypersensitive to ammonia" EXACT []
-synonym: "merged_development is resistant to Li+" EXACT []
-synonym: "merged_increased sensitivity to lithium" EXACT []
+synonym: "merged_development hypersensitive to ammonia" BROAD []
+synonym: "merged_development is resistant to Li+" BROAD []
+synonym: "merged_increased sensitivity to lithium" BROAD []
 is_a: DDPHENO:0001003 ! aberrant response to stimulus
 
 [Term]
 id: DDPHENO:0000155
 name: development arrests at tipped mound stage
-def: "Development cannot progress past the tipped mound stage." [DDB:pf]
+def: "Development cannot progress past the tipped mound stage during development." [DDB:pf]
 synonym: "development arrests at tipped aggregate stage" EXACT []
 is_a: DDPHENO:0000026 ! development arrests at mound stage
 
@@ -1289,7 +1292,7 @@ name: development arrests at loose mound stage
 alt_id: DDPHENO:0000505
 alt_id: DDPHENO:0000506
 alt_id: DDPHENO:0000507
-def: "Development cannot progress past the loose mound stage." [DDB:pf]
+def: "Development cannot progress past the loose mound stage during development." [DDB:pf]
 synonym: "<new synonym>" RELATED []
 synonym: "development arrests at loose aggregate stage" EXACT []
 synonym: "development arrests at loose aggregate stage in the presence of EGTA" NARROW []
@@ -1360,6 +1363,7 @@ is_a: DDPHENO:0000154 ! aberrant development
 [Term]
 id: DDPHENO:0000168
 name: development arrests at slug stage
+def: "Development cannot progress past the slug stage during development." [DDB:pf]
 is_a: DDPHENO:0001014 ! aberrant slug formation
 
 [Term]
@@ -1567,7 +1571,7 @@ is_a: DDPHENO:0001001 ! aberrant initiation of development
 [Term]
 id: DDPHENO:0000205
 name: decreased extracellular CF50 level
-is_a: DDPHENO:0001001 ! aberrant initiation of development
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000206
@@ -1714,6 +1718,7 @@ creation_date: 2014-12-19T15:32:33Z
 id: DDPHENO:0000232
 name: decreased spore germination
 def: "Reduction in extent, amount, or degree of spore germination." [DDB:pg]
+synonym: "decreased spore viability" BROAD []
 is_a: DDPHENO:0001046 ! aberrant spore germination
 
 [Term]
@@ -2387,7 +2392,7 @@ creation_date: 2015-10-08T17:23:04Z
 [Term]
 id: DDPHENO:0000319
 name: development arrests at tight mound stage
-def: "Development cannot progress past the tight mound stage." [DDB:pf]
+def: "Development cannot progress past the tight mound stage during development." [DDB:pf]
 synonym: "development arrests at tight aggregate stage" EXACT []
 is_a: DDPHENO:0000026 ! development arrests at mound stage
 created_by: Petra
@@ -3207,7 +3212,7 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 [Term]
 id: DDPHENO:0000441
 name: increased extracellular of CF50 level
-is_a: DDPHENO:0001001 ! aberrant initiation of development
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000442
@@ -4211,6 +4216,23 @@ created_by: Petra
 creation_date: 2020-05-04T13:13:44Z
 
 [Term]
+id: DDPHENO:0000595
+name: increased actin wave formation
+def: "Increase in extent, amount, or degree of typically cortical actin wave formation." [DDB:pf]
+synonym: "increased actin wave development" BROAD []
+is_a: DDPHENO:0001481 ! aberrant actin cytoskeleton organization
+created_by: Petra
+creation_date: 2020-06-12T09:23:59Z
+
+[Term]
+id: DDPHENO:0000596
+name: decreased spore stability
+def: "Reduction of the time span a spore is viable after sporulation." [DDB:pf]
+is_a: DDPHENO:0001046 ! aberrant spore germination
+created_by: Petra
+creation_date: 2020-06-12T13:55:27Z
+
+[Term]
 id: DDPHENO:0001001
 name: aberrant initiation of development
 def: "Deviation from the normal, usual, or expected during the initiation of development." [DDB:pg]
@@ -4629,50 +4651,56 @@ is_a: DDPHENO:0001002 ! aberrant organelle morphology
 
 [Term]
 id: DDPHENO:0001067
-name: aberrant response to hyperosmotic stress
+name: aberrant hypertonic response
 def: "Deviation from the normal, usual, or expected events during the response to hyperosmotic stress." [DDB:pg]
+synonym: "aberrant response to hyperosmotic stress" EXACT []
 synonym: "aberrant response to hypertonic stress" EXACT []
 is_a: DDPHENO:0000209 ! aberrant response to osmotic stress
 
 [Term]
 id: DDPHENO:0001068
-name: aberrant response to hypo-osmotic stress
+name: aberrant hypotonic response
 def: "Deviation from the normal, usual, or expected events during the response to hypo-osmotic stress." [DDB:pg]
 comment: For example, when Dictyostelium cells are placed into water,  they suffer from hypotonic stress and their contractile vacuole system allows them to survive for some time.
+synonym: "aberrant response to hypo-osmotic stress" EXACT []
 synonym: "aberrant response to hypotonic stress" EXACT []
 is_a: DDPHENO:0000209 ! aberrant response to osmotic stress
 
 [Term]
 id: DDPHENO:0001069
-name: delayed response to hyperosmotic stress
+name: delayed hypertonic response
 def: "Late onset or slower progression in the response to hyperosmotic stress." [DDB:pg]
-is_a: DDPHENO:0001067 ! aberrant response to hyperosmotic stress
+synonym: "delayed response to hyperosmotic stress" EXACT []
+is_a: DDPHENO:0001067 ! aberrant hypertonic response
 
 [Term]
 id: DDPHENO:0001070
-name: precocious response to hyperosmotic stress
+name: precocious hypertonic response
 def: "Early onset or faster progression in the response to hyperosmotic stress." [DDB:pg]
-is_a: DDPHENO:0001067 ! aberrant response to hyperosmotic stress
+synonym: "precocious response to hyperosmotic stress" EXACT []
+is_a: DDPHENO:0001067 ! aberrant hypertonic response
 
 [Term]
 id: DDPHENO:0001071
-name: precocious response to hypo-osmotic stress
-def: "Early onset or faster progression in the response to hypo-osmotic stress." [DDB:pg]
+name: precocious hypotonic response
+def: "Early onset or faster progression in the response to hypo-osmotic stress." [DDB:pf]
+synonym: "precocious response to hypo-osmotic stress" EXACT []
 synonym: "precocious response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 
 [Term]
 id: DDPHENO:0001072
-name: delayed response to hypo-osmotic stress
+name: delayed hypotonic response
 def: "Late onset or slower progression in the response to hypo-osmotic stress." [DDB:pg]
+synonym: "delayed response to hypo-osmotic stress" EXACT []
 synonym: "delayed response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 
 [Term]
 id: DDPHENO:0001074
 name: aberrant osmosensory signaling pathway
 def: "Deviation from the normal, usual, or expected events during the osmosensory signaling pathway." [DDB:pg]
-is_a: DDPHENO:0001067 ! aberrant response to hyperosmotic stress
+is_a: DDPHENO:0001067 ! aberrant hypertonic response
 
 [Term]
 id: DDPHENO:0001075
@@ -5551,7 +5579,8 @@ is_a: DDPHENO:0000151 ! aberrant F-actin organization
 [Term]
 id: DDPHENO:0001202
 name: increased actin filament sliding
-synonym: "increased F-actin sliding" RELATED []
+def: "Increased in extent, amount, or degree of F-actin filament sliding." [DDB:pf]
+synonym: "increased F-actin sliding" EXACT []
 is_a: DDPHENO:0000151 ! aberrant F-actin organization
 
 [Term]
