@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:06:2020 14:28
+date: 17:06:2020 10:14
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -4228,7 +4228,7 @@ creation_date: 2020-06-12T09:23:59Z
 id: DDPHENO:0000596
 name: decreased spore stability
 def: "Reduction of the time span a spore is viable after sporulation." [DDB:pf]
-is_a: DDPHENO:0001046 ! aberrant spore germination
+is_a: DDPHENO:0000513 ! aberrant sporulation
 created_by: Petra
 creation_date: 2020-06-12T13:55:27Z
 
