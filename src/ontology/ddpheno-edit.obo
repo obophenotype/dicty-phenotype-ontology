@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:06:2020 10:14
+date: 18:06:2020 16:44
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -18,6 +18,7 @@ id: DDPHENO:0000002
 name: aberrant standing slug morphology
 def: "Deviation from the normal, usual, or expected morphology of the standing slug (finger)." [DDB:pf]
 synonym: "aberrant finger morphology" EXACT []
+synonym: "curly fingers" BROAD []
 is_a: DDPHENO:0001014 ! aberrant slug formation
 created_by: pfey
 creation_date: 2013-08-15T16:54:08Z
@@ -876,6 +877,7 @@ creation_date: 2014-05-21T10:46:32Z
 [Term]
 id: DDPHENO:0000105
 name: abolished protein localization to nucleolus
+def: "Complete inability to localize a protein to the nucleolus." [DDB:pf]
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
 created_by: pfey
 creation_date: 2014-05-21T10:46:58Z
@@ -883,6 +885,7 @@ creation_date: 2014-05-21T10:46:58Z
 [Term]
 id: DDPHENO:0000106
 name: decreased protein localization to nucleolus
+def: "Reduction in amount or accumulation of a protein at a certain location." [DDB:pf]
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
 created_by: pfey
 creation_date: 2014-05-21T10:47:16Z
@@ -890,6 +893,7 @@ creation_date: 2014-05-21T10:47:16Z
 [Term]
 id: DDPHENO:0000107
 name: increased protein localization to nucleolus
+def: "Increase in amount or accumulation of a protein at the nucleolus." [DDB:pf]
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
 created_by: pfey
 creation_date: 2014-05-21T10:47:28Z
@@ -1034,6 +1038,7 @@ is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 [Term]
 id: DDPHENO:0000125
 name: abolished cell-cell self recognition
+def: "Complete inability to perform cell-cell self recognition." [DDB:pf]
 synonym: "abolished kin discrimination" RELATED []
 synonym: "abolished kin recognition" BROAD []
 synonym: "abolished self recognition" BROAD []
@@ -1143,7 +1148,9 @@ is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
 
 [Term]
 id: DDPHENO:0000140
-name: weak slime trail
+name: decreased slime trail
+def: "Reduction in extent, amount, or degree of the slime trail." [DDB:pf]
+synonym: "weak slime trail" EXACT []
 is_a: DDPHENO:0001014 ! aberrant slug formation
 
 [Term]
@@ -1256,7 +1263,7 @@ is_a: DDPHENO:0001003 ! aberrant response to stimulus
 [Term]
 id: DDPHENO:0000155
 name: development arrests at tipped mound stage
-def: "Development cannot progress past the tipped mound stage during development." [DDB:pf]
+def: "Development cannot progress past the tipped mound stage." [DDB:pf]
 synonym: "development arrests at tipped aggregate stage" EXACT []
 is_a: DDPHENO:0000026 ! development arrests at mound stage
 
@@ -1292,7 +1299,7 @@ name: development arrests at loose mound stage
 alt_id: DDPHENO:0000505
 alt_id: DDPHENO:0000506
 alt_id: DDPHENO:0000507
-def: "Development cannot progress past the loose mound stage during development." [DDB:pf]
+def: "Development cannot progress past the loose mound stage." [DDB:pf]
 synonym: "<new synonym>" RELATED []
 synonym: "development arrests at loose aggregate stage" EXACT []
 synonym: "development arrests at loose aggregate stage in the presence of EGTA" NARROW []
@@ -1458,8 +1465,8 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
 
 [Term]
 id: DDPHENO:0000185
-name: increased sensitivity to nocodazole
-def: "Increase in extent, amount, or degree of sensitivity to nocodazole." [DDB:pf]
+name: decreased resistance to nocodazole
+def: "Decreased tolerance of the normal, usual, or expected events towards nocodazole." [DDB:pf]
 is_a: DDPHENO:0000362 ! aberrant response to nocodazole
 
 [Term]
@@ -1582,14 +1589,17 @@ is_a: DDPHENO:0000483 ! aberrant aggregation
 [Term]
 id: DDPHENO:0000207
 name: increased standing slug length
+def: "Increase in relative or proportionate length of the slug." [DDB:pf]
 synonym: "long fingers" EXACT []
 xref: PMID:18366659 "DDANAT:0000007 standing slug"
 is_a: DDPHENO:0000002 ! aberrant standing slug morphology
 
 [Term]
 id: DDPHENO:0000208
-name: thin standing slug
+name: decreased slug width
+def: "Decrease in relative or proportionate width of the slug." [DDB:pf]
 synonym: "thin fingers" EXACT []
+synonym: "thin standing slug" EXACT []
 xref: PMID:18366659 "DDANAT:0000007 standing slug"
 is_a: DDPHENO:0000002 ! aberrant standing slug morphology
 
@@ -2351,6 +2361,7 @@ creation_date: 2015-06-17T14:40:21Z
 [Term]
 id: DDPHENO:0000314
 name: aberrant response to MPBD
+def: "Deviation from the normal, usual, or expected during the response to MPBD." [DDB:pf]
 synonym: "aberrant response to 4-methyl5-pentylbenzene-1,3 diol" EXACT []
 is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
 created_by: Petra
@@ -2392,7 +2403,7 @@ creation_date: 2015-10-08T17:23:04Z
 [Term]
 id: DDPHENO:0000319
 name: development arrests at tight mound stage
-def: "Development cannot progress past the tight mound stage during development." [DDB:pf]
+def: "Development cannot progress past the tight mound stage." [DDB:pf]
 synonym: "development arrests at tight aggregate stage" EXACT []
 is_a: DDPHENO:0000026 ! development arrests at mound stage
 created_by: Petra
@@ -2441,6 +2452,7 @@ creation_date: 2015-12-17T17:18:19Z
 [Term]
 id: DDPHENO:0000325
 name: decreased lipid binding
+def: "A reduction in extent, amount, or degree of binding to a lipid." [DDB:pf]
 is_a: DDPHENO:0000298 ! aberrant lipid binding
 created_by: Petra
 creation_date: 2015-12-17T17:50:09Z
@@ -2448,6 +2460,7 @@ creation_date: 2015-12-17T17:50:09Z
 [Term]
 id: DDPHENO:0000326
 name: abolished lipid binding
+def: "Complete absence of lipid binding." [DDB:pf]
 is_a: DDPHENO:0000298 ! aberrant lipid binding
 created_by: Petra
 creation_date: 2015-12-17T17:50:52Z
@@ -2557,6 +2570,7 @@ creation_date: 2016-06-14T12:26:51Z
 [Term]
 id: DDPHENO:0000339
 name: aberrant response to SDF-2
+def: "Deviation from the normal, usual, or expected during the response to SDF-2." [DDB:pf]
 is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
 created_by: Petra
 creation_date: 2016-07-18T10:38:21Z
@@ -2861,8 +2875,8 @@ is_a: DDPHENO:0000236 ! aberrant cell morphology
 
 [Term]
 id: DDPHENO:0000381
-name: increased sensitivity to TMB-8
-def: "Increase in extent, amount, or degree of sensitivity to TMB-8." [DDB:pf]
+name: decreased resistance to TMB-8
+def: "Decreased tolerance of the normal, usual, or expected events towards TMB-8." [DDB:pf]
 synonym: "increased sensitivity to 8-(N,N-diethylamino)octyl-3,4,5-trimethoxybenzoate" EXACT []
 is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
 
@@ -3004,6 +3018,7 @@ is_a: DDPHENO:0001129 ! increased taxis
 [Term]
 id: DDPHENO:0000401
 name: increased resistance to cisplatin
+def: "Increase in extent, amount, or degree of resistance to cisplatin." [DDB:pf]
 is_a: DDPHENO:0000276 ! increased resistance to DNA-damaging agents
 is_a: DDPHENO:0001456 ! aberrant response to cisplatin
 
@@ -3052,16 +3067,19 @@ is_a: DDPHENO:0000151 ! aberrant F-actin organization
 [Term]
 id: DDPHENO:0000408
 name: increased resistance to carboplatin
+def: "Increase in extent, amount, or degree of resistance to carboplatin." [DDB:pf]
 is_a: DDPHENO:0000276 ! increased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000409
-name: increased sensitivity to carboplatin
+name: decreased resistance to carboplatin
+def: "Decreased tolerance of the normal, usual, or expected events towards carboplatin." [DDB:pf]
 is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000410
-name: increased sensitivity to cisplatin
+name: decreased resistance to cisplatin
+def: "Decreased tolerance of the normal, usual, or expected events towards cisplatin." [DDB:pf]
 is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
@@ -3100,16 +3118,20 @@ creation_date: 2017-03-23T15:55:17Z
 [Term]
 id: DDPHENO:0000420
 name: decreased cAMP-induced Ca2+ influx
+def: "Reduction in extent, amount, or degree of the cAMP-induced Ca2+ influx." [DDB:pf]
 is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
 
 [Term]
 id: DDPHENO:0000421
 name: delayed cAMP-induced Ca2+ influx
+def: "Late onset or slower progression of cAMP-induced Ca2+ influx." [DDB:pf]
+is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
 [Term]
 id: DDPHENO:0000422
 name: decreased Ca2+-induced Ca2+ influx
+def: "Reduction in extent, amount, or degree of theCa2+-induced Ca2+ influx." [DDB:pf]
 is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
 
 [Term]
@@ -3128,18 +3150,21 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
 id: DDPHENO:0000425
-name: increased sensitivity to hydrogen peroxide
-synonym: "increased sensitivity to H2O2" EXACT []
+name: decreased resistance to hydrogen peroxide
+def: "Reduction in extent, amount, or degree of the resistance to hydrogen peroxide." [DDB:pf]
+synonym: "decreased resistance to H2O2" EXACT []
 is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
 
 [Term]
 id: DDPHENO:0000426
-name: increased sensitivity to UV light
+name: decreased resistance to UV light
+def: "Decreased tolerance of the normal, usual, or expected events towards UV light." [DDB:pf]
 is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000427
-name: increased sensitivity to mitomycin C (MMC)
+name: decreased resistance to mitomycin C (MMC)
+def: "Decreased tolerance of the normal, usual, or expected events towards mitomycin C (MMC)." [DDB:pf]
 is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
@@ -3165,6 +3190,7 @@ is_a: DDPHENO:0001007 ! aberrant pinocytosis
 [Term]
 id: DDPHENO:0000431
 name: cell cycle arrest
+def: "The cell cycle cannot complete." [DDB:pf]
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
@@ -3194,6 +3220,7 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
 [Term]
 id: DDPHENO:0000438
 name: uracil auxotroph
+def: "A specific requirement for uracil to grow or divide." [DDB:pf]
 is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
@@ -3206,6 +3233,7 @@ is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
 [Term]
 id: DDPHENO:0000440
 name: thymidine auxotroph
+def: "A specific requirement for thymidine to grow or divide." [DDB:pf]
 is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
@@ -3279,7 +3307,9 @@ is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
 
 [Term]
 id: DDPHENO:0000452
-name: small macrocysts
+name: decreased macrocyst size
+def: "Reduction in extent, amount, or degree of macrocysts size." [DDB:pf]
+synonym: "small macrocysts" EXACT []
 is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
 
 [Term]
@@ -3293,6 +3323,7 @@ is_a: DDPHENO:0001393 ! abolished protein localization
 [Term]
 id: DDPHENO:0000454
 name: decreased accumulation of cGMP
+def: "Reduction in extent, amount, or degree of accumulation of cGMP." [DDB:pf]
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
 [Term]
@@ -3354,6 +3385,7 @@ creation_date: 2017-04-20T17:03:31Z
 [Term]
 id: DDPHENO:0000465
 name: abolished cAMP-induced Ca2+ influx
+def: "Complete inability for cAMP-induced Ca2+ influx." [DDB:pf]
 is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
@@ -3457,7 +3489,7 @@ is_a: DDPHENO:0000154 ! aberrant development
 [Term]
 id: DDPHENO:0000484
 name: curly fingers
-is_a: DDPHENO:0000002 ! aberrant standing slug morphology
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000486
@@ -3570,6 +3602,7 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 [Term]
 id: DDPHENO:0000509
 name: delayed development in the presence of TMB-8
+def: "Late onset or slower progression through development in the presence of TMB-8." [DDB:pf]
 is_a: DDPHENO:0000162 ! delayed development
 
 [Term]
@@ -3676,6 +3709,7 @@ is_a: DDPHENO:0000306 ! aberrant sorting to prestalk region
 [Term]
 id: DDPHENO:0000525
 name: increased cell cycle length
+def: "Increase in relative or proportionate length of the cell cycle." [DDB:pf]
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
@@ -4088,16 +4122,16 @@ creation_date: 2018-01-31T15:28:37Z
 
 [Term]
 id: DDPHENO:0000580
-name: decreased sensitivity to cheating
-def: "Partial resistance to cheating when mixed with cheater cells." [DDB:pf]
+name: increased resistance to cheating
+def: "Increase in extent, amount, or degree of resistance towards cheater cells compared to wild type." [DDB:pf]
 is_a: DDPHENO:0000579 ! aberrant sensitivity to cheating
 created_by: Petra
 creation_date: 2018-01-31T15:28:50Z
 
 [Term]
 id: DDPHENO:0000581
-name: increased sensitivity to cheating
-def: "Increased sensitivity to cheating when mixed with cheater cells compared to wild type." [DDB:pf]
+name: decreased resistance to cheating
+def: "Decreased tolerance of the normal, usual, or expected events towards  cheater cells compared to wild type." [DDB:pf]
 is_a: DDPHENO:0000579 ! aberrant sensitivity to cheating
 created_by: Petra
 creation_date: 2018-01-31T15:29:25Z
@@ -6562,6 +6596,7 @@ is_a: DDPHENO:0001348 ! aberrant protein serine phosphorylation
 [Term]
 id: DDPHENO:0001352
 name: decreased protein tyrosine phosphorylation
+def: "Reduction in amount or accumulation of tyrosine phosphorylation of a protein." [DDB:pf]
 is_a: DDPHENO:0001344 ! decreased protein phosphorylation
 
 [Term]
@@ -6752,6 +6787,7 @@ is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 [Term]
 id: DDPHENO:0001383
 name: decreased extracellular pteridine level
+def: "Reduction in extent, amount or accumulation of extracellular pteridine." [DDB:pf]
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
@@ -7083,6 +7119,7 @@ is_a: DDPHENO:0000154 ! aberrant development
 [Term]
 id: DDPHENO:0001432
 name: delayed sporulation
+def: "Late onset or slower progression through sporulation." [DDB:pf]
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
@@ -7789,7 +7826,7 @@ creation_date: 2013-01-21T11:10:47Z
 
 [Term]
 id: DDPHENO:0001522
-name: increased sensitivity to fluid shear stress
+name: decreased resistance to fluid shear stress
 def: "Decreased tolerance of  the normal, usual, or expected events during the cellular response to fluid shear stress." [DDB:pf]
 synonym: "increased sensitivity to mechanical stress" RELATED []
 is_a: DDPHENO:0001521 ! aberrant cellular response to fluid shear stress
