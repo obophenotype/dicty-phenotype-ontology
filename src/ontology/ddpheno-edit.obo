@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:04:2020 14:05
+date: 18:06:2020 16:44
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -18,6 +18,7 @@ id: DDPHENO:0000002
 name: aberrant standing slug morphology
 def: "Deviation from the normal, usual, or expected morphology of the standing slug (finger)." [DDB:pf]
 synonym: "aberrant finger morphology" EXACT []
+synonym: "curly fingers" BROAD []
 is_a: DDPHENO:0001014 ! aberrant slug formation
 created_by: pfey
 creation_date: 2013-08-15T16:54:08Z
@@ -395,28 +396,31 @@ creation_date: 2014-03-20T14:12:10Z
 
 [Term]
 id: DDPHENO:0000050
-name: abolished response to hypo-osmotic stress
+name: abolished hypotonic response
 def: "Complete inability to respond to hypo-osmotic stress." [DDB:pf]
+synonym: "abolished response to hypo-osmotic stress" EXACT []
 synonym: "abolished response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 created_by: pfey
 creation_date: 2014-03-26T09:43:34Z
 
 [Term]
 id: DDPHENO:0000051
-name: decreased response to hypo-osmotic stress
+name: decreased hypotonic response
 def: "Reduction in extent, amount, or degree of the response to hypo-osmotic stress." [DDB:pf]
+synonym: "decreased response to hypo-osmotic stress" EXACT []
 synonym: "decreased response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 created_by: pfey
 creation_date: 2014-03-26T09:45:52Z
 
 [Term]
 id: DDPHENO:0000052
-name: increased response to hypo-osmotic stress
-def: "Increase in extent, amount, or degree of the response to hypo=osmotic stress." [DDB:pf]
+name: increased hypotonic response
+def: "Increase in extent, amount, or degree of the response to hypo-osmotic stress." [DDB:pf]
+synonym: "increased response to hypo-osmotic stress" EXACT []
 synonym: "increased response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 created_by: pfey
 creation_date: 2014-03-26T09:49:08Z
 
@@ -785,7 +789,7 @@ creation_date: 2014-05-21T10:43:49Z
 [Term]
 id: DDPHENO:0000094
 name: spores inviable
-is_a: DDPHENO:0001046 ! aberrant spore germination
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000095
@@ -873,6 +877,7 @@ creation_date: 2014-05-21T10:46:32Z
 [Term]
 id: DDPHENO:0000105
 name: abolished protein localization to nucleolus
+def: "Complete inability to localize a protein to the nucleolus." [DDB:pf]
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
 created_by: pfey
 creation_date: 2014-05-21T10:46:58Z
@@ -880,6 +885,7 @@ creation_date: 2014-05-21T10:46:58Z
 [Term]
 id: DDPHENO:0000106
 name: decreased protein localization to nucleolus
+def: "Reduction in amount or accumulation of a protein at a certain location." [DDB:pf]
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
 created_by: pfey
 creation_date: 2014-05-21T10:47:16Z
@@ -887,6 +893,7 @@ creation_date: 2014-05-21T10:47:16Z
 [Term]
 id: DDPHENO:0000107
 name: increased protein localization to nucleolus
+def: "Increase in amount or accumulation of a protein at the nucleolus." [DDB:pf]
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
 created_by: pfey
 creation_date: 2014-05-21T10:47:28Z
@@ -1031,6 +1038,7 @@ is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 [Term]
 id: DDPHENO:0000125
 name: abolished cell-cell self recognition
+def: "Complete inability to perform cell-cell self recognition." [DDB:pf]
 synonym: "abolished kin discrimination" RELATED []
 synonym: "abolished kin recognition" BROAD []
 synonym: "abolished self recognition" BROAD []
@@ -1140,7 +1148,9 @@ is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
 
 [Term]
 id: DDPHENO:0000140
-name: weak slime trail
+name: decreased slime trail
+def: "Reduction in extent, amount, or degree of the slime trail." [DDB:pf]
+synonym: "weak slime trail" EXACT []
 is_a: DDPHENO:0001014 ! aberrant slug formation
 
 [Term]
@@ -1170,7 +1180,7 @@ creation_date: 2014-12-17T16:14:48Z
 id: DDPHENO:0000145
 name: decreased spore viability
 def: "Reduction in extent, amount, or degree of spore viability." [DDB:pg]
-is_a: DDPHENO:0001046 ! aberrant spore germination
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000146
@@ -1245,9 +1255,9 @@ alt_id: DDPHENO:0000143
 alt_id: DDPHENO:0000374
 alt_id: DDPHENO:0000380
 def: "Deviation from the normal, usual, or expected events during development." [DDB:pg]
-synonym: "merged_development hypersensitive to ammonia" EXACT []
-synonym: "merged_development is resistant to Li+" EXACT []
-synonym: "merged_increased sensitivity to lithium" EXACT []
+synonym: "merged_development hypersensitive to ammonia" BROAD []
+synonym: "merged_development is resistant to Li+" BROAD []
+synonym: "merged_increased sensitivity to lithium" BROAD []
 is_a: DDPHENO:0001003 ! aberrant response to stimulus
 
 [Term]
@@ -1360,6 +1370,7 @@ is_a: DDPHENO:0000154 ! aberrant development
 [Term]
 id: DDPHENO:0000168
 name: development arrests at slug stage
+def: "Development cannot progress past the slug stage during development." [DDB:pf]
 is_a: DDPHENO:0001014 ! aberrant slug formation
 
 [Term]
@@ -1454,8 +1465,8 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
 
 [Term]
 id: DDPHENO:0000185
-name: increased sensitivity to nocodazole
-def: "Increase in extent, amount, or degree of sensitivity to nocodazole." [DDB:pf]
+name: decreased resistance to nocodazole
+def: "Decreased tolerance of the normal, usual, or expected events towards nocodazole." [DDB:pf]
 is_a: DDPHENO:0000362 ! aberrant response to nocodazole
 
 [Term]
@@ -1567,7 +1578,7 @@ is_a: DDPHENO:0001001 ! aberrant initiation of development
 [Term]
 id: DDPHENO:0000205
 name: decreased extracellular CF50 level
-is_a: DDPHENO:0001001 ! aberrant initiation of development
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000206
@@ -1578,14 +1589,17 @@ is_a: DDPHENO:0000483 ! aberrant aggregation
 [Term]
 id: DDPHENO:0000207
 name: increased standing slug length
+def: "Increase in relative or proportionate length of the slug." [DDB:pf]
 synonym: "long fingers" EXACT []
 xref: PMID:18366659 "DDANAT:0000007 standing slug"
 is_a: DDPHENO:0000002 ! aberrant standing slug morphology
 
 [Term]
 id: DDPHENO:0000208
-name: thin standing slug
+name: decreased slug width
+def: "Decrease in relative or proportionate width of the slug." [DDB:pf]
 synonym: "thin fingers" EXACT []
+synonym: "thin standing slug" EXACT []
 xref: PMID:18366659 "DDANAT:0000007 standing slug"
 is_a: DDPHENO:0000002 ! aberrant standing slug morphology
 
@@ -1714,6 +1728,7 @@ creation_date: 2014-12-19T15:32:33Z
 id: DDPHENO:0000232
 name: decreased spore germination
 def: "Reduction in extent, amount, or degree of spore germination." [DDB:pg]
+synonym: "decreased spore viability" BROAD []
 is_a: DDPHENO:0001046 ! aberrant spore germination
 
 [Term]
@@ -1933,6 +1948,10 @@ creation_date: 2015-04-13T17:42:45Z
 [Term]
 id: DDPHENO:0000258
 name: aberrant defense response to bacterium
+alt_id: DDPHENO:0000277
+def: "Deviation from the normal, usual, or expected events during defense response to bacterium." [DDB:pf]
+comment: Pathogenic bacteria are defined as being pathogens for humans, though in the any specific study a strain or species less virulent for humans may have been used.
+synonym: "aberrant infection rate by pathogenic bacterium" NARROW []
 is_a: DDPHENO:0001506 ! aberrant defense response to a microorganism
 created_by: Petra
 creation_date: 2015-05-05T14:26:26Z
@@ -2027,34 +2046,26 @@ synonym: "decreased sensitivity to DNA-damaging agents" EXACT []
 is_a: DDPHENO:0001045 ! aberrant response to DNA damaging agents
 
 [Term]
-id: DDPHENO:0000277
-name: aberrant infection rate by a pathogenic bacterium
-def: "Deviation from the normal, usual, or expected events during infection of Dictyostelium by a pathogenic  bacterium." [DDB:pf]
-comment: Pathogenic bacteria are defined as being pathogens for humans, though in the any specific study a strain or species less virulent for humans may have been used.
-is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
-created_by: Petra
-creation_date: 2015-05-05T14:56:22Z
-
-[Term]
 id: DDPHENO:0000278
-name: decreased infection rate by a pathogenic bacterium
-def: "Reduction in extent, amount, or degree of the infection rate by a pathogenic bacterium." [DDB:pf]
-synonym: "increased resistance to infection by a pathogenic bacterium" RELATED []
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: increased defense response to bacterium
+def: "Increase in extent, amount, or degree of the  defense response to bacterium." [DDB:pf]
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T14:58:43Z
 
 [Term]
 id: DDPHENO:0000279
-name: increased infection rate by a pathogenic bacterium
-def: "Increase in extent, amount, or degree of the infection rate by a pathogenic bacterium." [DDB:pf]
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: decreased defense response to bacterium
+def: "Reduction in extent, amount, or degree for defense response to bacterium." [DDB:pf]
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T14:59:45Z
 
 [Term]
 id: DDPHENO:0000280
-name: aberrant defense response to yeast
+name: aberrant defense response to fungus
+def: "Deviation from the normal, usual, or expected events defense response to fungus." [DDB:pf]
+synonym: "aberrant defense response to yeast" NARROW []
 is_a: DDPHENO:0001506 ! aberrant defense response to a microorganism
 created_by: Petra
 creation_date: 2015-05-05T16:05:13Z
@@ -2062,95 +2073,103 @@ creation_date: 2015-05-05T16:05:13Z
 [Term]
 id: DDPHENO:0000281
 name: aberrant infection rate by a yeast
-is_a: DDPHENO:0000280 ! aberrant defense response to yeast
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-05-05T16:06:20Z
 
 [Term]
 id: DDPHENO:0000282
-name: decreased infection rate by a yeast
-is_a: DDPHENO:0000281 ! aberrant infection rate by a yeast
+name: increased defense response to fungus
+def: "Increase in extent, amount, or degree of the defense response to fungus." [DDB:pf]
+synonym: "increased defense response to yeast" NARROW []
+is_a: DDPHENO:0000280 ! aberrant defense response to fungus
 created_by: Petra
 creation_date: 2015-05-05T16:07:54Z
 
 [Term]
 id: DDPHENO:0000283
-name: increased infection rate by a yeast
-is_a: DDPHENO:0000281 ! aberrant infection rate by a yeast
+name: decreased defense response to fungus
+def: "Reduction in extent, amount, or degree for defense response to fungus." [DDB:pf]
+synonym: "decreased defense response to yeast" NARROW []
+is_a: DDPHENO:0000280 ! aberrant defense response to fungus
 created_by: Petra
 creation_date: 2015-05-05T16:08:09Z
 
 [Term]
 id: DDPHENO:0000284
-name: aberrant infection rate by a gram-positive pathogenic bacterium
-def: "Deviation from the normal, usual, or expected events during infection of Dictyostelium by a gram-positive pathogenic  bacterium." [DDB:pf, PMID:23664307]
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: aberrant defense response to Gram-positive bacterium
+def: "Deviation from the normal, usual, or expected events during defense response to Gram-positive bacterium, often after infection." [DDB:pf, PMID:23664307]
+synonym: "aberrant defense response to pathogenic Gram-positive bacterium" NARROW []
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:38:31Z
 
 [Term]
 id: DDPHENO:0000285
-name: decreased infection rate by a gram-positive pathogenic bacterium
-def: "Reduction in extent, amount, or degree of the infection rate by a gram-positive pathogenic bacterium." [DDB:pf]
-synonym: "increased resistance to infection by a gram-positive pathogenic bacterium" RELATED []
-is_a: DDPHENO:0000278 ! decreased infection rate by a pathogenic bacterium
-is_a: DDPHENO:0000284 ! aberrant infection rate by a gram-positive pathogenic bacterium
+name: increased defense response to Gram-positive bacterium
+def: "Increase in extent, amount, or degree of the defense response to Gram-positive bacterium, often after infection." [DDB:pf]
+synonym: "increased defense response to pathogenic Gram-positive bacterium" NARROW []
+is_a: DDPHENO:0000278 ! increased defense response to bacterium
+is_a: DDPHENO:0000284 ! aberrant defense response to Gram-positive bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:42:05Z
 
 [Term]
 id: DDPHENO:0000286
-name: increased infection rate by a gram-positive pathogenic bacterium
-def: "Increase in extent, amount, or degree of the infection rate by a gram-positive pathogenic bacterium." [DDB:pf]
-is_a: DDPHENO:0000279 ! increased infection rate by a pathogenic bacterium
-is_a: DDPHENO:0000284 ! aberrant infection rate by a gram-positive pathogenic bacterium
+name: decreased defense response to Gram-positive bacterium
+def: "Reduction in extent, amount, or degree for defense response to Gram-positive bacterium, often after infection." [DDB:pf]
+synonym: "decreased defense response to pathogenic Gram-positive bacterium" NARROW []
+is_a: DDPHENO:0000279 ! decreased defense response to bacterium
+is_a: DDPHENO:0000284 ! aberrant defense response to Gram-positive bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:42:37Z
 
 [Term]
 id: DDPHENO:0000287
-name: aberrant infection rate by a gram-negative pathogenic bacterium
-def: "Deviation from the normal, usual, or expected events during infection of Dictyostelium by a gram-negative pathogenic  bacterium." [DDB:pf, PMID:23664307]
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: aberrant defense response to Gram-negative bacterium
+def: "Deviation from the normal, usual, or expected events defense response to Gram-negative bacterium, often after infection." [DDB:pf, PMID:23664307]
+synonym: "aberrant defense response to pathogenic Gram-negative bacterium" NARROW []
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:48:58Z
 
 [Term]
 id: DDPHENO:0000288
-name: decreased infection rate by a gram-negative pathogenic bacterium
-def: "Reduction in extent, amount, or degree of the infection rate by a gram-negative pathogenic bacterium." [DDB:pf]
-synonym: "increased resistance to infection by a gram-negative pathogenic bacterium" RELATED []
-is_a: DDPHENO:0000278 ! decreased infection rate by a pathogenic bacterium
-is_a: DDPHENO:0000287 ! aberrant infection rate by a gram-negative pathogenic bacterium
+name: increased defense response to Gram-negative bacterium
+def: "Increase in extent, amount, or degree of the defense response to Gram-negative bacterium, often after infection." [DDB:pf]
+synonym: " increased defense response to pathogenic Gram-negative bacterium" NARROW []
+is_a: DDPHENO:0000278 ! increased defense response to bacterium
+is_a: DDPHENO:0000287 ! aberrant defense response to Gram-negative bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:49:27Z
 
 [Term]
 id: DDPHENO:0000289
-name: increased infection rate by a gram-negative pathogenic bacterium
-def: "Increase in extent, amount, or degree of the infection rate by a gram-negative pathogenic bacterium." [DDB:pf]
-is_a: DDPHENO:0000279 ! increased infection rate by a pathogenic bacterium
-is_a: DDPHENO:0000287 ! aberrant infection rate by a gram-negative pathogenic bacterium
+name: decreased defense response to Gram-negative bacterium
+def: "Reduction in extent, amount, or degree of the defense response to Gram-negative bacterium, often after infection." [DDB:pf]
+synonym: "decreased defense response to pathogenic Gram-negative bacterium" NARROW []
+is_a: DDPHENO:0000279 ! decreased defense response to bacterium
+is_a: DDPHENO:0000287 ! aberrant defense response to Gram-negative bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:49:39Z
 
 [Term]
 id: DDPHENO:0000290
-name: abolished resistance to a gram-positive pathogenic bacterium
-def: "Complete inability for resisting any gram-positive pathogenic bacterium." [DDB:pf]
-synonym: "abolished resistance to a pathogenic gram+ bacterium" NARROW []
-is_a: DDPHENO:0000284 ! aberrant infection rate by a gram-positive pathogenic bacterium
-is_a: DDPHENO:0000491 ! abolished resistance to a pathogenic bacterium
+name: abolished defense response to Gram-positive bacterium
+def: "Complete inability for defense response to Gram-positive bacterium, often after infection." [DDB:pf]
+synonym: "abolished defense response to pathogenic Gram-positive bacterium" NARROW []
+is_a: DDPHENO:0000284 ! aberrant defense response to Gram-positive bacterium
+is_a: DDPHENO:0000491 ! abolished defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:57:55Z
 
 [Term]
 id: DDPHENO:0000291
-name: abolished resistance to a gram-negative pathogenic bacterium
-def: "Complete inability for resisting any gram-negative pathogenic bacterium." [DDB:pf]
-synonym: "abolished resistance to a pathogenic gram-negative bacterium" NARROW []
-is_a: DDPHENO:0000287 ! aberrant infection rate by a gram-negative pathogenic bacterium
-is_a: DDPHENO:0000491 ! abolished resistance to a pathogenic bacterium
+name: abolished defense response to Gram-negative  bacterium
+def: "Complete inability for defense response to Gram-negative  bacterium, often after infection." [DDB:pf]
+synonym: "abolished defense response to pathogenic Gram-negative bacterium" NARROW []
+is_a: DDPHENO:0000287 ! aberrant defense response to Gram-negative bacterium
+is_a: DDPHENO:0000491 ! abolished defense response to bacterium
 created_by: Petra
 creation_date: 2015-05-05T16:58:28Z
 
@@ -2342,6 +2361,7 @@ creation_date: 2015-06-17T14:40:21Z
 [Term]
 id: DDPHENO:0000314
 name: aberrant response to MPBD
+def: "Deviation from the normal, usual, or expected during the response to MPBD." [DDB:pf]
 synonym: "aberrant response to 4-methyl5-pentylbenzene-1,3 diol" EXACT []
 is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
 created_by: Petra
@@ -2432,6 +2452,7 @@ creation_date: 2015-12-17T17:18:19Z
 [Term]
 id: DDPHENO:0000325
 name: decreased lipid binding
+def: "A reduction in extent, amount, or degree of binding to a lipid." [DDB:pf]
 is_a: DDPHENO:0000298 ! aberrant lipid binding
 created_by: Petra
 creation_date: 2015-12-17T17:50:09Z
@@ -2439,6 +2460,7 @@ creation_date: 2015-12-17T17:50:09Z
 [Term]
 id: DDPHENO:0000326
 name: abolished lipid binding
+def: "Complete absence of lipid binding." [DDB:pf]
 is_a: DDPHENO:0000298 ! aberrant lipid binding
 created_by: Petra
 creation_date: 2015-12-17T17:50:52Z
@@ -2548,6 +2570,7 @@ creation_date: 2016-06-14T12:26:51Z
 [Term]
 id: DDPHENO:0000339
 name: aberrant response to SDF-2
+def: "Deviation from the normal, usual, or expected during the response to SDF-2." [DDB:pf]
 is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
 created_by: Petra
 creation_date: 2016-07-18T10:38:21Z
@@ -2852,8 +2875,8 @@ is_a: DDPHENO:0000236 ! aberrant cell morphology
 
 [Term]
 id: DDPHENO:0000381
-name: increased sensitivity to TMB-8
-def: "Increase in extent, amount, or degree of sensitivity to TMB-8." [DDB:pf]
+name: decreased resistance to TMB-8
+def: "Decreased tolerance of the normal, usual, or expected events towards TMB-8." [DDB:pf]
 synonym: "increased sensitivity to 8-(N,N-diethylamino)octyl-3,4,5-trimethoxybenzoate" EXACT []
 is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
 
@@ -2905,9 +2928,9 @@ is_a: DDPHENO:0000384 ! aberrant sorus morphology
 
 [Term]
 id: DDPHENO:0000390
-name: translucent sorus
-synonym: "translucent sori" RELATED []
-is_a: DDPHENO:0000384 ! aberrant sorus morphology
+name: aberrant sorus color
+def: "Deviation from the normal, usual, or expected sorus color." [DDB:pf]
+is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
 id: DDPHENO:0000391
@@ -2995,6 +3018,7 @@ is_a: DDPHENO:0001129 ! increased taxis
 [Term]
 id: DDPHENO:0000401
 name: increased resistance to cisplatin
+def: "Increase in extent, amount, or degree of resistance to cisplatin." [DDB:pf]
 is_a: DDPHENO:0000276 ! increased resistance to DNA-damaging agents
 is_a: DDPHENO:0001456 ! aberrant response to cisplatin
 
@@ -3043,16 +3067,19 @@ is_a: DDPHENO:0000151 ! aberrant F-actin organization
 [Term]
 id: DDPHENO:0000408
 name: increased resistance to carboplatin
+def: "Increase in extent, amount, or degree of resistance to carboplatin." [DDB:pf]
 is_a: DDPHENO:0000276 ! increased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000409
-name: increased sensitivity to carboplatin
+name: decreased resistance to carboplatin
+def: "Decreased tolerance of the normal, usual, or expected events towards carboplatin." [DDB:pf]
 is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000410
-name: increased sensitivity to cisplatin
+name: decreased resistance to cisplatin
+def: "Decreased tolerance of the normal, usual, or expected events towards cisplatin." [DDB:pf]
 is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
@@ -3091,16 +3118,20 @@ creation_date: 2017-03-23T15:55:17Z
 [Term]
 id: DDPHENO:0000420
 name: decreased cAMP-induced Ca2+ influx
+def: "Reduction in extent, amount, or degree of the cAMP-induced Ca2+ influx." [DDB:pf]
 is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
 
 [Term]
 id: DDPHENO:0000421
 name: delayed cAMP-induced Ca2+ influx
+def: "Late onset or slower progression of cAMP-induced Ca2+ influx." [DDB:pf]
+is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
 [Term]
 id: DDPHENO:0000422
 name: decreased Ca2+-induced Ca2+ influx
+def: "Reduction in extent, amount, or degree of theCa2+-induced Ca2+ influx." [DDB:pf]
 is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
 
 [Term]
@@ -3119,18 +3150,21 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
 id: DDPHENO:0000425
-name: increased sensitivity to hydrogen peroxide
-synonym: "increased sensitivity to H2O2" EXACT []
+name: decreased resistance to hydrogen peroxide
+def: "Reduction in extent, amount, or degree of the resistance to hydrogen peroxide." [DDB:pf]
+synonym: "decreased resistance to H2O2" EXACT []
 is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
 
 [Term]
 id: DDPHENO:0000426
-name: increased sensitivity to UV light
+name: decreased resistance to UV light
+def: "Decreased tolerance of the normal, usual, or expected events towards UV light." [DDB:pf]
 is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
 id: DDPHENO:0000427
-name: increased sensitivity to mitomycin C (MMC)
+name: decreased resistance to mitomycin C (MMC)
+def: "Decreased tolerance of the normal, usual, or expected events towards mitomycin C (MMC)." [DDB:pf]
 is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
 
 [Term]
@@ -3156,6 +3190,7 @@ is_a: DDPHENO:0001007 ! aberrant pinocytosis
 [Term]
 id: DDPHENO:0000431
 name: cell cycle arrest
+def: "The cell cycle cannot complete." [DDB:pf]
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
@@ -3185,6 +3220,7 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
 [Term]
 id: DDPHENO:0000438
 name: uracil auxotroph
+def: "A specific requirement for uracil to grow or divide." [DDB:pf]
 is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
@@ -3197,13 +3233,14 @@ is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
 [Term]
 id: DDPHENO:0000440
 name: thymidine auxotroph
+def: "A specific requirement for thymidine to grow or divide." [DDB:pf]
 is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
 [Term]
 id: DDPHENO:0000441
 name: increased extracellular of CF50 level
-is_a: DDPHENO:0001001 ! aberrant initiation of development
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000442
@@ -3270,7 +3307,9 @@ is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
 
 [Term]
 id: DDPHENO:0000452
-name: small macrocysts
+name: decreased macrocyst size
+def: "Reduction in extent, amount, or degree of macrocysts size." [DDB:pf]
+synonym: "small macrocysts" EXACT []
 is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
 
 [Term]
@@ -3284,6 +3323,7 @@ is_a: DDPHENO:0001393 ! abolished protein localization
 [Term]
 id: DDPHENO:0000454
 name: decreased accumulation of cGMP
+def: "Reduction in extent, amount, or degree of accumulation of cGMP." [DDB:pf]
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
 [Term]
@@ -3345,6 +3385,7 @@ creation_date: 2017-04-20T17:03:31Z
 [Term]
 id: DDPHENO:0000465
 name: abolished cAMP-induced Ca2+ influx
+def: "Complete inability for cAMP-induced Ca2+ influx." [DDB:pf]
 is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
@@ -3448,7 +3489,7 @@ is_a: DDPHENO:0000154 ! aberrant development
 [Term]
 id: DDPHENO:0000484
 name: curly fingers
-is_a: DDPHENO:0000002 ! aberrant standing slug morphology
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000486
@@ -3483,9 +3524,9 @@ is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0000491
-name: abolished resistance to a pathogenic bacterium
-def: "Complete inability for resisting any pathogenic bacterium." [DDB:pf]
-is_a: DDPHENO:0000277 ! aberrant infection rate by a pathogenic bacterium
+name: abolished defense response to bacterium
+def: "Complete inability for a defense response to a  bacterium." [DDB:pf]
+is_a: DDPHENO:0000258 ! aberrant defense response to bacterium
 
 [Term]
 id: DDPHENO:0000492
@@ -3561,6 +3602,7 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 [Term]
 id: DDPHENO:0000509
 name: delayed development in the presence of TMB-8
+def: "Late onset or slower progression through development in the presence of TMB-8." [DDB:pf]
 is_a: DDPHENO:0000162 ! delayed development
 
 [Term]
@@ -3667,6 +3709,7 @@ is_a: DDPHENO:0000306 ! aberrant sorting to prestalk region
 [Term]
 id: DDPHENO:0000525
 name: increased cell cycle length
+def: "Increase in relative or proportionate length of the cell cycle." [DDB:pf]
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
@@ -4079,16 +4122,16 @@ creation_date: 2018-01-31T15:28:37Z
 
 [Term]
 id: DDPHENO:0000580
-name: decreased sensitivity to cheating
-def: "Partial resistance to cheating when mixed with cheater cells." [DDB:pf]
+name: increased resistance to cheating
+def: "Increase in extent, amount, or degree of resistance towards cheater cells compared to wild type." [DDB:pf]
 is_a: DDPHENO:0000579 ! aberrant sensitivity to cheating
 created_by: Petra
 creation_date: 2018-01-31T15:28:50Z
 
 [Term]
 id: DDPHENO:0000581
-name: increased sensitivity to cheating
-def: "Increased sensitivity to cheating when mixed with cheater cells compared to wild type." [DDB:pf]
+name: decreased resistance to cheating
+def: "Decreased tolerance of the normal, usual, or expected events towards  cheater cells compared to wild type." [DDB:pf]
 is_a: DDPHENO:0000579 ! aberrant sensitivity to cheating
 created_by: Petra
 creation_date: 2018-01-31T15:29:25Z
@@ -4144,43 +4187,84 @@ creation_date: 2019-11-18T14:28:11Z
 
 [Term]
 id: DDPHENO:0000588
-name: decreased growth on gram-positive bacteria
-def: "Reduction in extent, amount, or degree of cell proliferation using gram-positive bacteria as a food source." [DDB:pf]
-comment: gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus
-synonym: "decreased growth on gram+ bacteria" EXACT []
-is_a: DDPHENO:0000394 ! decreased growth rate
+name: decreased response to Gram-positive bacterium
+def: "Reduction in extent, amount, or degree of the response to Gram-positive bacterium as a food source." [DDB:pf]
+comment: Gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus.
+synonym: "decreased growth on Gram-positive bacteria" NARROW []
+is_a: DDPHENO:0000594 ! decreased response to bacterium
 created_by: Petra
 creation_date: 2020-04-16T13:44:00Z
 
 [Term]
 id: DDPHENO:0000589
-name: abolished growth on gram-positive bacteria
-def: "Complete inability for cells to proliferate using gram-positive bacteria as a food source." [DDB:pf]
-comment: gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus
-synonym: "abolished growth on gram+ bacteria" EXACT []
-is_a: DDPHENO:0000302 ! abolished growth
+name: abolished response to Gram-positive bacterium
+def: "Complete inability for cells to respond to Gram-positive bacteria as a food source." [DDB:pf]
+comment: Gram-positive bacteria (examples):\nB. subtilis\nS. aureus\nM. luteus.
+synonym: "abolished growth on Gram-positive bacteria" NARROW []
+is_a: DDPHENO:0000593 ! abolished response to bacterium
 created_by: Petra
 creation_date: 2020-04-16T13:48:45Z
 
 [Term]
 id: DDPHENO:0000590
-name: decreased growth on gram-negative bacteria
-def: "Reduction in extent, amount, or degree of cell proliferation using gram-negative bacteria as a food source." [DDB:pf]
-comment: gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa
-synonym: "decreased growth on gram- bacteria" EXACT []
-is_a: DDPHENO:0000394 ! decreased growth rate
+name: decreased response to Gram-negative bacterium
+def: "Reduction in extent, amount, or degree of the response to Gram-negative bacterium as a food source." [DDB:pf]
+comment: Gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa.
+synonym: "decreased growth on Gram-negative bacteria" NARROW []
+is_a: DDPHENO:0000594 ! decreased response to bacterium
 created_by: Petra
 creation_date: 2020-04-16T13:51:28Z
 
 [Term]
 id: DDPHENO:0000591
-name: abolished growth on gram-negative bacteria
-def: "Complete inability for cells to proliferate using gram-negative bacteria as a food source." [DDB:pf]
-comment: gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa
-synonym: "abolished growth on gram- bacteria" EXACT []
-is_a: DDPHENO:0000302 ! abolished growth
+name: abolished response to Gram-negative bacterium
+def: "Complete inability for a response to Gram-negative bacteria as a food source." [DDB:pf]
+comment: Gram-negative bacteria (examples):\nK. pneumonia\nE. coli\nP. aeruginosa.
+synonym: "abolished growth on Gram-negative bacteria" NARROW []
+is_a: DDPHENO:0000593 ! abolished response to bacterium
 created_by: Petra
 creation_date: 2020-04-16T13:53:46Z
+
+[Term]
+id: DDPHENO:0000592
+name: aberrant response to bacterium
+def: "Deviation from the normal, usual, or expected events during the response to bacteria." [DDB:pf]
+is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
+created_by: Petra
+creation_date: 2020-05-04T13:08:38Z
+
+[Term]
+id: DDPHENO:0000593
+name: abolished response to bacterium
+def: "Complete inability for a response to bacteria as a food source." [DDB:pf]
+is_a: DDPHENO:0000592 ! aberrant response to bacterium
+created_by: Petra
+creation_date: 2020-05-04T13:12:36Z
+
+[Term]
+id: DDPHENO:0000594
+name: decreased response to bacterium
+def: "Reduction in extent, amount, or degree of the response to bacteria as a food source." [DDB:pf]
+is_a: DDPHENO:0000592 ! aberrant response to bacterium
+created_by: Petra
+creation_date: 2020-05-04T13:13:44Z
+
+[Term]
+id: DDPHENO:0000595
+name: increased actin wave formation
+def: "Increase in extent, amount, or degree of typically cortical actin wave formation." [DDB:pf]
+synonym: "increased actin wave development" BROAD []
+is_a: DDPHENO:0001481 ! aberrant actin cytoskeleton organization
+created_by: Petra
+creation_date: 2020-06-12T09:23:59Z
+
+[Term]
+id: DDPHENO:0000596
+name: decreased spore stability
+def: "Reduction of the time span a spore is viable after sporulation." [DDB:pf]
+is_a: DDPHENO:0000513 ! aberrant sporulation
+created_by: Petra
+creation_date: 2020-06-12T13:55:27Z
 
 [Term]
 id: DDPHENO:0001001
@@ -4601,50 +4685,56 @@ is_a: DDPHENO:0001002 ! aberrant organelle morphology
 
 [Term]
 id: DDPHENO:0001067
-name: aberrant response to hyperosmotic stress
+name: aberrant hypertonic response
 def: "Deviation from the normal, usual, or expected events during the response to hyperosmotic stress." [DDB:pg]
+synonym: "aberrant response to hyperosmotic stress" EXACT []
 synonym: "aberrant response to hypertonic stress" EXACT []
 is_a: DDPHENO:0000209 ! aberrant response to osmotic stress
 
 [Term]
 id: DDPHENO:0001068
-name: aberrant response to hypo-osmotic stress
+name: aberrant hypotonic response
 def: "Deviation from the normal, usual, or expected events during the response to hypo-osmotic stress." [DDB:pg]
 comment: For example, when Dictyostelium cells are placed into water,  they suffer from hypotonic stress and their contractile vacuole system allows them to survive for some time.
+synonym: "aberrant response to hypo-osmotic stress" EXACT []
 synonym: "aberrant response to hypotonic stress" EXACT []
 is_a: DDPHENO:0000209 ! aberrant response to osmotic stress
 
 [Term]
 id: DDPHENO:0001069
-name: delayed response to hyperosmotic stress
+name: delayed hypertonic response
 def: "Late onset or slower progression in the response to hyperosmotic stress." [DDB:pg]
-is_a: DDPHENO:0001067 ! aberrant response to hyperosmotic stress
+synonym: "delayed response to hyperosmotic stress" EXACT []
+is_a: DDPHENO:0001067 ! aberrant hypertonic response
 
 [Term]
 id: DDPHENO:0001070
-name: precocious response to hyperosmotic stress
+name: precocious hypertonic response
 def: "Early onset or faster progression in the response to hyperosmotic stress." [DDB:pg]
-is_a: DDPHENO:0001067 ! aberrant response to hyperosmotic stress
+synonym: "precocious response to hyperosmotic stress" EXACT []
+is_a: DDPHENO:0001067 ! aberrant hypertonic response
 
 [Term]
 id: DDPHENO:0001071
-name: precocious response to hypo-osmotic stress
-def: "Early onset or faster progression in the response to hypo-osmotic stress." [DDB:pg]
+name: precocious hypotonic response
+def: "Early onset or faster progression in the response to hypo-osmotic stress." [DDB:pf]
+synonym: "precocious response to hypo-osmotic stress" EXACT []
 synonym: "precocious response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 
 [Term]
 id: DDPHENO:0001072
-name: delayed response to hypo-osmotic stress
+name: delayed hypotonic response
 def: "Late onset or slower progression in the response to hypo-osmotic stress." [DDB:pg]
+synonym: "delayed response to hypo-osmotic stress" EXACT []
 synonym: "delayed response to hypotonic stress" EXACT []
-is_a: DDPHENO:0001068 ! aberrant response to hypo-osmotic stress
+is_a: DDPHENO:0001068 ! aberrant hypotonic response
 
 [Term]
 id: DDPHENO:0001074
 name: aberrant osmosensory signaling pathway
 def: "Deviation from the normal, usual, or expected events during the osmosensory signaling pathway." [DDB:pg]
-is_a: DDPHENO:0001067 ! aberrant response to hyperosmotic stress
+is_a: DDPHENO:0001067 ! aberrant hypertonic response
 
 [Term]
 id: DDPHENO:0001075
@@ -5523,7 +5613,8 @@ is_a: DDPHENO:0000151 ! aberrant F-actin organization
 [Term]
 id: DDPHENO:0001202
 name: increased actin filament sliding
-synonym: "increased F-actin sliding" RELATED []
+def: "Increased in extent, amount, or degree of F-actin filament sliding." [DDB:pf]
+synonym: "increased F-actin sliding" EXACT []
 is_a: DDPHENO:0000151 ! aberrant F-actin organization
 
 [Term]
@@ -6505,6 +6596,7 @@ is_a: DDPHENO:0001348 ! aberrant protein serine phosphorylation
 [Term]
 id: DDPHENO:0001352
 name: decreased protein tyrosine phosphorylation
+def: "Reduction in amount or accumulation of tyrosine phosphorylation of a protein." [DDB:pf]
 is_a: DDPHENO:0001344 ! decreased protein phosphorylation
 
 [Term]
@@ -6695,6 +6787,7 @@ is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 [Term]
 id: DDPHENO:0001383
 name: decreased extracellular pteridine level
+def: "Reduction in extent, amount or accumulation of extracellular pteridine." [DDB:pf]
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
@@ -7026,6 +7119,7 @@ is_a: DDPHENO:0000154 ! aberrant development
 [Term]
 id: DDPHENO:0001432
 name: delayed sporulation
+def: "Late onset or slower progression through sporulation." [DDB:pf]
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
@@ -7732,7 +7826,7 @@ creation_date: 2013-01-21T11:10:47Z
 
 [Term]
 id: DDPHENO:0001522
-name: increased sensitivity to fluid shear stress
+name: decreased resistance to fluid shear stress
 def: "Decreased tolerance of  the normal, usual, or expected events during the cellular response to fluid shear stress." [DDB:pf]
 synonym: "increased sensitivity to mechanical stress" RELATED []
 is_a: DDPHENO:0001521 ! aberrant cellular response to fluid shear stress
