@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ddpheno/releases/2019-11-08/imports/go_import.owl
+data-version: ddpheno/releases/2020-06-19/imports/go_import.owl
 subsetdef: goslim_aspergillus ""
 subsetdef: goslim_candida ""
 subsetdef: goslim_chembl ""

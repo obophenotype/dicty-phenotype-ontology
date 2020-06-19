@@ -717,13 +717,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0010082",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000401"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0010082",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000002",
       "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
@@ -789,13 +789,13 @@
       "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
       "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000402"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000012",
       "pred" : "http://purl.obolibrary.org/obo/ddanat#develops_from",
       "obj" : "http://purl.obolibrary.org/obo/DDANAT_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DDANAT_0010082"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DDANAT_0000405",
       "pred" : "http://purl.obolibrary.org/obo/ddanat#part_of",
@@ -978,7 +978,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-08/imports/ddanat_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2020-06-19/imports/ddanat_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

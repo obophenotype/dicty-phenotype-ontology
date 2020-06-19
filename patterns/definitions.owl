@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<http://purl.obolibrary.org/obo/ddpheno/patterns/definitions.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -7,6 +7,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ddpheno/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-19/patterns/definitions.owl>
+<http://purl.obolibrary.org/obo/ddpheno/releases/2020-06-19/patterns/definitions.owl>
 
 )

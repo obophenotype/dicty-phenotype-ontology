@@ -136,7 +136,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-08/imports/go_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2020-06-19/imports/go_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

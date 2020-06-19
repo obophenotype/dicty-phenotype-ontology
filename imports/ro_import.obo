@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ddpheno/releases/2019-11-08/imports/ro_import.owl
+data-version: ddpheno/releases/2020-06-19/imports/ro_import.owl
 subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 ontology: ddpheno/imports/ro_import

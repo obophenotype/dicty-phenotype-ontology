@@ -277,10 +277,10 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Bjoern Peters"
+          "val" : "PERSON: Melanie Courtot"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Melanie Courtot"
+          "val" : "PERSON: Bjoern Peters"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000120"
@@ -966,13 +966,13 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000078",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000219",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000235"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000578",
       "pred" : "is_a",
@@ -1111,7 +1111,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2019-11-08/imports/iao_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ddpheno/releases/2020-06-19/imports/iao_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
