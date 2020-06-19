@@ -4,6 +4,9 @@ saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
 ontology: ddpheno
+property_value: http://purl.org/dc/elements/1.1/description "A structured controlled vocabulary of phenotypes of the slime-mould Dictyostelium discoideum." xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Dicty Phenotype Ontology (DDPHENO)" xsd:string
+property_value: http://creativecommons.org/publicdomain/zero/1.0/
 
 [Term]
 id: DDPHENO:0000001
