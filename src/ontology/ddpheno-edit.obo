@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:06:2020 10:40
+date: 07:07:2020 10:42
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -12,6 +12,7 @@ ontology: ddpheno
 id: DDPHENO:0000001
 name: aberrant spore color
 def: "Deviation from the normal, usual, or expected spore color." [DDB:pf]
+synonym: "aberrant spore pigmentation" EXACT []
 is_a: DDPHENO:0000513 ! aberrant sporulation
 created_by: pfey
 creation_date: 2013-08-14T16:28:20Z
@@ -80,7 +81,7 @@ id: DDPHENO:0000009
 name: aberrant fruiting body morphology
 def: "Deviation from the normal, usual, or expected morphology of the fruiting body." [DDB:pg]
 synonym: "aberrant sorocarp morphology" EXACT []
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0000010
@@ -207,7 +208,7 @@ id: DDPHENO:0000026
 name: development arrests at mound stage
 def: "Development cannot progress past the mound stage." [DDB:pf]
 synonym: "development arrests at aggregate stage" EXACT []
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0000027
@@ -316,8 +317,9 @@ creation_date: 2014-01-27T16:39:23Z
 
 [Term]
 id: DDPHENO:0000040
-name: aberrant response to chemical stimulus
-def: "Deviation from the normal, usual, or expected events during the response to a chemical stimulus." [DDB:pf]
+name: aberrant response to chemical
+def: "Deviation from the normal, usual, or expected events during the response to a chemical." [DDB:pf]
+synonym: "aberrant response to chemical stimulus" RELATED []
 is_a: DDPHENO:0001003 ! aberrant response to stimulus
 created_by: pfey
 creation_date: 2014-03-20T12:02:35Z
@@ -326,7 +328,7 @@ creation_date: 2014-03-20T12:02:35Z
 id: DDPHENO:0000041
 name: aberrant response to N-Phenylthiourea
 def: "Deviation from the normal, usual, or expected events during the response to  N-Phenylthiourea." [DDB:pf]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 created_by: pfey
 creation_date: 2014-03-20T12:09:31Z
 
@@ -1081,7 +1083,7 @@ creation_date: 2014-10-02T16:37:23Z
 id: DDPHENO:0000129
 name: increased resistance to naringenin
 def: "Increase in extent, amount, or degree of resistance to the flavonoid naringenin." [DDB:pf]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 created_by: pfey
 creation_date: 2014-11-06T12:16:28Z
 
@@ -1146,8 +1148,9 @@ is_a: DDPHENO:0000412 ! aberrant cell-cell adhesion
 [Term]
 id: DDPHENO:0000139
 name: decreased sexual fusion
-def: "Reduction in extent, amount, or degree of sexual fusion." [DDB:pg]
-is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
+def: "Reduction in extent, amount, or degree of gamete fusion during macrocyst formation." [DDB:pf]
+synonym: "decreased conjugation with cellular fusion" RELATED []
+is_a: DDPHENO:0001010 ! aberrant macrocyst formation
 
 [Term]
 id: DDPHENO:0000140
@@ -1253,14 +1256,14 @@ creation_date: 2014-12-17T16:29:56Z
 
 [Term]
 id: DDPHENO:0000154
-name: aberrant development
+name: aberrant sorocarp development
 alt_id: DDPHENO:0000143
 alt_id: DDPHENO:0000374
 alt_id: DDPHENO:0000380
-def: "Deviation from the normal, usual, or expected events during development." [DDB:pg]
-synonym: "merged_development hypersensitive to ammonia" BROAD []
-synonym: "merged_development is resistant to Li+" BROAD []
-synonym: "merged_increased sensitivity to lithium" BROAD []
+def: "Deviation from the normal, usual, or expected events during sorocarp development." [DDB:pg]
+synonym: "merged_development hypersensitive to ammonia" NARROW []
+synonym: "merged_development is resistant to Li+" NARROW []
+synonym: "merged_increased sensitivity to lithium" NARROW []
 is_a: DDPHENO:0001003 ! aberrant response to stimulus
 
 [Term]
@@ -1330,7 +1333,7 @@ alt_id: DDPHENO:0000508
 def: "Late onset or slower progression through development." [DDB:pg]
 synonym: "merged_delayed development in the presence of gossypol" EXACT []
 synonym: "merged_delayed development in the presence of lithium" EXACT []
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0000163
@@ -1368,7 +1371,7 @@ is_a: DDPHENO:0000384 ! aberrant sorus morphology
 id: DDPHENO:0000167
 name: precocious development
 def: "Early onset or faster progression through development." [DDB:pg]
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0000168
@@ -1398,7 +1401,7 @@ name: increased growth rate
 alt_id: DDPHENO:0000460
 alt_id: DDPHENO:0000496
 def: "Increase in extent, amount, or degree of cell proliferation." [DDB:pf]
-synonym: "increased cell proliferation" RELATED []
+synonym: "increased asexual reproduction" EXACT []
 synonym: "increased growth rate in suspension" NARROW []
 synonym: "increased growth rate on bacterial plates" NARROW []
 is_a: DDPHENO:0001084 ! aberrant vegetative growth
@@ -1462,8 +1465,8 @@ is_a: DDPHENO:0001002 ! aberrant organelle morphology
 
 [Term]
 id: DDPHENO:0000184
-name: decreased length of astral microtubules
-def: "Reduction in extent of astral microtubules." [DDB:pf]
+name: decreased size of astral microtubules
+def: "Reduction in extent or length of astral microtubules." [DDB:pf]
 is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
 
 [Term]
@@ -1647,7 +1650,7 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
 id: DDPHENO:0000215
-name: increased spore sensitivity to hydrogen peroxide
+name: decreased spore resistance to hydrogen peroxide
 def: "Decreased tolerance of the normal, usual, or expected events in spores towards hydrogen peroxide." [DDB:pf]
 is_a: DDPHENO:0001046 ! aberrant spore germination
 
@@ -1655,6 +1658,7 @@ is_a: DDPHENO:0001046 ! aberrant spore germination
 id: DDPHENO:0000216
 name: aberrant spore coat morphology
 def: "Deviation from the normal, usual, or expected morphology of the spore coat." [DDB:pg]
+synonym: "aberrant spore wall morphology" EXACT []
 is_a: DDPHENO:0000163 ! aberrant spore morphology
 
 [Term]
@@ -2267,7 +2271,7 @@ alt_id: DDPHENO:0000275
 alt_id: DDPHENO:0000458
 alt_id: DDPHENO:0001060
 def: "Complete inability for cells to proliferate." [DDB:pg]
-synonym: "abolished cell proliferation" EXACT []
+synonym: "abolished asexual reproduction" EXACT []
 synonym: "abolished growth in acidic medium" NARROW []
 synonym: "abolished growth in axenic medium" NARROW []
 synonym: "abolished growth in suspension" NARROW []
@@ -2762,7 +2766,7 @@ creation_date: 2017-02-24T10:48:18Z
 id: DDPHENO:0000362
 name: aberrant response to nocodazole
 def: "Deviation from the normal, usual, or expected events during the response to nocodazole." [DDB:pf]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 created_by: Petra
 creation_date: 2017-03-07T16:39:49Z
 
@@ -2881,7 +2885,7 @@ id: DDPHENO:0000381
 name: decreased resistance to TMB-8
 def: "Decreased tolerance of the normal, usual, or expected events towards TMB-8." [DDB:pf]
 synonym: "increased sensitivity to 8-(N,N-diethylamino)octyl-3,4,5-trimethoxybenzoate" EXACT []
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000382
@@ -2920,7 +2924,7 @@ is_a: DDPHENO:0001014 ! aberrant slug formation
 id: DDPHENO:0000388
 name: abolished vacuolation
 def: "Complete inability for vacuolation." [DDB:pg]
-is_a: DDPHENO:0001278 ! aberrant vacuolation
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000389
@@ -2969,7 +2973,7 @@ alt_id: DDPHENO:0000511
 alt_id: DDPHENO:0000534
 alt_id: DDPHENO:0001096
 def: "Reduction in extent, amount, or degree of cell proliferation." [DDB:pf]
-synonym: "decreased cell proliferation" RELATED []
+synonym: "decreased asexual reproduction" EXACT []
 synonym: "decreased growth rate in bacterial suspension" NARROW []
 synonym: "decreased growth rate in liquid medium on solid surfaces" NARROW []
 synonym: "decreased growth rate in suspension" NARROW []
@@ -3156,7 +3160,7 @@ id: DDPHENO:0000425
 name: decreased resistance to hydrogen peroxide
 def: "Reduction in extent, amount, or degree of the resistance to hydrogen peroxide." [DDB:pf]
 synonym: "decreased resistance to H2O2" EXACT []
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000426
@@ -3231,7 +3235,7 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 id: DDPHENO:0000439
 name: increased resistance to 5-Fluoroorotic acid (5-FOA)
 def: "Increase in extent, amount, or degree of resistance to 5-Fluoroorotic acid." [DDB:pf]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000440
@@ -3276,7 +3280,7 @@ is_a: DDPHENO:0001077 ! aberrant slug migration
 id: DDPHENO:0000446
 name: aberrant mound color
 def: "Deviation from the normal, usual, or expected mound color." [DDB:pg]
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0000447
@@ -3304,16 +3308,16 @@ is_a: DDPHENO:0000483 ! aberrant aggregation
 
 [Term]
 id: DDPHENO:0000451
-name: increased number of peripheral cells during sexual reproduction
+name: obsolete increased number of peripheral cells during sexual reproduction
 def: "Quantitative increase in peripheral cells during sexual reproduction." [DDB:pg]
-is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000452
 name: decreased macrocyst size
 def: "Reduction in extent, amount, or degree of macrocysts size." [DDB:pf]
 synonym: "small macrocysts" EXACT []
-is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
+is_a: DDPHENO:0001010 ! aberrant macrocyst formation
 
 [Term]
 id: DDPHENO:0000453
@@ -3428,13 +3432,7 @@ is_a: DDPHENO:0001027 ! aberrant pseudopod formation
 id: DDPHENO:0000475
 name: increased resistance to bisphosphonate
 def: "Increase in extent, amount, or degree of resistance to the drug bisphosphonate." [DDB:pf]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
-
-[Term]
-id: DDPHENO:0000476
-name: aberrant aggregation during macrocyst formation
-def: "Deviation from the normal, usual, or expected events during formation of aggregation during macrocyst formation." [DDB:pf]
-is_a: DDPHENO:0001010 ! aberrant macrocyst differentiation
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000477
@@ -3487,7 +3485,7 @@ synonym: "merged_aggregation defective" EXACT []
 synonym: "merged_aggregation defective at low cell density" NARROW []
 synonym: "merged_aggregation defective under submerged conditions" NARROW []
 synonym: "tight mound" NARROW []
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0000484
@@ -3498,7 +3496,7 @@ is_obsolete: true
 id: DDPHENO:0000486
 name: increased resistance to spectinomycin
 def: "Increase in extent, amount, or degree of resistance to the antibiotic spectinomycin." [DDB:pf]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000487
@@ -3567,7 +3565,7 @@ is_a: DDPHENO:0001041 ! aberrant vacuole organization and biogenesis
 id: DDPHENO:0000498
 name: abolished autophagic vacuole formation
 def: "Complete inability to form autophagic vacuoles." [DDB:pg]
-is_a: DDPHENO:0000388 ! abolished vacuolation
+is_a: DDPHENO:0001041 ! aberrant vacuole organization and biogenesis
 
 [Term]
 id: DDPHENO:0000499
@@ -3578,7 +3576,7 @@ is_a: DDPHENO:0000187 ! aberrant cell-substrate adhesion
 
 [Term]
 id: DDPHENO:0000500
-name: small pinosomes
+name: decreased pinosome size
 def: "Decreased size of pinosomes." [DDB:pf]
 is_a: DDPHENO:0001007 ! aberrant pinocytosis
 
@@ -4117,8 +4115,9 @@ creation_date: 2017-11-30T16:34:11Z
 
 [Term]
 id: DDPHENO:0000579
-name: aberrant sensitivity to cheating
+name: aberrant resistance to cheating
 def: "Deviation from the normal, usual, or expected sorting when mixed with cheater cells." [DDB:pf]
+synonym: "aberrant resistance to cheating during chimeric sorocarp development" EXACT []
 is_a: DDPHENO:0000127 ! aberrant socially cooperative development
 created_by: Petra
 creation_date: 2018-01-31T15:28:37Z
@@ -4127,7 +4126,8 @@ creation_date: 2018-01-31T15:28:37Z
 id: DDPHENO:0000580
 name: increased resistance to cheating
 def: "Increase in extent, amount, or degree of resistance towards cheater cells compared to wild type." [DDB:pf]
-is_a: DDPHENO:0000579 ! aberrant sensitivity to cheating
+synonym: "increased resistance to cheating during chimeric sorocarp development" EXACT []
+is_a: DDPHENO:0000579 ! aberrant resistance to cheating
 created_by: Petra
 creation_date: 2018-01-31T15:28:50Z
 
@@ -4135,15 +4135,17 @@ creation_date: 2018-01-31T15:28:50Z
 id: DDPHENO:0000581
 name: decreased resistance to cheating
 def: "Decreased tolerance of the normal, usual, or expected events towards  cheater cells compared to wild type." [DDB:pf]
-is_a: DDPHENO:0000579 ! aberrant sensitivity to cheating
+synonym: "decreased resistance to cheating during chimeric sorocarp development" EXACT []
+is_a: DDPHENO:0000579 ! aberrant resistance to cheating
 created_by: Petra
 creation_date: 2018-01-31T15:29:25Z
 
 [Term]
 id: DDPHENO:0000582
-name: abolished sensitivity to cheating
+name: abolished response to cheating
 def: "Complete resistance to cheating when mixed with cheater cells." [DDB:pf]
-is_a: DDPHENO:0000579 ! aberrant sensitivity to cheating
+synonym: "abolished response to cheating during chimeric sorocarp development" EXACT []
+is_a: DDPHENO:0000579 ! aberrant resistance to cheating
 created_by: Petra
 creation_date: 2018-01-31T15:29:40Z
 
@@ -4270,10 +4272,34 @@ created_by: Petra
 creation_date: 2020-06-12T13:55:27Z
 
 [Term]
+id: DDPHENO:0000597
+name: precocious contractile vacuole discharge
+def: "Early onset or faster progression through contractile vacuole discharge." [DDB:pf]
+is_a: DDPHENO:0000034 ! aberrant contractile vacuole discharge
+created_by: Petra
+creation_date: 2020-07-06T13:55:30Z
+
+[Term]
+id: DDPHENO:0000598
+name: decreased number of post-lysosomal vacuoles
+def: "Quantitative reduction of post-lysosomes." [DDB:pf]
+is_a: DDPHENO:0001238 ! aberrant post-lysosomal vacuole organization and biogenesis
+created_by: Petra
+creation_date: 2020-07-07T09:24:23Z
+
+[Term]
+id: DDPHENO:0000599
+name: decreased post-lysosomal vacuole size
+def: "Decrease in relative or proportionate dimensions of the  post-lysosomal vacuole." [DDB:pf]
+is_a: DDPHENO:0001238 ! aberrant post-lysosomal vacuole organization and biogenesis
+created_by: Petra
+creation_date: 2020-07-07T09:28:21Z
+
+[Term]
 id: DDPHENO:0001001
 name: aberrant initiation of development
 def: "Deviation from the normal, usual, or expected during the initiation of development." [DDB:pg]
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0001002
@@ -4333,11 +4359,12 @@ is_a: DDPHENO:0010000 ! Dicty Phenotypes
 
 [Term]
 id: DDPHENO:0001010
-name: aberrant macrocyst differentiation
-def: "Deviation from the normal, usual, or expected events during formation of macrocysts." [DDB:pg]
+name: aberrant macrocyst formation
+alt_id: DDPHENO:0000476
+def: "Deviation from the normal, usual, or expected events during sexual macrocyst formation." [DDB:pf]
 comment: Child of GO:0000747:  conjugation with cellular fusion.
-synonym: "aberrant conjugation with cellular fusion" EXACT []
-synonym: "aberrant macrocyst formation" EXACT []
+synonym: "aberrant aggregation during macrocyst formation" NARROW []
+synonym: "aberrant sexual macrocyst formation" EXACT []
 synonym: "aberrant sexual reproduction" BROAD []
 is_a: DDPHENO:0001013 ! aberrant cell differentiation
 
@@ -4357,7 +4384,7 @@ is_a: DDPHENO:0001015 ! aberrant culmination
 id: DDPHENO:0001013
 name: aberrant cell differentiation
 def: "Deviation from the normal, usual, or expected events during cell differentiation." [DDB:pg]
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 is_a: DDPHENO:0001008 ! aberrant cellular process
 
 [Term]
@@ -4365,20 +4392,20 @@ id: DDPHENO:0001014
 name: aberrant slug formation
 def: "Deviation from the normal, usual, or expected events during slug formation." [DDB:pg]
 synonym: "pseudoplasmodium formation" EXACT []
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0001015
 name: aberrant culmination
 def: "Deviation from the normal, usual, or expected events during culmination." [DDB:pg]
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0001016
 name: aberrant regulation of fruiting body formation
 def: "Deviation from the normal, usual, or expected events during the regulation of fruiting body formation." [DDB:pg]
 synonym: "aberrant regulation of sorocarp formation" EXACT []
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0001017
@@ -4977,14 +5004,14 @@ is_a: DDPHENO:0001256 ! increased catalytic activity
 id: DDPHENO:0001108
 name: aberrant response to lithium
 def: "Deviation from the normal, usual, or expected events during the response to lithium." [DDB:pf]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0001109
 name: aberrant response to valproic acid
 def: "Deviation from the normal, usual, or expected events during the response to valproic acid." [DDB:pf]
 synonym: "aberrant response to VPA" RELATED []
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0001110
@@ -5095,7 +5122,7 @@ is_a: DDPHENO:0001003 ! aberrant response to stimulus
 id: DDPHENO:0001122
 name: aberrant chemotaxis
 def: "Deviation from the normal, usual, or expected events during the locomotory response to a chemical concentration gradient." [DD:pg]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 is_a: DDPHENO:0000264 ! aberrant cell motility
 is_a: DDPHENO:0001121 ! aberrant taxis
 
@@ -5552,7 +5579,7 @@ id: DDPHENO:0001192
 name: decreased number of autophagosomes
 def: "Quantitative reduction in autophagosomes." [DDB:pf]
 synonym: "decreased number of autophagic vacuoles" EXACT []
-is_a: DDPHENO:0001041 ! aberrant vacuole organization and biogenesis
+is_a: DDPHENO:0001279 ! decreased autophagic vacuole formation
 
 [Term]
 id: DDPHENO:0001193
@@ -5624,7 +5651,7 @@ is_a: DDPHENO:0000151 ! aberrant F-actin organization
 id: DDPHENO:0001203
 name: aberrant response to nutrients
 def: "Deviation from the normal, usual, or expected events during the response to nutrients." [DDB:pf]
-is_a: DDPHENO:0000040 ! aberrant response to chemical stimulus
+is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0001204
@@ -5865,8 +5892,8 @@ is_a: DDPHENO:0001043 ! aberrant organelle organization and biogenesis
 
 [Term]
 id: DDPHENO:0001238
-name: aberrant post-lysosome organization and biogenesis
-def: "Deviation from the normal, usual, or expected events during post-lysosome organization and biogenesis." [DDB:pg]
+name: aberrant post-lysosomal vacuole organization and biogenesis
+def: "Deviation from the normal, usual, or expected events during post-lysosomal vacuole organization and biogenesis." [DDB:pf]
 synonym: "aberrant lysosome maturation" RELATED []
 is_a: DDPHENO:0001237 ! aberrant lysosome organization and biogenesis
 
@@ -6117,15 +6144,15 @@ is_a: DDPHENO:0001275 ! aberrant engulfment during phagocytosis
 
 [Term]
 id: DDPHENO:0001278
-name: aberrant vacuolation
-def: "Deviation from the normal, usual, or expected events during vacuolation." [DDB:pf]
-is_a: DDPHENO:0001002 ! aberrant organelle morphology
+name: obsolete aberrant vacuolation
+def: "Obsolete: Deviation from the normal, usual, or expected events during vacuolation." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001279
 name: decreased autophagic vacuole formation
 def: "Reduction in extent, amount, or degree of autophagic vacuole formation." [DDB:pf]
-is_a: DDPHENO:0001278 ! aberrant vacuolation
+is_a: DDPHENO:0001041 ! aberrant vacuole organization and biogenesis
 
 [Term]
 id: DDPHENO:0001280
@@ -7117,7 +7144,7 @@ is_a: DDPHENO:0001427 ! aberrant protein localization to nuclear envelope
 id: DDPHENO:0001431
 name: aberrant tip formation
 def: "Deviation from the normal, usual, or expected events during tip formation." [DDB:pf]
-is_a: DDPHENO:0000154 ! aberrant development
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0001432
