@@ -2144,7 +2144,7 @@ creation_date: 2015-05-05T16:48:58Z
 id: DDPHENO:0000288
 name: increased defense response to Gram-negative bacterium
 def: "Increase in extent, amount, or degree of the defense response to Gram-negative bacterium, often after infection." [DDB:pf]
-synonym: " increased defense response to pathogenic Gram-negative bacterium" NARROW []
+synonym: "increased defense response to pathogenic Gram-negative bacterium" NARROW []
 is_a: DDPHENO:0000278 ! increased defense response to bacterium
 is_a: DDPHENO:0000287 ! aberrant defense response to Gram-negative bacterium
 created_by: Petra
@@ -4084,7 +4084,7 @@ creation_date: 2017-11-30T16:25:26Z
 id: DDPHENO:0000576
 name: abolished double-strand break repair via nonhomologous end joining
 def: "Complete inability for double strand break repair of DNA via nonhomologous end joining." [DDB:pf]
-synonym: " abolished DSB repair via nonhomologous end joining" EXACT []
+synonym: "abolished DSB repair via nonhomologous end joining" EXACT []
 synonym: "abolished double-strand break repair via NHEJ" EXACT []
 is_a: DDPHENO:0000247 ! abolished double strand break repair
 is_a: DDPHENO:0000575 ! aberrant double-strand break repair via nonhomologous end joining
@@ -4095,7 +4095,7 @@ creation_date: 2017-11-30T16:28:18Z
 id: DDPHENO:0000577
 name: decreased double-strand break repair via nonhomologous end joining
 def: "Reduction in extent, amount, or degree of double strand break repair of DNA via nonhomologous end joining." [DDB:pf]
-synonym: " decreased DSB repair via nonhomologous end joining" EXACT []
+synonym: "decreased DSB repair via nonhomologous end joining" EXACT []
 synonym: "decreased double-strand break repair via NHEJ" EXACT []
 is_a: DDPHENO:0000245 ! decreased double-strand break repair
 is_a: DDPHENO:0000575 ! aberrant double-strand break repair via nonhomologous end joining
@@ -4106,7 +4106,7 @@ creation_date: 2017-11-30T16:33:41Z
 id: DDPHENO:0000578
 name: increased double-strand break repair via nonhomologous end joining
 def: "Increased tolerance of the normal, usual, or expected events in double-strand break repair of DNA nonhomologous end joining." [DDB:pf]
-synonym: " increased DSB repair via nonhomologous end joining" EXACT []
+synonym: "increased DSB repair via nonhomologous end joining" EXACT []
 synonym: "increased double-strand break repair via NHEJ" EXACT []
 is_a: DDPHENO:0000249 ! increased double-strand break repair
 is_a: DDPHENO:0000575 ! aberrant double-strand break repair via nonhomologous end joining
@@ -4551,7 +4551,7 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 [Term]
 id: DDPHENO:0001040
 name: obsolete aberrant response to drug
-def: "OBSOLETE. Deviation from the normal, usual, or expected events during the response to drug. " [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during the response to drug." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -5739,7 +5739,7 @@ is_a: DDPHENO:0000138 ! decreased cell-cell adhesion
 id: DDPHENO:0001215
 name: increased calcium-dependent cell-cell adhesion
 def: "Increase in extent, amount, or degree of calcium-dependent cell-cell adhesion." [DDB:pf]
-synonym: " increased EDTA-sensitive cell-cell adhesion" EXACT []
+synonym: "increased EDTA-sensitive cell-cell adhesion" EXACT []
 is_a: DDPHENO:0000109 ! increased cell-cell adhesion
 
 [Term]
@@ -6979,7 +6979,7 @@ is_a: DDPHENO:0001408 ! aberrant protein localization to coated pits
 id: DDPHENO:0001406
 name: decreased protein localization to coated pits
 def: "Reduction in amount or accumulation of a protein to coated pits." [DDB:pf]
-synonym: "decreased localization of protein to clathrin-coated pits " EXACT []
+synonym: "decreased localization of protein to clathrin-coated pits" EXACT []
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001408 ! aberrant protein localization to coated pits
 
@@ -6987,7 +6987,7 @@ is_a: DDPHENO:0001408 ! aberrant protein localization to coated pits
 id: DDPHENO:0001407
 name: increased protein localization to coated pits
 def: "Increase in amount or accumulation of a protein to coated pits." [DDB:pf]
-synonym: "increased localization of protein to clathrin-coated pits " RELATED []
+synonym: "increased localization of protein to clathrin-coated pits" RELATED []
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001408 ! aberrant protein localization to coated pits
 
