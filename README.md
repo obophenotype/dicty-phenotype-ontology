@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/obophenotype/dicty-phenotype-ontology.svg?branch=master)](https://travis-ci.org/obophenotype/dicty-phenotype-ontology)
-[![DOI](https://zenodo.org/badge/13996/obophenotype/dicty-phenotype-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/dicty-phenotype-ontology)
+<!-- [![DOI](https://zenodo.org/badge/13996/obophenotype/dicty-phenotype-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/obophenotype/dicty-phenotype-ontology)-->
 
 # Dicty Phenotype Ontology
 
