@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:07:2020 10:42
+date: 14:07:2020 18:35
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -4084,8 +4084,8 @@ creation_date: 2017-11-30T16:25:26Z
 id: DDPHENO:0000576
 name: abolished double-strand break repair via nonhomologous end joining
 def: "Complete inability for double strand break repair of DNA via nonhomologous end joining." [DDB:pf]
-synonym: "abolished DSB repair via nonhomologous end joining" EXACT []
 synonym: "abolished double-strand break repair via NHEJ" EXACT []
+synonym: "abolished DSB repair via nonhomologous end joining" EXACT []
 is_a: DDPHENO:0000247 ! abolished double strand break repair
 is_a: DDPHENO:0000575 ! aberrant double-strand break repair via nonhomologous end joining
 created_by: Petra
@@ -4095,8 +4095,8 @@ creation_date: 2017-11-30T16:28:18Z
 id: DDPHENO:0000577
 name: decreased double-strand break repair via nonhomologous end joining
 def: "Reduction in extent, amount, or degree of double strand break repair of DNA via nonhomologous end joining." [DDB:pf]
-synonym: "decreased DSB repair via nonhomologous end joining" EXACT []
 synonym: "decreased double-strand break repair via NHEJ" EXACT []
+synonym: "decreased DSB repair via nonhomologous end joining" EXACT []
 is_a: DDPHENO:0000245 ! decreased double-strand break repair
 is_a: DDPHENO:0000575 ! aberrant double-strand break repair via nonhomologous end joining
 created_by: Petra
@@ -4106,8 +4106,8 @@ creation_date: 2017-11-30T16:33:41Z
 id: DDPHENO:0000578
 name: increased double-strand break repair via nonhomologous end joining
 def: "Increased tolerance of the normal, usual, or expected events in double-strand break repair of DNA nonhomologous end joining." [DDB:pf]
-synonym: "increased DSB repair via nonhomologous end joining" EXACT []
 synonym: "increased double-strand break repair via NHEJ" EXACT []
+synonym: "increased DSB repair via nonhomologous end joining" EXACT []
 is_a: DDPHENO:0000249 ! increased double-strand break repair
 is_a: DDPHENO:0000575 ! aberrant double-strand break repair via nonhomologous end joining
 created_by: Petra
@@ -7997,4 +7997,3 @@ creation_date: 2013-03-27T14:34:35Z
 [Term]
 id: DDPHENO:0010000
 name: Dicty Phenotypes
-
