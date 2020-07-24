@@ -24,4 +24,5 @@ branches:
 ### See https://github.com/INCATools/ontology-development-kit/issues/35
 notifications:
   email:
-    - obo-ci-reports-all@groups.io
+    - pfey@northwestern.edu
+    - nicolas.matentzoglu@gmail.com
