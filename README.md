@@ -3,7 +3,7 @@
 
 # Dicty Phenotype Ontology
 
-This ontology... YOUR DESCRIPTION HERE
+A structured controlled vocabulary of phenotypes of the slime-mould <i>Dictyostelium discoideum</i>.
 
 More information can be found at http://obofoundry.org/ontology/ddpheno
 
@@ -27,4 +27,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/obophenot
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit)
