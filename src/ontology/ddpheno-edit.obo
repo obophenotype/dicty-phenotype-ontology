@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:07:2020 18:35
+date: 13:08:2020 12:29
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -23,7 +23,7 @@ name: aberrant standing slug morphology
 def: "Deviation from the normal, usual, or expected morphology of the standing slug (finger)." [DDB:pf]
 synonym: "aberrant finger morphology" EXACT []
 synonym: "curly fingers" BROAD []
-is_a: DDPHENO:0001014 ! aberrant slug formation
+is_a: DDPHENO:0001014 ! aberrant slug development
 created_by: pfey
 creation_date: 2013-08-15T16:54:08Z
 
@@ -40,7 +40,7 @@ creation_date: 2013-08-16T15:21:25Z
 id: DDPHENO:0000004
 name: decreased slug size
 def: "Decrease in relative or proportionate dimensions of the slug." [DDB:pf]
-is_a: DDPHENO:0001014 ! aberrant slug formation
+is_a: DDPHENO:0001014 ! aberrant slug development
 created_by: pfey
 creation_date: 2013-08-27T16:36:33Z
 
@@ -220,9 +220,10 @@ creation_date: 2013-12-02T17:39:10Z
 
 [Term]
 id: DDPHENO:0000028
-name: abolished stalk formation
-def: "Complete inability for formation of the stalk." [DDB:pg]
-is_a: DDPHENO:0001012 ! aberrant stalk formation
+name: abolished stalk development
+def: "Complete inability for stalk development." [DDB:pg]
+synonym: "abolished stalk formation" RELATED []
+is_a: DDPHENO:0001012 ! aberrant stalk development
 
 [Term]
 id: DDPHENO:0000029
@@ -234,9 +235,10 @@ creation_date: 2014-01-16T15:06:08Z
 
 [Term]
 id: DDPHENO:0000030
-name: abolished slug formation
+name: abolished slug development
 def: "Complete inability to form slugs during development." [DDB:pf]
-is_a: DDPHENO:0001014 ! aberrant slug formation
+synonym: "abolished slug formation" RELATED []
+is_a: DDPHENO:0001014 ! aberrant slug development
 created_by: pfey
 creation_date: 2014-01-24T13:54:53Z
 
@@ -283,11 +285,11 @@ creation_date: 2014-01-27T16:15:45Z
 
 [Term]
 id: DDPHENO:0000036
-name: multiple tips
+name: increased number of tips
 def: "Increase in extend, amount, or degree of the number of tips." [DDB:pf]
-synonym: "increased number of tips" EXACT []
+synonym: "multiple tips" EXACT []
 is_a: DDPHENO:0000009 ! aberrant fruiting body morphology
-is_a: DDPHENO:0001431 ! aberrant tip formation
+is_a: DDPHENO:0001431 ! aberrant tip development
 
 [Term]
 id: DDPHENO:0000037
@@ -1104,7 +1106,7 @@ id: DDPHENO:0000132
 name: increased basal F-actin level
 def: "Increase in amount or accumulation of basal F-actin." [DDB:pg]
 synonym: "increased basal filamentous actin level" EXACT []
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000133
@@ -1117,7 +1119,7 @@ is_obsolete: true
 id: DDPHENO:0000134
 name: increased myosin II assembly
 def: "Increase in extent, amount, or degree of assembly of myosin II." [DDB:pg]
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000135
@@ -1130,7 +1132,7 @@ is_obsolete: true
 id: DDPHENO:0000136
 name: decreased myosin II assembly
 def: "Reduction in extent, amount, or degree of myosin II assembly." [DDB:pg]
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000137
@@ -1157,7 +1159,7 @@ id: DDPHENO:0000140
 name: decreased slime trail
 def: "Reduction in extent, amount, or degree of the slime trail." [DDB:pf]
 synonym: "weak slime trail" EXACT []
-is_a: DDPHENO:0001014 ! aberrant slug formation
+is_a: DDPHENO:0001014 ! aberrant slug development
 
 [Term]
 id: DDPHENO:0000141
@@ -1286,10 +1288,11 @@ is_a: DDPHENO:0000483 ! aberrant aggregation
 
 [Term]
 id: DDPHENO:0000157
-name: delayed tip formation
-def: "Late onset or slower progression through the formation of the tip." [DDB:pg]
+name: delayed tip development
+def: "Late onset or slower progression through tip development." [DDB:pg]
+synonym: "delayed tip formation" RELATED []
 is_a: DDPHENO:0000162 ! delayed development
-is_a: DDPHENO:0001431 ! aberrant tip formation
+is_a: DDPHENO:0001431 ! aberrant tip development
 
 [Term]
 id: DDPHENO:0000158
@@ -1317,7 +1320,7 @@ is_a: DDPHENO:0000026 ! development arrests at mound stage
 id: DDPHENO:0000160
 name: increased slug size
 def: "Increase in relative or proportionate dimensions of the slug." [DDB:pg]
-is_a: DDPHENO:0001014 ! aberrant slug formation
+is_a: DDPHENO:0001014 ! aberrant slug development
 
 [Term]
 id: DDPHENO:0000161
@@ -1377,7 +1380,7 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 id: DDPHENO:0000168
 name: development arrests at slug stage
 def: "Development cannot progress past the slug stage during development." [DDB:pf]
-is_a: DDPHENO:0001014 ! aberrant slug formation
+is_a: DDPHENO:0001014 ! aberrant slug development
 
 [Term]
 id: DDPHENO:0000169
@@ -1446,10 +1449,11 @@ creation_date: 2014-12-17T16:36:44Z
 
 [Term]
 id: DDPHENO:0000178
-name: precocious tip formation
-def: "Early onset or faster progression through tip formation." [DDB:pg]
+name: precocious tip development
+def: "Early onset or faster progression through tip development." [DDB:pg]
+synonym: "precocious tip formation" RELATED []
 is_a: DDPHENO:0000167 ! precocious development
-is_a: DDPHENO:0001431 ! aberrant tip formation
+is_a: DDPHENO:0001431 ! aberrant tip development
 
 [Term]
 id: DDPHENO:0000181
@@ -1467,7 +1471,7 @@ is_a: DDPHENO:0001002 ! aberrant organelle morphology
 id: DDPHENO:0000184
 name: decreased size of astral microtubules
 def: "Reduction in extent or length of astral microtubules." [DDB:pf]
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000185
@@ -1618,9 +1622,10 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
 [Term]
 id: DDPHENO:0000210
-name: delayed slug formation
-def: "Late onset or slower progression through the formation of the slug." [DDB:pg]
-is_a: DDPHENO:0001014 ! aberrant slug formation
+name: delayed slug development
+def: "Late onset or slower progression through slug development." [DDB:pg]
+synonym: "delayed slug formation" RELATED []
+is_a: DDPHENO:0001014 ! aberrant slug development
 
 [Term]
 id: DDPHENO:0000211
@@ -2283,7 +2288,7 @@ is_a: DDPHENO:0001084 ! aberrant vegetative growth
 id: DDPHENO:0000303
 name: increased actin bundle formation
 def: "Increase in extent, amount, or degree of actin bundle formation." [DDB:pg]
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000304
@@ -2302,7 +2307,7 @@ is_a: DDPHENO:0001001 ! aberrant initiation of development
 id: DDPHENO:0000306
 name: aberrant sorting to prestalk region
 def: "Deviation from the normal, usual, or expected sorting to the prestalk region." [DDB:pf]
-is_a: DDPHENO:0001014 ! aberrant slug formation
+is_a: DDPHENO:0001014 ! aberrant slug development
 created_by: Petra
 creation_date: 2015-06-16T17:41:25Z
 
@@ -2401,9 +2406,10 @@ creation_date: 2015-06-17T17:29:11Z
 
 [Term]
 id: DDPHENO:0000318
-name: abolished tip formation
+name: abolished tip development
 def: "Complete inability to form a tip during development." [DDB:pf]
-is_a: DDPHENO:0001431 ! aberrant tip formation
+synonym: "abolished tip formation" RELATED []
+is_a: DDPHENO:0001431 ! aberrant tip development
 created_by: Petra
 creation_date: 2015-10-08T17:23:04Z
 
@@ -2918,7 +2924,7 @@ is_a: DDPHENO:0000149 ! aberrant cytokinesis
 id: DDPHENO:0000387
 name: abolished prespore cell division
 def: "Complete inability for division of prespore cells." [DDB:pg]
-is_a: DDPHENO:0001014 ! aberrant slug formation
+is_a: DDPHENO:0001014 ! aberrant slug development
 
 [Term]
 id: DDPHENO:0000388
@@ -2998,7 +3004,7 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000397
-name: aberrant cytoskeleton organisation
+name: aberrant cytoskeleton organization
 def: "Deviation from the normal, usual, or expected events during cytoskeleton organization." [DDB:pg]
 is_a: DDPHENO:0001002 ! aberrant organelle morphology
 
@@ -3105,7 +3111,7 @@ is_a: DDPHENO:0001044 ! aberrant cell adhesion
 id: DDPHENO:0000413
 name: aberrant microtubule cytoskeleton organization
 def: "Deviation from the normal, usual, or expected events during organization of the microtubule cytoskeleton." [DDB:pg]
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000414
@@ -3222,7 +3228,7 @@ is_a: DDPHENO:0001007 ! aberrant pinocytosis
 id: DDPHENO:0000437
 name: decreased actin nucleation on plasma membranes
 def: "Reduction in extent, amount, or degree of actin nucleation on plasma membranes." [DDB:pg]
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000438
@@ -3350,7 +3356,7 @@ is_a: DDPHENO:0001343 ! increased protein phosphorylation
 id: DDPHENO:0000457
 name: aberrant phosphorylation of actin
 def: "Deviation from the normal, usual, or expected events during actin phosphorylation." [DDB:pg]
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 is_a: DDPHENO:0001342 ! aberrant protein phosphorylation
 
 [Term]
@@ -4296,6 +4302,38 @@ created_by: Petra
 creation_date: 2020-07-07T09:28:21Z
 
 [Term]
+id: DDPHENO:0000600
+name: aberrant intermediate filament organization
+def: "Deviation from the normal, usual, or expected events during organization of intermediate filaments." [DDB:pf]
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
+created_by: Petra
+creation_date: 2020-08-13T10:08:45Z
+
+[Term]
+id: DDPHENO:0000601
+name: aberrant intermediate filament bundle assembly
+def: "Deviation from the normal, usual, or expected events during  intermediate filament bundle assembly." [DDB:pf]
+is_a: DDPHENO:0000600 ! aberrant intermediate filament organization
+created_by: Petra
+creation_date: 2020-08-13T10:10:37Z
+
+[Term]
+id: DDPHENO:0000602
+name: increased intermediate filament bundle assembly
+def: "Quantitative increase in intermediate filament bundle assembly." [DDB:pf]
+is_a: DDPHENO:0000601 ! aberrant intermediate filament bundle assembly
+created_by: Petra
+creation_date: 2020-08-13T10:11:40Z
+
+[Term]
+id: DDPHENO:0000603
+name: decreased intermediate filament bundle assembly
+def: "Reduction in extent, amount, or degree of intermediate filament bundle assembly." [DDB:pf]
+is_a: DDPHENO:0000601 ! aberrant intermediate filament bundle assembly
+created_by: Petra
+creation_date: 2020-08-13T10:17:12Z
+
+[Term]
 id: DDPHENO:0001001
 name: aberrant initiation of development
 def: "Deviation from the normal, usual, or expected during the initiation of development." [DDB:pg]
@@ -4376,8 +4414,9 @@ is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
 [Term]
 id: DDPHENO:0001012
-name: aberrant stalk formation
-def: "Deviation from the normal, usual, or expected events during stalk formation." [DDB:pg]
+name: aberrant stalk development
+def: "Deviation from the normal, usual, or expected events during stalk development." [DDB:pg]
+synonym: "aberrant stalk formation" RELATED []
 is_a: DDPHENO:0001015 ! aberrant culmination
 
 [Term]
@@ -4389,9 +4428,10 @@ is_a: DDPHENO:0001008 ! aberrant cellular process
 
 [Term]
 id: DDPHENO:0001014
-name: aberrant slug formation
-def: "Deviation from the normal, usual, or expected events during slug formation." [DDB:pg]
-synonym: "pseudoplasmodium formation" EXACT []
+name: aberrant slug development
+def: "Deviation from the normal, usual, or expected events during slug development." [DDB:pg]
+synonym: "aberrant slug formation" RELATED []
+synonym: "pseudoplasmodium development" EXACT []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
@@ -4639,17 +4679,17 @@ is_a: DDPHENO:0001049 ! aberrant bleb formation
 
 [Term]
 id: DDPHENO:0001054
-name: multiple tips in culminant
+name: increased number of tips in culminant
 def: "Increase in extend, amount, or degree of the number of tips in the culminant." [DDB:pf]
-synonym: "increased number of tips in culminant" EXACT []
-is_a: DDPHENO:0000036 ! multiple tips
+synonym: "multiple tips in culminant" EXACT []
+is_a: DDPHENO:0000036 ! increased number of tips
 
 [Term]
 id: DDPHENO:0001055
-name: multiple tips in mound
+name: increased number of tips in mound
 def: "Increase in extend, amount, or degree of the number of tips in the mound." [DDB:pf]
-synonym: "increased number of tips in mound" EXACT []
-is_a: DDPHENO:0000036 ! multiple tips
+synonym: "multiple tips in mound" EXACT []
+is_a: DDPHENO:0000036 ! increased number of tips
 
 [Term]
 id: DDPHENO:0001056
@@ -4788,7 +4828,7 @@ is_a: DDPHENO:0000512 ! abolished prestalk cell differentiation
 id: DDPHENO:0001077
 name: aberrant slug migration
 def: "Deviation from the normal, usual, or expected events during slug migration." [DDB:kp]
-is_a: DDPHENO:0001014 ! aberrant slug formation
+is_a: DDPHENO:0001014 ! aberrant slug development
 
 [Term]
 id: DDPHENO:0001078
@@ -7142,8 +7182,9 @@ is_a: DDPHENO:0001427 ! aberrant protein localization to nuclear envelope
 
 [Term]
 id: DDPHENO:0001431
-name: aberrant tip formation
-def: "Deviation from the normal, usual, or expected events during tip formation." [DDB:pf]
+name: aberrant tip development
+def: "Deviation from the normal, usual, or expected events during tip development." [DDB:pf]
+synonym: "aberrant tip formation" RELATED []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
@@ -7523,7 +7564,7 @@ creation_date: 2011-09-13T11:21:46Z
 id: DDPHENO:0001481
 name: aberrant actin cytoskeleton organization
 def: "Deviation from the normal, usual, or expected events during organization of the actin cytoskeleton." [DDB:pf]
-is_a: DDPHENO:0000397 ! aberrant cytoskeleton organisation
+is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0001482
@@ -7997,3 +8038,4 @@ creation_date: 2013-03-27T14:34:35Z
 [Term]
 id: DDPHENO:0010000
 name: Dicty Phenotypes
+
