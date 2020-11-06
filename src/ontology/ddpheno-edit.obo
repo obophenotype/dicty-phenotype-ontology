@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:08:2020 12:29
+date: 05:11:2020 20:41
 saved-by: Petra
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -440,325 +440,12 @@ created_by: pfey
 creation_date: 2014-03-26T09:52:55Z
 
 [Term]
-id: DDPHENO:0000054
-name: aberrant localization to cell cortex
-def: "Deviation from the normal, usual, or expected localization to the cell cortex." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:23:59Z
-
-[Term]
-id: DDPHENO:0000055
-name: abolished localization to cell cortex
-def: "Complete inability to localize to the cell cortex." [DDB:pf]
-is_a: DDPHENO:0000054 ! aberrant localization to cell cortex
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:25:02Z
-
-[Term]
-id: DDPHENO:0000056
-name: increased localization to cell cortex
-def: "Increase in amount or accumulation at the cell cortex." [DDB:pf]
-is_a: DDPHENO:0000054 ! aberrant localization to cell cortex
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:25:31Z
-
-[Term]
-id: DDPHENO:0000057
-name: decreased localization to cell cortex
-def: "Reduction in amount or accumulation at the cell cortex." [DDB:pf]
-is_a: DDPHENO:0000054 ! aberrant localization to cell cortex
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:26:03Z
-
-[Term]
-id: DDPHENO:0000058
-name: aberrant localization to cell surface
-def: "Deviation from the normal, usual, or expected localization to the cell surface." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:26:59Z
-
-[Term]
-id: DDPHENO:0000059
-name: abolished localization to cell surface
-def: "Complete inability to localize to the cell surface." [DDB:pf]
-is_a: DDPHENO:0000058 ! aberrant localization to cell surface
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:27:37Z
-
-[Term]
-id: DDPHENO:0000060
-name: increased localization to cell surface
-def: "Increase in amount or accumulation on the cell surface." [DDB:pf]
-is_a: DDPHENO:0000058 ! aberrant localization to cell surface
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:28:27Z
-
-[Term]
-id: DDPHENO:0000061
-name: decreased localization to cell surface
-def: "Reduction in amount or accumulation on the cell surface." [DDB:pf]
-is_a: DDPHENO:0000058 ! aberrant localization to cell surface
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:29:01Z
-
-[Term]
-id: DDPHENO:0000062
-name: aberrant localization to coated pits
-def: "Deviation from the normal, usual, or expected localization to coated pits." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:29:31Z
-
-[Term]
-id: DDPHENO:0000063
-name: abolished localization to coated pits
-def: "Complete inability to localize to coated pits." [DDB:pf]
-is_a: DDPHENO:0000062 ! aberrant localization to coated pits
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:30:14Z
-
-[Term]
-id: DDPHENO:0000064
-name: increased localization to coated pits
-def: "Increase in amount or accumulation at coated pits." [DDB:pf]
-is_a: DDPHENO:0000062 ! aberrant localization to coated pits
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:30:34Z
-
-[Term]
-id: DDPHENO:0000065
-name: decreased localization to coated pits
-def: "Reduction in amount or accumulation at coated pits." [DDB:pf]
-is_a: DDPHENO:0000062 ! aberrant localization to coated pits
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:30:49Z
-
-[Term]
-id: DDPHENO:0000066
-name: aberrant localization to cytoplasm
-def: "Deviation from the normal, usual, or expected localization to the cytoplasm." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:31:22Z
-
-[Term]
-id: DDPHENO:0000067
-name: abolished localization to cytoplasm
-def: "Complete inability to localize to the cytoplasm." [DDB:pf]
-is_a: DDPHENO:0000066 ! aberrant localization to cytoplasm
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:32:06Z
-
-[Term]
-id: DDPHENO:0000068
-name: increased localization to cytoplasm
-def: "Increase in amount or accumulation in the cytoplasm." [DDB:pf]
-is_a: DDPHENO:0000066 ! aberrant localization to cytoplasm
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:32:18Z
-
-[Term]
-id: DDPHENO:0000069
-name: decreased localization to cytoplasm
-def: "Reduction in amount or accumulation in the cytoplasm." [DDB:pf]
-is_a: DDPHENO:0000066 ! aberrant localization to cytoplasm
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:32:39Z
-
-[Term]
-id: DDPHENO:0000070
-name: aberrant localization to microtubule organizing center
-def: "Deviation from the normal, usual, or expected localization to the microtubule organizing center." [DDB:pf]
-synonym: "aberrant localization to the MTOC" EXACT []
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:33:13Z
-
-[Term]
-id: DDPHENO:0000071
-name: abolished localization to microtubule organizing center
-def: "Complete inability to localize to the microtubule organizing center." [DDB:pf]
-synonym: "abolished localization to the MTOC" EXACT []
-is_a: DDPHENO:0000070 ! aberrant localization to microtubule organizing center
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:33:38Z
-
-[Term]
-id: DDPHENO:0000072
-name: increased localization to microtubule organizing center
-def: "Increase in amount or accumulation at the microtubule organizing center." [DDB:pf]
-synonym: "increased localization to the MTOC" EXACT []
-is_a: DDPHENO:0000070 ! aberrant localization to microtubule organizing center
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:33:54Z
-
-[Term]
-id: DDPHENO:0000073
-name: decreased localization to microtubule organizing center
-def: "Reduction in amount or accumulation at the microtubule organizing center." [DDB:pf]
-synonym: "decreased localization to the MTOC" EXACT []
-is_a: DDPHENO:0000070 ! aberrant localization to microtubule organizing center
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:34:07Z
-
-[Term]
-id: DDPHENO:0000074
-name: aberrant localization to microtubules
-def: "Deviation from the normal, usual, or expected localization to the microtubules." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:34:45Z
-
-[Term]
-id: DDPHENO:0000075
-name: abolished localization to microtubules
-def: "Complete inability to localize to the microtubules." [DDB:pf]
-is_a: DDPHENO:0000074 ! aberrant localization to microtubules
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:35:28Z
-
-[Term]
-id: DDPHENO:0000076
-name: decreased localization to microtubules
-def: "Reduction in amount or accumulation at the microtubules." [DDB:pf]
-is_a: DDPHENO:0000074 ! aberrant localization to microtubules
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:35:41Z
-
-[Term]
 id: DDPHENO:0000077
 name: decreased fruiting body size
 def: "Reduction in relative or proportionate dimensions of the fruiting body." [DDB:pf]
 synonym: "decreased sorocarp size" EXACT []
 synonym: "small fruiting body" EXACT []
 is_a: DDPHENO:0000009 ! aberrant fruiting body morphology
-
-[Term]
-id: DDPHENO:0000078
-name: increased localization to microtubules
-def: "Increase in amount or accumulation at the microtubules." [DDB:pf]
-is_a: DDPHENO:0000074 ! aberrant localization to microtubules
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:35:57Z
-
-[Term]
-id: DDPHENO:0000079
-name: aberrant localization to nuclear envelope
-def: "Deviation from the normal, usual, or expected localization to the nuclear envelope." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:36:20Z
-
-[Term]
-id: DDPHENO:0000080
-name: abolished localization to nuclear envelope
-def: "Complete inability to localize to the nuclear envelope." [DDB:pf]
-is_a: DDPHENO:0000079 ! aberrant localization to nuclear envelope
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:36:52Z
-
-[Term]
-id: DDPHENO:0000081
-name: increased localization to nuclear envelope
-def: "Increase in amount or accumulation at the nuclear envelope." [DDB:pf]
-is_a: DDPHENO:0000079 ! aberrant localization to nuclear envelope
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:37:15Z
-
-[Term]
-id: DDPHENO:0000082
-name: decreased localization to nuclear envelope
-def: "Reduction in amount or accumulation at the nuclear envelope." [DDB:pf]
-is_a: DDPHENO:0000079 ! aberrant localization to nuclear envelope
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:37:27Z
-
-[Term]
-id: DDPHENO:0000083
-name: aberrant localization to nucleus
-def: "Deviation from the normal, usual, or expected localization to the nucleus." [DDB:pf]
-synonym: "aberrant nuclear localization" EXACT []
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:38:50Z
-
-[Term]
-id: DDPHENO:0000084
-name: abolished localization to nucleus
-def: "Complete inability to localize to the nucleus." [DDB:pf]
-synonym: "abolished nuclear localization" EXACT []
-is_a: DDPHENO:0000083 ! aberrant localization to nucleus
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:39:27Z
-
-[Term]
-id: DDPHENO:0000085
-name: increased localization to nucleus
-def: "Increase in amount or accumulation in the nucleus." [DDB:pf]
-synonym: "increased nuclear localization" EXACT []
-is_a: DDPHENO:0000083 ! aberrant localization to nucleus
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:39:47Z
-
-[Term]
-id: DDPHENO:0000086
-name: decreased localization to nucleus
-def: "Reduction in amount or accumulation in the nucleus." [DDB:pf]
-is_a: DDPHENO:0000083 ! aberrant localization to nucleus
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:40:02Z
-
-[Term]
-id: DDPHENO:0000087
-name: aberrant localization to plasma membrane
-def: "Deviation from the normal, usual, or expected localization to the plasma membrane." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:40:53Z
-
-[Term]
-id: DDPHENO:0000088
-name: abolished localization to plasma membrane
-def: "Complete inability to localize to the plasma membrane." [DDB:pf]
-is_a: DDPHENO:0000087 ! aberrant localization to plasma membrane
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:41:22Z
-
-[Term]
-id: DDPHENO:0000089
-name: decreased localization to plasma membrane
-def: "Reduction in amount or accumulation at the plasma membrane." [DDB:pf]
-is_a: DDPHENO:0000087 ! aberrant localization to plasma membrane
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:41:35Z
 
 [Term]
 id: DDPHENO:0000090
@@ -768,61 +455,9 @@ synonym: "endocytosis defect" RELATED []
 is_a: DDPHENO:0001047 ! aberrant transport
 
 [Term]
-id: DDPHENO:0000091
-name: increased localization to plasma membrane
-def: "Increase in amount or accumulation at the plasma membrane." [DDB:pf]
-is_a: DDPHENO:0000087 ! aberrant localization to plasma membrane
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:41:49Z
-
-[Term]
-id: DDPHENO:0000092
-name: aberrant localization to pseudopodium
-def: "Deviation from the normal, usual, or expected localization to pseudopodia." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:43:03Z
-
-[Term]
-id: DDPHENO:0000093
-name: abolished localization to pseudopodium
-def: "Complete inability to localize to pseudopodia." [DDB:pf]
-is_a: DDPHENO:0000092 ! aberrant localization to pseudopodium
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:43:49Z
-
-[Term]
 id: DDPHENO:0000094
 name: obsolete spores inviable
 is_obsolete: true
-
-[Term]
-id: DDPHENO:0000095
-name: decreased localization to pseudopodium
-def: "Reduction in amount or accumulation at pseudopodia." [DDB:pf]
-is_a: DDPHENO:0000092 ! aberrant localization to pseudopodium
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:44:00Z
-
-[Term]
-id: DDPHENO:0000096
-name: increased localization to pseudopodium
-def: "Increase in amount or accumulation at pseudopodia." [DDB:pf]
-is_a: DDPHENO:0000092 ! aberrant localization to pseudopodium
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:44:26Z
-
-[Term]
-id: DDPHENO:0000097
-name: aberrant localization to nucleolus
-def: "Deviation from the normal, usual, or expected localization to the nucleolus." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:45:17Z
 
 [Term]
 id: DDPHENO:0000098
@@ -840,43 +475,17 @@ is_a: DDPHENO:0001122 ! aberrant chemotaxis
 is_a: DDPHENO:0001130 ! decreased taxis
 
 [Term]
-id: DDPHENO:0000100
-name: abolished localization to nucleolus
-def: "Complete inability to localize to the nucleolus." [DDB:pf]
-is_a: DDPHENO:0000097 ! aberrant localization to nucleolus
-is_a: DDPHENO:0000110 ! abolished cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:45:50Z
-
-[Term]
-id: DDPHENO:0000101
-name: increased localization to nucleolus
-def: "Increase in amount or accumulation in the nucleolus." [DDB:pf]
-is_a: DDPHENO:0000097 ! aberrant localization to nucleolus
-is_a: DDPHENO:0000113 ! increased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:46:03Z
-
-[Term]
 id: DDPHENO:0000102
 name: increased number of aggregates
 def: "Quantitative increase in aggregates." [DDB:pg]
 is_a: DDPHENO:0000483 ! aberrant aggregation
 
 [Term]
-id: DDPHENO:0000103
-name: decreased localization to nucleolus
-def: "Reduction in amount or accumulation in the nucleolus." [DDB:pf]
-synonym: "decreased nuclear localization" EXACT []
-is_a: DDPHENO:0000097 ! aberrant localization to nucleolus
-is_a: DDPHENO:0000112 ! decreased cellular localization
-created_by: pfey
-creation_date: 2014-05-21T10:46:16Z
-
-[Term]
 id: DDPHENO:0000104
 name: aberrant protein localization to nucleolus
+alt_id: DDPHENO:0000097
 def: "Deviation from the normal, usual, or expected events during localization of a protein to the nucleolus." [DDB:pf]
+synonym: "aberrant localization to nucleolus" BROAD []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 created_by: pfey
 creation_date: 2014-05-21T10:46:32Z
@@ -884,24 +493,33 @@ creation_date: 2014-05-21T10:46:32Z
 [Term]
 id: DDPHENO:0000105
 name: abolished protein localization to nucleolus
+alt_id: DDPHENO:0000100
 def: "Complete inability to localize a protein to the nucleolus." [DDB:pf]
+synonym: "abolished localization to nucleolus" BROAD []
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
+is_a: DDPHENO:0001393 ! abolished protein localization
 created_by: pfey
 creation_date: 2014-05-21T10:46:58Z
 
 [Term]
 id: DDPHENO:0000106
 name: decreased protein localization to nucleolus
+alt_id: DDPHENO:0000103
 def: "Reduction in amount or accumulation of a protein to the nucleolus." [DDB:pf]
+synonym: "decreased localization to nucleolus" BROAD []
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
+is_a: DDPHENO:0001338 ! decreased protein localization
 created_by: pfey
 creation_date: 2014-05-21T10:47:16Z
 
 [Term]
 id: DDPHENO:0000107
 name: increased protein localization to nucleolus
+alt_id: DDPHENO:0000101
 def: "Increase in amount or accumulation of a protein at the nucleolus." [DDB:pf]
+synonym: "increased localization to nucleolus" BROAD []
 is_a: DDPHENO:0000104 ! aberrant protein localization to nucleolus
+is_a: DDPHENO:0001337 ! increased protein localization
 created_by: pfey
 creation_date: 2014-05-21T10:47:28Z
 
@@ -3328,8 +2946,10 @@ is_a: DDPHENO:0001010 ! aberrant macrocyst formation
 [Term]
 id: DDPHENO:0000453
 name: abolished protein localization to nucleus
+alt_id: DDPHENO:0000084
 def: "Complete inability to localize a protein to the nucleus." [DDB:pf, DDB:pg]
-synonym: "abolished nuclear protein localization" RELATED []
+synonym: "abolished localization to nucleus" BROAD []
+synonym: "abolished nuclear protein localization" EXACT []
 is_a: DDPHENO:0001336 ! aberrant protein localization to nucleus
 is_a: DDPHENO:0001393 ! abolished protein localization
 
@@ -3389,9 +3009,9 @@ creation_date: 2017-03-23T15:57:06Z
 
 [Term]
 id: DDPHENO:0000464
-name: aberrant localization to contractile vacuole
-def: "Deviation from the normal, usual, or expected localization to contractile vacuole." [DDB:pf]
-is_a: DDPHENO:0001217 ! aberrant cellular localization
+name: aberrant protein localization to contractile vacuole
+def: "Deviation from the normal, usual, or expected during localization of a protein to contractile vacuole." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
 created_by: Petra
 creation_date: 2017-04-20T17:03:31Z
 
@@ -3414,7 +3034,7 @@ id: DDPHENO:0000471
 name: aberrant protein localization
 def: "Deviation from the normal, usual, or expected localization of a protein." [DDB:pf, DDB:pg]
 comment: Use for the altered localization of a protein that is affected by the mutation of another gene product.
-is_a: DDPHENO:0001009 ! aberrant localization
+is_a: DDPHENO:0001217 ! aberrant cellular localization
 
 [Term]
 id: DDPHENO:0000472
@@ -3543,10 +3163,9 @@ is_a: DDPHENO:0000482 ! aberrant streaming
 
 [Term]
 id: DDPHENO:0000493
-name: abolished CRAC localization to the plasma membrane
+name: obsolete abolished CRAC localization to the plasma membrane
 def: "Complete inability for translocation of CRAC (dagA) from the cytoplasm to the plasma membrane in response to a stimulus." [DDB:pg]
-is_a: DDPHENO:0001387 ! aberrant CRAC localization to the plasma membrane
-is_a: DDPHENO:0001394 ! abolished protein localization to plasma membrane
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000494
@@ -3649,10 +3268,10 @@ is_a: DDPHENO:0001025 ! aberrant prespore cell differentiation
 
 [Term]
 id: DDPHENO:0000517
-name: abolished localization to contractile vacuole
-def: "Complete inability to localize to the contractile vacuole." [DDB:pf]
-is_a: DDPHENO:0000110 ! abolished cellular localization
-is_a: DDPHENO:0000464 ! aberrant localization to contractile vacuole
+name: abolished protein localization to contractile vacuole
+def: "Complete inability to localize a protein to the contractile vacuole." [DDB:pf]
+is_a: DDPHENO:0000464 ! aberrant protein localization to contractile vacuole
+is_a: DDPHENO:0001393 ! abolished protein localization
 created_by: Petra
 creation_date: 2017-04-20T17:07:45Z
 
@@ -3666,10 +3285,10 @@ is_a: DDPHENO:0000510 ! aberrant stalk morphogenesis
 
 [Term]
 id: DDPHENO:0000519
-name: aberrant localization to contractile vacuole membrane
-def: "Deviation from the normal, usual, or expected localization to contractile vacuole membrane." [DDB:pf]
-synonym: "aberrant localization to contractile vacuolar membrane" EXACT []
-is_a: DDPHENO:0000464 ! aberrant localization to contractile vacuole
+name: aberrant protein localization to contractile vacuole membrane
+def: "Deviation from the normal, usual, or expected during localization of a protein to the contractile vacuole membrane." [DDB:pf]
+synonym: "aberrant protein localization to contractile vacuolar membrane" EXACT []
+is_a: DDPHENO:0000464 ! aberrant protein localization to contractile vacuole
 created_by: Petra
 creation_date: 2017-04-20T17:11:27Z
 
@@ -3681,10 +3300,11 @@ is_a: DDPHENO:0000514 ! abolished stalk cell differentiation
 
 [Term]
 id: DDPHENO:0000521
-name: abolished localization to contractile vacuole membrane
-def: "Complete inability to localize to the contractile vacuole membrane." [DDB:pf]
+name: abolished protein localization to contractile vacuole membrane
+def: "Complete inability to localize a protein to the contractile vacuole membrane." [DDB:pf]
 synonym: "abolished localization to contractile vacuolar membrane" EXACT []
-is_a: DDPHENO:0000517 ! abolished localization to contractile vacuole
+is_a: DDPHENO:0000517 ! abolished protein localization to contractile vacuole
+is_a: DDPHENO:0000519 ! aberrant protein localization to contractile vacuole membrane
 created_by: Petra
 creation_date: 2017-04-20T17:14:01Z
 
@@ -4332,6 +3952,728 @@ def: "Reduction in extent, amount, or degree of intermediate filament bundle ass
 is_a: DDPHENO:0000601 ! aberrant intermediate filament bundle assembly
 created_by: Petra
 creation_date: 2020-08-13T10:17:12Z
+
+[Term]
+id: DDPHENO:0000604
+name: aberrant protein localization to leading edge 
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the leading edge." [DDB:pf]
+synonym: "aberrant protein localization to cell leading edge " EXACT []
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T12:08:30Z
+
+[Term]
+id: DDPHENO:0000605
+name: abolished protein localization to leading edge 
+def: "Complete inability to localize a protein to the  leading edge." [DDB:pf]
+synonym: "abolished protein localization to cell leading edge " EXACT []
+is_a: DDPHENO:0000604 ! aberrant protein localization to leading edge 
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:00:20Z
+
+[Term]
+id: DDPHENO:0000606
+name: decreased protein localization to leading edge 
+def: "Reduction in amount or accumulation of a protein to the leading edge." [DDB:pf]
+synonym: "decreased protein localization to cell leading edge " RELATED []
+is_a: DDPHENO:0000604 ! aberrant protein localization to leading edge 
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:02:06Z
+
+[Term]
+id: DDPHENO:0000607
+name: increased protein localization to leading edge
+def: "Increase in amount or accumulation of a protein to the leading edge." [DDB:pf]
+synonym: "increased protein localization to cell leading edge" EXACT []
+is_a: DDPHENO:0000604 ! aberrant protein localization to leading edge 
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:08:59Z
+
+[Term]
+id: DDPHENO:0000608
+name: aberrant protein localization to actin wave
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the actin wave." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:11:40Z
+
+[Term]
+id: DDPHENO:0000609
+name: abolished protein localization to actin wave
+def: "Complete inability to localize a protein to the actin wave." [DDB:pf]
+is_a: DDPHENO:0000608 ! aberrant protein localization to actin wave
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:13:07Z
+
+[Term]
+id: DDPHENO:0000610
+name: decreased protein localization to actin wave
+def: "Reduction in amount or accumulation of a protein to the actin wave." [DDB:pf]
+is_a: DDPHENO:0000608 ! aberrant protein localization to actin wave
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:14:22Z
+
+[Term]
+id: DDPHENO:0000611
+name: increased protein localization to actin wave
+def: "Increase in amount or accumulation of a protein to the actin wave." [DDB:pf]
+is_a: DDPHENO:0000608 ! aberrant protein localization to actin wave
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:15:31Z
+
+[Term]
+id: DDPHENO:0000612
+name: aberrant protein localization to trailing edge
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the trailing edge." [DDB:pf]
+synonym: "aberrant protein localization to cell trailing edge" EXACT []
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:16:55Z
+
+[Term]
+id: DDPHENO:0000613
+name: abolished protein localization to trailing edge
+def: "Complete inability to localize a protein to the trailing edge." [DDB:pf]
+synonym: "abolished protein localization to cell trailing edge" EXACT []
+is_a: DDPHENO:0000612 ! aberrant protein localization to trailing edge
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:17:15Z
+
+[Term]
+id: DDPHENO:0000614
+name: decreased protein localization to trailing edge
+def: "Reduction in amount or accumulation of a protein to the trailing edge." [DDB:pf]
+synonym: "decreased protein localization to cell trailing edge" EXACT []
+is_a: DDPHENO:0000612 ! aberrant protein localization to trailing edge
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:17:29Z
+
+[Term]
+id: DDPHENO:0000615
+name: increased protein localization to trailing edge
+def: "Increase in amount or accumulation of a protein to the trailing edge." [DDB:pf]
+synonym: "increased protein localization to cell trailing edge" EXACT []
+is_a: DDPHENO:0000612 ! aberrant protein localization to trailing edge
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:17:43Z
+
+[Term]
+id: DDPHENO:0000616
+name: aberrant protein localization to filopodium
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the filopodia." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:24:40Z
+
+[Term]
+id: DDPHENO:0000617
+name: abolished protein localization to filopodium
+def: "Complete inability to localize a protein to the filopodia." [DDB:pf]
+is_a: DDPHENO:0000616 ! aberrant protein localization to filopodium
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:24:55Z
+
+[Term]
+id: DDPHENO:0000618
+name: decreased protein localization to filopodium
+def: "Reduction in amount or accumulation of a protein to the filopodia." [DDB:pf]
+is_a: DDPHENO:0000616 ! aberrant protein localization to filopodium
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:25:12Z
+
+[Term]
+id: DDPHENO:0000619
+name: increased protein localization to filopodium
+def: "Increase in amount or accumulation of a protein to the filopodia." [DDB:pf]
+is_a: DDPHENO:0000616 ! aberrant protein localization to filopodium
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:25:27Z
+
+[Term]
+id: DDPHENO:0000620
+name: aberrant protein localization to phagocytic vesicle 
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the phagocytic vesicle." [DDB:pf]
+synonym: "aberrant protein localization to phagosome" EXACT []
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:34:19Z
+
+[Term]
+id: DDPHENO:0000621
+name: abolished protein localization to phagocytic vesicle
+def: "Complete inability to localize a protein to the phagocytic vesicle." [DDB:pf]
+synonym: "abolished protein localization to phagosome" EXACT []
+is_a: DDPHENO:0000620 ! aberrant protein localization to phagocytic vesicle 
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:34:52Z
+
+[Term]
+id: DDPHENO:0000622
+name: decreased protein localization to phagocytic vesicle
+def: "Reduction in amount or accumulation of a protein to the phagocytic vesicle." [DDB:pf]
+synonym: "decreased protein localization to phagosome" EXACT []
+is_a: DDPHENO:0000620 ! aberrant protein localization to phagocytic vesicle 
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:36:34Z
+
+[Term]
+id: DDPHENO:0000623
+name: increased protein localization to phagocytic vesicle
+def: "Increase in amount or accumulation of a protein to the phagocytic vesicle." [DDB:pf]
+synonym: "increased protein localization to phagosome" EXACT []
+is_a: DDPHENO:0000620 ! aberrant protein localization to phagocytic vesicle 
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:36:52Z
+
+[Term]
+id: DDPHENO:0000624
+name: aberrant protein localization to centrosome
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the centrosome." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:48:38Z
+
+[Term]
+id: DDPHENO:0000625
+name: abolished protein localization to centrosome
+def: "Complete inability to localize a protein to the centrosome." [DDB:pf]
+is_a: DDPHENO:0000624 ! aberrant protein localization to centrosome
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:48:55Z
+
+[Term]
+id: DDPHENO:0000626
+name: decreased protein localization to centrosome
+def: "Reduction in amount or accumulation of a protein to the centrosome." [DDB:pf]
+is_a: DDPHENO:0000624 ! aberrant protein localization to centrosome
+created_by: Petra
+creation_date: 2020-11-05T13:49:09Z
+
+[Term]
+id: DDPHENO:0000627
+name: increased protein localization to centrosome
+def: "Increase in amount or accumulation of a protein to the centrosome." [DDB:pf]
+is_a: DDPHENO:0000624 ! aberrant protein localization to centrosome
+created_by: Petra
+creation_date: 2020-11-05T13:49:27Z
+
+[Term]
+id: DDPHENO:0000628
+name: aberrant protein localization to macropinosome 
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the macropinosome." [DDB:pf]
+synonym: "aberrant protein localization to macropinocytic cup" EXACT []
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:54:49Z
+
+[Term]
+id: DDPHENO:0000629
+name: abolished protein localization to macropinosome
+def: "Complete inability to localize a protein to the macropinosome." [DDB:pf]
+synonym: "abolished protein localization to macropinocytic cup" EXACT []
+is_a: DDPHENO:0000628 ! aberrant protein localization to macropinosome 
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:55:37Z
+
+[Term]
+id: DDPHENO:0000630
+name: decreased protein localization to macropinosome
+def: "Reduction in amount or accumulation of a protein to the macropinosome." [DDB:pf]
+synonym: "decreased protein localization to macropinocytic cup" EXACT []
+is_a: DDPHENO:0000628 ! aberrant protein localization to macropinosome 
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:55:55Z
+
+[Term]
+id: DDPHENO:0000631
+name: increased protein localization to macropinosome
+def: "Increase in amount or accumulation of a protein to the macropinosome." [DDB:pf]
+synonym: "increased protein localization to macropinocytic cup" EXACT []
+is_a: DDPHENO:0000628 ! aberrant protein localization to macropinosome 
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T13:56:18Z
+
+[Term]
+id: DDPHENO:0000632
+name: aberrant protein localization to autophagosome
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the autophagosome." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T14:18:27Z
+
+[Term]
+id: DDPHENO:0000633
+name: abolished protein localization to autophagosome
+def: "Complete inability to localize a protein to the autophagosome." [DDB:pf]
+is_a: DDPHENO:0000632 ! aberrant protein localization to autophagosome
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T14:18:46Z
+
+[Term]
+id: DDPHENO:0000634
+name: decreased protein localization to autophagosome
+def: "Reduction in amount or accumulation of a protein to the autophagosome." [DDB:pf]
+is_a: DDPHENO:0000632 ! aberrant protein localization to autophagosome
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T14:19:03Z
+
+[Term]
+id: DDPHENO:0000635
+name: increased protein localization to autophagosome
+def: "Increase in amount or accumulation of a protein to the autophagosome." [DDB:pf]
+is_a: DDPHENO:0000632 ! aberrant protein localization to autophagosome
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T14:19:18Z
+
+[Term]
+id: DDPHENO:0000636
+name: aberrant protein localization to cell-cell contact zone
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the cell-cell contact zone." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T14:29:12Z
+
+[Term]
+id: DDPHENO:0000637
+name: abolished protein localization to cell-cell contact zone
+def: "Complete inability to localize a protein to the cell-cell contact zone." [DDB:pf]
+is_a: DDPHENO:0000636 ! aberrant protein localization to cell-cell contact zone
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T14:29:33Z
+
+[Term]
+id: DDPHENO:0000638
+name: decreased protein localization to cell-cell contact zone
+def: "Reduction in amount or accumulation of a protein to the cell-cell contact zone." [DDB:pf]
+is_a: DDPHENO:0000636 ! aberrant protein localization to cell-cell contact zone
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T14:29:46Z
+
+[Term]
+id: DDPHENO:0000639
+name: increased protein localization to cell-cell contact zone
+def: "Increase in amount or accumulation of a protein to the cell-cell contact zone." [DDB:pf]
+is_a: DDPHENO:0000636 ! aberrant protein localization to cell-cell contact zone
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T14:30:03Z
+
+[Term]
+id: DDPHENO:0000640
+name: aberrant protein localization to basolateral plasma membrane
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the  basolateral plasma membrane." [DDB:pf]
+is_a: DDPHENO:0001335 ! aberrant protein localization to plasma membrane
+created_by: Petra
+creation_date: 2020-11-05T16:35:48Z
+
+[Term]
+id: DDPHENO:0000641
+name: abolished protein localization to basolateral plasma membrane
+def: "Complete inability to localize a protein to the basolateral plasma membrane." [DDB:pf]
+is_a: DDPHENO:0000640 ! aberrant protein localization to basolateral plasma membrane
+is_a: DDPHENO:0001393 ! abolished protein localization
+is_a: DDPHENO:0001394 ! abolished protein localization to plasma membrane
+created_by: Petra
+creation_date: 2020-11-05T16:36:03Z
+
+[Term]
+id: DDPHENO:0000642
+name: decreased protein localization to basolateral plasma membrane
+def: "Reduction in amount or accumulation of a protein to the basolateral plasma membrane." [DDB:pf]
+is_a: DDPHENO:0000640 ! aberrant protein localization to basolateral plasma membrane
+is_a: DDPHENO:0001395 ! decreased protein localization to plasma membrane
+created_by: Petra
+creation_date: 2020-11-05T16:36:23Z
+
+[Term]
+id: DDPHENO:0000643
+name: increased protein localization to basolateral plasma membrane
+def: "Increase in amount or accumulation of a protein to the basolateral plasma membrane." [DDB:pf]
+is_a: DDPHENO:0000640 ! aberrant protein localization to basolateral plasma membrane
+is_a: DDPHENO:0001396 ! increased protein localization to plasma membrane
+created_by: Petra
+creation_date: 2020-11-05T16:36:44Z
+
+[Term]
+id: DDPHENO:0000644
+name: aberrant protein localization to cleavage furrow
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the cleavage furrow." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T16:40:08Z
+
+[Term]
+id: DDPHENO:0000645
+name: abolished protein localization to cleavage furrow
+def: "Complete inability to localize a protein to the cleavage furrow." [DDB:pf]
+is_a: DDPHENO:0000644 ! aberrant protein localization to cleavage furrow
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T16:40:58Z
+
+[Term]
+id: DDPHENO:0000646
+name: decreased protein localization to cleavage furrow
+def: "Reduction in amount or accumulation of a protein to the cleavage furrow." [DDB:pf]
+is_a: DDPHENO:0000644 ! aberrant protein localization to cleavage furrow
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T16:41:13Z
+
+[Term]
+id: DDPHENO:0000647
+name: increased protein localization to cleavage furrow
+def: "Increase in amount or accumulation of a protein to the cleavage furrow." [DDB:pf]
+is_a: DDPHENO:0000644 ! aberrant protein localization to cleavage furrow
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T16:41:27Z
+
+[Term]
+id: DDPHENO:0000648
+name: aberrant protein localization to lysosome
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the lysosome." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T16:45:10Z
+
+[Term]
+id: DDPHENO:0000649
+name: abolished protein localization to lysosome
+def: "Complete inability to localize a protein to the lysosome." [DDB:pf]
+is_a: DDPHENO:0000648 ! aberrant protein localization to lysosome
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T16:45:33Z
+
+[Term]
+id: DDPHENO:0000650
+name: decreased protein localization to lysosome
+def: "Reduction in amount or accumulation of a protein to the lysosome." [DDB:pf]
+is_a: DDPHENO:0000648 ! aberrant protein localization to lysosome
+created_by: Petra
+creation_date: 2020-11-05T16:45:48Z
+
+[Term]
+id: DDPHENO:0000651
+name: increased protein localization to lysosome
+def: "Increase in amount or accumulation of a protein to the lysosome." [DDB:pf]
+is_a: DDPHENO:0000648 ! aberrant protein localization to lysosome
+created_by: Petra
+creation_date: 2020-11-05T16:46:13Z
+
+[Term]
+id: DDPHENO:0000652
+name: aberrant protein localization to secondary lysosome
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the secondary lysosome." [DDB:pf]
+synonym: "aberrant protein localization to post-lysosome" RELATED []
+is_a: DDPHENO:0000648 ! aberrant protein localization to lysosome
+created_by: Petra
+creation_date: 2020-11-05T16:54:22Z
+
+[Term]
+id: DDPHENO:0000653
+name: abolished protein localization to secondary lysosome
+def: "Complete inability to localize a protein to the secondary lysosome." [DDB:pf]
+synonym: "abolished protein localization to post-lysosome" RELATED []
+is_a: DDPHENO:0000649 ! abolished protein localization to lysosome
+is_a: DDPHENO:0000652 ! aberrant protein localization to secondary lysosome
+created_by: Petra
+creation_date: 2020-11-05T16:55:04Z
+
+[Term]
+id: DDPHENO:0000654
+name: decreased protein localization to secondary lysosome
+def: "Reduction in amount or accumulation of a protein to the secondary lysosome." [DDB:pf]
+synonym: "decreased protein localization to post-lysosome" RELATED []
+is_a: DDPHENO:0000650 ! decreased protein localization to lysosome
+is_a: DDPHENO:0000652 ! aberrant protein localization to secondary lysosome
+created_by: Petra
+creation_date: 2020-11-05T16:55:33Z
+
+[Term]
+id: DDPHENO:0000655
+name: increased protein localization to secondary lysosome
+def: "Increase in amount or accumulation of a protein to the secondary lysosome." [DDB:pf]
+synonym: "increased protein localization to post-lysosome" RELATED []
+is_a: DDPHENO:0000651 ! increased protein localization to lysosome
+is_a: DDPHENO:0000652 ! aberrant protein localization to secondary lysosome
+created_by: Petra
+creation_date: 2020-11-05T16:55:46Z
+
+[Term]
+id: DDPHENO:0000656
+name: aberrant protein localization to lysosomal membrane
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the  lysosomal membrane." [DDB:pf]
+synonym: "aberrant protein localization to lysosome membrane" EXACT []
+is_a: DDPHENO:0000648 ! aberrant protein localization to lysosome
+created_by: Petra
+creation_date: 2020-11-05T17:19:29Z
+
+[Term]
+id: DDPHENO:0000657
+name: abolished  protein localization to lysosomal membrane
+def: "Complete inability to localize a protein to the lysosomal membrane." [DDB:pf]
+synonym: "abolished  protein localization to lysosome membrane" EXACT []
+is_a: DDPHENO:0000649 ! abolished protein localization to lysosome
+is_a: DDPHENO:0000656 ! aberrant protein localization to lysosomal membrane
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T17:20:08Z
+
+[Term]
+id: DDPHENO:0000658
+name: decreased  protein localization to lysosomal membrane
+def: "Reduction in amount or accumulation of a protein to the lysosomal membrane." [DDB:pf]
+synonym: "decreased  protein localization to lysosome membrane" EXACT []
+is_a: DDPHENO:0000650 ! decreased protein localization to lysosome
+is_a: DDPHENO:0000656 ! aberrant protein localization to lysosomal membrane
+created_by: Petra
+creation_date: 2020-11-05T17:20:24Z
+
+[Term]
+id: DDPHENO:0000659
+name: increased  protein localization to lysosomal membrane
+def: "Increase in amount or accumulation of a protein to the lysosomal membrane." [DDB:pf]
+synonym: "increased  protein localization to lysosome membrane" EXACT []
+is_a: DDPHENO:0000651 ! increased protein localization to lysosome
+is_a: DDPHENO:0000656 ! aberrant protein localization to lysosomal membrane
+created_by: Petra
+creation_date: 2020-11-05T17:20:37Z
+
+[Term]
+id: DDPHENO:0000660
+name: aberrant protein localization to mitotic spindle
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the mitotic spindle." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T17:27:51Z
+
+[Term]
+id: DDPHENO:0000661
+name: abolished protein localization to mitotic spindle
+def: "Complete inability to localize a protein to the mitotic spindle." [DDB:pf]
+is_a: DDPHENO:0000660 ! aberrant protein localization to mitotic spindle
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T17:28:10Z
+
+[Term]
+id: DDPHENO:0000662
+name: decreased protein localization to mitotic spindle
+def: "Reduction in amount or accumulation of a protein to the mitotic spindle." [DDB:pf]
+is_a: DDPHENO:0000660 ! aberrant protein localization to mitotic spindle
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T17:28:24Z
+
+[Term]
+id: DDPHENO:0000663
+name: increased protein localization to mitotic spindle
+def: "Increase in amount or accumulation of a protein to the mitotic spindle." [DDB:pf]
+is_a: DDPHENO:0000660 ! aberrant protein localization to mitotic spindle
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T17:28:53Z
+
+[Term]
+id: DDPHENO:0000664
+name: aberrant protein localization to mitotic spindle midzone
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the mitotic spindle midzone." [DDB:pf]
+is_a: DDPHENO:0000660 ! aberrant protein localization to mitotic spindle
+created_by: Petra
+creation_date: 2020-11-05T17:29:42Z
+
+[Term]
+id: DDPHENO:0000665
+name: abolished protein localization to mitotic spindle midzone
+def: "Complete inability to localize a protein to the mitotic spindle midzone." [DDB:pf]
+is_a: DDPHENO:0000661 ! abolished protein localization to mitotic spindle
+is_a: DDPHENO:0000664 ! aberrant protein localization to mitotic spindle midzone
+created_by: Petra
+creation_date: 2020-11-05T17:30:02Z
+
+[Term]
+id: DDPHENO:0000666
+name: decreased protein localization to mitotic spindle midzone
+def: "Reduction in amount or accumulation of a protein to the mitotic spindle midzone." [DDB:pf]
+is_a: DDPHENO:0000662 ! decreased protein localization to mitotic spindle
+is_a: DDPHENO:0000664 ! aberrant protein localization to mitotic spindle midzone
+created_by: Petra
+creation_date: 2020-11-05T17:30:16Z
+
+[Term]
+id: DDPHENO:0000667
+name: increased protein localization to mitotic spindle midzone
+def: "Increase in amount or accumulation of a protein to the mitotic spindle midzone." [DDB:pf]
+is_a: DDPHENO:0000663 ! increased protein localization to mitotic spindle
+is_a: DDPHENO:0000664 ! aberrant protein localization to mitotic spindle midzone
+created_by: Petra
+creation_date: 2020-11-05T17:30:31Z
+
+[Term]
+id: DDPHENO:0000668
+name: aberrant protein localization to cytoplasmic vesicle
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the cytoplasmic vesicle." [DDB:pf]
+is_a: DDPHENO:0001389 ! aberrant protein localization to cytoplasm
+created_by: Petra
+creation_date: 2020-11-05T17:43:09Z
+
+[Term]
+id: DDPHENO:0000669
+name: abolished protein localization to cytoplasmic vesicle
+def: "Complete inability to localize a protein to the cytoplasmic vesicle." [DDB:pf]
+is_a: DDPHENO:0000668 ! aberrant protein localization to cytoplasmic vesicle
+is_a: DDPHENO:0001392 ! abolished protein localization to cytoplasm
+created_by: Petra
+creation_date: 2020-11-05T17:43:49Z
+
+[Term]
+id: DDPHENO:0000670
+name: decreased protein localization to cytoplasmic vesicle
+def: "Reduction in amount or accumulation of a protein to the cytoplasmic vesicle." [DDB:pf]
+is_a: DDPHENO:0000668 ! aberrant protein localization to cytoplasmic vesicle
+is_a: DDPHENO:0001391 ! decreased protein localization to cytoplasm
+created_by: Petra
+creation_date: 2020-11-05T17:45:09Z
+
+[Term]
+id: DDPHENO:0000671
+name: increased protein localization to cytoplasmic vesicle
+def: "Increase in amount or accumulation of a protein to the cytoplasmic vesicle." [DDB:pf]
+is_a: DDPHENO:0000668 ! aberrant protein localization to cytoplasmic vesicle
+is_a: DDPHENO:0001390 ! increased protein localization to cytoplasm
+created_by: Petra
+creation_date: 2020-11-05T17:45:22Z
+
+[Term]
+id: DDPHENO:0000672
+name: aberrant protein localization to cell periphery
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the cell periphery." [DDB:pf]
+is_a: DDPHENO:0000471 ! aberrant protein localization
+created_by: Petra
+creation_date: 2020-11-05T17:52:52Z
+
+[Term]
+id: DDPHENO:0000673
+name: abolished protein localization to cell periphery
+def: "Complete inability to localize a protein to the cell periphery." [DDB:pf]
+is_a: DDPHENO:0000672 ! aberrant protein localization to cell periphery
+is_a: DDPHENO:0001393 ! abolished protein localization
+created_by: Petra
+creation_date: 2020-11-05T17:54:34Z
+
+[Term]
+id: DDPHENO:0000674
+name: aberrant protein localization to apical plasma membrane
+def: "Deviation from the normal, usual, or expected events during  localization of a protein from the cytoplasm to the apical plasma membrane." [DDB:pf]
+is_a: DDPHENO:0001335 ! aberrant protein localization to plasma membrane
+created_by: Petra
+creation_date: 2020-11-05T18:14:57Z
+
+[Term]
+id: DDPHENO:0000675
+name: abolished protein localization to apical plasma membrane
+def: "Complete inability to localize a protein to the apical plasma membrane." [DDB:pf]
+is_a: DDPHENO:0000674 ! aberrant protein localization to apical plasma membrane
+is_a: DDPHENO:0001394 ! abolished protein localization to plasma membrane
+created_by: Petra
+creation_date: 2020-11-05T18:15:44Z
+
+[Term]
+id: DDPHENO:0000676
+name: aberrant protein localization to endolysosome
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the endolysosome." [DDB:pf]
+is_a: DDPHENO:0000648 ! aberrant protein localization to lysosome
+created_by: Petra
+creation_date: 2020-11-05T18:26:02Z
+
+[Term]
+id: DDPHENO:0000677
+name: abolished protein localization to endolysosome
+def: "Complete inability to localize a protein to the endolysosome." [DDB:pf]
+is_a: DDPHENO:0000649 ! abolished protein localization to lysosome
+is_a: DDPHENO:0000676 ! aberrant protein localization to endolysosome
+created_by: Petra
+creation_date: 2020-11-05T18:27:17Z
+
+[Term]
+id: DDPHENO:0000678
+name: decreased protein localization to endolysosome
+def: "Reduction in amount or accumulation of a protein to the endolysosome." [DDB:pf]
+is_a: DDPHENO:0000650 ! decreased protein localization to lysosome
+is_a: DDPHENO:0000676 ! aberrant protein localization to endolysosome
+created_by: Petra
+creation_date: 2020-11-05T18:27:48Z
+
+[Term]
+id: DDPHENO:0000679
+name: increased protein localization to endolysosome
+def: "Increase in amount or accumulation of a protein to the endolysosome." [DDB:pf]
+is_a: DDPHENO:0000651 ! increased protein localization to lysosome
+is_a: DDPHENO:0000676 ! aberrant protein localization to endolysosome
+created_by: Petra
+creation_date: 2020-11-05T18:28:02Z
+
+[Term]
+id: DDPHENO:0000680
+name: decreased protein localization to contractile vacuole
+def: "Reduction in amount or accumulation of a protein to the contractile vacuole." [DDB:pf]
+is_a: DDPHENO:0000464 ! aberrant protein localization to contractile vacuole
+is_a: DDPHENO:0001338 ! decreased protein localization
+created_by: Petra
+creation_date: 2020-11-05T20:31:48Z
+
+[Term]
+id: DDPHENO:0000681
+name: increased protein localization to contractile vacuole
+def: "Increase in amount or accumulation of a protein to the contractile vacuole." [DDB:pf]
+is_a: DDPHENO:0000464 ! aberrant protein localization to contractile vacuole
+is_a: DDPHENO:0001337 ! increased protein localization
+created_by: Petra
+creation_date: 2020-11-05T20:32:27Z
+
+[Term]
+id: DDPHENO:0000682
+name: decreased protein localization to contractile vacuole membrane
+def: "Reduction in amount or accumulation of a protein to the contractile vacuole membrane." [DDB:pf]
+is_a: DDPHENO:0000519 ! aberrant protein localization to contractile vacuole membrane
+is_a: DDPHENO:0000680 ! decreased protein localization to contractile vacuole
+created_by: Petra
+creation_date: 2020-11-05T20:35:24Z
+
+[Term]
+id: DDPHENO:0000683
+name: increased  protein localization to contractile vacuole membrane
+def: "Increase in amount or accumulation of a protein to the contractile vacuole membrane." [DDB:pf]
+is_a: DDPHENO:0000519 ! aberrant protein localization to contractile vacuole membrane
+is_a: DDPHENO:0000681 ! increased protein localization to contractile vacuole
+created_by: Petra
+creation_date: 2020-11-05T20:36:38Z
 
 [Term]
 id: DDPHENO:0001001
@@ -5945,11 +6287,10 @@ is_a: DDPHENO:0000264 ! aberrant cell motility
 
 [Term]
 id: DDPHENO:0001240
-name: decreased CRAC localization to the plasma membrane
+name: obsolete decreased CRAC localization to the plasma membrane
 def: "Reduction in the ability for localization of CRAC (dagA) from the cytoplasm to the plasma membrane in response to a stimulus." [DDB:pf]
 synonym: "decreased CRAC translocation" RELATED []
-is_a: DDPHENO:0001387 ! aberrant CRAC localization to the plasma membrane
-is_a: DDPHENO:0001395 ! decreased protein localization to plasma membrane
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001241
@@ -6555,13 +6896,18 @@ is_a: DDPHENO:0001256 ! increased catalytic activity
 [Term]
 id: DDPHENO:0001335
 name: aberrant protein localization to plasma membrane
+alt_id: DDPHENO:0000087
 def: "Deviation from the normal, usual, or expected events during  localization of a protein from the cytoplasm to the plasma membrane." [DDB:pf]
-is_a: DDPHENO:0000471 ! aberrant protein localization
+synonym: "aberrant localization to plasma membrane" BROAD []
+is_a: DDPHENO:0000672 ! aberrant protein localization to cell periphery
 
 [Term]
 id: DDPHENO:0001336
 name: aberrant protein localization to nucleus
+alt_id: DDPHENO:0000083
 def: "Deviation from the normal, usual, or expected events during localization of a protein to the nucleus." [DDB:pg]
+synonym: "aberrant localization to nucleus" BROAD []
+synonym: "aberrant nuclear protein localization" EXACT []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 
 [Term]
@@ -6587,14 +6933,20 @@ is_a: DDPHENO:0001231 ! abolished protein secretion
 [Term]
 id: DDPHENO:0001340
 name: decreased protein localization to nucleus
+alt_id: DDPHENO:0000086
 def: "Reduction in amount or accumulation of a protein in the nucleus." [DDB:pg]
+synonym: "decreased localization to nucleus" BROAD []
+synonym: "decreased nuclear protein localization" EXACT []
 is_a: DDPHENO:0001336 ! aberrant protein localization to nucleus
 is_a: DDPHENO:0001338 ! decreased protein localization
 
 [Term]
 id: DDPHENO:0001341
 name: increased protein localization to nucleus
+alt_id: DDPHENO:0000085
 def: "Increase in amount or accumulation of a protein in the nucleus." [DDB:pg]
+synonym: "increased localization to nucleus" BROAD []
+synonym: "increased nuclear protein localization" EXACT []
 is_a: DDPHENO:0001336 ! aberrant protein localization to nucleus
 is_a: DDPHENO:0001337 ! increased protein localization
 
@@ -6882,41 +7234,48 @@ is_a: DDPHENO:0001289 ! abolished catalytic activity
 
 [Term]
 id: DDPHENO:0001387
-name: aberrant CRAC localization to the plasma membrane
+name: obsolete aberrant CRAC localization to the plasma membrane
 def: "Deviation from the normal, usual, or expected events during CRAC (dagA) protein localization from the cytoplasm to the plasma membrane in response to a stimulus." [DDB:pg]
-is_a: DDPHENO:0001335 ! aberrant protein localization to plasma membrane
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001388
-name: increased CRAC localization to the plasma membrane
+name: obsolete increased CRAC localization to the plasma membrane
 def: "Increase in the ability for localization of CRAC (dagA) from the cytoplasm to the plasma membrane in response to a stimulus." [DDB:pg]
-is_a: DDPHENO:0001387 ! aberrant CRAC localization to the plasma membrane
-is_a: DDPHENO:0001396 ! increased protein localization to plasma membrane
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001389
 name: aberrant protein localization to cytoplasm
+alt_id: DDPHENO:0000066
 def: "Deviation from the normal, usual, or expected events during localization of a protein to the cytoplasm." [DDB:pg]
+synonym: "aberrant localization to cytoplasm" BROAD []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 
 [Term]
 id: DDPHENO:0001390
 name: increased protein localization to cytoplasm
+alt_id: DDPHENO:0000068
 def: "Increase in amount or accumulation of a protein in the cytoplasm." [DDB:pg]
+synonym: "increased localization to cytoplasm" BROAD []
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001389 ! aberrant protein localization to cytoplasm
 
 [Term]
 id: DDPHENO:0001391
 name: decreased protein localization to cytoplasm
+alt_id: DDPHENO:0000069
 def: "Reduction in amount or accumulation of a protein in the cytoplasm." [DDB:pg]
+synonym: "decreased localization to cytoplasm" BROAD []
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001389 ! aberrant protein localization to cytoplasm
 
 [Term]
 id: DDPHENO:0001392
 name: abolished protein localization to cytoplasm
+alt_id: DDPHENO:0000067
 def: "Complete inability to localize a protein to the cytoplasm." [DDB:pf, DDB:pg]
+synonym: "abolished localization to cytoplasm" BROAD []
 is_a: DDPHENO:0001389 ! aberrant protein localization to cytoplasm
 is_a: DDPHENO:0001393 ! abolished protein localization
 
@@ -6930,21 +7289,27 @@ is_a: DDPHENO:0000471 ! aberrant protein localization
 [Term]
 id: DDPHENO:0001394
 name: abolished protein localization to plasma membrane
+alt_id: DDPHENO:0000088
 def: "Complete inability to localize a protein to the plasma membrane." [DDB:pf, DDB:pg]
+synonym: "abolished localization to plasma membrane" BROAD []
+is_a: DDPHENO:0000673 ! abolished protein localization to cell periphery
 is_a: DDPHENO:0001335 ! aberrant protein localization to plasma membrane
-is_a: DDPHENO:0001393 ! abolished protein localization
 
 [Term]
 id: DDPHENO:0001395
 name: decreased protein localization to plasma membrane
+alt_id: DDPHENO:0000089
 def: "Reduction in the ability for localization of a protein from the cytoplasm to the plasma." [DDB:pf, DDB:pg]
+synonym: "decreased localization to plasma membrane" BROAD []
 is_a: DDPHENO:0001335 ! aberrant protein localization to plasma membrane
 is_a: DDPHENO:0001338 ! decreased protein localization
 
 [Term]
 id: DDPHENO:0001396
 name: increased protein localization to plasma membrane
+alt_id: DDPHENO:0000091
 def: "Increase in the ability for localization of a protein from the cytoplasm to the plasma membrane." [DDB:pf, DDB:pg]
+synonym: "increased localization to plasma membrane" BROAD []
 is_a: DDPHENO:0001335 ! aberrant protein localization to plasma membrane
 is_a: DDPHENO:0001337 ! increased protein localization
 
@@ -6965,77 +7330,97 @@ is_a: DDPHENO:0001245 ! aberrant cAMP wave formation
 [Term]
 id: DDPHENO:0001399
 name: abolished protein localization to microtubules
+alt_id: DDPHENO:0000075
 def: "Complete inability to localize a protein to the to microtubules." [DDB:pf]
+synonym: "abolished localization to microtubules" BROAD []
 is_a: DDPHENO:0001393 ! abolished protein localization
 is_a: DDPHENO:0001514 ! aberrant protein localization to microtubules
 
 [Term]
 id: DDPHENO:0001400
 name: abolished protein localization to microtubule organizing center
+alt_id: DDPHENO:0000071
 def: "Complete inability to localize a protein to the microtubule organizing center." [DDB:pf]
-synonym: "abolished localization of a protein to the MTOC" EXACT []
+synonym: "abolished localization to microtubule organizing center" BROAD []
+synonym: "abolished protein localization to the MTOC" EXACT []
 is_a: DDPHENO:0001393 ! abolished protein localization
 is_a: DDPHENO:0001513 ! aberrant protein localization to microtubule organizing center
 
 [Term]
 id: DDPHENO:0001401
 name: decreased protein localization to microtubule organizing center
+alt_id: DDPHENO:0000073
 def: "Reduction in amount or accumulation of a protein to the microtubule organizing center." [DDB:pf]
-synonym: "decreased localization of protein to the MTOC" EXACT []
+synonym: "decreased localization to microtubule organizing center" BROAD []
+synonym: "decreased protein localization to the MTOC" EXACT []
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001513 ! aberrant protein localization to microtubule organizing center
 
 [Term]
 id: DDPHENO:0001402
 name: decreased protein localization to microtubules
+alt_id: DDPHENO:0000076
 def: "Reduction in amount or accumulation of a protein at the microtubules." [DDB:pf]
+synonym: "decreased localization to microtubules" BROAD []
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001514 ! aberrant protein localization to microtubules
 
 [Term]
 id: DDPHENO:0001403
 name: increased protein localization to microtubules
+alt_id: DDPHENO:0000078
 def: "Increase in amount or accumulation of a protein at the microtubules." [DDB:pf]
+synonym: "increased localization to microtubules" BROAD []
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001514 ! aberrant protein localization to microtubules
 
 [Term]
 id: DDPHENO:0001404
 name: increased protein localization to microtubule organizing center
+alt_id: DDPHENO:0000072
 def: "Increase in amount or accumulation of a protein to the microtubule organizing center." [DDB:pf]
-synonym: "increased localization of protein to the MTOC" EXACT []
+synonym: "increased localization to microtubule organizing center" BROAD []
+synonym: "increased protein localization to the MTOC" EXACT []
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001513 ! aberrant protein localization to microtubule organizing center
 
 [Term]
 id: DDPHENO:0001405
 name: abolished protein localization to coated pits
+alt_id: DDPHENO:0000063
 def: "Complete inability to localize a protein to coated pits." [DDB:pf]
-synonym: "abolished localization of protein to clathrin-coated pits" EXACT []
+synonym: "abolished localization to coated pits" BROAD []
+synonym: "abolished protein localization of protein to clathrin-coated pits" EXACT []
 is_a: DDPHENO:0001393 ! abolished protein localization
 is_a: DDPHENO:0001408 ! aberrant protein localization to coated pits
 
 [Term]
 id: DDPHENO:0001406
 name: decreased protein localization to coated pits
+alt_id: DDPHENO:0000065
 def: "Reduction in amount or accumulation of a protein to coated pits." [DDB:pf]
-synonym: "decreased localization of protein to clathrin-coated pits" EXACT []
+synonym: "decreased localization to coated pits" BROAD []
+synonym: "decreased protein localization of protein to clathrin-coated pits" EXACT []
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001408 ! aberrant protein localization to coated pits
 
 [Term]
 id: DDPHENO:0001407
 name: increased protein localization to coated pits
+alt_id: DDPHENO:0000064
 def: "Increase in amount or accumulation of a protein to coated pits." [DDB:pf]
-synonym: "increased localization of protein to clathrin-coated pits" RELATED []
+synonym: "increased localization to coated pits" BROAD []
+synonym: "increased protein localization of protein to clathrin-coated pits" EXACT []
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001408 ! aberrant protein localization to coated pits
 
 [Term]
 id: DDPHENO:0001408
 name: aberrant protein localization to coated pits
+alt_id: DDPHENO:0000062
 def: "Deviation from the normal, usual, or expected events during localization of a protein to coated pits." [DDB:pf]
-synonym: "aberrant localization of a protein to clathrin-coated pits" RELATED []
+synonym: "aberrant localization to coated pits" BROAD []
+synonym: "aberrant protein localization of a protein to clathrin-coated pits" EXACT []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 
 [Term]
@@ -7060,20 +7445,26 @@ is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
 [Term]
 id: DDPHENO:0001412
 name: aberrant protein localization to pseudopodium
+alt_id: DDPHENO:0000092
 def: "Deviation from the normal, usual, or expected events during localization of a protein to pseudopodia." [DDB:pf]
+synonym: "aberrant localization to pseudopodium" BROAD []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 
 [Term]
 id: DDPHENO:0001413
 name: decreased protein localization to pseudopodium
+alt_id: DDPHENO:0000095
 def: "Reduction in amount or accumulation of a protein in pseudopodia." [DDB:pf]
+synonym: "decreased localization to pseudopodium" BROAD []
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001412 ! aberrant protein localization to pseudopodium
 
 [Term]
 id: DDPHENO:0001414
 name: increased protein localization to pseudopodium
+alt_id: DDPHENO:0000096
 def: "Increase in amount or accumulation of a protein in pseudopodia." [DDB:pf]
+synonym: "increased localization to pseudopodium" BROAD []
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001412 ! aberrant protein localization to pseudopodium
 
@@ -7156,27 +7547,35 @@ is_a: DDPHENO:0001425 ! aberrant centrosome organization
 [Term]
 id: DDPHENO:0001427
 name: aberrant protein localization to nuclear envelope
+alt_id: DDPHENO:0000079
 def: "Deviation from the normal, usual, or expected events during localization of a protein to the nuclear envelope." [DDB:pf]
+synonym: "aberrant localization to nuclear envelope" BROAD []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 
 [Term]
 id: DDPHENO:0001428
 name: abolished protein localization to nuclear envelope
+alt_id: DDPHENO:0000080
 def: "Complete inability to localize a protein to the nuclear envelope." [DDB:pf]
+synonym: "abolished localization to nuclear envelope" BROAD []
 is_a: DDPHENO:0001393 ! abolished protein localization
 is_a: DDPHENO:0001427 ! aberrant protein localization to nuclear envelope
 
 [Term]
 id: DDPHENO:0001429
 name: decreased protein localization to nuclear envelope
+alt_id: DDPHENO:0000082
 def: "Reduction in amount or accumulation of a protein at the nuclear envelope." [DDB:pf]
+synonym: "decreased localization to nuclear envelope" BROAD []
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001427 ! aberrant protein localization to nuclear envelope
 
 [Term]
 id: DDPHENO:0001430
 name: increased protein localization to nuclear envelope
+alt_id: DDPHENO:0000081
 def: "Increase in amount or accumulation of a protein in the nuclear envelope." [DDB:pf]
+synonym: "increased localization to nuclear envelope" BROAD []
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001427 ! aberrant protein localization to nuclear envelope
 
@@ -7687,7 +8086,9 @@ creation_date: 2012-05-30T05:59:28Z
 [Term]
 id: DDPHENO:0001497
 name: abolished protein localization to cell surface
+alt_id: DDPHENO:0000059
 def: "Complete inability to localize a protein to the cell surface." [DDB:pf]
+synonym: "abolished localization to cell surface" BROAD []
 is_a: DDPHENO:0001393 ! abolished protein localization
 is_a: DDPHENO:0001511 ! aberrant protein localization to cell surface
 created_by: pfey
@@ -7696,7 +8097,9 @@ creation_date: 2012-09-26T05:18:28Z
 [Term]
 id: DDPHENO:0001498
 name: decreased protein localization to cell surface
+alt_id: DDPHENO:0000061
 def: "Reduction in amount or accumulation of a protein on the cell surface." [DDB:pf]
+synonym: "decreased localization to cell surface" BROAD []
 xref: DDB:pf
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001511 ! aberrant protein localization to cell surface
@@ -7706,7 +8109,9 @@ creation_date: 2012-09-26T05:24:53Z
 [Term]
 id: DDPHENO:0001499
 name: increased protein localization to cell surface
+alt_id: DDPHENO:0000060
 def: "Increase in amount or accumulation of a protein to the cell surface." [DDB:pf]
+synonym: "increased localization to cell surface" BROAD []
 xref: DDB:pf
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001511 ! aberrant protein localization to cell surface
@@ -7772,16 +8177,20 @@ creation_date: 2012-11-01T15:39:11Z
 [Term]
 id: DDPHENO:0001507
 name: aberrant protein localization to cell cortex
+alt_id: DDPHENO:0000054
 def: "Deviation from the normal, usual, or expected events during localization of a protein to the cell cortex." [DDB:pf]
-is_a: DDPHENO:0000471 ! aberrant protein localization
+synonym: "aberrant localization to cell cortex" BROAD []
+is_a: DDPHENO:0000672 ! aberrant protein localization to cell periphery
 created_by: pfey
 creation_date: 2012-11-21T14:21:05Z
 
 [Term]
 id: DDPHENO:0001508
 name: abolished protein localization to cell cortex
+alt_id: DDPHENO:0000055
 def: "Complete inability to localize a protein to the cell cortex." [DDB:pf]
-is_a: DDPHENO:0001393 ! abolished protein localization
+synonym: "abolished localization to cell cortex" BROAD []
+is_a: DDPHENO:0000673 ! abolished protein localization to cell periphery
 is_a: DDPHENO:0001507 ! aberrant protein localization to cell cortex
 created_by: pfey
 creation_date: 2012-11-21T14:57:02Z
@@ -7789,7 +8198,9 @@ creation_date: 2012-11-21T14:57:02Z
 [Term]
 id: DDPHENO:0001509
 name: decreased protein localization to cell cortex
+alt_id: DDPHENO:0000057
 def: "Reduction in amount or accumulation of a protein to the cell cortex." [DDB:pf]
+synonym: "decreased localization to cell cortex" BROAD []
 is_a: DDPHENO:0001338 ! decreased protein localization
 is_a: DDPHENO:0001507 ! aberrant protein localization to cell cortex
 created_by: pfey
@@ -7798,7 +8209,9 @@ creation_date: 2012-11-21T14:59:13Z
 [Term]
 id: DDPHENO:0001510
 name: increased protein localization to cell cortex
+alt_id: DDPHENO:0000056
 def: "Increase in amount or accumulation of a protein to the cell cortex." [DDB:pf]
+synonym: "increased localization to cell cortex" BROAD []
 is_a: DDPHENO:0001337 ! increased protein localization
 is_a: DDPHENO:0001507 ! aberrant protein localization to cell cortex
 created_by: pfey
@@ -7807,7 +8220,9 @@ creation_date: 2012-11-21T15:00:30Z
 [Term]
 id: DDPHENO:0001511
 name: aberrant protein localization to cell surface
+alt_id: DDPHENO:0000058
 def: "Deviation from the normal, usual, or expected events during localization of a protein to the cell surface." [DDB:pf]
+synonym: "aberrant localization to cell surface" BROAD []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 created_by: pfey
 creation_date: 2012-11-21T16:19:40Z
@@ -7815,7 +8230,9 @@ creation_date: 2012-11-21T16:19:40Z
 [Term]
 id: DDPHENO:0001512
 name: abolished protein localization to pseudopodium
+alt_id: DDPHENO:0000093
 def: "Complete inability to localize a protein pseudopodia." [DDB:pf]
+synonym: "abolished localization to pseudopodium" BROAD []
 is_a: DDPHENO:0001393 ! abolished protein localization
 is_a: DDPHENO:0001412 ! aberrant protein localization to pseudopodium
 created_by: pfey
@@ -7824,8 +8241,10 @@ creation_date: 2012-11-21T16:33:42Z
 [Term]
 id: DDPHENO:0001513
 name: aberrant protein localization to microtubule organizing center
+alt_id: DDPHENO:0000070
 def: "Deviation from the normal, usual, or expected events during localization of a protein to the microtubule organizing center." [DDB:pf]
-synonym: "aberrant localization of a protein to the MTOC" EXACT []
+synonym: "aberrant localization to microtubule organizing center" BROAD []
+synonym: "aberrant protein localization to the MTOC" EXACT []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 created_by: pfey
 creation_date: 2012-11-21T16:41:09Z
@@ -7833,7 +8252,9 @@ creation_date: 2012-11-21T16:41:09Z
 [Term]
 id: DDPHENO:0001514
 name: aberrant protein localization to microtubules
+alt_id: DDPHENO:0000074
 def: "Deviation from the normal, usual, or expected events during localization of a protein to the microtubules." [DDB:pf]
+synonym: "aberrant localization to microtubules" BROAD []
 is_a: DDPHENO:0000471 ! aberrant protein localization
 created_by: pfey
 creation_date: 2012-11-21T16:42:51Z
