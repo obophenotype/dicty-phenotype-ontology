@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 24:11:2020 18:16
-saved-by: Petra
+date: 01:02:2021 17:44
+saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
 property_value: http://purl.org/dc/elements/1.1/description "A structured controlled vocabulary of phenotypes of the slime-mould Dictyostelium discoideum." xsd:string
@@ -157,6 +157,7 @@ creation_date: 2013-11-06T10:26:55Z
 id: DDPHENO:0000019
 name: abolished culmination
 def: "Complete inability for culmination." [DDB:pg]
+synonym: "abolished culmination involved in sorocarp development" EXACT []
 synonym: "culmination defective" RELATED []
 is_a: DDPHENO:0001015 ! aberrant culmination
 
@@ -206,8 +207,11 @@ creation_date: 2013-12-02T17:36:22Z
 [Term]
 id: DDPHENO:0000026
 name: development arrests at mound stage
+alt_id: DDPHENO:0000319
 def: "Development cannot progress past the mound stage." [DDB:pf]
 synonym: "development arrests at aggregate stage" EXACT []
+synonym: "development arrests at tight aggregate stage" NARROW []
+synonym: "development arrests at tight mound stage" NARROW []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
@@ -237,6 +241,7 @@ creation_date: 2014-01-16T15:06:08Z
 id: DDPHENO:0000030
 name: abolished slug development
 def: "Complete inability to form slugs during development." [DDB:pf]
+synonym: "abolished slug development involved in sorocarp development" EXACT []
 synonym: "abolished slug formation" RELATED []
 is_a: DDPHENO:0001014 ! aberrant slug development
 created_by: pfey
@@ -648,9 +653,10 @@ creation_date: 2014-10-02T14:42:58Z
 
 [Term]
 id: DDPHENO:0000123
-name: decreased cAMP-induced cGMP pulse
+name: decreased response to cGMP
 alt_id: DDPHENO:0000199
 def: "Reduction in extent, amount, or degree of cGMP pulse in response to cAMP." [DDB:pg]
+synonym: "decreased cAMP-induced cGMP pulse" RELATED []
 synonym: "merged_defective in cAMP-dependent activation of guanylyl cyclase (GC)" EXACT []
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
@@ -673,8 +679,9 @@ creation_date: 2014-10-02T14:52:26Z
 
 [Term]
 id: DDPHENO:0000126
-name: increased cAMP-induced cGMP pulse
+name: increased response to cGMP
 def: "Increase in extent, amount, or degree of cGMP pulse in response to cAMP." [DDB:pg]
+synonym: "increased cAMP-induced cGMP pulse" RELATED []
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
 [Term]
@@ -930,7 +937,6 @@ alt_id: DDPHENO:0000505
 alt_id: DDPHENO:0000506
 alt_id: DDPHENO:0000507
 def: "Development cannot progress past the loose mound stage." [DDB:pf]
-synonym: "<new synonym>" RELATED []
 synonym: "development arrests at loose aggregate stage" EXACT []
 synonym: "development arrests at loose aggregate stage in the presence of EGTA" NARROW []
 synonym: "development arrests at loose aggregate stage in the presence of TMB-8" NARROW []
@@ -947,6 +953,7 @@ is_a: DDPHENO:0001014 ! aberrant slug development
 id: DDPHENO:0000161
 name: delayed culmination
 def: "Late onset or slower progression through culmination." [DDBB:pg]
+synonym: "delayed culmination involved in sorocarp development" EXACT []
 is_a: DDPHENO:0001015 ! aberrant culmination
 
 [Term]
@@ -1000,8 +1007,9 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 [Term]
 id: DDPHENO:0000168
 name: development arrests at slug stage
-def: "Development cannot progress past the slug stage during development." [DDB:pf]
-is_a: DDPHENO:0001014 ! aberrant slug development
+def: "Development cannot progress past the migratory slug stage during development." [DDB:pf]
+synonym: "development arrests at migratory slug stage" EXACT []
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0000169
@@ -1250,6 +1258,7 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 id: DDPHENO:0000210
 name: delayed slug development
 def: "Late onset or slower progression through slug development." [DDB:pg]
+synonym: "delayed slug development involved in sorocarp development" EXACT []
 synonym: "delayed slug formation" RELATED []
 is_a: DDPHENO:0001014 ! aberrant slug development
 
@@ -1546,40 +1555,37 @@ creation_date: 2015-03-04T17:41:03Z
 
 [Term]
 id: DDPHENO:0000254
-name: aberrant chemotaxis to calcium
+name: aberrant cell motility in response to calcium ion
 def: "Deviation from the normal, usual, or expected events during the locomotory response guided by increasing chemical concentration of calcium." [DDB:pf]
 synonym: "aberrant chemotaxis to Ca2+" EXACT []
+synonym: "aberrant chemotaxis to calcium" EXACT []
 is_a: DDPHENO:0001224 ! aberrant positive chemotaxis
 created_by: Petra
 creation_date: 2015-04-13T16:41:24Z
 
 [Term]
 id: DDPHENO:0000255
-name: aberrant potassium-dependent chemotaxis to cAMP
-def: "Deviation from the normal, usual, or expected events during the locomotory response to potassium-dependent  cAMP chemotaxis." [DDB:pf]
-synonym: "aberrant K+-dependent chemotaxis to cAMP" EXACT []
-synonym: "aberrant potassium-facilitated chemotaxis to cAMP" RELATED []
-is_a: DDPHENO:0001167 ! aberrant chemotaxis to cAMP
+name: obsolete aberrant potassium-dependent chemotaxis to cAMP
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-04-13T16:57:18Z
 
 [Term]
 id: DDPHENO:0000256
-name: abolished  potassium-dependent chemotaxis to cAMP
-def: "Complete inability for chemotaxis in response to potassium-dependent cAMP chemotaxis." [DDB:pf]
-synonym: "abolished  potassium-facilitated chemotaxis to cAMP" RELATED []
-synonym: "abolished K+-dependent chemotaxis to cAMP" EXACT []
-is_a: DDPHENO:0000255 ! aberrant potassium-dependent chemotaxis to cAMP
-is_a: DDPHENO:0001101 ! abolished chemotaxis to cAMP
+name: obsolete abolished  potassium-dependent chemotaxis to cAMP
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-04-13T17:39:42Z
 
 [Term]
 id: DDPHENO:0000257
-name: abolished chemotaxis to calcium
+name: abolished cell motility in response to calcium ion
 def: "Complete inability for chemotaxis in response to calcium." [DDB:pf]
 synonym: "abolished chemotaxis to Ca2+" EXACT []
-is_a: DDPHENO:0000254 ! aberrant chemotaxis to calcium
+synonym: "abolished chemotaxis to calcium" EXACT []
+is_a: DDPHENO:0000254 ! aberrant cell motility in response to calcium ion
 created_by: Petra
 creation_date: 2015-04-13T17:42:45Z
 
@@ -2034,15 +2040,6 @@ created_by: Petra
 creation_date: 2015-10-08T17:23:04Z
 
 [Term]
-id: DDPHENO:0000319
-name: development arrests at tight mound stage
-def: "Development cannot progress past the tight mound stage." [DDB:pf]
-synonym: "development arrests at tight aggregate stage" EXACT []
-is_a: DDPHENO:0000026 ! development arrests at mound stage
-created_by: Petra
-creation_date: 2015-10-08T17:32:00Z
-
-[Term]
 id: DDPHENO:0000320
 name: aberrant polysaccharide binding
 def: "Deviation from the normal, usual, or expected binding  a polysaccharide." [DDB:pf]
@@ -2282,8 +2279,9 @@ creation_date: 2016-10-10T17:18:44Z
 
 [Term]
 id: DDPHENO:0000349
-name: aberrant Ca2+ signaling
+name: aberrant calcium-mediated signaling
 def: "Deviation from the normal, usual, or expected events during calcium signaling." [DDB:pf]
+synonym: "aberrant Ca2+ signaling" EXACT []
 is_a: DDPHENO:0001118 ! aberrant signal transduction
 created_by: Petra
 creation_date: 2016-10-11T12:46:12Z
@@ -2693,9 +2691,9 @@ is_a: DDPHENO:0000236 ! aberrant cell morphology
 
 [Term]
 id: DDPHENO:0000407
-name: decreased chemoattractant-mediated F-actin polymerization
-def: "Reduction in extent, amount, or degree of F-actin polymerization in response to chemoattractant." [DDB:pg]
-is_a: DDPHENO:0000151 ! aberrant actin filament organization
+name: obsolete decreased chemoattractant-mediated F-actin polymerization
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000408
@@ -2750,22 +2748,21 @@ creation_date: 2017-03-23T15:55:17Z
 
 [Term]
 id: DDPHENO:0000420
-name: decreased cAMP-induced Ca2+ influx
-def: "Reduction in extent, amount, or degree of the cAMP-induced Ca2+ influx." [DDB:pf]
-is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
+name: obsolete decreased cAMP-induced Ca2+ influx
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000421
-name: delayed cAMP-induced Ca2+ influx
-def: "Late onset or slower progression of cAMP-induced Ca2+ influx." [DDB:pf]
-is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+name: obsolete delayed cAMP-induced Ca2+ influx
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000422
-name: decreased Ca2+-induced Ca2+ influx
-def: "Reduction in extent, amount, or degree of theCa2+-induced Ca2+ influx." [DDB:pf]
-is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
+name: obsolete decreased Ca2+-induced Ca2+ influx
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000423
@@ -2970,12 +2967,12 @@ is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 id: DDPHENO:0000456
 name: increased actin phosphorylation
 def: "Increase in amount or accumulation of actin phosphorylation." [DDB:pf]
-is_a: DDPHENO:0000457 ! aberrant actin phosphorylation 
+is_a: DDPHENO:0000457 ! aberrant actin phosphorylation
 is_a: DDPHENO:0001343 ! increased protein phosphorylation
 
 [Term]
 id: DDPHENO:0000457
-name: aberrant actin phosphorylation 
+name: aberrant actin phosphorylation
 def: "Deviation from the normal, usual, or expected events during actin phosphorylation." [DDB:pg]
 is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 is_a: DDPHENO:0001342 ! aberrant protein phosphorylation
@@ -3019,10 +3016,9 @@ creation_date: 2017-04-20T17:03:31Z
 
 [Term]
 id: DDPHENO:0000465
-name: abolished cAMP-induced Ca2+ influx
-def: "Complete inability for cAMP-induced Ca2+ influx." [DDB:pf]
-is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+name: obsolete abolished cAMP-induced Ca2+ influx
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000466
@@ -3090,7 +3086,7 @@ is_obsolete: true
 id: DDPHENO:0000481
 name: decreased actin phosphorylation
 def: "Reduction in extent, amount, or degree of actin phosphorylation." [DDB:pf]
-is_a: DDPHENO:0000457 ! aberrant actin phosphorylation 
+is_a: DDPHENO:0000457 ! aberrant actin phosphorylation
 is_a: DDPHENO:0001344 ! decreased protein phosphorylation
 
 [Term]
@@ -3139,10 +3135,9 @@ is_a: DDPHENO:0000358 ! aberrant response to cAMP
 
 [Term]
 id: DDPHENO:0000489
-name: increased cytosolic Ca2+ response
-def: "Increase in extent, amount, or degree of cytosolic Ca2+ response." [DDB:pf]
-is_a: DDPHENO:0000349 ! aberrant Ca2+ signaling
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+name: obsolete increased cytosolic Ca2+ response
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000490
@@ -3218,6 +3213,7 @@ is_a: DDPHENO:0001007 ! aberrant pinocytosis
 id: DDPHENO:0000503
 name: precocious culmination
 def: "Early onset or faster progression through culmination." [DDB:pg]
+synonym: "precocious culmination involved in sorocarp development" EXACT []
 is_a: DDPHENO:0001015 ! aberrant culmination
 
 [Term]
@@ -3230,9 +3226,9 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
 id: DDPHENO:0000509
-name: delayed development in the presence of TMB-8
-def: "Late onset or slower progression through development in the presence of TMB-8." [DDB:pf]
-is_a: DDPHENO:0000162 ! delayed development
+name: obsolete delayed development in the presence of TMB-8
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000510
@@ -4688,12 +4684,48 @@ creation_date: 2020-11-05T20:36:38Z
 id: DDPHENO:0000684
 name: abolished vacuole organization
 def: "Complete inability to form a functional vacuole." [DDB:pf]
-synonym: "abolished vacuolation" RELATED []
 synonym: "abolished vacuolar assembly" NARROW []
+synonym: "abolished vacuolation" RELATED []
 synonym: "abolished vacuole formation" EXACT []
 is_a: DDPHENO:0001041 ! aberrant vacuole organization
 created_by: Petra
 creation_date: 2020-11-24T12:08:23Z
+
+[Term]
+id: DDPHENO:0000685
+name: development arrests at standing slug stage
+def: "Development cannot progress past the standing slug stage." [DDB:pf]
+synonym: "development arrests at finger stage" EXACT []
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
+created_by: pfey
+creation_date: 2021-02-01T17:24:09Z
+
+[Term]
+id: DDPHENO:0000686
+name: development arrests at early culminant stage
+def: "Development cannot progress past the early culminant stage." [DDB:pf]
+synonym: "development arrests at mexican hat stage" BROAD []
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
+created_by: pfey
+creation_date: 2021-02-01T17:26:52Z
+
+[Term]
+id: DDPHENO:0000687
+name: development arrests at mid culminant stage
+def: "Development cannot progress past the mid culminant stage." [DDB:pf]
+synonym: "development arrests at culminant stage" BROAD []
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
+created_by: pfey
+creation_date: 2021-02-01T17:29:26Z
+
+[Term]
+id: DDPHENO:0000688
+name: development arrests at late culminant stage
+def: "Development cannot progress past the late culminant stage." [DDB:pf]
+synonym: "development arrests at culminant stage" BROAD []
+is_a: DDPHENO:0000154 ! aberrant sorocarp development
+created_by: pfey
+creation_date: 2021-02-01T17:38:04Z
 
 [Term]
 id: DDPHENO:0001001
@@ -4792,6 +4824,7 @@ is_a: DDPHENO:0001008 ! aberrant cellular process
 id: DDPHENO:0001014
 name: aberrant slug development
 def: "Deviation from the normal, usual, or expected events during slug development." [DDB:pg]
+synonym: "aberrant slug development involved in sorocarp development" EXACT []
 synonym: "aberrant slug formation" RELATED []
 synonym: "pseudoplasmodium development" EXACT []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
@@ -5384,13 +5417,15 @@ is_a: DDPHENO:0001168 ! aberrant chemotaxis to folate
 id: DDPHENO:0001103
 name: decreased culmination
 def: "Reduction in extent, amount, or degree of culminants, resulting in fewer fruiting bodies." [DDB:pf]
-synonym: "decreased number of fruiting bodies" EXACT []
+synonym: "decreased culmination involved in sorocarp development" EXACT []
+synonym: "decreased number of fruiting bodies" RELATED []
 is_a: DDPHENO:0001015 ! aberrant culmination
 
 [Term]
 id: DDPHENO:0001104
 name: increased culmination
 def: "Increase in extent, amount, or degree of culminants, resulting in more fruiting bodies." [DDB:pf]
+synonym: "increased culmination involved in sorocarp development" EXACT []
 synonym: "increased number of fruiting bodies" RELATED []
 is_a: DDPHENO:0001015 ! aberrant culmination
 
@@ -5624,15 +5659,15 @@ is_a: DDPHENO:0000198 ! aberrant activation of adenylate cyclase activity
 
 [Term]
 id: DDPHENO:0001135
-name: abolished chemoattractant-mediated F-actin polymerization
-def: "Complete inability for F-actin polymerization in response to chemoattractants." [DDB:pg]
-is_a: DDPHENO:0000151 ! aberrant actin filament organization
+name: obsolete abolished chemoattractant-mediated F-actin polymerization
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001136
-name: increased chemoattractant-mediated F-actin polymerization
-def: "Increased in extent, amount, or degree of F-actin polymerization in response to chemoattractants." [DDB:pg]
-is_a: DDPHENO:0000151 ! aberrant actin filament organization
+name: obsolete increased chemoattractant-mediated F-actin polymerization
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001137
@@ -6743,8 +6778,9 @@ is_a: DDPHENO:0001303 ! aberrant regulation of catalytic activity
 
 [Term]
 id: DDPHENO:0001305
-name: abolished cAMP-induced cGMP pulse
+name: abolished response to cGMP
 def: "Complete inability to produce a cGMP pulse upon cAMP stimulation." [DDB:pg]
+synonym: "abolished cAMP induced cGMP pulse" RELATED []
 is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
 
 [Term]
