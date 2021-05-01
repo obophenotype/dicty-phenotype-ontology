@@ -1,8 +1,9 @@
 format-version: 1.2
-date: 01:02:2021 17:44
+date: 30:04:2021 18:40
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
+multiple tipsformat-version: 1.2
 property_value: http://purl.org/dc/elements/1.1/description "A structured controlled vocabulary of phenotypes of the slime-mould Dictyostelium discoideum." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Dicty Phenotype Ontology (DDPHENO)" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
@@ -258,7 +259,7 @@ creation_date: 2014-01-27T14:30:48Z
 [Term]
 id: DDPHENO:0000032
 name: increased sporulation
-def: "Increase in extent, amount, or degree of sporulation." [DDB:pg]
+def: "Increase in extent, amount, or degree of spore formation." [DDB:pf]
 synonym: "increased number of spore cells" RELATED []
 synonym: "increased number of spores" RELATED []
 is_a: DDPHENO:0000513 ! aberrant sporulation
@@ -359,9 +360,9 @@ creation_date: 2014-03-20T13:04:44Z
 
 [Term]
 id: DDPHENO:0000044
-name: aberrant SDF production
-def: "Deviation from the normal, usual, or expected during SDF production, peptides that promote terminal spore differentiation." [DDB:pf]
-is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
+name: obsolete aberrant SDF production
+def: "OBSLOTETE." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2014-03-20T13:59:32Z
 
@@ -530,9 +531,9 @@ creation_date: 2014-05-21T10:47:28Z
 
 [Term]
 id: DDPHENO:0000108
-name: increased intracellular glucose level
+name: increased  glucose level
 def: "Increase in amount or accumulation of cytosolic glucose." [DDB:pg]
-synonym: "increased cytosolic glucose level" EXACT []
+synonym: "increased cytosolic glucose level" NARROW []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
@@ -635,9 +636,9 @@ creation_date: 2014-10-02T14:41:25Z
 
 [Term]
 id: DDPHENO:0000121
-name: decreased intracellular glucose level
+name: decreased glucose level
 def: "Reduction in extent, amount or accumulation of cytosolic glucose." [DDB:pg]
-synonym: "decreased cytosolic glucose level" EXACT []
+synonym: "decreased cytosolic glucose level" NARROW []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
@@ -653,18 +654,18 @@ creation_date: 2014-10-02T14:42:58Z
 
 [Term]
 id: DDPHENO:0000123
-name: decreased response to cGMP
+name: decreased cGMP-mediated signaling
 alt_id: DDPHENO:0000199
-def: "Reduction in extent, amount, or degree of cGMP pulse in response to cAMP." [DDB:pg]
+def: "Reduction in extent, amount, or degree of cGMP-mediated signaling." [DDB:pf]
 synonym: "decreased cAMP-induced cGMP pulse" RELATED []
-synonym: "merged_defective in cAMP-dependent activation of guanylyl cyclase (GC)" EXACT []
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+synonym: "decreased cyclic GMP-mediated signaling" EXACT []
+is_a: DDPHENO:0000694 ! aberrant cGMP-mediated signaling
 
 [Term]
 id: DDPHENO:0000124
 name: increased cAMP-induced cAMP pulse
 def: "Increase in extent, amount, or degree of cAMP pulse in response to cAMP." [DDB:pg]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+is_a: DDPHENO:0001038 ! aberrant extracellular cAMP signaling
 
 [Term]
 id: DDPHENO:0000125
@@ -679,10 +680,11 @@ creation_date: 2014-10-02T14:52:26Z
 
 [Term]
 id: DDPHENO:0000126
-name: increased response to cGMP
-def: "Increase in extent, amount, or degree of cGMP pulse in response to cAMP." [DDB:pg]
+name: increased cGMP-mediated signaling
+def: "Increase in extent, amount, or degree of cGMP-mediated signaling." [DDB:pf]
 synonym: "increased cAMP-induced cGMP pulse" RELATED []
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+synonym: "increased cyclic GMP-mediated signaling" EXACT []
+is_a: DDPHENO:0000694 ! aberrant cGMP-mediated signaling
 
 [Term]
 id: DDPHENO:0000127
@@ -718,7 +720,7 @@ creation_date: 2014-11-06T12:16:28Z
 id: DDPHENO:0000130
 name: decreased cAMP-induced cAMP pulse
 def: "Reduction in extent, amount, or degree of cAMP pulse in response to cAMP." [DDB:pg]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+is_a: DDPHENO:0001038 ! aberrant extracellular cAMP signaling
 
 [Term]
 id: DDPHENO:0000131
@@ -1049,7 +1051,7 @@ is_obsolete: true
 [Term]
 id: DDPHENO:0000173
 name: precocious spore germination
-def: "Early onset or faster progression of spores through germination." [DDB:pg]
+def: "Early onset or faster progression of release from spore dormancy." [DDB:pf]
 is_a: DDPHENO:0001046 ! aberrant spore germination
 
 [Term]
@@ -1154,11 +1156,12 @@ is_a: DDPHENO:0001024 ! aberrant prestalk 0 cell differentiation
 
 [Term]
 id: DDPHENO:0000193
-name: abolished DIF production
-def: "Complete inability for DIF production." [DDB:pg]
-synonym: "abolished DIF-1 production" NARROW []
-synonym: "abolished differentiation inducing factor production" EXACT []
-is_a: DDPHENO:0001095 ! aberrant DIF production
+name: abolished DIF-1 biosynthesis
+def: "Complete inability for DIF biosynthesis." [DDB:pf]
+synonym: "abolished DIF-1 biosynthetic process" EXACT []
+synonym: "abolished DIF-1 production" RELATED []
+synonym: "abolished differentiation inducing factor 1 biosynthesis" EXACT []
+is_a: DDPHENO:0001095 ! aberrant DIF-1 biosynthesis
 
 [Term]
 id: DDPHENO:0000195
@@ -1189,7 +1192,7 @@ def: "Deviation from the normal, usual, or expected events during the activation
 comment: Replaced "defective in activation of adenylate cyclase (ACA)" with "aberrant activation of adenylate cyclase (ACA)"; annotations should be changed to "decreased" or "abolished" activation of adenylate cyclase. PG 10-11-2006.
 synonym: "aberrant activation of ACA" EXACT []
 synonym: "defective in activation of adenylate cyclase (ACA)" RELATED []
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+is_a: DDPHENO:0001118 ! aberrant signal transduction
 is_a: DDPHENO:0001304 ! aberrant regulation of adenylate cyclase activity
 
 [Term]
@@ -1284,7 +1287,7 @@ is_a: DDPHENO:0000187 ! aberrant cell-substrate adhesion
 [Term]
 id: DDPHENO:0000214
 name: precocious sporulation
-def: "Early onset or faster progression through sporulation." [DDB:pg]
+def: "Early onset or faster progression through spore formation." [DDB:pf]
 synonym: "precocious spore differentiation" EXACT []
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
@@ -1374,7 +1377,7 @@ creation_date: 2014-12-19T15:32:33Z
 [Term]
 id: DDPHENO:0000232
 name: decreased spore germination
-def: "Reduction in extent, amount, or degree of spore germination." [DDB:pg]
+def: "Reduction in extent, amount, or degree of release from spore dormancy." [DDB:pf]
 synonym: "decreased spore viability" BROAD []
 is_a: DDPHENO:0001046 ! aberrant spore germination
 
@@ -1670,17 +1673,15 @@ is_a: DDPHENO:0001234 ! aberrant mitochondrion organization
 
 [Term]
 id: DDPHENO:0000273
-name: decreased SDF production
-def: "Reduction in extent, amount, or degree of production of SDF-1 or SDF-2, peptides that promote terminal spore differentiation." [DDB:pg]
-synonym: "decreased spore differentiation factor production" EXACT []
-is_a: DDPHENO:0000044 ! aberrant SDF production
+name: obsolete decreased SDF production
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000274
-name: abolished SDF production
-def: "Complete inability for the production of SDF-1 or SDF-2, peptides that promote terminal spore differentiation." [DDB:pg]
-synonym: "abolished spore differentiation factor production" EXACT []
-is_a: DDPHENO:0000044 ! aberrant SDF production
+name: obsolete abolished SDF production
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000276
@@ -1939,60 +1940,63 @@ creation_date: 2015-06-16T17:41:25Z
 
 [Term]
 id: DDPHENO:0000307
-name: abolished SDF-1 production
-def: "Complete inability for the production of SDF-1, a  peptide that promotes terminal spore differentiation." [DDB:pf]
-is_a: DDPHENO:0000274 ! abolished SDF production
+name: obsolete abolished SDF-1 production
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-06-17T14:01:18Z
 
 [Term]
 id: DDPHENO:0000308
-name: abolished SDF-2 production
-def: "Complete inability for the production of SDF-2, a  peptide that promotes terminal spore differentiation." [DDB:pf]
-is_a: DDPHENO:0000274 ! abolished SDF production
+name: obsolete abolished SDF-2 production
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-06-17T14:01:46Z
 
 [Term]
 id: DDPHENO:0000309
-name: decreased SDF-1 production
-def: "Reduction in extent, amount, or degree of production of SDF-1, a  peptide that promotes terminal spore differentiation." [DDB:pf]
-is_a: DDPHENO:0000273 ! decreased SDF production
+name: obsolete decreased SDF-1 production
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-06-17T14:02:06Z
 
 [Term]
 id: DDPHENO:0000310
-name: decreased SDF-2 production
-def: "Reduction in extent, amount, or degree of production of SDF-2, a  peptide that promotes terminal spore differentiation." [DDB:pf]
-is_a: DDPHENO:0000273 ! decreased SDF production
+name: obsolete decreased SDF-2 production
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-06-17T14:03:53Z
 
 [Term]
 id: DDPHENO:0000311
-name: aberrant MPBD production
-def: "Deviation from the normal, usual, or expected during MPBD production, a polyketide." [DDB:pf]
+name: aberrant MPBD level
+def: "Deviation from the normal, usual, or expected during MPBD biosynthesis, a polyketide." [DDB:pf]
 synonym: "aberrant 4-methyl5-pentylbenzene-1,3 diol production" EXACT []
+synonym: "aberrant MPBD biosynthesis" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 created_by: Petra
 creation_date: 2015-06-17T14:37:07Z
 
 [Term]
 id: DDPHENO:0000312
-name: abolished MPBD production
-def: "Complete inability for the production of MPBD, a polyketide." [DDB:pf]
-synonym: "abolished 4-methyl5-pentylbenzene-1,3 diol production" EXACT []
-is_a: DDPHENO:0000311 ! aberrant MPBD production
+name: abolished MPBD level
+def: "Complete inability for the biosynthesis of MPBD, a polyketide." [DDB:pf]
+synonym: "abolished 4-methyl5-pentylbenzene-1,3-diol production" EXACT []
+synonym: "abolished MPBD biosynthesis" EXACT []
+is_a: DDPHENO:0000311 ! aberrant MPBD level
 created_by: Petra
 creation_date: 2015-06-17T14:39:34Z
 
 [Term]
 id: DDPHENO:0000313
-name: decreased MPBD production
-def: "Reduction in extent, amount, or degree of production of MPBD, a polyketide." [DDB:pf]
+name: decreased MPBD level
+def: "Reduction in extent, amount, or degree of MPBD biosynthesis, a polyketide." [DDB:pf]
 synonym: "decreased 4-methyl5-pentylbenzene-1,3 diol production" EXACT []
-is_a: DDPHENO:0000311 ! aberrant MPBD production
+synonym: "decreased MPBD biosynthesis" EXACT []
+is_a: DDPHENO:0000311 ! aberrant MPBD level
 created_by: Petra
 creation_date: 2015-06-17T14:40:21Z
 
@@ -2011,22 +2015,23 @@ name: abolished response to MPBD
 def: "Complete inability for the response to MPBD." [DDB:pf]
 synonym: "abolished response to 4-methyl5-pentylbenzene-1,3 diol" EXACT []
 is_a: DDPHENO:0000314 ! aberrant response to MPBD
+is_a: DDPHENO:0000693 ! abolished response to biotic stimulus
 created_by: Petra
 creation_date: 2015-06-17T17:20:55Z
 
 [Term]
 id: DDPHENO:0000316
-name: aberrant response to SDF-1
-def: "Deviation from the normal, usual, or expected during the response to SDF-1." [DDB:pf]
-is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
+name: obsolete aberrant response to SDF-1
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-06-17T17:27:25Z
 
 [Term]
 id: DDPHENO:0000317
-name: abolished response to SDF-1
-def: "Complete inability for the response to SDF-1, a  peptide that promotes terminal spore differentiation." [DDB:pf]
-is_a: DDPHENO:0000316 ! aberrant response to SDF-1
+name: obsolete abolished response to SDF-1
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2015-06-17T17:29:11Z
 
@@ -2199,17 +2204,17 @@ creation_date: 2016-06-14T12:26:51Z
 
 [Term]
 id: DDPHENO:0000339
-name: aberrant response to SDF-2
-def: "Deviation from the normal, usual, or expected during the response to SDF-2." [DDB:pf]
-is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
+name: obsolete aberrant response to SDF-2
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2016-07-18T10:38:21Z
 
 [Term]
 id: DDPHENO:0000340
-name: abolished response to SDF-2
-def: "Complete inability for the response to SDF-2, a  peptide that promotes terminal spore differentiation." [DDB:pf]
-is_a: DDPHENO:0000339 ! aberrant response to SDF-2
+name: obsolete abolished response to SDF-2
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 created_by: Petra
 creation_date: 2016-07-18T10:39:38Z
 
@@ -2358,7 +2363,7 @@ creation_date: 2017-02-08T15:31:07Z
 id: DDPHENO:0000358
 name: aberrant response to cAMP
 def: "Deviation from the normal, usual, or expected events during the response to cAMP." [DDB:pf]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+is_a: DDPHENO:0001038 ! aberrant extracellular cAMP signaling
 created_by: Petra
 creation_date: 2017-02-24T10:45:56Z
 
@@ -2655,9 +2660,9 @@ is_a: DDPHENO:0001456 ! aberrant response to cisplatin
 
 [Term]
 id: DDPHENO:0000402
-name: increased intracellular cAMP level
-def: "Increase in amount or accumulation of intracellular cAMP." [DDB:pg]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+name: obsolete increased intracellular cAMP level
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000403
@@ -2953,15 +2958,19 @@ is_a: DDPHENO:0001393 ! abolished protein localization
 
 [Term]
 id: DDPHENO:0000454
-name: decreased accumulation of cGMP
-def: "Reduction in extent, amount, or degree of accumulation of cGMP." [DDB:pf]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+name: decreased cGMP biosynthesis
+def: "Reduction in extent, amount, or degree of cGMP biosynthesis." [DDB:pf]
+synonym: "decreased accumulation of cGMP" RELATED []
+synonym: "decreased cGMP biosynthetic process" EXACT []
+is_a: DDPHENO:0000694 ! aberrant cGMP-mediated signaling
 
 [Term]
 id: DDPHENO:0000455
-name: increased accumulation of cGMP
+name: increased cGMP biosynthesis
 def: "Increase in extent, amount, or degree of cGMP." [DDB:pf]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+synonym: "increased accumulation of cGMP" RELATED []
+synonym: "increased cGMP biosynthetic process" EXACT []
+is_a: DDPHENO:0000694 ! aberrant cGMP-mediated signaling
 
 [Term]
 id: DDPHENO:0000456
@@ -2986,10 +2995,12 @@ is_a: DDPHENO:0001445 ! aberrant actin filament polymerization
 
 [Term]
 id: DDPHENO:0000461
-name: decreased intracellular pH level
-def: "Reduction in amount or accumulation of hydrogen ions in the cell." [DDB:pg]
+name: decreased intracellular pH
+def: "Reduction of pH in the cell." [DDB:pf]
 synonym: "decreased cytosolic pH level" EXACT []
-is_a: DDPHENO:0001455 ! aberrant intracellular pH level
+synonym: "intracellular pH reduction" EXACT []
+synonym: "reduction of cellular pH" EXACT []
+is_a: DDPHENO:0001455 ! aberrant regulation of intracellular pH
 
 [Term]
 id: DDPHENO:0000462
@@ -3141,8 +3152,9 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000490
-name: decreased extracellular Ca2+ uptake
+name: decreased calcium ion import
 def: "Reduction in extent, amount, or degree of uptake of extracellular calcium." [DDB:pg]
+synonym: "decreased extracellular Ca2+ uptake" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
@@ -3220,7 +3232,7 @@ is_a: DDPHENO:0001015 ! aberrant culmination
 id: DDPHENO:0000504
 name: decreased sporulation
 alt_id: DDPHENO:0000194
-def: "Reduction in extent, amount, or degree of sporulation." [DDB:pg]
+def: "Reduction in extent, amount, or degree of spore formation." [DDB:pf]
 synonym: "decreased number of spores" RELATED []
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
@@ -3249,7 +3261,7 @@ is_a: DDPHENO:0001176 ! abolished cell differentiation
 id: DDPHENO:0000513
 name: aberrant sporulation
 alt_id: DDPHENO:0000023
-def: "Deviation from the normal, usual, or expected events during sporulation." [DDB:pg]
+def: "Deviation from the normal, usual, or expected events during spore formation." [DDB:pf]
 synonym: "aberrant spore differentiation" RELATED []
 synonym: "defective spore differentiation" RELATED []
 is_a: DDPHENO:0001013 ! aberrant cell differentiation
@@ -3343,10 +3355,9 @@ is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
 id: DDPHENO:0000526
-name: increased prestalk cell differentiation in response to DIF-1
-def: "Increase in extent, amount, or degree of prestalk cell differentiation in response to DIF-1." [DDB:pg]
-synonym: "increased pst cell differentiation in response to DIF-1" EXACT []
-is_a: DDPHENO:0000169 ! increased prestalk cell differentiation
+name: obsolete increased prestalk cell differentiation in response to DIF-1
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000527
@@ -3398,27 +3409,31 @@ is_a: DDPHENO:0000234 ! aberrant mitosis
 
 [Term]
 id: DDPHENO:0000535
-name: decreased intracellular glycogen level
+name: decreased glycogen level
 def: "Reduction in amount or accumulation of intracellular glycogen." [DDB:pg]
-synonym: "decreased cytosolic glycogen level" RELATED []
+synonym: "decreased cytosolic glycogen level" EXACT []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0000536
-name: increased intracellular glutamate level
+name: increased glutamate level
 def: "Increase in amount or accumulation of intracellular glutamate." [DDB:pg]
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0000537
-name: increased extracellular ammonia level
-def: "Increase in amount or accumulation of extracellular ammonia." [DDB:pg]
+name: increased ammonia level
+alt_id: DDPHENO:0001380
+def: "Increase in amount or accumulation of  ammonia." [DDB:pf]
+synonym: "increased extracellular ammonia level" NARROW []
+synonym: "increased intracellular ammonia level" NARROW []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0000538
-name: decreased intracellular pteridine level
+name: decreased pteridine level
 def: "Reduction in amount or accumulation of intracellular pteridine." [DDB:pg]
+synonym: "decreased cytosolic pteridine level" EXACT []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
@@ -4728,6 +4743,84 @@ created_by: pfey
 creation_date: 2021-02-01T17:38:04Z
 
 [Term]
+id: DDPHENO:0000689
+name: aberrant G protein-coupled receptor signaling
+def: "Deviation from the normal, usual, or expected events during G protein-coupled signaling." [DDB:pf]
+synonym: "aberrant G protein-coupled receptor signaling pathway" EXACT []
+synonym: "aberrant GPCR signaling" EXACT []
+is_a: DDPHENO:0001118 ! aberrant signal transduction
+created_by: pfey
+creation_date: 2021-04-28T10:46:00Z
+
+[Term]
+id: DDPHENO:0000690
+name: aberrant spore cell differentiation
+def: "Deviation from the normal, usual, or expected events during differentiation into spores during culmination." [DDB:pf]
+synonym: "aberrant sorocarp spore cell differentiation" EXACT []
+is_a: DDPHENO:0001013 ! aberrant cell differentiation
+created_by: pfey
+creation_date: 2021-04-28T18:08:10Z
+
+[Term]
+id: DDPHENO:0000691
+name: abolished spore cell differentiation
+def: "Complete inability for differentiation of spore cells during culmination." [DDB:pf]
+synonym: "abolished sorocarp spore cell differentiation" EXACT []
+is_a: DDPHENO:0000690 ! aberrant spore cell differentiation
+created_by: pfey
+creation_date: 2021-04-28T18:11:09Z
+
+[Term]
+id: DDPHENO:0000692
+name: decreased spore cell differentiation
+def: "Reduction in extent, amount, or degree of differentiation into spore cells during culmination." [DDB:pf]
+synonym: "decreased sorocarp spore cell differentiation" EXACT []
+is_a: DDPHENO:0000690 ! aberrant spore cell differentiation
+created_by: pfey
+creation_date: 2021-04-28T18:12:42Z
+
+[Term]
+id: DDPHENO:0000693
+name: abolished response to biotic stimulus
+def: "Complete inability for response to a biotic stimulus." [DDB:pf]
+is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
+created_by: pfey
+creation_date: 2021-04-28T18:19:37Z
+
+[Term]
+id: DDPHENO:0000694
+name: aberrant cGMP-mediated signaling
+def: "Deviation from the normal, usual, or expected events during cGMP-mediated signaling." [DDB:pf]
+synonym: "aberrant cyclic GMP-mediated signaling" EXACT []
+is_a: DDPHENO:0001118 ! aberrant signal transduction
+created_by: pfey
+creation_date: 2021-04-29T11:28:03Z
+
+[Term]
+id: DDPHENO:0000695
+name: aberrant cAMP level
+def: "Deviation from the normal, usual, or expected cAMP level." [DDB:pf]
+is_a: DDPHENO:0001118 ! aberrant signal transduction
+created_by: pfey
+creation_date: 2021-04-29T18:22:43Z
+
+[Term]
+id: DDPHENO:0000696
+name: decreased cAMP level
+def: "Reduced cAMP level." [DDB:pf]
+is_a: DDPHENO:0000695 ! aberrant cAMP level
+created_by: pfey
+creation_date: 2021-04-29T18:25:17Z
+
+[Term]
+id: DDPHENO:0000697
+name: increased cAMP level
+def: "Increase in extent, amount, or degree of cAMP level." [DDB:pf]
+is_a: DDPHENO:0000695 ! aberrant cAMP level
+created_by: pfey
+creation_date: 2021-04-29T18:26:58Z
+
+[Term]
 id: DDPHENO:0001001
 name: obsolete aberrant initiation of development
 def: "OBSOLETE." [DDB:pg]
@@ -4802,9 +4895,9 @@ is_a: DDPHENO:0001013 ! aberrant cell differentiation
 
 [Term]
 id: DDPHENO:0001011
-name: decreased intracellular cAMP level
-def: "Reduction in amount or accumulation of intracellular cAMP." [DDB:pg]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+name: obsolete decreased intracellular cAMP level
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001012
@@ -4959,23 +5052,25 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
 [Term]
 id: DDPHENO:0001037
-name: aberrant signal transduction during aggregation
-def: "Deviation from the normal, usual, or expected events during signal transduction during development." [DDB:pg]
-is_a: DDPHENO:0000483 ! aberrant aggregation
-is_a: DDPHENO:0001118 ! aberrant signal transduction
+name: obsolete aberrant signal transduction during aggregation
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001038
-name: aberrant cAMP signaling during aggregation
+name: aberrant extracellular cAMP signaling
 alt_id: DDPHENO:0000419
 alt_id: DDPHENO:0000468
 alt_id: DDPHENO:0000469
-def: "Deviation from the normal, usual, or expected events during cAMP signaling during aggregation." [DDB:pg]
+def: "Deviation from the normal, usual, or expected events during extracellular cAMP signaling." [DDB:pf]
 comment: Merged with aberrant cAMP signaling during aggregation. PG 10-24-2006.
-synonym: "merged_aggregation hypersensitive to caffeine" EXACT []
-synonym: "merged_aggregation resistant to caffeine" EXACT []
-synonym: "merged_impaired cAMP signaling in the presence of gossypol" EXACT []
-is_a: DDPHENO:0001037 ! aberrant signal transduction during aggregation
+synonym: "aberrant adenylate cyclase-activating G protein-coupled cAMP receptor signaling pathway" EXACT []
+synonym: "aberrant cAMP signaling during aggregation" RELATED []
+synonym: "aberrant extracellular cAMP signaling pathway" EXACT []
+synonym: "merged_aggregation hypersensitive to caffeine" NARROW []
+synonym: "merged_aggregation resistant to caffeine" NARROW []
+synonym: "merged_impaired cAMP signaling in the presence of gossypol" NARROW []
+is_a: DDPHENO:0001118 ! aberrant signal transduction
 
 [Term]
 id: DDPHENO:0001039
@@ -5028,7 +5123,7 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 [Term]
 id: DDPHENO:0001046
 name: aberrant spore germination
-def: "Deviation from the normal, usual, or expected events during spore germination." [DDB:pg]
+def: "Deviation from the normal, usual, or expected events during release from spore dormancy." [DDB:pf]
 is_a: DDPHENO:0001013 ! aberrant cell differentiation
 
 [Term]
@@ -5309,91 +5404,85 @@ is_a: DDPHENO:0001168 ! aberrant chemotaxis to folate
 
 [Term]
 id: DDPHENO:0001088
-name: aberrant response to DIF
-def: "Deviation from the normal, usual, or expected during the response to differentiation inducing factor." [DDB:pg]
-synonym: "aberrant response to DIF-1" NARROW []
-synonym: "aberrant response to differentiation inducing factor" EXACT []
+name: aberrant response to DIF-1
+def: "Deviation from the normal, usual, or expected during the response to differentiation inducing factor 1." [DDB:pg]
+synonym: "aberrant response to differentiation inducing factor 1" EXACT []
 is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
 
 [Term]
 id: DDPHENO:0001090
-name: decreased response to DIF
-def: "Reduction in extent, amount, or degree of the response to DIF." [DDB:pg]
-synonym: "decreased response to DIF-1" NARROW []
-synonym: "decreased response to differentiation inducing factor" EXACT []
-is_a: DDPHENO:0001088 ! aberrant response to DIF
+name: decreased response to DIF-1
+def: "Reduction in extent, amount, or degree of the response to DIF-1." [DDB:pg]
+synonym: "decreased response to differentiation inducing factor 1" EXACT []
+is_a: DDPHENO:0001088 ! aberrant response to DIF-1
 
 [Term]
 id: DDPHENO:0001091
-name: increased response to DIF
-def: "Increase in extent, amount, or degree of response to DIF." [DDB:pg]
-synonym: "increased response to DIF-1" NARROW []
-synonym: "increased response to differentiation inducing factor" EXACT []
-is_a: DDPHENO:0001088 ! aberrant response to DIF
+name: increased response to DIF-1
+def: "Increase in extent, amount, or degree of response to DIF-1." [DDB:pg]
+synonym: "increased response to differentiation inducing factor 1" EXACT []
+is_a: DDPHENO:0001088 ! aberrant response to DIF-1
 
 [Term]
 id: DDPHENO:0001092
-name: abolished response to DIF
-def: "Complete inability for response to DIF." [DDB:pg]
-synonym: "abolished response to DIF-1" NARROW []
-synonym: "abolished response to differentiation inducing factor" EXACT []
-is_a: DDPHENO:0001088 ! aberrant response to DIF
+name: abolished response to DIF-1
+def: "Complete inability for response to DIF-1." [DDB:pg]
+synonym: "abolished response to differentiation inducing factor 1" EXACT []
+is_a: DDPHENO:0000693 ! abolished response to biotic stimulus
+is_a: DDPHENO:0001088 ! aberrant response to DIF-1
 
 [Term]
 id: DDPHENO:0001093
-name: delayed response to DIF
-def: "Late onset or slower progression in the response to DIF." [DDB:pg]
-synonym: "delayed response to DIF-1" NARROW []
-synonym: "delayed response to differentiation inducing factor" EXACT []
-is_a: DDPHENO:0001088 ! aberrant response to DIF
+name: delayed response to DIF-1
+def: "Late onset or slower progression in the response to DIF-1." [DDB:pg]
+synonym: "delayed response to differentiation inducing factor 1" EXACT []
+is_a: DDPHENO:0001088 ! aberrant response to DIF-1
 
 [Term]
 id: DDPHENO:0001094
-name: precocious response to DIF
-def: "Early onset or faster progression in the response to DIF." [DDB:pg]
-synonym: "precocious response to DIF-1" NARROW []
-synonym: "precocious response to differentiation inducing factor" EXACT []
-is_a: DDPHENO:0001088 ! aberrant response to DIF
+name: precocious response to DIF-1
+def: "Early onset or faster progression in the response to DIF-1." [DDB:pg]
+synonym: "precocious response to differentiation inducing factor 1" EXACT []
+is_a: DDPHENO:0001088 ! aberrant response to DIF-1
 
 [Term]
 id: DDPHENO:0001095
-name: aberrant DIF production
-def: "Deviation from the normal, usual, or expected in the production of DIF." [DDB:pg]
-synonym: "aberrant DIF-1 production" NARROW []
-synonym: "aberrant differentiation inducing factor production" EXACT []
+name: aberrant DIF-1 biosynthesis
+def: "Deviation from the normal, usual, or expected in the DIF-1 biosynthesis." [DDB:pf]
+synonym: "aberrant DIF-1 biosynthetic process" EXACT []
+synonym: "aberrant DIF-1 production" RELATED []
+synonym: "aberrant differentiation inducing factor 1 biosynthesis" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0001097
-name: decreased DIF production
-def: "Reduction in extent, amount, or degree of production of DIF." [DDB:pg]
-synonym: "decreased DIF-1 production" NARROW []
-synonym: "decreased differentiation inducing factor production" EXACT []
-is_a: DDPHENO:0001095 ! aberrant DIF production
+name: decreased DIF-1 biosynthesis
+def: "Reduction in extent, amount, or degree for DIF-1 biosynthesis." [DDB:pf]
+synonym: "decreased DIF-1 biosynthetic process" EXACT []
+synonym: "decreased DIF-1 production" RELATED []
+synonym: "decreased differentiation inducing factor 1 biosynthesis" EXACT []
+is_a: DDPHENO:0001095 ! aberrant DIF-1 biosynthesis
 
 [Term]
 id: DDPHENO:0001098
-name: increased DIF production
-def: "Increase in extent, amount, or degree of DIF production." [DDB:pg]
-synonym: "increased DIF-1 production" NARROW []
-synonym: "increased differentiation inducing factor production" EXACT []
-is_a: DDPHENO:0001095 ! aberrant DIF production
+name: increased DIF-1 biosynthesis
+def: "Increase in extent, amount, or degree for DIF-1 biosynthesis." [DDB:pf]
+synonym: "increased DIF-1 biosynthetic process" EXACT []
+synonym: "increased DIF-1 production" RELATED []
+synonym: "increased differentiation inducing factor 1 biosynthesis" EXACT []
+is_a: DDPHENO:0001095 ! aberrant DIF-1 biosynthesis
 
 [Term]
 id: DDPHENO:0001099
-name: delayed DIF production
-def: "Late onset or slower progression in the production of DIF." [DDB:pg]
-synonym: "delayed DIF-1 production" NARROW []
-synonym: "delayed differentiation inducing factor production" EXACT []
-is_a: DDPHENO:0001095 ! aberrant DIF production
+name: obsolete delayed DIF production
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001100
-name: precocious DIF production
-def: "Early onset or faster progression in the production of DIF." [DDB:pg]
-synonym: "precocious DIF-1 production" NARROW []
-synonym: "precocious differentiation inducing factor production" EXACT []
-is_a: DDPHENO:0001095 ! aberrant DIF production
+name: obsolete precocious DIF production
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001101
@@ -5809,20 +5898,26 @@ is_a: DDPHENO:0001156 ! aberrant cellulose biosynthesis
 
 [Term]
 id: DDPHENO:0001160
-name: abolished superoxide production
-def: "Complete inability for the production of superoxide." [DDB:pf]
+name: abolished superoxide generation
+def: "Complete inability for superoxide generation." [DDB:pf]
+synonym: "abolished superoxide anion generation" EXACT []
+synonym: "abolished superoxide production" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0001161
-name: decreased superoxide production
-def: "Reduction in extent, amount, or degree of production of superoxide." [DDB:pf]
+name: decreased superoxide generation
+def: "Reduction in extent, amount, or degree  of superoxide generation." [DDB:pf]
+synonym: "decreased superoxide anion generation" EXACT []
+synonym: "decreased superoxide production" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0001162
-name: increased superoxide production
-def: "Increase in amount or accumulation of superoxide." [DDB:pf]
+name: increased superoxide generation
+def: "Increase in amount or generation of superoxide." [DDB:pf]
+synonym: "increased superoxide anion generation" EXACT []
+synonym: "increased superoxide production" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
@@ -5973,28 +6068,29 @@ is_a: DDPHENO:0000163 ! aberrant spore morphology
 
 [Term]
 id: DDPHENO:0001184
-name: decreased intracellular myo-inositol level
+name: decreased myo-inositol level
 def: "Decrease in amount or accumulation of intracellular myo-inositol." [DDB:pg]
 synonym: "decreased cytosolic myo-inositol level" EXACT []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0001185
-name: increased intracellular myo-inositol level
+name: increased myo-inositol level
 def: "Increase in amount or accumulation of intracellular myo-inositol." [DDB:pg]
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0001186
-name: increased intracellular 2,3-bisphosphoglycerate level
+name: increased 2,3-bisphosphoglycerate level
 def: "Increase in amount or accumulation of intracellular 2,3-bisphosphoglycerate." [DDB:pg]
+synonym: "increased 2,3-BPG" EXACT []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0001187
-name: decreased intracellular 2,3-bisphosphoglycerate level
+name: decreased 2,3-bisphosphoglycerate level
 def: "Reduction in amount or accumulation of intracellular 2,3-bisphosphoglycerate." [DDB:pg]
-synonym: "Reduction in amount or accumulation of intracellular 2,3-BPG" EXACT []
+synonym: "decreased 2,3-BPG" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
@@ -6324,16 +6420,18 @@ is_a: DDPHENO:0001043 ! aberrant organelle organization
 
 [Term]
 id: DDPHENO:0001235
-name: decreased intracellular ATP level
-def: "Decrease in amount or accumulation of intracellular ATP." [DDB:pf]
-synonym: "<new synonym>" RELATED []
+name: decreased ATP level
+def: "Decrease in amount or accumulation of cytosolic ATP." [DDB:pf]
 synonym: "decreased cytosolic ATP level" EXACT []
+synonym: "decreased intracellular ATP" EXACT []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0001236
-name: increased intracellular ATP level
-def: "Increase in amount or accumulation of intracellular ATP." [DDB:pf]
+name: increased ATP level
+def: "Increase in amount or accumulation of cytosolic ATP." [DDB:pf]
+synonym: "increased cytosolic ATP level" EXACT []
+synonym: "increased intracellular ATP level" EXACT []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
@@ -6392,7 +6490,7 @@ id: DDPHENO:0001245
 name: aberrant cAMP wave formation
 def: "Deviation from the normal, usual, or expected events during cAMP wave formation." [DDB:pf]
 synonym: "aberrant cAMP wave propagation" RELATED []
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+is_a: DDPHENO:0001038 ! aberrant extracellular cAMP signaling
 
 [Term]
 id: DDPHENO:0001246
@@ -6778,16 +6876,17 @@ is_a: DDPHENO:0001303 ! aberrant regulation of catalytic activity
 
 [Term]
 id: DDPHENO:0001305
-name: abolished response to cGMP
-def: "Complete inability to produce a cGMP pulse upon cAMP stimulation." [DDB:pg]
+name: abolished cGMP-mediated signaling
+def: "Complete inability for cGMP signaling." [DDB:pf]
 synonym: "abolished cAMP induced cGMP pulse" RELATED []
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+synonym: "abolished cyclic GMP-mediated signaling" EXACT []
+is_a: DDPHENO:0000694 ! aberrant cGMP-mediated signaling
 
 [Term]
 id: DDPHENO:0001306
 name: abolished cAMP-induced cAMP pulse
 def: "Complete inability to produce a cAMP pulse upon cAMP stimulation." [DDB:pg]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+is_a: DDPHENO:0001038 ! aberrant extracellular cAMP signaling
 
 [Term]
 id: DDPHENO:0001307
@@ -6930,15 +7029,15 @@ is_a: DDPHENO:0001317 ! aberrant protein modification
 
 [Term]
 id: DDPHENO:0001329
-name: decreased extracellular cAMP level
-def: "Reduction in amount or accumulation of extracellular cAMP." [DDB:pf]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+name: obsolete decreased extracellular cAMP level
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001330
-name: increased extracellular cAMP level
-def: "Increase in amount or accumulation of extracellular cAMP." [DDB:pg]
-is_a: DDPHENO:0001038 ! aberrant cAMP signaling during aggregation
+name: obsolete increased extracellular cAMP level
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001331
@@ -7235,53 +7334,46 @@ is_a: DDPHENO:0001008 ! aberrant cellular process
 
 [Term]
 id: DDPHENO:0001376
-name: increased intracellular glycogen level
+name: increased glycogen level
 def: "Increase in amount or accumulation of intracellular glycogen." [DDB:pg]
+synonym: "increased cytosolic glycogen level" EXACT []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0001377
-name: increased intracellular pH level
-def: "Increase in amount or accumulation of hydrogen ions in the cell." [DDB:pg]
-is_a: DDPHENO:0001455 ! aberrant intracellular pH level
+name: increased intracellular pH
+def: "Increase of the pH in the cell." [DDB:pf]
+synonym: "elevation of cellular pH," EXACT []
+synonym: "increased cytosolic pH level" EXACT []
+synonym: "intracellular pH elevation" EXACT []
+is_a: DDPHENO:0001455 ! aberrant regulation of intracellular pH
 
 [Term]
 id: DDPHENO:0001378
-name: decreased extracellular ammonia level
-def: "Reduction in amount or accumulation of extracellular ammonia." [DDB:pg]
-is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
-
-[Term]
-id: DDPHENO:0001379
-name: decreased intracellular ammonia level
-def: "Reduction in amount or accumulation of intracellular ammonia." [DDB:pg]
-synonym: "<new synonym>" RELATED []
-synonym: "decreased cytosolic ammonia level" EXACT []
-is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
-
-[Term]
-id: DDPHENO:0001380
-name: increased intracellular ammonia level
-def: "Increase in amount or accumulation of intracellular ammonia." [DDB:pg]
+name: decreased ammonia level
+alt_id: DDPHENO:0001379
+def: "Reduction in amount or accumulation of ammonia." [DDB:pf]
+synonym: "decreased cytosolic ammonia level" NARROW []
+synonym: "decreased extracellular ammonia level" NARROW []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 
 [Term]
 id: DDPHENO:0001381
-name: decreased extracellular glucose level
-def: "Reduction in extent, amount or accumulation of extracellular glucose." [DDB:pg]
-is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
+name: obsolete decreased extracellular glucose level
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001382
-name: increased extracellular glucose level
-def: "Increase in amount or accumulation of extracellular glucose." [DDB:pg]
-is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
+name: obsolete increased extracellular glucose level
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001383
-name: decreased extracellular pteridine level
-def: "Reduction in extent, amount or accumulation of extracellular pteridine." [DDB:pf]
-is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
+name: obsolete decreased extracellular pteridine level
+def: "OBSOLETE." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001384
@@ -7386,14 +7478,14 @@ is_a: DDPHENO:0001337 ! increased protein localization
 
 [Term]
 id: DDPHENO:0001397
-name: increased period of cAMP wave formation
+name: increased cAMP wave formation
 def: "Extended duration for cAMP wave formation." [DDB:pf]
 synonym: "prolonged cAMP wave formation" RELATED []
 is_a: DDPHENO:0001245 ! aberrant cAMP wave formation
 
 [Term]
 id: DDPHENO:0001398
-name: decreased period cAMP wave formation
+name: decreased cAMP wave formation
 def: "Shortened duration for cAMP wave formation." [DDB:pf]
 synonym: "shortened cAMP wave formation" RELATED []
 is_a: DDPHENO:0001245 ! aberrant cAMP wave formation
@@ -7660,14 +7752,14 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 [Term]
 id: DDPHENO:0001432
 name: delayed sporulation
-def: "Late onset or slower progression through sporulation." [DDB:pf]
+def: "Late onset or slower progression through spore formation." [DDB:pf]
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
 id: DDPHENO:0001433
-name: aberrant gamma-aminobutyric acid signaling pathway
+name: aberrant GABA signaling pathway
 def: "Deviation from the normal, usual, or expected events during the gamma-aminobutyric acid signaling pathway." [DDB:pf]
-synonym: "aberrant GABA signaling pathway" EXACT []
+synonym: "aberrant gamma-aminobutyric acid signaling pathway" EXACT []
 is_a: DDPHENO:0001118 ! aberrant signal transduction
 
 [Term]
@@ -7823,8 +7915,9 @@ creation_date: 2010-02-16T04:08:50Z
 
 [Term]
 id: DDPHENO:0001455
-name: aberrant intracellular pH level
-def: "Deviation from the normal, usual, or expected regulation of the intracellular pH level." [DDB:pf]
+name: aberrant regulation of intracellular pH
+def: "Deviation from the normal, usual, or expected regulation of the intracellular pH." [DDB:pf]
+synonym: "aberrant intracellular pH level" EXACT []
 is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 created_by: pfey
 creation_date: 2010-02-19T11:12:47Z
@@ -7869,19 +7962,17 @@ creation_date: 2010-03-10T10:44:51Z
 
 [Term]
 id: DDPHENO:0001461
-name: aberrant chemotaxis to cAMP in response to DIF-1
-def: "Deviation from the normal, usual, or expected events during the locomotory response to cAMP in response to DIF-1." [DDB:pg]
-synonym: "aberrant positive chemotaxis to cAMP in response to DIF-1" EXACT [DDB:pg]
-is_a: DDPHENO:0001167 ! aberrant chemotaxis to cAMP
+name: obsolete aberrant chemotaxis to cAMP in response to DIF-1
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-15T04:04:23Z
 
 [Term]
 id: DDPHENO:0001462
-name: aberrant chemotaxis to cAMP in response to DIF-2
-def: "Deviation from the normal, usual, or expected events during the locomotory response to cAMP in response to DIF-2." [DDB:pg]
-synonym: "aberrant positive chemotaxis to cAMP in response to DIF-2" EXACT [DDB:pg]
-is_a: DDPHENO:0001167 ! aberrant chemotaxis to cAMP
+name: obsolete aberrant chemotaxis to cAMP in response to DIF-2
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-15T04:05:48Z
 
@@ -7895,19 +7986,17 @@ creation_date: 2010-03-15T04:20:58Z
 
 [Term]
 id: DDPHENO:0001464
-name: aberrant regulation of chemotaxis to cAMP in response to DIF-1
-def: "Deviation from the normal, usual, or expected events during the regulation of the locomotory response to cAMP in response to DIF-1." [DDB:pg]
-is_a: DDPHENO:0001461 ! aberrant chemotaxis to cAMP in response to DIF-1
-is_a: DDPHENO:0001463 ! aberrant regulation of positive chemotaxis
+name: obsolete aberrant regulation of chemotaxis to cAMP in response to DIF-1
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-15T04:24:28Z
 
 [Term]
 id: DDPHENO:0001465
-name: aberrant regulation of chemotaxis to cAMP in response to DIF-2
-def: "Deviation from the normal, usual, or expected events during the regulation of the locomotory response to cAMP in response to DIF-2." [DDB:pg]
-is_a: DDPHENO:0001462 ! aberrant chemotaxis to cAMP in response to DIF-2
-is_a: DDPHENO:0001463 ! aberrant regulation of positive chemotaxis
+name: obsolete aberrant regulation of chemotaxis to cAMP in response to DIF-2
+def: "OBSOLETE." [DDB:pg]
+is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-15T04:25:54Z
 
