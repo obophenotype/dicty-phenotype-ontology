@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:06:2021 16:06
+date: 25:06:2021 16:56
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -30,17 +30,21 @@ creation_date: 2013-08-15T16:54:08Z
 
 [Term]
 id: DDPHENO:0000003
-name: increased slug length
-def: "Increase in length of the slug." [DDB:pf]
+name: increased migratory slug length
+def: "Increase in relative or proportionate length of the slug." [DDB:pf]
+synonym: "increased slug length" EXACT []
 synonym: "long slug" EXACT []
-is_a: DDPHENO:0000160 ! increased slug size
+xref: PMID:18366659 "DDANAT:0000008"
+is_a: DDPHENO:0000160 ! increased migratory slug size
 created_by: pfey
 creation_date: 2013-08-16T15:21:25Z
 
 [Term]
 id: DDPHENO:0000004
-name: decreased slug size
+name: decreased migratory slug size
 def: "Decrease in relative or proportionate dimensions of the slug." [DDB:pf]
+synonym: "decreased slug size" BROAD []
+xref: PMID:18366659 "DDANAT:0000008"
 is_a: DDPHENO:0001014 ! aberrant slug development
 created_by: pfey
 creation_date: 2013-08-27T16:36:33Z
@@ -102,37 +106,37 @@ creation_date: 2013-10-28T15:59:10Z
 
 [Term]
 id: DDPHENO:0000012
-name: aberrant microRNA processing
-def: "Deviation from the normal, usual, or expected events during microRNA processing." [DDB:pf]
-synonym: "aberrant miRNA processing" EXACT []
+name: aberrant pre-miRNA processing
+def: "Deviation from the normal, usual, or expected events during pre-miRNA processing." [DDB:pf]
+synonym: "aberrant miRNA processing" BROAD []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 created_by: pfey
 creation_date: 2013-10-28T18:00:23Z
 
 [Term]
 id: DDPHENO:0000014
-name: abolished microRNA processing
-def: "Complete inability for microRNA processing." [DDB:pf]
-synonym: "abolished miRNA processing" EXACT []
-is_a: DDPHENO:0000012 ! aberrant microRNA processing
+name: abolished pre-miRNA processing
+def: "Complete inability for pre-miRNA processing." [DDB:pf]
+synonym: "abolished miRNA processing" BROAD []
+is_a: DDPHENO:0000012 ! aberrant pre-miRNA processing
 created_by: pfey
 creation_date: 2013-10-28T18:01:47Z
 
 [Term]
 id: DDPHENO:0000015
-name: increased microRNA processing
-def: "Increase in level of microRNA processing." [DDB:pf]
-synonym: "increased miRNA processing" EXACT []
-is_a: DDPHENO:0000012 ! aberrant microRNA processing
+name: increased pre-miRNA processing
+def: "Increase in level of pre-miRNA processing." [DDB:pf]
+synonym: "increased miRNA processing" BROAD []
+is_a: DDPHENO:0000012 ! aberrant pre-miRNA processing
 created_by: pfey
 creation_date: 2013-10-28T18:03:08Z
 
 [Term]
 id: DDPHENO:0000016
-name: decreased microRNA processing
-def: "Reduction in level of microRNA processing." [DDB:pf]
-synonym: "decreased miRNA processing" EXACT []
-is_a: DDPHENO:0000012 ! aberrant microRNA processing
+name: decreased pre-miRNA processing
+def: "Reduction in level of pre-miRNA processing." [DDB:pf]
+synonym: "decreased miRNA processing" BROAD []
+is_a: DDPHENO:0000012 ! aberrant pre-miRNA processing
 created_by: pfey
 creation_date: 2013-10-28T18:03:53Z
 
@@ -174,6 +178,7 @@ creation_date: 2013-11-06T10:35:04Z
 [Term]
 id: DDPHENO:0000021
 name: abolished RNA interference
+def: "Complete inability for RNA interference." [DDB:pf]
 synonym: "abolished RNAi" RELATED []
 is_a: DDPHENO:0000020 ! aberrant RNA interference
 created_by: pfey
@@ -183,7 +188,7 @@ creation_date: 2013-11-06T10:38:10Z
 id: DDPHENO:0000022
 name: aberrant production of siRNA involved in RNA interference
 def: "Deviation from the normal, usual, or expected events during production of siRNA involved in RNA interference." [DDB:pf]
-synonym: "aberrant production of siRNA involved in RNAi" RELATED []
+synonym: "aberrant production of siRNA involved in RNAi" EXACT []
 is_a: DDPHENO:0000020 ! aberrant RNA interference
 created_by: pfey
 creation_date: 2013-11-06T11:17:36Z
@@ -192,7 +197,7 @@ creation_date: 2013-11-06T11:17:36Z
 id: DDPHENO:0000024
 name: abolished production of siRNA involved in RNA interference
 def: "Complete inability for production of siRNA involved in RNA interference." [DDB:pf]
-synonym: "abolished production of siRNA involved in RNAi" RELATED []
+synonym: "abolished production of siRNA involved in RNAi" EXACT []
 is_a: DDPHENO:0000022 ! aberrant production of siRNA involved in RNA interference
 created_by: pfey
 creation_date: 2013-11-06T11:20:17Z
@@ -217,8 +222,8 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0000027
-name: abolished phagosome re-neutralization
-def: "Complete inability for phagosome re-neutralization." [DDB:pf]
+name: abolished phagosome reneutralization
+def: "Complete inability for phagosome reneutralization." [DDB:pf]
 is_a: DDPHENO:0001488 ! aberrant phagosome maturation
 created_by: pfey
 creation_date: 2013-12-02T17:39:10Z
@@ -316,10 +321,10 @@ creation_date: 2014-01-27T16:17:55Z
 
 [Term]
 id: DDPHENO:0000039
-name: aberrant plasma membrane organization and biogenesis
-def: "Deviation from the normal, usual, or expected events during plasma membrane organization and biogenesis." [DDB:pf]
+name: aberrant plasma membrane organization
+def: "Deviation from the normal, usual, or expected events during plasma membrane organization." [DDB:pf]
 synonym: "aberrant plasma membrane circulation" RELATED []
-synonym: "aberrant plasma membrane organization" NARROW []
+synonym: "aberrant plasma membrane organization and biogenesis" EXACT []
 is_a: DDPHENO:0001042 ! aberrant cellular component organization
 created_by: pfey
 creation_date: 2014-01-27T16:39:23Z
@@ -345,7 +350,7 @@ creation_date: 2014-03-20T12:09:31Z
 id: DDPHENO:0000042
 name: aberrant membrane ruffling
 def: "Deviation from the normal, usual, or expected events during membrane ruffling." [DDB:pf]
-synonym: "aberrant ruffle assembly" RELATED []
+synonym: "aberrant ruffle assembly" EXACT []
 is_a: DDPHENO:0001042 ! aberrant cellular component organization
 created_by: pfey
 creation_date: 2014-03-20T13:02:03Z
@@ -354,7 +359,7 @@ creation_date: 2014-03-20T13:02:03Z
 id: DDPHENO:0000043
 name: decreased membrane ruffling
 def: "Reduction in extent, amount, or degree of membrane ruffling." [DDB:pf]
-synonym: "decreased ruffle assembly" RELATED []
+synonym: "decreased ruffle assembly" EXACT []
 is_a: DDPHENO:0000042 ! aberrant membrane ruffling
 created_by: pfey
 creation_date: 2014-03-20T13:04:44Z
@@ -371,6 +376,7 @@ creation_date: 2014-03-20T13:59:32Z
 id: DDPHENO:0000045
 name: aberrant phosphatidylinositol metabolism
 def: "Deviation from the normal, usual, or expected events during phosphatidylinositol metabolism." [DDB:pf]
+synonym: "aberrant phosphatidylinositol metabolic process" EXACT []
 synonym: "aberrant phosphoinositide metabolism" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 created_by: pfey
@@ -380,6 +386,7 @@ creation_date: 2014-03-20T14:03:28Z
 id: DDPHENO:0000046
 name: aberrant phosphatidylinositol biosynthesis
 def: "Deviation from the normal, usual, or expected events during phosphatidylinositol biosynthesis." [DDB:pf]
+synonym: "aberrant phosphatidylinositol biosynthetic process" EXACT []
 is_a: DDPHENO:0000045 ! aberrant phosphatidylinositol metabolism
 created_by: pfey
 creation_date: 2014-03-20T14:07:21Z
@@ -388,6 +395,7 @@ creation_date: 2014-03-20T14:07:21Z
 id: DDPHENO:0000047
 name: decreased phosphatidylinositol biosynthesis
 def: "Reduction in extent, amount, or degree of phosphatidylinositol biosynthesis." [DDB:pf]
+synonym: "decreased phosphatidylinositol biosynthetic process" EXACT []
 is_a: DDPHENO:0000046 ! aberrant phosphatidylinositol biosynthesis
 created_by: pfey
 creation_date: 2014-03-20T14:09:34Z
@@ -396,6 +404,7 @@ creation_date: 2014-03-20T14:09:34Z
 id: DDPHENO:0000048
 name: increased phosphatidylinositol biosynthesis
 def: "Increase in amount or accumulation of  phosphatidylinositol biosynthesis." [DDB:pf]
+synonym: "increased phosphatidylinositol biosynthetic process" EXACT []
 is_a: DDPHENO:0000046 ! aberrant phosphatidylinositol biosynthesis
 created_by: pfey
 creation_date: 2014-03-20T14:10:51Z
@@ -404,6 +413,7 @@ creation_date: 2014-03-20T14:10:51Z
 id: DDPHENO:0000049
 name: abolished phosphatidylinositol biosynthesis
 def: "Complete inability for the production of  phosphatidylinositol." [DDB:pf]
+synonym: "abolished phosphatidylinositol biosynthetic process" EXACT []
 is_a: DDPHENO:0000046 ! aberrant phosphatidylinositol biosynthesis
 created_by: pfey
 creation_date: 2014-03-20T14:12:10Z
@@ -555,11 +565,12 @@ creation_date: 2014-06-02T11:45:51Z
 
 [Term]
 id: DDPHENO:0000111
-name: increased aggregate size
+name: increased mound size
 alt_id: DDPHENO:0001018
-def: "Increase in relative or proportionate dimensions of the aggregate." [DDB:pg]
+def: "Increase in relative or proportionate dimensions of the mound." [DDB:pf]
 synonym: "aberrant negative regulation of aggregate size" RELATED []
-is_a: DDPHENO:0001017 ! aberrant aggregate size
+synonym: "increased aggregate size" EXACT []
+is_a: DDPHENO:0001017 ! aberrant mound size
 
 [Term]
 id: DDPHENO:0000112
@@ -789,8 +800,10 @@ is_a: DDPHENO:0001010 ! aberrant macrocyst formation
 [Term]
 id: DDPHENO:0000140
 name: decreased slime trail
-def: "Reduction in extent, amount, or degree of the slime trail." [DDB:pf]
+def: "Reduction in amount or accumulation of the slime trail, acellular material from the surface sheath left behind the migratory slug." [DDB:pf]
+synonym: "decreased slime trail accumulation" EXACT []
 synonym: "weak slime trail" EXACT []
+xref: PMID:4338436 "DDANAT:0000076"
 is_a: DDPHENO:0001014 ! aberrant slug development
 
 [Term]
@@ -928,11 +941,12 @@ is_a: DDPHENO:0001431 ! aberrant development of tipped mound
 
 [Term]
 id: DDPHENO:0000158
-name: decreased aggregate size
+name: decreased mound size
 alt_id: DDPHENO:0001019
-def: "Reduction in relative or proportionate dimensions of the aggregate." [DDB:pg]
-synonym: "aberrant positive regulation of aggregate size" RELATED []
-is_a: DDPHENO:0001017 ! aberrant aggregate size
+def: "Reduction in relative or proportionate dimensions of the mound." [DDB:pf]
+synonym: "decreased aggregate size" EXACT []
+synonym: "decreased positive regulation of aggregate size" RELATED []
+is_a: DDPHENO:0001017 ! aberrant mound size
 
 [Term]
 id: DDPHENO:0000159
@@ -949,8 +963,10 @@ is_a: DDPHENO:0000026 ! development arrests at mound stage
 
 [Term]
 id: DDPHENO:0000160
-name: increased slug size
+name: increased migratory slug size
 def: "Increase in relative or proportionate dimensions of the slug." [DDB:pg]
+synonym: "increased slug size" EXACT []
+xref: PMID:18366659 "DDANAT:0000008"
 is_a: DDPHENO:0001014 ! aberrant slug development
 
 [Term]
@@ -966,8 +982,9 @@ name: delayed development
 alt_id: DDPHENO:0000418
 alt_id: DDPHENO:0000508
 def: "Late onset or slower progression through development." [DDB:pg]
-synonym: "merged_delayed development in the presence of gossypol" EXACT []
-synonym: "merged_delayed development in the presence of lithium" EXACT []
+synonym: "delayed sorocarp development" EXACT []
+synonym: "merged_delayed development in the presence of gossypol" NARROW []
+synonym: "merged_delayed development in the presence of lithium" NARROW []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
@@ -1006,6 +1023,7 @@ is_a: DDPHENO:0000384 ! aberrant sorus morphology
 id: DDPHENO:0000167
 name: precocious development
 def: "Early onset or faster progression through development." [DDB:pg]
+synonym: "precocious sorocarp development" EXACT []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
@@ -1066,13 +1084,13 @@ is_a: DDPHENO:0001175 ! decreased cell differentiation
 
 [Term]
 id: DDPHENO:0000176
-name: increased prestalk 0 cell differentiation
-def: "Increase in extent, amount, or degree of differentiation into prestalk 0 cells." [DDB:pg]
-synonym: "increased number of prestalk 0 cells" RELATED []
-synonym: "increased number of pst0 cells" RELATED []
-synonym: "increased pst0 cell differentiation" EXACT []
+name: increased prestalk O cell differentiation
+def: "Increase in extent, amount, or degree of differentiation into prestalk O cells." [DDB:pf]
+synonym: "increased number of prestalk O cells" RELATED []
+synonym: "increased number of pstO cells" RELATED []
+synonym: "increased pstO cell differentiation" EXACT []
 is_a: DDPHENO:0000169 ! increased prestalk cell differentiation
-is_a: DDPHENO:0001024 ! aberrant prestalk 0 cell differentiation
+is_a: DDPHENO:0001024 ! aberrant prestalk O cell differentiation
 
 [Term]
 id: DDPHENO:0000177
@@ -1152,11 +1170,11 @@ is_a: DDPHENO:0001175 ! decreased cell differentiation
 
 [Term]
 id: DDPHENO:0000192
-name: abolished prestalk 0 cell differentiation
-def: "Complete inability for differentiation of prestalk 0 cells." [DDB:pg]
-synonym: "abolished pst0 differentiation" EXACT []
+name: abolished prestalk O cell differentiation
+def: "Complete inability for differentiation of prestalk O cells." [DDB:pf]
+synonym: "abolished pstO differentiation" EXACT []
 is_a: DDPHENO:0000512 ! abolished prestalk cell differentiation
-is_a: DDPHENO:0001024 ! aberrant prestalk 0 cell differentiation
+is_a: DDPHENO:0001024 ! aberrant prestalk O cell differentiation
 
 [Term]
 id: DDPHENO:0000193
@@ -1240,15 +1258,15 @@ is_a: DDPHENO:0000483 ! aberrant aggregation
 [Term]
 id: DDPHENO:0000207
 name: increased standing slug length
-def: "Increase in relative or proportionate length of the slug." [DDB:pf]
+def: "Increase in relative or proportionate length of the standing slug." [DDB:pf]
 synonym: "long fingers" EXACT []
 xref: PMID:18366659 "DDANAT:0000007 standing slug"
 is_a: DDPHENO:0000002 ! aberrant standing slug morphology
 
 [Term]
 id: DDPHENO:0000208
-name: decreased slug width
-def: "Decrease in relative or proportionate width of the slug." [DDB:pf]
+name: decreased standing slug width
+def: "Decrease in relative or proportionate width of the standing slug." [DDB:pf]
 synonym: "thin fingers" EXACT []
 synonym: "thin standing slug" EXACT []
 xref: PMID:18366659 "DDANAT:0000007 standing slug"
@@ -1467,7 +1485,7 @@ creation_date: 2015-01-29T14:57:44Z
 id: DDPHENO:0000242
 name: aberrant DNA repair
 def: "Deviation from the normal, usual, or expected events during DNA repair." [DDB:pf]
-is_a: DDPHENO:0001045 ! aberrant response to DNA damaging agents
+is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 created_by: pfey
 creation_date: 2015-02-12T14:58:49Z
 
@@ -1604,7 +1622,7 @@ alt_id: DDPHENO:0000277
 def: "Deviation from the normal, usual, or expected events during defense response to bacterium." [DDB:pf]
 comment: Pathogenic bacteria are defined as being pathogens for humans, though in the any specific study a strain or species less virulent for humans may have been used.
 synonym: "aberrant infection rate by pathogenic bacterium" NARROW []
-is_a: DDPHENO:0001506 ! aberrant defense response to a microorganism
+is_a: DDPHENO:0001505 ! aberrant cellular defense response
 created_by: pfey
 creation_date: 2015-05-05T14:26:26Z
 
@@ -1623,13 +1641,13 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000262
-name: decreased prestalk 0 cell differentiation
-def: "Reduction in extent, amount, or degree of differentiation into prestalk 0 cells." [DDB:pg]
-synonym: "decreased number of prestalk 0 cells" RELATED []
-synonym: "decreased number of pst0 cells" RELATED []
-synonym: "decreased pst0 cell differentiation" EXACT []
+name: decreased prestalk O cell differentiation
+def: "Reduction in extent, amount, or degree of differentiation into prestalk O cells." [DDB:pf]
+synonym: "decreased number of prestalk O cells" RELATED []
+synonym: "decreased number of pstO cells" RELATED []
+synonym: "decreased pstO cell differentiation" EXACT []
 is_a: DDPHENO:0000191 ! decreased prestalk cell differentiation
-is_a: DDPHENO:0001024 ! aberrant prestalk 0 cell differentiation
+is_a: DDPHENO:0001024 ! aberrant prestalk O cell differentiation
 
 [Term]
 id: DDPHENO:0000263
@@ -1648,8 +1666,9 @@ is_a: DDPHENO:0001008 ! aberrant cellular process
 
 [Term]
 id: DDPHENO:0000265
-name: aberrant myosin II organization
+name: aberrant myosin II filament organization
 def: "Deviation from the normal, usual, or expected events during myosin II organization." [DDB:pg]
+synonym: "aberrant myosin II organization" EXACT []
 is_a: DDPHENO:0000236 ! aberrant cell morphology
 
 [Term]
@@ -1660,9 +1679,9 @@ is_a: DDPHENO:0001354 ! aberrant basal disc formation
 
 [Term]
 id: DDPHENO:0000270
-name: increased number of tubular mitochondria
-def: "Quantitative increase in tubular mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg, PMID:14665465]
-is_a: DDPHENO:0000272 ! increased number of mitochondria
+name: obsolete increased number of tubular mitochondria
+def: "OBSOLETE. Quantitative increase in tubular mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000271
@@ -1690,10 +1709,10 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000276
-name: increased resistance to DNA-damaging agents
-def: "Increased tolerance of the normal, usual, or expected events in the presence of DNA damaging agents." [DDB:pf]
+name: obsolete increased resistance to DNA-damaging agents
+def: "OBSOLETE. Increased tolerance of the normal, usual, or expected events in the presence of DNA damaging agents." [DDB:pf]
 synonym: "decreased sensitivity to DNA-damaging agents" EXACT []
-is_a: DDPHENO:0001045 ! aberrant response to DNA damaging agents
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000278
@@ -1716,7 +1735,7 @@ id: DDPHENO:0000280
 name: aberrant defense response to fungus
 def: "Deviation from the normal, usual, or expected events defense response to fungus." [DDB:pf]
 synonym: "aberrant defense response to yeast" NARROW []
-is_a: DDPHENO:0001506 ! aberrant defense response to a microorganism
+is_a: DDPHENO:0001505 ! aberrant cellular defense response
 created_by: pfey
 creation_date: 2015-05-05T16:05:13Z
 
@@ -1907,7 +1926,7 @@ is_a: DDPHENO:0001113 ! aberrant gene expression
 
 [Term]
 id: DDPHENO:0000302
-name: abolished growth
+name: abolished vegetative growth
 alt_id: DDPHENO:0000221
 alt_id: DDPHENO:0000259
 alt_id: DDPHENO:0000275
@@ -1926,7 +1945,7 @@ is_a: DDPHENO:0001084 ! aberrant vegetative growth
 id: DDPHENO:0000304
 name: increased membrane ruffling
 def: "Increase in extent, amount, or degree of membrane ruffling." [DDB:pg]
-synonym: "increased ruffle assembly" RELATED []
+synonym: "increased ruffle assembly" EXACT []
 is_a: DDPHENO:0000042 ! aberrant membrane ruffling
 
 [Term]
@@ -2226,17 +2245,17 @@ creation_date: 2016-07-18T10:39:38Z
 
 [Term]
 id: DDPHENO:0000341
-name: aberrant membrane organization during endocytosis
-def: "Deviation from the normal, usual, or expected plasma membrane organization during endocytosis." [DDB:pf]
-is_a: DDPHENO:0000039 ! aberrant plasma membrane organization and biogenesis
+name: obsolete aberrant membrane organization during endocytosis
+def: "OBSOLETE. Deviation from the normal, usual, or expected plasma membrane organization during endocytosis." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2016-09-07T17:43:13Z
 
 [Term]
 id: DDPHENO:0000342
-name: decreased membrane organization during endocytosis
-def: "Decrease from the normal, usual, or expected plasma membrane organization during endocytosis." [DDB:pf]
-is_a: DDPHENO:0000341 ! aberrant membrane organization during endocytosis
+name: decreased plasma membrane organization
+def: "Decrease from the normal, usual, or expected plasma membrane organization." [DDB:pf]
+is_a: DDPHENO:0000039 ! aberrant plasma membrane organization
 created_by: pfey
 creation_date: 2016-09-07T17:44:39Z
 
@@ -2423,20 +2442,17 @@ creation_date: 2017-03-13T10:24:42Z
 
 [Term]
 id: DDPHENO:0000365
-name: aberrant prestalk cell specific gene expression
-def: "Deviation from the normal, usual, or expected expression of prestalk genes." [DDB:pf]
-synonym: "aberrant prestalk gene expression" EXACT []
-is_a: DDPHENO:0001113 ! aberrant gene expression
+name: obsolete aberrant prestalk cell specific gene expression
+def: "OBSOLETE. Deviation from the normal, usual, or expected expression of prestalk genes." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T09:52:00Z
 
 [Term]
 id: DDPHENO:0000366
-name: precocious prestalk cell specific gene expression
-def: "Early onset or faster progression in the expression of prestalk genes." [DDB:pf]
-synonym: "precocious prestalk gene expression" EXACT []
-is_a: DDPHENO:0000365 ! aberrant prestalk cell specific gene expression
-is_a: DDPHENO:0001116 ! precocious gene expression
+name: obsolete precocious prestalk cell specific gene expression
+def: "OBSOLETE. Early onset or faster progression in the expression of prestalk genes." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T09:53:39Z
 
@@ -2450,50 +2466,41 @@ creation_date: 2017-03-23T13:29:35Z
 
 [Term]
 id: DDPHENO:0000368
-name: delayed prestalk cell specific gene expression
-def: "Late onset or slower progression in the expression of prestalk genes." [DDB:pf]
-synonym: "delayed prestalk gene expression" EXACT []
-is_a: DDPHENO:0000365 ! aberrant prestalk cell specific gene expression
-is_a: DDPHENO:0001115 ! delayed gene expression
+name: obsolete delayed prestalk cell specific gene expression
+def: "OBSOLETE. Late onset or slower progression in the expression of prestalk genes." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T14:54:09Z
 
 [Term]
 id: DDPHENO:0000369
-name: decreased prestalk cell specific gene expression
-def: "Reduction in extent, amount, or degree of prestalk gene expression." [DDB:pf]
-synonym: "decreased prestalk gene expression " EXACT []
-is_a: DDPHENO:0000300 ! decreased gene expression
-is_a: DDPHENO:0000365 ! aberrant prestalk cell specific gene expression
+name: obsolete decreased prestalk cell specific gene expression
+def: "OBSOLETE. Reduction in extent, amount, or degree of prestalk gene expression." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T14:54:56Z
 
 [Term]
 id: DDPHENO:0000370
-name: aberrant prespore cell specific gene expression
-def: "Deviation from the normal, usual, or expected expression of prespore genes." [DDB:pf]
-synonym: "aberrant prespore gene expression" EXACT []
-is_a: DDPHENO:0001113 ! aberrant gene expression
+name: obsolete aberrant prespore cell specific gene expression
+def: "OBSOLETE. Deviation from the normal, usual, or expected expression of prespore genes." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T15:35:42Z
 
 [Term]
 id: DDPHENO:0000371
-name: decreased prespore cell specific gene expression
-def: "Reduction in extent, amount, or degree of prespore gene expression." [DDB:pf]
-synonym: "decreased prespore gene expression" EXACT []
-is_a: DDPHENO:0000300 ! decreased gene expression
-is_a: DDPHENO:0000370 ! aberrant prespore cell specific gene expression
+name: obsolete decreased prespore cell specific gene expression
+def: "OBSOLETE. Reduction in extent, amount, or degree of prespore gene expression." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T15:36:45Z
 
 [Term]
 id: DDPHENO:0000375
-name: delayed prespore cell specific gene expression
-def: "Late onset or slower progression in the expression of prespore genes." [DDB:pf]
-synonym: "delayed prespore gene expression" EXACT []
-is_a: DDPHENO:0000370 ! aberrant prespore cell specific gene expression
-is_a: DDPHENO:0001115 ! delayed gene expression
+name: obsolete delayed prespore cell specific gene expression
+def: "OBSOLETE. Late onset or slower progression in the expression of prespore genes." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T15:38:40Z
 
@@ -2520,8 +2527,10 @@ is_a: DDPHENO:0001027 ! aberrant pseudopodium formation
 
 [Term]
 id: DDPHENO:0000379
-name: decreased cell size
-def: "Reduction in relative or proportionate dimensions of the cell." [DDB:pg]
+name: decreased vegetative cell size
+def: "Reduction in relative or proportionate dimensions of the vegetative cell." [DDB:pf]
+synonym: "decreased vegetative amoebae size" EXACT []
+xref: PMID:18366659 "DDANAT:0000002"
 is_a: DDPHENO:0000236 ! aberrant cell morphology
 
 [Term]
@@ -2591,9 +2600,10 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000392
-name: decreased cell polarity
-def: "Reduction in extent, amount, or degree of cell polarity." [DDB:pg]
-is_a: DDPHENO:0001029 ! aberrant establishment and/or maintenance of cell polarity
+name: decreased establishment of cell polarity
+def: "Reduction in extent, amount, or degree of cell polarity establishment." [DDB:pg]
+synonym: "decreased cell polarity" EXACT []
+is_a: DDPHENO:0001029 ! aberrant establishment or maintenance of cell polarity
 
 [Term]
 id: DDPHENO:0000393
@@ -2670,7 +2680,6 @@ is_a: DDPHENO:0001129 ! increased taxis
 id: DDPHENO:0000401
 name: increased resistance to cisplatin
 def: "Increase in extent, amount, or degree of resistance to cisplatin." [DDB:pf]
-is_a: DDPHENO:0000276 ! increased resistance to DNA-damaging agents
 is_a: DDPHENO:0001456 ! aberrant response to cisplatin
 
 [Term]
@@ -2681,21 +2690,17 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000403
-name: increased prestalk cell specific gene expression
-def: "Increase in extent, amount, or degree of expression of prestalk genes." [DDB:pf]
-synonym: "increased prestalk gene expression" EXACT []
-is_a: DDPHENO:0000301 ! increased gene expression
-is_a: DDPHENO:0000365 ! aberrant prestalk cell specific gene expression
+name: obsolete increased prestalk cell specific gene expression
+def: "OBSOLETE. Increase in extent, amount, or degree of expression of prestalk genes." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T15:39:41Z
 
 [Term]
 id: DDPHENO:0000404
-name: increased prespore cell specific gene expression
-def: "Increase in extent, amount, or degree of expression of prespore genes." [DDB:pf]
-synonym: "increased prespore gene expression" EXACT []
-is_a: DDPHENO:0000301 ! increased gene expression
-is_a: DDPHENO:0000370 ! aberrant prespore cell specific gene expression
+name: obsolete increased prespore cell specific gene expression
+def: "OBSOLETE. Increase in extent, amount, or degree of expression of prespore genes." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T15:54:24Z
 
@@ -2707,8 +2712,10 @@ is_a: DDPHENO:0001006 ! aberrant phagocytosis
 
 [Term]
 id: DDPHENO:0000406
-name: increased cell size
-def: "Increase in relative or proportionate dimensions of the cell." [DDB:pg]
+name: increased vegetative cell size
+def: "Increase in relative or proportionate dimensions of the vegetative cell." [DDB:pf]
+synonym: "increased vegetative amoebae size" EXACT []
+xref: PMID:18366659 "DDANAT:0000002"
 is_a: DDPHENO:0000236 ! aberrant cell morphology
 
 [Term]
@@ -2721,24 +2728,25 @@ is_obsolete: true
 id: DDPHENO:0000408
 name: increased resistance to carboplatin
 def: "Increase in extent, amount, or degree of resistance to carboplatin." [DDB:pf]
-is_a: DDPHENO:0000276 ! increased resistance to DNA-damaging agents
+is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 
 [Term]
 id: DDPHENO:0000409
 name: decreased resistance to carboplatin
 def: "Decreased tolerance of the normal, usual, or expected events towards carboplatin." [DDB:pf]
-is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
+is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 
 [Term]
 id: DDPHENO:0000410
 name: decreased resistance to cisplatin
 def: "Decreased tolerance of the normal, usual, or expected events towards cisplatin." [DDB:pf]
-is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
+is_a: DDPHENO:0001456 ! aberrant response to cisplatin
 
 [Term]
 id: DDPHENO:0000411
-name: increased resistance to heat shock
+name: increased resistance to heat
 def: "Increased tolerance of the normal, usual, or expected events towards heat." [DDB:pf]
+synonym: "increased resistance to heat shock" NARROW []
 is_a: DDPHENO:0001035 ! aberrant response to heat
 
 [Term]
@@ -2755,8 +2763,9 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000414
-name: decreased resistance to heat shock
+name: decreased resistance to heat
 def: "Decreased tolerance of the normal, usual, or expected events towards heat." [DDB:pf]
+synonym: "decreased resistance to heat shock" NARROW []
 is_a: DDPHENO:0001035 ! aberrant response to heat
 
 [Term]
@@ -2807,15 +2816,17 @@ is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000426
-name: decreased resistance to UV light
-def: "Decreased tolerance of the normal, usual, or expected events towards UV light." [DDB:pf]
-is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
+name: aberrant response to UV
+def: "Deviation from the normal, usual, or expected events during the response to UV light." [DDB:pf]
+synonym: "aberrant response to UV light" EXACT []
+is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
 [Term]
 id: DDPHENO:0000427
-name: decreased resistance to mitomycin C (MMC)
+name: decreased resistance to mitomycin C
 def: "Decreased tolerance of the normal, usual, or expected events towards mitomycin C (MMC)." [DDB:pf]
-is_a: DDPHENO:0000479 ! decreased resistance to DNA-damaging agents
+synonym: "decreased resistance to MMC" EXACT []
+is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 
 [Term]
 id: DDPHENO:0000428
@@ -2829,6 +2840,7 @@ is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 id: DDPHENO:0000429
 name: aberrant vesicle coat assembly
 def: "Deviation from the normal, usual, or expected process of vesicle coat assembly." [DDB:pg]
+synonym: "aberrant vesicle coating" EXACT []
 is_a: DDPHENO:0001043 ! aberrant organelle organization
 
 [Term]
@@ -2839,14 +2851,15 @@ is_a: DDPHENO:0001007 ! aberrant pinocytosis
 
 [Term]
 id: DDPHENO:0000431
-name: cell cycle arrest
-def: "The cell cycle cannot complete." [DDB:pf]
+name: G1 phase mitotic cell cycle arrest
+def: "The G1 phase in the mitotic cell cycle cannot complete." [DDB:pf]
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
 id: DDPHENO:0000432
 name: aberrant glycogen metabolism
 def: "Deviation from the normal, usual, or expected events during glycogen metabolism." [DDB:pg]
+synonym: "aberrant glycogen metabolic process" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
@@ -2863,27 +2876,31 @@ is_a: DDPHENO:0001007 ! aberrant pinocytosis
 
 [Term]
 id: DDPHENO:0000437
-name: decreased actin nucleation on plasma membranes
-def: "Reduction in extent, amount, or degree of actin nucleation on plasma membranes." [DDB:pg]
+name: decreased actin nucleation
+def: "Reduction in extent, amount, or degree of actin nucleation." [DDB:pg]
+synonym: "decreased actin nucleation on plasma membranes" NARROW []
 is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000438
-name: uracil auxotroph
+name: abolished uracil production
 def: "A specific requirement for uracil to grow or divide." [DDB:pf]
+synonym: "uracil auxotroph" EXACT []
 is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
 [Term]
 id: DDPHENO:0000439
-name: increased resistance to 5-Fluoroorotic acid (5-FOA)
+name: increased resistance to 5-Fluoroorotic acid
 def: "Increase in extent, amount, or degree of resistance to 5-Fluoroorotic acid." [DDB:pf]
+synonym: "increased resistance to 5-FOA" EXACT []
 is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000440
-name: thymidine auxotroph
+name: abolished thymidine production
 def: "A specific requirement for thymidine to grow or divide." [DDB:pf]
+synonym: "thymidine auxotroph" EXACT []
 is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
@@ -2924,6 +2941,7 @@ is_a: DDPHENO:0001077 ! aberrant slug migration
 id: DDPHENO:0000446
 name: aberrant mound color
 def: "Deviation from the normal, usual, or expected mound color." [DDB:pg]
+synonym: "aberrant aggregate color" EXACT []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
@@ -3029,11 +3047,9 @@ is_a: DDPHENO:0001028 ! aberrant filopodium formation
 
 [Term]
 id: DDPHENO:0000463
-name: precocious prespore cell specific gene expression
-def: "Early onset or faster progression in the expression of prespore genes." [DDB:pf]
-synonym: "precocious prespore gene expression" EXACT []
-is_a: DDPHENO:0000370 ! aberrant prespore cell specific gene expression
-is_a: DDPHENO:0001116 ! precocious gene expression
+name: obsolete precocious prespore cell specific gene expression
+def: "OBSOLETE. Early onset or faster progression in the expression of prespore genes." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-03-23T15:57:06Z
 
@@ -3069,13 +3085,15 @@ is_a: DDPHENO:0001217 ! aberrant cellular localization
 id: DDPHENO:0000472
 name: aberrant regulation of protein modification
 def: "Deviation from the normal, usual, or expected events during the regulation of protein modification." [DDB:pg]
+synonym: "aberrant regulation of protein modification process" EXACT []
 is_a: DDPHENO:0001317 ! aberrant protein modification
 
 [Term]
 id: DDPHENO:0000473
-name: increased cell polarity
-def: "Increase in extent, amount, or degree of cell polarity." [DDB:pg]
-is_a: DDPHENO:0001029 ! aberrant establishment and/or maintenance of cell polarity
+name: increased establishment of cell polarity
+def: "Increase in extent, amount, or degree of cell polarity establishment." [DDB:pg]
+synonym: "increased cell polarity" EXACT []
+is_a: DDPHENO:0001029 ! aberrant establishment or maintenance of cell polarity
 
 [Term]
 id: DDPHENO:0000474
@@ -3106,9 +3124,9 @@ is_a: DDPHENO:0000477 ! aberrant lateral pseudopodium formation
 
 [Term]
 id: DDPHENO:0000479
-name: decreased resistance to DNA-damaging agents
-def: "Decreased tolerance of the normal, usual, or expected events in the presence of DNA damaging agents." [DDB:pf]
-is_a: DDPHENO:0001045 ! aberrant response to DNA damaging agents
+name: obsolete decreased resistance to DNA-damaging agents
+def: "OBSOLETE. Decreased tolerance of the normal, usual, or expected events in the presence of DNA damaging agents." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000480
@@ -3138,7 +3156,8 @@ alt_id: DDPHENO:0000013
 alt_id: DDPHENO:0000539
 alt_id: DDPHENO:0000541
 def: "Deviation from the normal, usual, or expected events during aggregation." [DDB:pg]
-synonym: "aberrant formation of the aggregation territory" RELATED []
+synonym: "aberrant aggregation involved in sorocarp development" EXACT []
+synonym: "merged_aberrant formation of the aggregation territory" RELATED []
 synonym: "merged_aggregation defective" EXACT []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
@@ -3200,16 +3219,15 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000494
-name: aberrant adaptation of adenylate cyclase
-def: "Deviation from the normal, usual, or expected events during the adaptation of adenylate cyclase." [DDB:pg]
-synonym: "impaired adenylate cyclase adaptation" RELATED []
-is_a: DDPHENO:0001262 ! aberrant adaptation of signaling pathway
+name: obsolete aberrant adaptation of adenylate cyclase
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during the adaptation of adenylate cyclase." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000495
-name: decreased cytosine methylation in genomic DNA
+name: decreased DNA methylation on cytosine
 def: "Reduction in extent, amount, or degree of cytosine methylation in genomic DNA." [DDB:pg]
-is_a: DDPHENO:0001247 ! aberrant protein amino acid methylation
+is_a: DDPHENO:0001247 ! aberrant protein methylation
 
 [Term]
 id: DDPHENO:0000497
@@ -3331,9 +3349,9 @@ creation_date: 2017-04-20T17:11:27Z
 
 [Term]
 id: DDPHENO:0000520
-name: abolished stalk cell differentiation in vitro
-def: "Complete inability for differentiation into stalk cells in vitro." [DDB:pg]
-is_a: DDPHENO:0000514 ! abolished stalk cell differentiation
+name: obsolete abolished stalk cell differentiation in vitro
+def: "OBSOLETE. Complete inability for differentiation into stalk cells in vitro." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0000521
@@ -3372,8 +3390,9 @@ is_a: DDPHENO:0000306 ! aberrant sorting to prestalk region
 
 [Term]
 id: DDPHENO:0000525
-name: increased cell cycle length
-def: "Increase in relative or proportionate length of the cell cycle." [DDB:pf]
+name: delayed cell cycle
+def: "Increase in relative or proportionate duration of the cell cycle." [DDB:pf]
+synonym: "increased cell cycle duration" EXACT []
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
@@ -3426,8 +3445,8 @@ creation_date: 2017-04-20T18:02:17Z
 
 [Term]
 id: DDPHENO:0000533
-name: aberrant anaphase
-def: "Deviation from the normal, usual, or expected events during anaphase." [DDB:pg]
+name: aberrant mitotic anaphase
+def: "Deviation from the normal, usual, or expected events during mitotic anaphase." [DDB:pf]
 is_a: DDPHENO:0000234 ! aberrant mitosis
 
 [Term]
@@ -3499,8 +3518,8 @@ is_a: DDPHENO:0001013 ! aberrant cell differentiation
 
 [Term]
 id: DDPHENO:0000547
-name: aberrant culminant morphology
-def: "Deviation from the normal, usual, or expected morphology of the culminant." [DDB:pg]
+name: aberrant late culminant morphology
+def: "Deviation from the normal, usual, or expected morphology of the late culminant." [DDB:pf]
 is_a: DDPHENO:0001015 ! aberrant culmination
 
 [Term]
@@ -3649,11 +3668,9 @@ creation_date: 2017-08-10T12:22:33Z
 
 [Term]
 id: DDPHENO:0000565
-name: increased endoplasmic reticulum membrane accumulation
-def: "Quantitative increase in endoplasmic reticulum membrane accumulation." [DDB:pf]
-synonym: "ER membrane proliferation" BROAD []
-synonym: "Increased ER membrane accumulation" EXACT []
-is_a: DDPHENO:0000564 ! aberrant endoplasmic reticulum membrane organization
+name: obsolete increased endoplasmic reticulum membrane accumulation
+def: "OBSOLETE. Quantitative increase in endoplasmic reticulum membrane accumulation." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2017-08-10T12:24:55Z
 
@@ -3785,37 +3802,36 @@ creation_date: 2017-11-30T16:34:11Z
 
 [Term]
 id: DDPHENO:0000579
-name: aberrant resistance to cheating
-def: "Deviation from the normal, usual, or expected sorting when mixed with cheater cells." [DDB:pf]
-synonym: "aberrant resistance to cheating during chimeric sorocarp development" EXACT []
+name: aberrant cheating during development
+def: "Deviation from the normal, usual, or expected sorting to prestalk region when mixed with cheater cells." [DDB:pf]
+synonym: "aberrant cheating during chimeric sorocarp development" EXACT []
 is_a: DDPHENO:0000127 ! aberrant socially cooperative development
 created_by: pfey
 creation_date: 2018-01-31T15:28:37Z
 
 [Term]
 id: DDPHENO:0000580
-name: increased resistance to cheating
+name: increased resistance to cheating during development
 def: "Increase in extent, amount, or degree of resistance towards cheater cells compared to wild type." [DDB:pf]
 synonym: "increased resistance to cheating during chimeric sorocarp development" EXACT []
-is_a: DDPHENO:0000579 ! aberrant resistance to cheating
+is_a: DDPHENO:0000579 ! aberrant cheating during development
 created_by: pfey
 creation_date: 2018-01-31T15:28:50Z
 
 [Term]
 id: DDPHENO:0000581
-name: decreased resistance to cheating
+name: decreased resistance to cheating during development
 def: "Decreased tolerance of the normal, usual, or expected events towards  cheater cells compared to wild type." [DDB:pf]
 synonym: "decreased resistance to cheating during chimeric sorocarp development" EXACT []
-is_a: DDPHENO:0000579 ! aberrant resistance to cheating
+is_a: DDPHENO:0000579 ! aberrant cheating during development
 created_by: pfey
 creation_date: 2018-01-31T15:29:25Z
 
 [Term]
 id: DDPHENO:0000582
-name: abolished response to cheating
-def: "Complete resistance to cheating when mixed with cheater cells." [DDB:pf]
-synonym: "abolished response to cheating during chimeric sorocarp development" EXACT []
-is_a: DDPHENO:0000579 ! aberrant resistance to cheating
+name: obsolete abolished response to cheating
+def: "OBSOLETE. Complete resistance to cheating when mixed with cheater cells." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2018-01-31T15:29:40Z
 
@@ -3837,26 +3853,30 @@ creation_date: 2019-03-01T15:53:27Z
 
 [Term]
 id: DDPHENO:0000585
-name: aberrant response to decreased oxygen levels
-def: "Deviation from the normal, usual, or expected events during the response to decreased oxygen levels." [DDB:pf]
+name: aberrant response to hypoxia
+def: "Deviation from the normal, usual, or expected events during the response to hypoxia." [DDB:pf]
+synonym: "aberrant response to decreased oxygen" EXACT []
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 created_by: pfey
 creation_date: 2019-11-18T14:20:30Z
 
 [Term]
 id: DDPHENO:0000586
-name: increased resistance to decreased oxygen levels
-def: "Increased tolerance of the normal, usual, or expected events in the presence of decreased oxygen levels." [DDB:pf]
-is_a: DDPHENO:0000585 ! aberrant response to decreased oxygen levels
+name: increased resistance to hypoxia
+def: "Increased tolerance of the normal, usual, or expected events in the presence of hypoxia." [DDB:pf]
+synonym: "increased resistance to decreased oxygen levels" EXACT []
+synonym: "increased resistance to detection of hypoxia" EXACT []
+is_a: DDPHENO:0000585 ! aberrant response to hypoxia
 created_by: pfey
 creation_date: 2019-11-18T14:23:53Z
 
 [Term]
 id: DDPHENO:0000587
-name: decreased resistance to reduced oxygen levels
-def: "Decreased tolerance of the normal, usual, or expected events in the presence of  decreased oxygen levels." [DDB:pf]
-synonym: "decreased resistance to decreased oxygen levels" EXACT []
-is_a: DDPHENO:0000585 ! aberrant response to decreased oxygen levels
+name: decreased resistance to hypoxia
+def: "Decreased tolerance of the normal, usual, or expected events in the presence of  hypoxia." [DDB:pf]
+synonym: "decreased resistance to detection of hypoxia" EXACT []
+synonym: "decreased resistance to reduced oxygen levels" EXACT []
+is_a: DDPHENO:0000585 ! aberrant response to hypoxia
 created_by: pfey
 creation_date: 2019-11-18T14:28:11Z
 
@@ -3926,10 +3946,9 @@ creation_date: 2020-05-04T13:13:44Z
 
 [Term]
 id: DDPHENO:0000595
-name: increased actin wave formation
-def: "Increase in extent, amount, or degree of typically cortical actin wave formation." [DDB:pf]
-synonym: "increased actin wave development" BROAD []
-is_a: DDPHENO:0001481 ! aberrant actin cytoskeleton organization
+name: obsolete increased actin wave formation
+def: "OBSOLETE. Increase in extent, amount, or degree of typically cortical actin wave formation." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2020-06-12T09:23:59Z
 
@@ -3952,8 +3971,9 @@ creation_date: 2020-07-06T13:55:30Z
 [Term]
 id: DDPHENO:0000598
 name: decreased number of post-lysosomal vacuoles
-def: "Quantitative reduction of post-lysosomes." [DDB:pf]
-is_a: DDPHENO:0001238 ! aberrant post-lysosomal vacuole organization and biogenesis
+def: "Quantitative reduction of the post-lysosomal vacuole number." [DDB:pf]
+synonym: "decreased number of postlysosomes" EXACT []
+is_a: DDPHENO:0001237 ! aberrant lysosome organization
 created_by: pfey
 creation_date: 2020-07-07T09:24:23Z
 
@@ -3961,7 +3981,8 @@ creation_date: 2020-07-07T09:24:23Z
 id: DDPHENO:0000599
 name: decreased post-lysosomal vacuole size
 def: "Decrease in relative or proportionate dimensions of the  post-lysosomal vacuole." [DDB:pf]
-is_a: DDPHENO:0001238 ! aberrant post-lysosomal vacuole organization and biogenesis
+synonym: "decreased postlysosome vacuole size" EXACT []
+is_a: DDPHENO:0001237 ! aberrant lysosome organization
 created_by: pfey
 creation_date: 2020-07-07T09:28:21Z
 
@@ -4432,40 +4453,40 @@ creation_date: 2020-11-05T16:46:13Z
 
 [Term]
 id: DDPHENO:0000652
-name: aberrant protein localization to secondary lysosome
-def: "Deviation from the normal, usual, or expected events during localization of a protein to the secondary lysosome." [DDB:pf]
-synonym: "aberrant protein localization to post-lysosome" RELATED []
+name: aberrant protein localization to post-lysosomal vacuole
+def: "Deviation from the normal, usual, or expected events during localization of a protein to the post-lysosomal vacuole." [DDB:pf]
+synonym: "aberrant protein localization to postlysosome" EXACT []
 is_a: DDPHENO:0000648 ! aberrant protein localization to lysosome
 created_by: pfey
 creation_date: 2020-11-05T16:54:22Z
 
 [Term]
 id: DDPHENO:0000653
-name: abolished protein localization to secondary lysosome
-def: "Complete inability to localize a protein to the secondary lysosome." [DDB:pf]
-synonym: "abolished protein localization to post-lysosome" RELATED []
+name: abolished protein localization to post-lysosomal vacuole
+def: "Complete inability to localize a protein to the post-lysosomal vacuole." [DDB:pf]
+synonym: "abolished protein localization to postlysosome" EXACT []
 is_a: DDPHENO:0000649 ! abolished protein localization to lysosome
-is_a: DDPHENO:0000652 ! aberrant protein localization to secondary lysosome
+is_a: DDPHENO:0000652 ! aberrant protein localization to post-lysosomal vacuole
 created_by: pfey
 creation_date: 2020-11-05T16:55:04Z
 
 [Term]
 id: DDPHENO:0000654
-name: decreased protein localization to secondary lysosome
-def: "Reduction in amount or accumulation of a protein to the secondary lysosome." [DDB:pf]
-synonym: "decreased protein localization to post-lysosome" RELATED []
+name: decreased protein localization to post-lysosomal vacuole
+def: "Reduction in amount or accumulation of a protein to the post-lysosomal vacuole." [DDB:pf]
+synonym: "decreased protein localization to postlysosome" EXACT []
 is_a: DDPHENO:0000650 ! decreased protein localization to lysosome
-is_a: DDPHENO:0000652 ! aberrant protein localization to secondary lysosome
+is_a: DDPHENO:0000652 ! aberrant protein localization to post-lysosomal vacuole
 created_by: pfey
 creation_date: 2020-11-05T16:55:33Z
 
 [Term]
 id: DDPHENO:0000655
-name: increased protein localization to secondary lysosome
-def: "Increase in amount or accumulation of a protein to the secondary lysosome." [DDB:pf]
-synonym: "increased protein localization to post-lysosome" RELATED []
+name: increased protein localization to post-lysosomal vacuole
+def: "Increase in amount or accumulation of a protein to the post-lysosomal vacuole." [DDB:pf]
+synonym: "increased protein localization to postlysosome" EXACT []
 is_a: DDPHENO:0000651 ! increased protein localization to lysosome
-is_a: DDPHENO:0000652 ! aberrant protein localization to secondary lysosome
+is_a: DDPHENO:0000652 ! aberrant protein localization to post-lysosomal vacuole
 created_by: pfey
 creation_date: 2020-11-05T16:55:46Z
 
@@ -4872,6 +4893,7 @@ creation_date: 2021-06-11T10:19:25Z
 id: DDPHENO:0000701
 name: aberrant aggregation territory size
 def: "Deviation from the normal, usual, or expected events during the development of the aggregation territory size." [DDB:pf]
+xref: PMID:18366659 "DDANAT:0000003"
 is_a: DDPHENO:0000483 ! aberrant aggregation
 created_by: pfey
 creation_date: 2021-06-14T17:50:44Z
@@ -4918,6 +4940,113 @@ synonym: "increased cAMP biosynthetic process" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 created_by: pfey
 creation_date: 2021-06-15T15:56:51Z
+
+[Term]
+id: DDPHENO:0000707
+name: aberrant response to phleomycin
+def: "Deviation from the normal, usual, or expected during the response to phleomycin." [DDB:pf]
+is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
+created_by: pfey
+creation_date: 2021-06-21T15:50:58Z
+
+[Term]
+id: DDPHENO:0000708
+name: decreased resistance to phleomycin
+def: "Decreased tolerance of the normal, usual, or expected events in the presence of phleomycin." [DDB:pf]
+is_a: DDPHENO:0000707 ! aberrant response to phleomycin
+created_by: pfey
+creation_date: 2021-06-21T15:52:31Z
+
+[Term]
+id: DDPHENO:0000709
+name: increased resistance to phleomycin
+def: "Increased tolerance of the normal, usual, or expected events in the presence of  phleomycin." [DDB:pf]
+is_a: DDPHENO:0000707 ! aberrant response to phleomycin
+created_by: pfey
+creation_date: 2021-06-21T15:53:45Z
+
+[Term]
+id: DDPHENO:0000710
+name: aberrant response to bleomycin
+def: "Deviation from the normal, usual, or expected during the response to bleomycin." [DDB:pf]
+is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
+created_by: pfey
+creation_date: 2021-06-21T16:01:45Z
+
+[Term]
+id: DDPHENO:0000711
+name: decreased resistance to bleomycin
+def: "Decreased tolerance of the normal, usual, or expected events in the presence of bleomycin." [DDB:pf]
+is_a: DDPHENO:0000710 ! aberrant response to bleomycin
+created_by: pfey
+creation_date: 2021-06-21T16:38:38Z
+
+[Term]
+id: DDPHENO:0000712
+name: increased resistance to bleomycin
+def: "Increased tolerance of the normal, usual, or expected events in the presence of  bleomycin." [DDB:pf]
+is_a: DDPHENO:0000710 ! aberrant response to bleomycin
+created_by: pfey
+creation_date: 2021-06-21T16:40:40Z
+
+[Term]
+id: DDPHENO:0000713
+name: aberrant response to hydroxyurea
+def: "Deviation from the normal, usual, or expected events during the response to hydroxyurea." [DDB:pf]
+is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
+created_by: pfey
+creation_date: 2021-06-21T17:23:28Z
+
+[Term]
+id: DDPHENO:0000714
+name: increased resistance to hydroxyurea
+def: "Increase in extent, amount, or degree of resistance to hydroxyurea." [DDB:pf]
+is_a: DDPHENO:0000713 ! aberrant response to hydroxyurea
+created_by: pfey
+creation_date: 2021-06-21T17:24:34Z
+
+[Term]
+id: DDPHENO:0000715
+name: decreased resistance to hydroxyurea
+def: "Decreased tolerance of the normal, usual, or expected events towards hydroxyurea." [DDB:pf]
+is_a: DDPHENO:0000713 ! aberrant response to hydroxyurea
+created_by: pfey
+creation_date: 2021-06-21T17:25:36Z
+
+[Term]
+id: DDPHENO:0000716
+name: decreased production of siRNA involved in RNA interference
+def: "Reduction in level of modification of  siRNA production involved in RNA interference." [DDB:pf]
+synonym: "decreased production of siRNA involved in RNAi" EXACT []
+is_a: DDPHENO:0000022 ! aberrant production of siRNA involved in RNA interference
+created_by: pfey
+creation_date: 2021-06-24T12:40:11Z
+
+[Term]
+id: DDPHENO:0000717
+name: M phase mitotic cell cycle arrest
+def: "The M phase in the mitotic cell cycle cannot complete." [DDB:pf]
+is_a: DDPHENO:0001418 ! aberrant cell cycle
+created_by: pfey
+creation_date: 2021-06-24T14:40:05Z
+
+[Term]
+id: DDPHENO:0000718
+name: increased post-lysosomal vacuole size
+def: "Increase in relative or proportionate dimensions of the post-lysosomal vacuole." [DDB:pf]
+synonym: "increased postlysosome size" EXACT []
+is_a: DDPHENO:0001237 ! aberrant lysosome organization
+created_by: pfey
+creation_date: 2021-06-25T09:49:46Z
+
+[Term]
+id: DDPHENO:0000719
+name: abolished protein tyrosin phosphorylation
+def: "Complete inability to phosphorylate a tyrosine residue of a protein." [DDB:pf]
+synonym: "abolished peptidyl-tyrosine phosphorylation" EXACT []
+is_a: DDPHENO:0001345 ! aberrant protein tyrosine phosphorylation
+created_by: pfey
+creation_date: 2021-06-25T10:21:47Z
 
 [Term]
 id: DDPHENO:0001001
@@ -5025,6 +5154,7 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 id: DDPHENO:0001015
 name: aberrant culmination
 def: "Deviation from the normal, usual, or expected events during culmination." [DDB:pg]
+synonym: "aberrant culmination involved in sorocarp development" EXACT []
 is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
@@ -5036,8 +5166,9 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 
 [Term]
 id: DDPHENO:0001017
-name: aberrant aggregate size
-def: "Deviation from the normal, usual, or expected events during the development of aggregate size." [DDB:pg]
+name: aberrant mound size
+def: "Deviation from the normal, usual, or expected events during the development of mound size." [DDB:pf]
+synonym: "aberrant aggregate size" EXACT []
 synonym: "aberrant regulation of aggregation during fruiting body formation" RELATED []
 is_a: DDPHENO:0000483 ! aberrant aggregation
 
@@ -5068,9 +5199,9 @@ is_a: DDPHENO:0001013 ! aberrant cell differentiation
 
 [Term]
 id: DDPHENO:0001024
-name: aberrant prestalk 0 cell differentiation
-def: "Deviation from the normal, usual, or expected events during differentiation of prestalk 0 cells." [DDB:pg]
-synonym: "aberrant pst0 cell differentiation" EXACT []
+name: aberrant prestalk O cell differentiation
+def: "Deviation from the normal, usual, or expected events during differentiation of prestalk O cells." [DDB:pf]
+synonym: "aberrant pstO cell differentiation" EXACT []
 is_a: DDPHENO:0001023 ! aberrant prestalk cell differentiation
 
 [Term]
@@ -5102,7 +5233,7 @@ is_a: DDPHENO:0001048 ! aberrant cell projection biogenesis
 
 [Term]
 id: DDPHENO:0001029
-name: aberrant establishment and/or maintenance of cell polarity
+name: aberrant establishment or maintenance of cell polarity
 def: "Deviation from the normal, usual, or expected events during establishment and/or maintenance of cell polarity." [DDB:pg]
 is_a: DDPHENO:0000236 ! aberrant cell morphology
 
@@ -5143,6 +5274,7 @@ is_a: DDPHENO:0001003 ! aberrant response to stimulus
 id: DDPHENO:0001035
 name: aberrant response to heat
 def: "Deviation from the normal, usual, or expected events during the response to heat." [DDB:pg]
+synonym: "aberrant cellular response to heat" EXACT []
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
 [Term]
@@ -5216,10 +5348,9 @@ is_a: DDPHENO:0001008 ! aberrant cellular process
 
 [Term]
 id: DDPHENO:0001045
-name: aberrant response to DNA damaging agents
-def: "Deviation from the normal, usual, or expected events during the response to DNA damaging agents." [DDB:pg]
-is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
-is_a: DDPHENO:0001034 ! aberrant cellular response to stress
+name: obsolete aberrant response to DNA damaging agents
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during the response to DNA damaging agents." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001046
@@ -5257,9 +5388,9 @@ is_a: DDPHENO:0001049 ! aberrant bleb assembly
 
 [Term]
 id: DDPHENO:0001051
-name: abolished chemotaxis during aggregation
-def: "Complete inability for chemotaxis during aggregation." [DDB:pg]
-is_a: DDPHENO:0000483 ! aberrant aggregation
+name: obsolete abolished chemotaxis during aggregation
+def: "OBSOETE. Complete inability for chemotaxis during aggregation." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001052
@@ -5281,7 +5412,7 @@ is_a: DDPHENO:0001049 ! aberrant bleb assembly
 id: DDPHENO:0001054
 name: increased number of early culminant tips
 def: "Increase in extend, amount, or degree of the number of tips in early culminant." [DDB:pf]
-synonym: "increased number of tip-organizer of the early culminant " EXACT []
+synonym: "increased number of tip-organizer of the early culminant" EXACT []
 synonym: "multiple tips in early culminant" EXACT []
 is_a: DDPHENO:0000036 ! increased number of tip-organizers
 
@@ -5315,9 +5446,9 @@ is_a: DDPHENO:0001119 ! aberrant regulation of protein kinase activity
 
 [Term]
 id: DDPHENO:0001059
-name: abolished chemotaxis to cAMP during aggregation
-def: "Complete inability for chemotaxis to cAMP during aggregation." [DDB:pg]
-is_a: DDPHENO:0001051 ! abolished chemotaxis during aggregation
+name: obsolete abolished chemotaxis to cAMP during aggregation
+def: "OBSOLETE. Complete inability for chemotaxis to cAMP during aggregation." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001061
@@ -5359,8 +5490,9 @@ is_a: DDPHENO:0001002 ! aberrant organelle morphology
 
 [Term]
 id: DDPHENO:0001067
-name: aberrant hypertonic response
+name: aberrant hyperosmotic response
 def: "Deviation from the normal, usual, or expected events during the response to hyperosmotic stress." [DDB:pg]
+synonym: "aberrant hypertonic response" EXACT []
 synonym: "aberrant response to hyperosmotic stress" EXACT []
 synonym: "aberrant response to hypertonic stress" EXACT []
 is_a: DDPHENO:0000209 ! aberrant response to osmotic stress
@@ -5376,17 +5508,19 @@ is_a: DDPHENO:0000209 ! aberrant response to osmotic stress
 
 [Term]
 id: DDPHENO:0001069
-name: delayed hypertonic response
+name: delayed hyperosmotic response
 def: "Late onset or slower progression in the response to hyperosmotic stress." [DDB:pg]
+synonym: "delayed hypertonic response" EXACT []
 synonym: "delayed response to hyperosmotic stress" EXACT []
-is_a: DDPHENO:0001067 ! aberrant hypertonic response
+is_a: DDPHENO:0001067 ! aberrant hyperosmotic response
 
 [Term]
 id: DDPHENO:0001070
-name: precocious hypertonic response
+name: precocious hyperosmotic response
 def: "Early onset or faster progression in the response to hyperosmotic stress." [DDB:pg]
+synonym: "precocious hypertonic response" EXACT []
 synonym: "precocious response to hyperosmotic stress" EXACT []
-is_a: DDPHENO:0001067 ! aberrant hypertonic response
+is_a: DDPHENO:0001067 ! aberrant hyperosmotic response
 
 [Term]
 id: DDPHENO:0001071
@@ -5408,7 +5542,7 @@ is_a: DDPHENO:0001068 ! aberrant hypotonic response
 id: DDPHENO:0001074
 name: aberrant osmosensory signaling pathway
 def: "Deviation from the normal, usual, or expected events during the osmosensory signaling pathway." [DDB:pg]
-is_a: DDPHENO:0001067 ! aberrant hypertonic response
+is_a: DDPHENO:0001067 ! aberrant hyperosmotic response
 
 [Term]
 id: DDPHENO:0001075
@@ -5445,9 +5579,9 @@ is_a: DDPHENO:0001234 ! aberrant mitochondrion organization
 
 [Term]
 id: DDPHENO:0001079
-name: decreased number of tubular mitochondria
-def: "Quantitative decrease in tubular mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg, PMID:14665465]
-is_a: DDPHENO:0000271 ! decreased number of mitochondria
+name: obsolete decreased number of tubular mitochondria
+def: "OBSOLETE. Quantitative decrease in tubular mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001080
@@ -5460,35 +5594,36 @@ is_a: DDPHENO:0000483 ! aberrant aggregation
 
 [Term]
 id: DDPHENO:0001081
-name: decreased number of spherical mitochondria
-def: "Quantitative decrease in spherical mitochondria." [DDB:pg, PMID:14665465]
+name: obsolete decreased number of spherical mitochondria
+def: "OBSOLETE. Quantitative decrease in spherical mitochondria." [DDB:pg, PMID:14665465]
 comment: In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular.
-is_a: DDPHENO:0000271 ! decreased number of mitochondria
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001082
-name: increased number of spherical mitochondria
-def: "Quantitative increase in spherical mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg, PMID:14665465]
-is_a: DDPHENO:0000272 ! increased number of mitochondria
+name: obsolete increased number of spherical mitochondria
+def: "OBSOLETE. Quantitative increase in spherical mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001083
-name: decreased number of rod-shaped mitochondria
-def: "Quantitative decrease in rod-shaped mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg, PMID:14665465]
-is_a: DDPHENO:0000271 ! decreased number of mitochondria
+name: obsolete decreased number of rod-shaped mitochondria
+def: "OBSOLETE. Quantitative decrease in rod-shaped mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001084
 name: aberrant vegetative growth
 def: "Deviation from the normal, usual, or expected events during vegetative growth." [DDB:pg]
-synonym: "aberrant cell proliferation" EXACT []
+synonym: "aberrant asexual reproduction" EXACT []
+synonym: "aberrant cell proliferation" RELATED []
 is_a: DDPHENO:0001008 ! aberrant cellular process
 
 [Term]
 id: DDPHENO:0001085
-name: increased number of rod-shaped mitochondria
-def: "Quantitative increase in rod-shaped mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg, PMID:14665465]
-is_a: DDPHENO:0000272 ! increased number of mitochondria
+name: obsolete increased number of rod-shaped mitochondria
+def: "OBSOLETE. Quantitative increase in rod-shaped mitochondria. In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001086
@@ -5635,7 +5770,7 @@ is_a: DDPHENO:0001171 ! aberrant molecular function
 id: DDPHENO:0001106
 name: decreased lysosomal protein degradation
 def: "Reduction in extent, amount, or degree of  lysosomal protein degradation." [DDB:pf]
-synonym: " decreased lysosomal enzyme activity" RELATED []
+synonym: "decreased lysosomal enzyme activity" RELATED []
 synonym: "decreased lysosomal protein catabolic process" RELATED []
 is_a: DDPHENO:0001257 ! decreased catalytic activity
 
@@ -5829,23 +5964,21 @@ is_a: DDPHENO:0001121 ! aberrant taxis
 
 [Term]
 id: DDPHENO:0001132
-name: decreased activation of adenylate cyclase
+name: decreased activation of adenylate cyclase activity
 def: "Reduction in extent, amount, or degree of activation of adenylate cyclase." [DDB:pg]
 synonym: "decreased activation of ACA" EXACT []
-synonym: "defective in activation of adenylate cyclase (ACA)" RELATED []
 is_a: DDPHENO:0000198 ! aberrant activation of adenylate cyclase activity
 
 [Term]
 id: DDPHENO:0001133
-name: abolished activation of adenylate cyclase
+name: abolished activation of adenylate cyclase activity
 def: "Complete inability to activate adenylate cyclase upon stimulus." [DDB:pg]
 synonym: "abolished activation of ACA" EXACT []
-synonym: "defective in activation of adenylate cyclase (ACA)" RELATED []
 is_a: DDPHENO:0000198 ! aberrant activation of adenylate cyclase activity
 
 [Term]
 id: DDPHENO:0001134
-name: increased activation of adenylate cyclase
+name: increased activation of adenylate cyclase activity
 def: "Increase in extent, amount, or degree of activation of  adenylate cyclase." [DDB:pg]
 synonym: "increased activation of ACA" EXACT []
 is_a: DDPHENO:0000198 ! aberrant activation of adenylate cyclase activity
@@ -5974,30 +6107,35 @@ is_obsolete: true
 id: DDPHENO:0001155
 name: aberrant macromolecule biosynthesis
 def: "Deviation from the normal, usual, or expected events during macromolecule biosynthesis." [DDB:pg]
+synonym: "aberrant macromolecule biosynthetic process" EXACT []
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0001156
 name: aberrant cellulose biosynthesis
 def: "Deviation from the normal, usual, or expected events during cellulose biosynthesis." [DDB:pg]
+synonym: "aberrant cellulose biosynthetic process" EXACT []
 is_a: DDPHENO:0001155 ! aberrant macromolecule biosynthesis
 
 [Term]
 id: DDPHENO:0001157
 name: abolished cellulose biosynthesis
 def: "Complete inability for cellulose biosynthesis." [DDB:pg]
+synonym: "abolished cellulose biosynthetic process" EXACT []
 is_a: DDPHENO:0001156 ! aberrant cellulose biosynthesis
 
 [Term]
 id: DDPHENO:0001158
 name: increased cellulose biosynthesis
 def: "Increase in extent, amount, or degree of cellulose biosynthesis." [DDB:pg]
+synonym: "increased cellulose biosynthetic process" EXACT []
 is_a: DDPHENO:0001156 ! aberrant cellulose biosynthesis
 
 [Term]
 id: DDPHENO:0001159
 name: decreased cellulose biosynthesis
 def: "Reduction in extent, amount, or degree of cellulose biosynthesis." [DDB:pg]
+synonym: "decreased cellulose biosynthetic process" EXACT []
 is_a: DDPHENO:0001156 ! aberrant cellulose biosynthesis
 
 [Term]
@@ -6095,9 +6233,9 @@ is_a: DDPHENO:0010000 ! Dicty Phenotypes
 
 [Term]
 id: DDPHENO:0001172
-name: increased Ras guanyl-nucleotide exchange factor activity
-def: "Increase in extent, amount, or degree of Ras guanyl-nucleotide exchange factor activity." [DDB:kp]
-synonym: "increased Ras GEF activity" EXACT []
+name: increased guanyl-nucleotide exchange factor activity
+def: "Increase in extent, amount, or degree of guanyl-nucleotide exchange factor activity." [DDB:pf]
+synonym: "increased GEF activity" EXACT []
 is_a: DDPHENO:0001256 ! increased catalytic activity
 
 [Term]
@@ -6142,12 +6280,14 @@ is_a: DDPHENO:0001027 ! aberrant pseudopodium formation
 id: DDPHENO:0001179
 name: decreased F-actin polymerization at the leading edge
 def: "Reduction in extent, amount, or degree of F-actin polymerization in the area closest to the direction of movement in a motile cell." [DDB:pf]
+synonym: "decreased  filamentous actin polymerization at leading edge" EXACT []
 is_a: DDPHENO:0001056 ! decreased actin filament polymerization
 
 [Term]
 id: DDPHENO:0001180
 name: increased F-actin polymerization at the leading edge
 def: "Increase in extent, amount, or degree of F-actin polymerization in the area closest to the direction of movement in a motile cell." [DDB:pf]
+synonym: "increased filamentous actin polymerization at leading edge" EXACT []
 is_a: DDPHENO:0000459 ! increased actin filament polymerization
 
 [Term]
@@ -6287,6 +6427,8 @@ is_obsolete: true
 [Term]
 id: DDPHENO:0001201
 name: decreased actin filament sliding
+def: "Reduction in amount or accumulation of actin  filament sliding." [DDB:pf]
+synonym: "decreased actin-myosin filament sliding" EXACT []
 synonym: "decreased F-actin sliding" EXACT []
 is_a: DDPHENO:0000151 ! aberrant actin filament organization
 
@@ -6294,6 +6436,7 @@ is_a: DDPHENO:0000151 ! aberrant actin filament organization
 id: DDPHENO:0001202
 name: increased actin filament sliding
 def: "Increased in extent, amount, or degree of F-actin filament sliding." [DDB:pf]
+synonym: "increased actin-myosin filament sliding" EXACT []
 synonym: "increased F-actin sliding" EXACT []
 is_a: DDPHENO:0000151 ! aberrant actin filament organization
 
@@ -6439,6 +6582,7 @@ id: DDPHENO:0001222
 name: aberrant phagolysosome formation
 def: "Deviation from the normal, usual, or expected events during phagolysosome formation." [DDB:pf]
 synonym: "aberrant late phagosome formation" RELATED []
+synonym: "aberrant phagolysosome assembly" EXACT []
 is_a: DDPHENO:0001006 ! aberrant phagocytosis
 
 [Term]
@@ -6446,6 +6590,7 @@ id: DDPHENO:0001223
 name: decreased phagolysosome formation
 def: "Reduction in extent, amount, or degree of phagolysosome formation." [DDB:pf]
 synonym: "decreased late phagosome formation" RELATED []
+synonym: "decreased phagolysosome assembly" EXACT []
 is_a: DDPHENO:0001222 ! aberrant phagolysosome formation
 
 [Term]
@@ -6469,19 +6614,15 @@ is_a: DDPHENO:0001003 ! aberrant response to stimulus
 
 [Term]
 id: DDPHENO:0001227
-name: aberrant response to prestarvation factor
-def: "Deviation from the normal, usual, or expected events during the response to prestarvation factor (PSF) found in conditioned media (CM)." [DDB:pg]
-synonym: "aberrant response to PSF" EXACT []
-is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
+name: obsolete aberrant response to prestarvation factor
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during the response to prestarvation factor (PSF) found in conditioned media (CM)." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001228
-name: aberrant detection of prestarvation factor
-def: "Deviation from the normal, usual, or expected events during the detection of prestarvation factor (PSF) found in conditioned media (CM)." [DDB:pg]
-synonym: "aberrant detection of PSF" EXACT []
-synonym: "aberrant sensing of prestarvation factor" EXACT []
-synonym: "aberrant sensing of PSF" EXACT []
-is_a: DDPHENO:0001227 ! aberrant response to prestarvation factor
+name: obsolete aberrant detection of prestarvation factor
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during the detection of prestarvation factor (PSF) found in conditioned media (CM)." [DDB:pg]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001229
@@ -6544,14 +6685,15 @@ is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 id: DDPHENO:0001237
 name: aberrant lysosome organization
 def: "Deviation from the normal, usual, or expected events during lysosome organization and biogenesis." [DDB:pf]
+synonym: "aberrant lysosome maturation" NARROW []
 synonym: "aberrant lysosome organization and biogenesis" EXACT []
 is_a: DDPHENO:0001043 ! aberrant organelle organization
 
 [Term]
 id: DDPHENO:0001238
-name: aberrant post-lysosomal vacuole organization and biogenesis
-def: "Deviation from the normal, usual, or expected events during post-lysosomal vacuole organization and biogenesis." [DDB:pf]
-synonym: "aberrant lysosome maturation" RELATED []
+name: aberrant post-lysosomal vacuole exocytosis
+def: "Deviation from the normal, usual, or expected events during post-lysosomal vacuole exocytosis." [DDB:pf]
+synonym: "aberrant postlysosome exocytosis" EXACT []
 is_a: DDPHENO:0001237 ! aberrant lysosome organization
 
 [Term]
@@ -6607,8 +6749,8 @@ is_a: DDPHENO:0001245 ! aberrant cAMP signal relay
 
 [Term]
 id: DDPHENO:0001247
-name: aberrant protein amino acid methylation
-def: "Deviation from the normal, usual, or expected events during protein amino acid methylation." [DDB:pf]
+name: aberrant protein methylation
+def: "Deviation from the normal, usual, or expected events during protein methylation." [DDB:pf]
 is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
@@ -6616,19 +6758,20 @@ id: DDPHENO:0001248
 name: abolished protein methylation
 def: "Complete inability for protein methylation." [DDB:pf]
 synonym: "abolished protein amino acid methylation" EXACT []
-is_a: DDPHENO:0001247 ! aberrant protein amino acid methylation
+is_a: DDPHENO:0001247 ! aberrant protein methylation
 
 [Term]
 id: DDPHENO:0001249
-name: abolished C-terminal protein amino acid methylation
-def: "Complete inability for C-terminal protein amino acid methylation." [DDB:pf]
+name: abolished C-terminal protein methylation
+def: "Complete inability for C-terminal protein methylation." [DDB:pf]
 is_a: DDPHENO:0001248 ! abolished protein methylation
 
 [Term]
 id: DDPHENO:0001250
-name: abolished cell polarity
+name: abolished establishment of cell polarity
 def: "Complete inability to establish cell polarity." [DDB:pf]
-is_a: DDPHENO:0001029 ! aberrant establishment and/or maintenance of cell polarity
+synonym: "abolished cell polarity" EXACT []
+is_a: DDPHENO:0001029 ! aberrant establishment or maintenance of cell polarity
 
 [Term]
 id: DDPHENO:0001251
@@ -6781,6 +6924,7 @@ is_a: DDPHENO:0001006 ! aberrant phagocytosis
 id: DDPHENO:0001275
 name: aberrant engulfment during phagocytosis
 def: "Deviation from the normal, usual, or expected events during engulfment of attached, recognized, external material." [DDB:pf]
+synonym: "aberrant phagocytosis, engulfment" EXACT []
 synonym: "aberrant phagosome formation" RELATED []
 is_a: DDPHENO:0001006 ! aberrant phagocytosis
 
@@ -6788,6 +6932,7 @@ is_a: DDPHENO:0001006 ! aberrant phagocytosis
 id: DDPHENO:0001276
 name: abolished engulfment during phagocytosis
 def: "Complete inability of engulfment of attached, recognized, external material." [DDB:pf]
+synonym: "abolished phagocytosis, engulfment" EXACT []
 synonym: "abolished phagosome formation" RELATED []
 is_a: DDPHENO:0001275 ! aberrant engulfment during phagocytosis
 
@@ -6795,6 +6940,7 @@ is_a: DDPHENO:0001275 ! aberrant engulfment during phagocytosis
 id: DDPHENO:0001277
 name: decreased engulfment during phagocytosis
 def: "Reduction in extent, amount, or degree of engulfment of attached, recognized, external material." [DDB:pf]
+synonym: "decreased phagocytosis, engulfment" EXACT []
 synonym: "decreased phagosome formation" RELATED []
 is_a: DDPHENO:0001275 ! aberrant engulfment during phagocytosis
 
@@ -6840,9 +6986,9 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0001284
-name: decreased Ras guanyl-nucleotide exchange factor activity
-def: "Redution in extent, amount, or degree of Ras guanyl-nucleotide exchange factor activity." [DDb:pg]
-synonym: "decreased Ras GEF activity" EXACT []
+name: decreased guanyl-nucleotide exchange factor activity
+def: "Reduction in extent, amount, or degree of guanyl-nucleotide exchange factor activity." [DDB:pf]
+synonym: "decreased Ras activity" EXACT []
 is_a: DDPHENO:0001257 ! decreased catalytic activity
 
 [Term]
@@ -6942,9 +7088,9 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0001299
-name: abolished Ras guanyl-nucleotide exchange factor activity
-def: "Complete absence of Ras guanyl-nucleotide exchange factor activity." [DDB:pg]
-synonym: "abolished Ras GEF activity" EXACT []
+name: abolished guanyl-nucleotide exchange factor activity
+def: "Complete absence of guanyl-nucleotide exchange factor activity." [DDB:pf]
+synonym: "abolished GEF activity" EXACT []
 is_a: DDPHENO:0001289 ! abolished catalytic activity
 
 [Term]
@@ -7120,18 +7266,21 @@ is_a: DDPHENO:0001328 ! abolished protein modification
 id: DDPHENO:0001326
 name: increased protein modification
 def: "Increase in level of modification of a protein." [DDB:pg]
+synonym: "increased protein modification process" EXACT []
 is_a: DDPHENO:0001317 ! aberrant protein modification
 
 [Term]
 id: DDPHENO:0001327
 name: decreased protein modification
 def: "Reduction in level of modification of a protein." [DDB:pg]
+synonym: "decreased protein modification process" EXACT []
 is_a: DDPHENO:0001317 ! aberrant protein modification
 
 [Term]
 id: DDPHENO:0001328
 name: abolished protein modification
 def: "Complete inability for protein modification." [DDB:pg]
+synonym: "abolished protein modification process" EXACT []
 is_a: DDPHENO:0001317 ! aberrant protein modification
 
 [Term]
@@ -7249,12 +7398,14 @@ is_a: DDPHENO:0001342 ! aberrant protein phosphorylation
 id: DDPHENO:0001345
 name: aberrant protein tyrosine phosphorylation
 def: "Deviation from the normal, usual, or expected events during tyrosine phosphorylation of a protein." [DDB:pg]
+synonym: "aberrant peptidyl-tyrosine phosphorylation" EXACT []
 is_a: DDPHENO:0001342 ! aberrant protein phosphorylation
 
 [Term]
 id: DDPHENO:0001346
 name: increased protein tyrosine phosphorylation
 def: "Increase in amount or accumulation of tyrosine phosphorylation of a protein." [DDB:pg]
+synonym: "increased peptidyl-tyrosine phosphorylation" EXACT []
 is_a: DDPHENO:0001343 ! increased protein phosphorylation
 is_a: DDPHENO:0001345 ! aberrant protein tyrosine phosphorylation
 
@@ -7262,6 +7413,7 @@ is_a: DDPHENO:0001345 ! aberrant protein tyrosine phosphorylation
 id: DDPHENO:0001347
 name: decreased protein theronine phosphorylation
 def: "Reduction in amount or accumulation of threonine phosphorylation of a protein." [DDB:pg]
+synonym: "decreased peptidyl-threonine phosphorylation" EXACT []
 is_a: DDPHENO:0001344 ! decreased protein phosphorylation
 is_a: DDPHENO:0001345 ! aberrant protein tyrosine phosphorylation
 is_a: DDPHENO:0001349 ! aberrant protein threonine phosphorylation
@@ -7270,18 +7422,21 @@ is_a: DDPHENO:0001349 ! aberrant protein threonine phosphorylation
 id: DDPHENO:0001348
 name: aberrant protein serine phosphorylation
 def: "Deviation from the normal, usual, or expected events during serine phosphorylation of a protein." [DDB:pg]
+synonym: "aberrant peptidyl-serine phosphorylation" EXACT []
 is_a: DDPHENO:0001342 ! aberrant protein phosphorylation
 
 [Term]
 id: DDPHENO:0001349
 name: aberrant protein threonine phosphorylation
 def: "Deviation from the normal, usual, or expected events during threonine phosphorylation of a protein." [DDB:pg]
+synonym: "aberrant peptidyl-threonine phosphorylation" EXACT []
 is_a: DDPHENO:0001342 ! aberrant protein phosphorylation
 
 [Term]
 id: DDPHENO:0001350
 name: decreased protein serine phosphorylation
 def: "Reduction in amount or accumulation of serine phosphorylation of a protein." [DDB:pg]
+synonym: "decreased peptidyl-serine phosphorylation" EXACT []
 is_a: DDPHENO:0001344 ! decreased protein phosphorylation
 is_a: DDPHENO:0001348 ! aberrant protein serine phosphorylation
 
@@ -7289,6 +7444,7 @@ is_a: DDPHENO:0001348 ! aberrant protein serine phosphorylation
 id: DDPHENO:0001351
 name: increased protein serine phosphorylation
 def: "Increase in amount or accumulation of serine phosphorylation of a protein." [DDB:pg]
+synonym: "increased peptidyl-serine phosphorylation" EXACT []
 is_a: DDPHENO:0001343 ! increased protein phosphorylation
 is_a: DDPHENO:0001348 ! aberrant protein serine phosphorylation
 
@@ -7300,8 +7456,9 @@ is_a: DDPHENO:0001344 ! decreased protein phosphorylation
 
 [Term]
 id: DDPHENO:0001353
-name: increased protein theronine phosphorylation
+name: increased protein threonine phosphorylation
 def: "Increase in amount or accumulation of threonine phosphorylation of a protein." [DDB:pg]
+synonym: "increased peptidyl-threonine phosphorylation" EXACT []
 is_a: DDPHENO:0001343 ! increased protein phosphorylation
 is_a: DDPHENO:0001349 ! aberrant protein threonine phosphorylation
 
@@ -7707,10 +7864,9 @@ is_a: DDPHENO:0001409 ! abolished phosphoinositide binding
 
 [Term]
 id: DDPHENO:0001411
-name: aberrant response to conditioned medium factor
-def: "Deviation from the normal, usual, or expected events during the response to conditioned medium factor (CMF) found in conditioned media (CM)." [DDB:pf]
-synonym: "aberrant response to CMF" RELATED []
-is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
+name: obsolete aberrant response to conditioned medium factor
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during the response to conditioned medium factor (CMF) found in conditioned media (CM)." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001412
@@ -7755,6 +7911,7 @@ is_a: DDPHENO:0000149 ! aberrant cytokinesis
 [Term]
 id: DDPHENO:0001417
 name: delayed cell separation during cytokinesis
+def: "Late onset or slower progression for cell separation during cytokinesis." [DDB:pf]
 is_a: DDPHENO:0001169 ! delayed cytokinesis
 is_a: DDPHENO:0001416 ! aberrant cell separation during cytokinesis
 
@@ -7766,26 +7923,28 @@ is_a: DDPHENO:0001008 ! aberrant cellular process
 
 [Term]
 id: DDPHENO:0001419
-name: aberrant spindle organization
-def: "Deviation from the normal, usual, or expected during spindle organization." [DDB:pf]
+name: aberrant mitotic spindle organization
+def: "Deviation from the normal, usual, or expected during mitotic spindle organization." [DDB:pf]
+synonym: "mitotic spindle stabilization" RELATED []
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
 id: DDPHENO:0001420
-name: precocious spindle elongation
-def: "Early onset or faster progression through spindle elongation." [DDB:pf]
-is_a: DDPHENO:0001486 ! aberrant spindle elongation
+name: precocious mitotic spindle elongation
+def: "Early onset or faster progression through mitotic spindle elongation." [DDB:pf]
+is_a: DDPHENO:0001486 ! aberrant mitotic spindle elongation
 
 [Term]
 id: DDPHENO:0001421
-name: decreased spindle stabilization
-def: "Reduction in spindle stabilization." [DDB:pf]
-is_a: DDPHENO:0001484 ! aberrant spindle stabilization
+name: obsolete decreased spindle stabilization
+def: "OBSOLETE. Reduction in spindle stabilization." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001422
 name: aberrant sister chromosome segregation
-def: "Deviation from the normal, usual, or expected events during sister chromosome segragation, resulting in an abnormal number of chromosomes." [DDB:pf]
+def: "Deviation from the normal, usual, or expected events during sister chromosome segregation, resulting in an abnormal number of chromosomes." [DDB:pf]
+synonym: "aberrant mitotic sister chromatid segregation" EXACT []
 synonym: "aneuploidy" RELATED []
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
@@ -8034,7 +8193,7 @@ creation_date: 2010-02-19T11:12:47Z
 id: DDPHENO:0001456
 name: aberrant response to cisplatin
 def: "Deviation from the normal, usual, or expected events during the response to cisplatin." [DDb:pg]
-is_a: DDPHENO:0001045 ! aberrant response to DNA damaging agents
+is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
 created_by: Pascale
 creation_date: 2010-03-10T09:58:37Z
 
@@ -8244,44 +8403,44 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 id: DDPHENO:0001482
 name: aberrant cortical actin cytoskeleton organization
 def: "Deviation from the normal, usual, or expected events during organization of the cortical actin cytoskeleton." [DDB:pf]
+synonym: "aberrant cortical actin cytoskeleton stabilization" RELATED []
 is_a: DDPHENO:0001481 ! aberrant actin cytoskeleton organization
 
 [Term]
 id: DDPHENO:0001483
-name: aberrant cortical actin cytoskeleton stabilization
-def: "Deviation from the normal, usual, or expected events in the maintenance of the cortical actin cytoskeleton." [DDB:pf]
-synonym: "aberrant cortical resistance" RELATED []
-is_a: DDPHENO:0001482 ! aberrant cortical actin cytoskeleton organization
+name: obsolete aberrant cortical actin cytoskeleton stabilization
+def: "OBSOLETE. Deviation from the normal, usual, or expected events in the maintenance of the cortical actin cytoskeleton." [DDB:pf]
+is_obsolete: true
 
 [Term]
 id: DDPHENO:0001484
-name: aberrant spindle stabilization
-def: "Deviation from the normal, usual, or expected during spindle stabilization." [DDB:pf]
-is_a: DDPHENO:0001419 ! aberrant spindle organization
+name: obsolete aberrant spindle stabilization
+def: "OBSOLETE. Deviation from the normal, usual, or expected during spindle stabilization." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2012-04-16T01:41:00Z
 
 [Term]
 id: DDPHENO:0001485
-name: increased spindle stabilization
-def: "Increase in spindle stabilization." [DDB:pf]
-is_a: DDPHENO:0001484 ! aberrant spindle stabilization
+name: obsolete increased spindle stabilization
+def: "OBSOLETE. Increase in spindle stabilization." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2012-04-16T01:51:35Z
 
 [Term]
 id: DDPHENO:0001486
-name: aberrant spindle elongation
-def: "Deviation from the normal, usual, or expected during spindle elongation." [DDB:pf]
-is_a: DDPHENO:0001419 ! aberrant spindle organization
+name: aberrant mitotic spindle elongation
+def: "Deviation from the normal, usual, or expected during mitotic spindle elongation." [DDB:pf]
+is_a: DDPHENO:0001419 ! aberrant mitotic spindle organization
 created_by: pfey
 creation_date: 2012-04-16T01:52:48Z
 
 [Term]
 id: DDPHENO:0001487
-name: delayed spindle elongation
-def: "Late onset or slower progression of the spindle elongation." [DDB:pf]
-is_a: DDPHENO:0001486 ! aberrant spindle elongation
+name: delayed mitotic spindle elongation
+def: "Late onset or slower progression of the mitotic spindle elongation." [DDB:pf]
+is_a: DDPHENO:0001486 ! aberrant mitotic spindle elongation
 created_by: pfey
 creation_date: 2012-04-16T01:54:39Z
 
@@ -8319,17 +8478,17 @@ creation_date: 2012-05-22T05:19:42Z
 
 [Term]
 id: DDPHENO:0001492
-name: delayed phagosome re-neutralization
-def: "Late onset or slower progression of phagosome re-neutralization." [DDB:pf]
+name: delayed phagosome reneutralization
+def: "Late onset or slower progression of phagosome reneutralization." [DDB:pf]
 is_a: DDPHENO:0001488 ! aberrant phagosome maturation
 created_by: pfey
 creation_date: 2012-05-22T05:22:18Z
 
 [Term]
 id: DDPHENO:0001493
-name: aberrant mitochondrion distribution
-def: "Deviation from the normal, usual, or expected events during mitochondrion distribution." [DDB:pf]
-is_a: DDPHENO:0001234 ! aberrant mitochondrion organization
+name: obsolete aberrant mitochondrion distribution
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during mitochondrion distribution." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2012-05-30T05:44:25Z
 
@@ -8338,7 +8497,7 @@ id: DDPHENO:0001494
 name: aberrant intracellular distribution of mitochondria
 def: "Deviation from the normal, usual, or expected events during intracellular distribution of mitochondria." [DDB:pf]
 synonym: "aberrant mitochondria positioning within cell" EXACT []
-is_a: DDPHENO:0001493 ! aberrant mitochondrion distribution
+is_a: DDPHENO:0001234 ! aberrant mitochondrion organization
 created_by: pfey
 creation_date: 2012-05-30T05:45:34Z
 
@@ -8443,9 +8602,9 @@ creation_date: 2012-11-01T15:29:41Z
 
 [Term]
 id: DDPHENO:0001506
-name: aberrant defense response to a microorganism
-def: "Deviation from the normal, usual, or expected response to the presence of a microorganism that acts to protect the cell." [DDB:pf]
-is_a: DDPHENO:0001505 ! aberrant cellular defense response
+name: obsolete aberrant defense response to a microorganism
+def: "OBSOLETE. Deviation from the normal, usual, or expected response to the presence of a microorganism that acts to protect the cell." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2012-11-01T15:39:11Z
 
@@ -8593,19 +8752,17 @@ creation_date: 2013-01-21T11:10:47Z
 
 [Term]
 id: DDPHENO:0001522
-name: decreased resistance to fluid shear stress
-def: "Decreased tolerance of  the normal, usual, or expected events during the cellular response to fluid shear stress." [DDB:pf]
-synonym: "increased sensitivity to mechanical stress" RELATED []
-is_a: DDPHENO:0001521 ! aberrant cellular response to fluid shear stress
+name: obsolete decreased resistance to fluid shear stress
+def: "OBSOLETE. Decreased tolerance of  the normal, usual, or expected events during the cellular response to fluid shear stress." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2013-01-21T11:22:51Z
 
 [Term]
 id: DDPHENO:0001523
-name: increased resistance  to fluid shear stress
-def: "Increased tolerance of  the normal, usual, or expected events during the cellular response to fluid shear stress." [DDB:pf]
-synonym: "increased resistance to mechanical stress" RELATED []
-is_a: DDPHENO:0001521 ! aberrant cellular response to fluid shear stress
+name: obsolete increased resistance to fluid shear stress
+def: "OBSOLETE. Increased tolerance of  the normal, usual, or expected events during the cellular response to fluid shear stress." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2013-01-21T11:23:21Z
 
@@ -8664,7 +8821,8 @@ creation_date: 2013-02-11T16:56:55Z
 id: DDPHENO:0001529
 name: aberrant regulation of vegetative growth
 def: "Deviation from the normal, usual, or expected events during the regulation of vegetative growth." [DDB:pf]
-synonym: "aberrant regulation of cell proliferation" EXACT []
+synonym: "aberrant regulation of asexual reproduction" EXACT []
+synonym: "aberrant regulation of cell proliferation" RELATED []
 is_a: DDPHENO:0001084 ! aberrant vegetative growth
 created_by: pfey
 creation_date: 2013-02-15T10:39:43Z
@@ -8673,7 +8831,8 @@ creation_date: 2013-02-15T10:39:43Z
 id: DDPHENO:0001530
 name: aberrant negative regulation of vegetative growth
 def: "Deviation from the normal, usual, or expected events during the negative regulation of vegetative growth." [DDB:pf]
-synonym: "aberrant negative regulation of cell proliferation" EXACT []
+synonym: "aberrant negative regulation of asexual reproduction" EXACT []
+synonym: "aberrant negative regulation of cell proliferation" RELATED []
 is_a: DDPHENO:0001529 ! aberrant regulation of vegetative growth
 created_by: pfey
 creation_date: 2013-02-15T10:44:33Z
@@ -8682,7 +8841,8 @@ creation_date: 2013-02-15T10:44:33Z
 id: DDPHENO:0001531
 name: abolished negative regulation of vegetative growth
 def: "Complete inability to negatively regulate vegetative growth." [DDB:pf]
-synonym: "abolished negative regulation of cell proliferation" EXACT []
+synonym: "abolished negative regulation of asexual reproduction" EXACT []
+synonym: "abolished negative regulation of cell proliferation" RELATED []
 is_a: DDPHENO:0001530 ! aberrant negative regulation of vegetative growth
 created_by: pfey
 creation_date: 2013-02-15T10:46:20Z
@@ -8691,7 +8851,8 @@ creation_date: 2013-02-15T10:46:20Z
 id: DDPHENO:0001532
 name: aberrant positive regulation of vegetative growth
 def: "Deviation from the normal, usual, or expected events during the positive regulation of vegetative growth." [DDB:pf]
-synonym: "aberrant positive regulation of cell proliferation" EXACT []
+synonym: "aberrant positive regulation of asexual reproduction" EXACT []
+synonym: "aberrant positive regulation of cell proliferation" RELATED []
 is_a: DDPHENO:0001529 ! aberrant regulation of vegetative growth
 created_by: pfey
 creation_date: 2013-02-15T11:00:01Z
@@ -8700,7 +8861,8 @@ creation_date: 2013-02-15T11:00:01Z
 id: DDPHENO:0001533
 name: abolished positive regulation of vegetative growth
 def: "Complete inability to positively regulate vegetative growth." [DDB:pf]
-synonym: "abolished positive regulation of cell proliferation" EXACT []
+synonym: "abolished positive regulation of asexual reproduction" EXACT []
+synonym: "abolished positive regulation of cell proliferation" RELATED []
 is_a: DDPHENO:0001532 ! aberrant positive regulation of vegetative growth
 created_by: pfey
 creation_date: 2013-02-15T11:01:54Z
@@ -8718,7 +8880,8 @@ creation_date: 2013-03-25T10:52:45Z
 id: DDPHENO:0001535
 name: decreased phagosomal proteolysis
 def: "Reduction in extent, amount, or degree of phagosomal proteolysis." [DDB:pf]
-synonym: "decreased protein processing in a phagocytic vesicle" BROAD []
+synonym: "decreased protein maturation by proteolysis in phagosome" EXACT []
+synonym: "decreased protein processing in phagocytic vesicle" EXACT []
 is_a: DDPHENO:0001006 ! aberrant phagocytosis
 created_by: pfey
 creation_date: 2013-03-25T11:01:42Z
@@ -8734,4 +8897,5 @@ creation_date: 2013-03-27T14:34:35Z
 [Term]
 id: DDPHENO:0010000
 name: Dicty Phenotypes
+def: "Phenotypes describing mutations in Dictyostelium." [DDB:pf]
 
