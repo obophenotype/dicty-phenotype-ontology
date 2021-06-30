@@ -1,5 +1,5 @@
-format-version: 1.2
-date: 25:06:2021 16:56
+cAMP oscillatory signalingformat-version: 1.2
+date: 29:06:2021 18:03
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -256,7 +256,7 @@ creation_date: 2014-01-24T13:54:53Z
 [Term]
 id: DDPHENO:0000031
 name: obsolete abolished rate of endocytosis
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Complete inability for rendocytosis." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2014-01-27T14:30:48Z
@@ -367,7 +367,7 @@ creation_date: 2014-03-20T13:04:44Z
 [Term]
 id: DDPHENO:0000044
 name: obsolete aberrant SDF production
-def: "OBSLOTETE." [DDB:pf]
+def: "OBSLOTETE. Deviation from the normal, usual, or expected events during SDF production." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2014-03-20T13:59:32Z
@@ -474,6 +474,7 @@ is_a: DDPHENO:0001047 ! aberrant transport
 [Term]
 id: DDPHENO:0000094
 name: obsolete spores inviable
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
@@ -738,7 +739,7 @@ is_obsolete: true
 [Term]
 id: DDPHENO:0000131
 name: obsolete increased secretion of counting factor (CF)
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of secretion of counting factor (CF)." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -753,7 +754,7 @@ is_a: DDPHENO:0000151 ! aberrant actin filament organization
 [Term]
 id: DDPHENO:0000133
 name: obsolete increased ABP120 protein level
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree ABP120 protein level." [DDB:pg]
 synonym: "increased level of ABP" EXACT []
 is_obsolete: true
 
@@ -766,8 +767,7 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 [Term]
 id: DDPHENO:0000135
 name: obsolete decreased ABP120 protein level
-def: "OBSOLETE." [DDB:pg]
-synonym: "decreased level of ABP protein" EXACT []
+def: "OBSOLETE. Reduction in extent, amount or accumulation of ABP120 level." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -832,7 +832,7 @@ creation_date: 2014-12-17T16:14:48Z
 [Term]
 id: DDPHENO:0000145
 name: obsolete decreased spore viability
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
@@ -1065,7 +1065,7 @@ is_a: DDPHENO:0001084 ! aberrant vegetative growth
 [Term]
 id: DDPHENO:0000172
 name: obsolete insensitive to ammonia
-def: "OBSOLETE." [DDB:kp]
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
@@ -1196,8 +1196,7 @@ is_a: DDPHENO:0001175 ! decreased cell differentiation
 [Term]
 id: DDPHENO:0000196
 name: obsolete increased protein kinase A activity
-def: "OBSOLETE." [DDB:pg]
-synonym: "increased PKA activity" EXACT [DDB:kp]
+def: "OBSOLETE. Increase in extent, amount, or degree of kinase a activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -1225,8 +1224,7 @@ is_obsolete: true
 [Term]
 id: DDPHENO:0000201
 name: obsolete decreased glycogen synthase kinase 3 activity
-def: "OBSOLETE." [DDB:pg]
-synonym: "decreased GSK3 activity" EXACT [DDB:kp]
+def: "OBSOLETE. Reduction in extent, amount, or degree of glycogen synthase kinase 3 activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -1238,13 +1236,13 @@ is_a: DDPHENO:0000413 ! aberrant microtubule cytoskeleton organization
 [Term]
 id: DDPHENO:0000204
 name: obsolete decreased extracellular counting factor component(s) level
-def: "OBSOLETE." [DDB:pg]
-synonym: "decreased level of extracellular CF component(s)" EXACT []
+def: "OBSOLETE. Reduction in extent, amount or accumulation of extracellular counting factor component level." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0000205
 name: obsolete decreased extracellular CF50 level
+def: "OBSOLETE. Reduction in extent, amount or accumulation of extracellular CF50 level." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -1419,7 +1417,7 @@ is_a: DDPHENO:0001418 ! aberrant cell cycle
 [Term]
 id: DDPHENO:0000235
 name: obsolete increased aneuploidy
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of aneuploidy." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -1441,10 +1439,7 @@ creation_date: 2014-12-19T15:35:54Z
 [Term]
 id: DDPHENO:0000238
 name: obsolete aberrant DNA mediated transformation
-def: "OBSOLETE." [DDB:pf]
-synonym: "aberrant homologous recombination" NARROW []
-synonym: "aberrant REMI efficiency" NARROW []
-synonym: "aberrant transformation efficiency" RELATED []
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during DNA-mediated transformation." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-01-27T11:45:54Z
@@ -1452,10 +1447,7 @@ creation_date: 2015-01-27T11:45:54Z
 [Term]
 id: DDPHENO:0000239
 name: obsolete decreased DNA mediated transformation
-def: "OBSOLETE." [DDB:pf]
-synonym: "decreased homologous recombination" NARROW []
-synonym: "decreased REMI efficiency" NARROW []
-synonym: "decreased transformation efficiency" RELATED []
+def: "OBSOLETE. Reduction in extent, amount or degree of DNA mediated transformation." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-01-27T11:48:35Z
@@ -1463,10 +1455,7 @@ creation_date: 2015-01-27T11:48:35Z
 [Term]
 id: DDPHENO:0000240
 name: obsolete increased DNA mediated transformation
-def: "OBSOLETE." [DDB:pf]
-synonym: "increased homologous recombination" NARROW []
-synonym: "increased REMI efficiency" NARROW []
-synonym: "increased transformation efficiency" RELATED []
+def: "OBSOLETE. Increase in extent, amount, or degree of DNA mediated transformation." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-01-27T11:48:59Z
@@ -1474,9 +1463,7 @@ creation_date: 2015-01-27T11:48:59Z
 [Term]
 id: DDPHENO:0000241
 name: obsolete abolished DNA mediated transformation
-def: "OBSOLETE." [DDB:pf]
-synonym: "abolished homologous recombination" NARROW []
-synonym: "abolished REMI" NARROW []
+def: "OBSOLETE. Complete inability for DNA-mediated transformation." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-01-29T14:57:44Z
@@ -1592,7 +1579,7 @@ creation_date: 2015-04-13T16:41:24Z
 [Term]
 id: DDPHENO:0000255
 name: obsolete aberrant potassium-dependent chemotaxis to cAMP
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during potassium-dependent chemotaxis to cAMP." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-04-13T16:57:18Z
@@ -1600,7 +1587,7 @@ creation_date: 2015-04-13T16:57:18Z
 [Term]
 id: DDPHENO:0000256
 name: obsolete abolished  potassium-dependent chemotaxis to cAMP
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Complete inability for potassium-dependent chemotaxis to cAMP." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-04-13T17:39:42Z
@@ -1635,8 +1622,7 @@ is_a: DDPHENO:0000306 ! aberrant sorting to prestalk region
 [Term]
 id: DDPHENO:0000261
 name: obsolete abolished prestalk cell differentiation in response to DIF-1
-def: "OBSOLETE." [DDB:pg]
-synonym: "abolished pst cell differentiation in response to DIF-1" EXACT []
+def: "OBSOLETE. Complete inability for prestalk cell differentiation in response to DIF-1." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -1698,13 +1684,13 @@ is_a: DDPHENO:0001234 ! aberrant mitochondrion organization
 [Term]
 id: DDPHENO:0000273
 name: obsolete decreased SDF production
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE.  Reduction in extent, amount or accumulation of SDF production." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0000274
 name: obsolete abolished SDF production
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for SDF production." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -1742,6 +1728,7 @@ creation_date: 2015-05-05T16:05:13Z
 [Term]
 id: DDPHENO:0000281
 name: obsolete aberrant infection rate by a yeast
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-05-05T16:06:20Z
@@ -1845,6 +1832,7 @@ creation_date: 2015-05-05T16:58:28Z
 [Term]
 id: DDPHENO:0000292
 name: obsolete decreased infection rate by Mycobacterium marinum
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-05-05T17:02:13Z
@@ -1852,6 +1840,7 @@ creation_date: 2015-05-05T17:02:13Z
 [Term]
 id: DDPHENO:0000293
 name: obsolete increased infection rate by Mycobacterium marinum
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-05-05T17:03:59Z
@@ -1951,7 +1940,7 @@ is_a: DDPHENO:0000042 ! aberrant membrane ruffling
 [Term]
 id: DDPHENO:0000305
 name: obsolete abolished down-regulation of growth phase genes
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for down-regulation of growth phase genes." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -1965,7 +1954,7 @@ creation_date: 2015-06-16T17:41:25Z
 [Term]
 id: DDPHENO:0000307
 name: obsolete abolished SDF-1 production
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Complete inability for SDF-1 production." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-06-17T14:01:18Z
@@ -1973,7 +1962,7 @@ creation_date: 2015-06-17T14:01:18Z
 [Term]
 id: DDPHENO:0000308
 name: obsolete abolished SDF-2 production
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Complete inability for SDF-2 production." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-06-17T14:01:46Z
@@ -1981,7 +1970,7 @@ creation_date: 2015-06-17T14:01:46Z
 [Term]
 id: DDPHENO:0000309
 name: obsolete decreased SDF-1 production
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE.  Reduction in extent, amount or accumulation of SDF-1 production." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-06-17T14:02:06Z
@@ -1989,7 +1978,7 @@ creation_date: 2015-06-17T14:02:06Z
 [Term]
 id: DDPHENO:0000310
 name: obsolete decreased SDF-2 production
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Reduction in extent, amount or accumulation of SDF-2 production." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-06-17T14:03:53Z
@@ -2046,7 +2035,7 @@ creation_date: 2015-06-17T17:20:55Z
 [Term]
 id: DDPHENO:0000316
 name: obsolete aberrant response to SDF-1
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during response to SDF-1." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-06-17T17:27:25Z
@@ -2054,7 +2043,7 @@ creation_date: 2015-06-17T17:27:25Z
 [Term]
 id: DDPHENO:0000317
 name: obsolete abolished response to SDF-1
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Complete inability for response to SDF-1." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2015-06-17T17:29:11Z
@@ -2222,7 +2211,7 @@ creation_date: 2016-06-14T12:26:37Z
 [Term]
 id: DDPHENO:0000338
 name: obsolete abolished electrotaxis
-def: "OBSOLETE. Complete inability of  electrotaxis in response to an electrical field." [DDB:pf]
+def: "OBSOLETE. Complete inability for electrotaxis in response to an electrical field." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2016-06-14T12:26:51Z
@@ -2230,7 +2219,7 @@ creation_date: 2016-06-14T12:26:51Z
 [Term]
 id: DDPHENO:0000339
 name: obsolete aberrant response to SDF-2
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during response to SDF-2." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2016-07-18T10:38:21Z
@@ -2238,7 +2227,7 @@ creation_date: 2016-07-18T10:38:21Z
 [Term]
 id: DDPHENO:0000340
 name: obsolete abolished response to SDF-2
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Complete inability for response to SDF-2." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2016-07-18T10:39:38Z
@@ -2522,8 +2511,7 @@ is_a: DDPHENO:0001028 ! aberrant filopodium formation
 id: DDPHENO:0000378
 name: decreased lateral pseudopodium retraction
 def: "Reduction in extent, amount, or degree of suppression or retraction of lateral pseudopods." [DD:pg]
-synonym: "decreased lateral pseudopod suppression" EXACT []
-is_a: DDPHENO:0001027 ! aberrant pseudopodium formation
+is_a: DDPHENO:0000477 ! aberrant lateral pseudopodium formation
 
 [Term]
 id: DDPHENO:0000379
@@ -2543,7 +2531,7 @@ is_a: DDPHENO:0000040 ! aberrant response to chemical
 [Term]
 id: DDPHENO:0000382
 name: obsolete aberrant morphology
-def: "OBSOLETE." [DDB:kp]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during morphogenesis." [DDB:kp]
 is_obsolete: true
 
 [Term]
@@ -2576,7 +2564,7 @@ is_a: DDPHENO:0001014 ! aberrant slug development
 [Term]
 id: DDPHENO:0000388
 name: obsolete abolished vacuolation
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for vacuolation." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -2595,7 +2583,7 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 [Term]
 id: DDPHENO:0000391
 name: obsolete partial suppression of tagB mutation
-def: "OBSOLETE." [DDB:kp]
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
@@ -2644,10 +2632,8 @@ is_a: DDPHENO:0001084 ! aberrant vegetative growth
 [Term]
 id: DDPHENO:0000395
 name: obsolete decreased activation of protein kinase B
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or degree of activation of protein kinase B." [DDB:pg]
 comment: Not sure this is legitimate. See SF for an item on PKB; I think it's a gee product.
-synonym: "decreased activation of PKB" RELATED []
-synonym: "decreased phosphorylation of PkbA (Akt/PKB)" RELATED []
 is_obsolete: true
 
 [Term]
@@ -2659,7 +2645,7 @@ is_a: DDPHENO:0001002 ! aberrant organelle morphology
 [Term]
 id: DDPHENO:0000398
 name: obsolete no synthetic interaction observed between rasS and gefB
-def: "OBSOLETE." [DDB:kp]
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
@@ -2685,7 +2671,7 @@ is_a: DDPHENO:0001456 ! aberrant response to cisplatin
 [Term]
 id: DDPHENO:0000402
 name: obsolete increased intracellular cAMP level
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of intracellular cAMP level." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -2721,7 +2707,7 @@ is_a: DDPHENO:0000236 ! aberrant cell morphology
 [Term]
 id: DDPHENO:0000407
 name: obsolete decreased chemoattractant-mediated F-actin polymerization
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or degree of chemoattractant-mediated F-actin polymerization." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -2779,25 +2765,25 @@ creation_date: 2017-03-23T15:55:17Z
 [Term]
 id: DDPHENO:0000420
 name: obsolete decreased cAMP-induced Ca2+ influx
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Reduction in extent, amount or degree of cAMP-induced Ca2+ influx." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0000421
 name: obsolete delayed cAMP-induced Ca2+ influx
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Late onset or slower progression for cAMP-induced Ca2+ influx." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0000422
 name: obsolete decreased Ca2+-induced Ca2+ influx
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Reduction in extent, amount or degree of Ca2+ induced Ca2+ influx." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0000423
 name: obsolete decreased infection rate by Legionella pneumophila
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
@@ -2907,13 +2893,13 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 [Term]
 id: DDPHENO:0000441
 name: obsolete increased extracellular of CF50 level
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0000442
 name: obsolete increased extracellular counting factor component(s) level
-def: "OBSOLETE." [DDB:pg]
-synonym: "increased level of extracellular CF component(s)" EXACT []
+def: "OBSOLETE.  Increase in extent, amount, or degree of  counting factr component level." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -2925,8 +2911,7 @@ is_a: DDPHENO:0001233 ! decreased protein secretion
 [Term]
 id: DDPHENO:0000444
 name: obsolete increased intracellular counting factor component(s) level
-def: "OBSOLETE." [DDB:pg]
-synonym: "increased level of intracellular CF component(s)" EXACT []
+def: "OBSOLETE. Increase in extent, amount, or degree of intracellular counting factor (CF) level." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -2947,7 +2932,7 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 [Term]
 id: DDPHENO:0000447
 name: obsolete increased myosin protein level
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of myosin protein level." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -2959,7 +2944,7 @@ is_a: DDPHENO:0001007 ! aberrant pinocytosis
 [Term]
 id: DDPHENO:0000449
 name: obsolete no synthetic interaction
-def: "OBSOLETE." [DDB:kp]
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
@@ -2972,7 +2957,7 @@ is_a: DDPHENO:0000483 ! aberrant aggregation
 [Term]
 id: DDPHENO:0000451
 name: obsolete increased number of peripheral cells during sexual reproduction
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Quantitative increase in peripheral cells during sexual reproduction." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -3064,7 +3049,7 @@ creation_date: 2017-04-20T17:03:31Z
 [Term]
 id: DDPHENO:0000465
 name: obsolete abolished cAMP-induced Ca2+ influx
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Complete inability for cAMP-induced Ca2+ influx." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -3131,7 +3116,7 @@ is_obsolete: true
 [Term]
 id: DDPHENO:0000480
 name: obsolete aberrant cAMP signaling
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during cAMP signaling." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -3164,6 +3149,7 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 [Term]
 id: DDPHENO:0000484
 name: obsolete curly fingers
+def: "OBSOLETE.  Eas not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
@@ -3187,7 +3173,7 @@ is_a: DDPHENO:0000358 ! aberrant response to cAMP
 [Term]
 id: DDPHENO:0000489
 name: obsolete increased cytosolic Ca2+ response
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE.  Increase in extent, amount, or degree of cytosolic Ca2+ response." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -3214,7 +3200,7 @@ is_a: DDPHENO:0000482 ! aberrant stream morphology
 [Term]
 id: DDPHENO:0000493
 name: obsolete abolished CRAC localization to the plasma membrane
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for CRAC localization to the plasma membrane." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -3280,7 +3266,7 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 [Term]
 id: DDPHENO:0000509
 name: obsolete delayed development in the presence of TMB-8
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Late onset or slower progression for development in the oresence of TMB-8." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -3398,7 +3384,7 @@ is_a: DDPHENO:0001418 ! aberrant cell cycle
 [Term]
 id: DDPHENO:0000526
 name: obsolete increased prestalk cell differentiation in response to DIF-1
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE  Increase in extent, amount, or degree of prestalk differentiation factor." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -3487,14 +3473,13 @@ is_a: DDPHENO:0001027 ! aberrant pseudopodium formation
 [Term]
 id: DDPHENO:0000542
 name: obsolete increased infection rate by Legionella pneumophila
-def: "OBSOLETE." [DDB:pf]
-synonym: "increased sensitivity to infection by Legionella pneumophila" RELATED []
+def: "OBSOLETE. Was not defined before obsoletion." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0000543
 name: obsolete increased infection rate by Mycobacterium avium
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Was not defined before obsoletion." [DDB:pf]
 synonym: "increased sensitivity to infection by Mycobacterium avium" RELATED []
 is_obsolete: true
 
@@ -5049,9 +5034,17 @@ created_by: pfey
 creation_date: 2021-06-25T10:21:47Z
 
 [Term]
+id: DDPHENO:0000720
+name: increased lateral pseudopodium retraction
+def: "Increase in extent, amount, or degree of suppression or retraction of lateral pseudopods." [DDB:pf]
+is_a: DDPHENO:0000477 ! aberrant lateral pseudopodium formation
+created_by: pfey
+creation_date: 2021-06-29T14:28:08Z
+
+[Term]
 id: DDPHENO:0001001
 name: obsolete aberrant initiation of development
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events duringninitiation of development." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -5071,7 +5064,7 @@ is_a: DDPHENO:0001008 ! aberrant cellular process
 [Term]
 id: DDPHENO:0001004
 name: obsolete aberrant cellular physiological process
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during cellular physiological process." [DDB:pg]
 comment: Obsoleted because GO merged with cellular process. All children moved under DDPHENO:0001008 aberrant cellular process
 is_obsolete: true
 
@@ -5124,7 +5117,7 @@ is_a: DDPHENO:0001013 ! aberrant cell differentiation
 [Term]
 id: DDPHENO:0001011
 name: obsolete decreased intracellular cAMP level
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or degree of intracellular cAMP level." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -5286,7 +5279,7 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 [Term]
 id: DDPHENO:0001037
 name: obsolete aberrant signal transduction during aggregation
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during signal trnduction during aggregation." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -5314,7 +5307,7 @@ is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 [Term]
 id: DDPHENO:0001040
 name: obsolete aberrant response to drug
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during response to drug." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -5466,19 +5459,19 @@ is_a: DDPHENO:0001119 ! aberrant regulation of protein kinase activity
 [Term]
 id: DDPHENO:0001063
 name: obsolete abolished myosin light chain kinase activation
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for myosin light chain activation." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001064
 name: obsolete decreased myosin light chain kinase activation
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or degree of myosin light chain kinase activation." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001065
 name: obsolete increased myosin light chain kinase activation
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of myosin light chain kinase activation." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -5595,7 +5588,7 @@ is_a: DDPHENO:0000483 ! aberrant aggregation
 [Term]
 id: DDPHENO:0001081
 name: obsolete decreased number of spherical mitochondria
-def: "OBSOLETE. Quantitative decrease in spherical mitochondria." [DDB:pg, PMID:14665465]
+def: "OBSOLETE. Quantitative decrease in spherical mitochondria." [DDB:pg]
 comment: In Dictyostelium, cells have mitochondria of three different shapes: spherical, rod-like or tubular.
 is_obsolete: true
 
@@ -5716,13 +5709,13 @@ is_a: DDPHENO:0001095 ! aberrant DIF-1 biosynthesis
 [Term]
 id: DDPHENO:0001099
 name: obsolete delayed DIF production
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Late onset or slower progression for DIF production." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001100
 name: obsolete precocious DIF production
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE.  Complete inability for DIF production." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -5885,7 +5878,7 @@ is_a: DDPHENO:0001303 ! aberrant regulation of catalytic activity
 [Term]
 id: DDPHENO:0001120
 name: obsolete abolished protein kinase B activation
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for protein kinase B activation." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -5986,13 +5979,13 @@ is_a: DDPHENO:0000198 ! aberrant activation of adenylate cyclase activity
 [Term]
 id: DDPHENO:0001135
 name: obsolete abolished chemoattractant-mediated F-actin polymerization
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for chemoattractant-mediated F-actin polymerization." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001136
 name: obsolete increased chemoattractant-mediated F-actin polymerization
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of chemoattractant-mediated F-actin polymerization." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -6016,91 +6009,91 @@ is_a: DDPHENO:0001137 ! aberrant regulation of GTPase activity
 [Term]
 id: DDPHENO:0001140
 name: obsolete aberrant regulation of Ras GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during regulation of Ras GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001141
 name: obsolete aberrant regulation of Rac GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during regulation of Rac GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001142
 name: obsolete aberrant regulation of Rab GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during regulation of Rab GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001143
 name: obsolete aberrant regulation of Ran GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during regulation of Ran GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001144
 name: obsolete aberrant regulation of Rap GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during regulation of Rap GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001145
 name: obsolete decreased positive regulation of Rab GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or accumulation of positive regulation of Rab GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001146
 name: obsolete increased positive regulation of Rab GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of positive regulation of Rab GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001147
 name: obsolete decreased positive regulation of Rac GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or accumulation of positive regulation of Rac GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001148
 name: obsolete increased positive regulation of Rac GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of positive regulation of Rac GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001149
 name: obsolete decreased positive regulation of Ran GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or accumulation of positive regulation of Ran GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001150
 name: obsolete increased positive regulation of Ran GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of positive regulation of Ran GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001151
 name: obsolete decreased positive regulation of Rap GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or accumulation of positive regulation of Rap GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001152
 name: obsolete increased positive regulation of Rap GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of positive regulation of Rap GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001153
 name: obsolete increased positive regulation of Ras GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of positive regulation of Ras GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001154
 name: obsolete decreased positive regulation of Ras GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or accumulation of positive regulation of Ras GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -6241,7 +6234,7 @@ is_a: DDPHENO:0001256 ! increased catalytic activity
 [Term]
 id: DDPHENO:0001173
 name: obsolete aberrant aspidocyte differentiation
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during aspidocyte differentiation." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -6374,42 +6367,37 @@ is_a: DDPHENO:0001279 ! decreased autophagic vacuole organization
 [Term]
 id: DDPHENO:0001193
 name: obsolete aberrant infection rate by a microorganism
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Was not defined before obsoletion." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001194
 name: obsolete increased infection rate by a microorganism
-def: "OBSOLETE." [DDB:pf]
-synonym: "increased sensitivity to infection" RELATED []
+def: "OBSOLETE. Was not defined before obsoletion." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001195
 name: obsolete decreased infection rate by a microorganism
-def: "OBSOLETE." [DDB:pf]
-synonym: "increased resistance to infection" RELATED []
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001196
 name: obsolete decreased infection rate by Mycobacterium avium
-def: "OBSOLETE." [DDB:pf]
-synonym: "increased resistance to infection by Mycobacterium avium" RELATED []
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001197
 name: obsolete decreased infection rate by Cryptococcus neoformans
-def: "OBSOLETE." [DDB:pf]
-synonym: "increased resistance to infection by Cryptococcus neoformans" RELATED []
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001198
 name: obsolete increased infection rate by Cryptococcus neoformans
-def: "OBSOLETE." [DDB:pf]
-synonym: "increased sensitivity to infection by Cryptococcus neoformans" RELATED []
+def: "OBSOLETE. Was not defined before obsoletion." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -6705,8 +6693,7 @@ is_a: DDPHENO:0000264 ! aberrant cell motility
 [Term]
 id: DDPHENO:0001240
 name: obsolete decreased CRAC localization to the plasma membrane
-def: "OBSOLETE." [DDB:pf]
-synonym: "decreased CRAC translocation" RELATED []
+def: "OBSOLETE. Reduction in extent, amount or degree of CRAC localization to the plasma membrane." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -6735,17 +6722,19 @@ is_a: DDPHENO:0001241 ! aberrant protein level
 
 [Term]
 id: DDPHENO:0001245
-name: aberrant cAMP signal relay
-def: "Deviation from the normal, usual, or expected events during cAMP signal relay during early development." [DDB:pf]
-synonym: "aberrant cAMP signal propagation" RELATED []
+name: aberrant cAMP oscillatory signaling
+def: "Deviation from the normal, usual, or expected events during cAMP signal oscillations during early development." [DDB:pf]
+synonym: "aberrant cAMP relay" EXACT []
+synonym: "aberrant cAMP-induced cAMP pulse" EXACT []
 is_a: DDPHENO:0001038 ! aberrant extracellular cAMP signaling
 
 [Term]
 id: DDPHENO:0001246
-name: abolished cAMP signal relay
-def: "Complete inability for cAMP signal relay during early development." [DDB:pf]
-synonym: "abolished cAMP signal propagation" RELATED []
-is_a: DDPHENO:0001245 ! aberrant cAMP signal relay
+name: abolished cAMP oscillatory signaling
+def: "Complete inability for cAMP oscillatory signaling during early development." [DDB:pf]
+synonym: "abolished cAMP relay" EXACT []
+synonym: "abolished cAMP-induced cAMP pulse" EXACT []
+is_a: DDPHENO:0001245 ! aberrant cAMP oscillatory signaling
 
 [Term]
 id: DDPHENO:0001247
@@ -6776,31 +6765,25 @@ is_a: DDPHENO:0001029 ! aberrant establishment or maintenance of cell polarity
 [Term]
 id: DDPHENO:0001251
 name: obsolete increased protein kinase B activation
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001252
 name: obsolete abolished MAP kinase activation
-def: "OBSOLETE." [DDB:pg]
-synonym: "abolished erk2 activation" NARROW []
-synonym: "abolished erkB activation" NARROW []
+def: "OBSOLETE. Complete inability for MAP activation." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001253
 name: obsolete decreased MAP kinase activation
-def: "OBSOLETE." [DDB:pg]
-synonym: "decreased erk2 activation" RELATED []
-synonym: "decreased erkB activation" NARROW []
+def: "OBSOLETE. Reduction in extent, amount or degree of MAP kinase activation." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001254
 name: obsolete increased MAP kinase activation
-def: "OBSOLETE." [DDB:pg]
-synonym: "increased erk2 activation" NARROW []
-synonym: "increased erkB activation" NARROW []
+def: "OBSOLETE. Increase in extent, amount, or degree of activation of a MAP kinase." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -6824,7 +6807,7 @@ is_a: DDPHENO:0001105 ! aberrant catalytic activity
 [Term]
 id: DDPHENO:0001259
 name: obsolete decreased binding
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or degree of molecule binding." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -6881,25 +6864,25 @@ is_a: DDPHENO:0001013 ! aberrant cell differentiation
 [Term]
 id: DDPHENO:0001268
 name: obsolete aberrant non-apoptotic programmed cell death
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during non-apoptotic programmed cell death." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001269
 name: obsolete abolished non-apoptotic programmed cell death
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Complete inability for non-apoptotic programmed cell death." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001270
 name: obsolete increased non-apoptotic programmed cell death
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Increase in extent, amount, or degree of non-apoptotic programmed cell death." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001271
 name: obsolete decreased non-apoptotic programmed cell death
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Reduction in extent, amount or degree of non-apoptotic programmed cell death." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -6947,7 +6930,7 @@ is_a: DDPHENO:0001275 ! aberrant engulfment during phagocytosis
 [Term]
 id: DDPHENO:0001278
 name: obsolete aberrant vacuolation
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during vacuolation." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -6981,7 +6964,7 @@ is_a: DDPHENO:0001256 ! increased catalytic activity
 [Term]
 id: DDPHENO:0001283
 name: obsolete decreased protein kinase A activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount ordegree of protein kinase A activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7054,7 +7037,7 @@ is_a: DDPHENO:0001289 ! abolished catalytic activity
 [Term]
 id: DDPHENO:0001294
 name: obsolete abolished glycogen synthase kinase 3 activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for glycogen synthase kinase 3 activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7067,8 +7050,7 @@ is_a: DDPHENO:0001289 ! abolished catalytic activity
 [Term]
 id: DDPHENO:0001296
 name: obsolete abolished GTP-gamma-S-stimulated guanylyl cyclase activity
-def: "OBSOLETE." [DDB:pg]
-synonym: "abolished GTP-gamma-S-stimulated GSactivity" EXACT []
+def: "OBSOLETE. Complete inability for GTP-gamma-S-stimulated guanylyl cyclase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7082,8 +7064,7 @@ is_a: DDPHENO:0001289 ! abolished catalytic activity
 [Term]
 id: DDPHENO:0001298
 name: obsolete abolished protein kinase A activity
-def: "OBSOLETE." [DDB:pg]
-synonym: "abolished PKA activity" EXACT []
+def: "OBSOLETE. Complete inability for protein kinase A activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7096,22 +7077,19 @@ is_a: DDPHENO:0001289 ! abolished catalytic activity
 [Term]
 id: DDPHENO:0001300
 name: obsolete abolished protein kinase B activity
-def: "OBSOLETE." [DDB:pg]
-synonym: "abolished PKB activity" EXACT []
+def: "OBSOLETE. Complete inability for protein kinase B activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001301
 name: obsolete decreased protein kinase B activity
-def: "OBSOLETE." [DDB:pg]
-synonym: "decreased PKB activity" EXACT []
+def: "OBSOLETE. Reduction in extent, amount ordegree of protein kinase B activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001302
 name: obsolete increased protein kinase B activity
-def: "OBSOLETE." [DDB:pg]
-synonym: "increased PKB activity" EXACT []
+def: "OBSOLETE. Increase in extent, amount, or degree of protein kinase B activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7144,26 +7122,25 @@ is_obsolete: true
 [Term]
 id: DDPHENO:0001307
 name: obsolete abolished activation of Rab GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for activation of  of Rab GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001308
 name: obsolete abolished activation of Rac GTPase activity
-def: "OBSOLETE." [DDB:pg]
-synonym: "abolished activation of Rho GTPase activity" RELATED []
+def: "OBSOLETE. Complete inability for activation of  of Rac GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001309
 name: obsolete abolished activation of Ran GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for activation of  of Ran GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001310
 name: obsolete abolished activation of Rap GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for activation of  of Rap GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7175,31 +7152,31 @@ is_a: DDPHENO:0001137 ! aberrant regulation of GTPase activity
 [Term]
 id: DDPHENO:0001312
 name: obsolete abolished activation of Ras GTPase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for activation of  of Ras GTPase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001313
 name: obsolete aberrant peptidyl-proline 4-dioxygenase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during peptidyl-proline 4-dioxygenase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001314
 name: obsolete decreased peptidyl-proline 4-dioxygenase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or degree of peptidyl-proline 4-dioxygenase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001315
 name: obsolete increased peptidyl-proline 4-dioxygenase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE Increase in extent, amount, or degree of peptidyl-proline 4-dioxygenase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001316
 name: obsolete abolished peptidyl-proline 4-dioxygenase activity
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Complete inability for peptidyl-proline 4-dioxygenase activity." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7286,13 +7263,13 @@ is_a: DDPHENO:0001317 ! aberrant protein modification
 [Term]
 id: DDPHENO:0001329
 name: obsolete decreased extracellular cAMP level
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Reduction in extent, amount or accumulation of extracellular cAMP level." [DDB:pf]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001330
 name: obsolete increased extracellular cAMP level
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE.  Increase in extent, amount, or degree of cAMP level." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7624,19 +7601,19 @@ is_a: DDPHENO:0001375 ! aberrant cellular homeostasis
 [Term]
 id: DDPHENO:0001381
 name: obsolete decreased extracellular glucose level
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Reduction in extent, amount or accumulation of extracellular glucose." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001382
 name: obsolete increased extracellular glucose level
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in amount or accumulation of extracellular glucose." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001383
 name: obsolete decreased extracellular pteridine level
-def: "OBSOLETE." [DDB:pf]
+def: "OBSOLETE. Reduction in extent, amount, or accumulation of extracellular pteridine level." [DDB:pf]
 is_obsolete: true
 
 [Term]
@@ -7662,13 +7639,13 @@ is_a: DDPHENO:0001289 ! abolished catalytic activity
 [Term]
 id: DDPHENO:0001387
 name: obsolete aberrant CRAC localization to the plasma membrane
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during CRAC localization to the plasma membrane." [DDB:pg]
 is_obsolete: true
 
 [Term]
 id: DDPHENO:0001388
 name: obsolete increased CRAC localization to the plasma membrane
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Increase in extent, amount, or degree of CRAC localization to the plasma membrane." [DDB:pg]
 is_obsolete: true
 
 [Term]
@@ -7742,17 +7719,19 @@ is_a: DDPHENO:0001337 ! increased protein localization
 
 [Term]
 id: DDPHENO:0001397
-name: increased cAMP signal relay
-def: "Extended duration for cAMP signal relay during early development." [DDB:pf]
-synonym: "prolonged cAMP signal propagation" RELATED []
-is_a: DDPHENO:0001245 ! aberrant cAMP signal relay
+name: increased cAMP oscillatory signaling
+def: "Extended duration for cAMP oscillatory signaling during early development." [DDB:pf]
+synonym: "increased cAMP relay" EXACT []
+synonym: "increased cAMP-induced cAMP pulse" EXACT []
+is_a: DDPHENO:0001245 ! aberrant cAMP oscillatory signaling
 
 [Term]
 id: DDPHENO:0001398
-name: decreased cAMP signal relay
-def: "Shortened duration for cAMP signal relay during early development." [DDB:pf]
-synonym: "shortened cAMP signal propagation" RELATED []
-is_a: DDPHENO:0001245 ! aberrant cAMP signal relay
+name: decreased cAMP oscillatory signaling
+def: "Shortened duration for cAMP oscillatory signaling during early development." [DDB:pf]
+synonym: "decreased cAMP-induced cAMP pulse" EXACT []
+synonym: "shortened cAMP relay" EXACT []
+is_a: DDPHENO:0001245 ! aberrant cAMP oscillatory signaling
 
 [Term]
 id: DDPHENO:0001399
@@ -8200,7 +8179,7 @@ creation_date: 2010-03-10T09:58:37Z
 [Term]
 id: DDPHENO:0001457
 name: obsolete aberrant DNA repair
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during DNA repair." [DDB:pg]
 is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-10T10:44:05Z
@@ -8208,7 +8187,7 @@ creation_date: 2010-03-10T10:44:05Z
 [Term]
 id: DDPHENO:0001458
 name: obsolete aberrant double-strand break repair via homologous recombination
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-10T10:44:20Z
@@ -8216,6 +8195,7 @@ creation_date: 2010-03-10T10:44:20Z
 [Term]
 id: DDPHENO:0001459
 name: obsolete decreased double-strand break repair via homologous recombination
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-10T10:44:37Z
@@ -8223,6 +8203,7 @@ creation_date: 2010-03-10T10:44:37Z
 [Term]
 id: DDPHENO:0001460
 name: obsolete increased double-strand break repair via homologous recombination
+def: "OBSOLETE. Was not defined before obsoletion." []
 is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-10T10:44:51Z
@@ -8230,7 +8211,7 @@ creation_date: 2010-03-10T10:44:51Z
 [Term]
 id: DDPHENO:0001461
 name: obsolete aberrant chemotaxis to cAMP in response to DIF-1
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during chemotaxis to cAMP in response to DIF-1." [DDB:pg]
 is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-15T04:04:23Z
@@ -8238,7 +8219,7 @@ creation_date: 2010-03-15T04:04:23Z
 [Term]
 id: DDPHENO:0001462
 name: obsolete aberrant chemotaxis to cAMP in response to DIF-2
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during chemotaxis to cAMP in response to DIF-2." [DDB:pg]
 is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-15T04:05:48Z
@@ -8254,7 +8235,7 @@ creation_date: 2010-03-15T04:20:58Z
 [Term]
 id: DDPHENO:0001464
 name: obsolete aberrant regulation of chemotaxis to cAMP in response to DIF-1
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during regulation of chemotaxis to cAMP in response to DIF-1." [DDB:pg]
 is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-15T04:24:28Z
@@ -8262,7 +8243,7 @@ creation_date: 2010-03-15T04:24:28Z
 [Term]
 id: DDPHENO:0001465
 name: obsolete aberrant regulation of chemotaxis to cAMP in response to DIF-2
-def: "OBSOLETE." [DDB:pg]
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during regulation of chemotaxis to cAMP in response to DIF-2." [DDB:pg]
 is_obsolete: true
 created_by: Pascale
 creation_date: 2010-03-15T04:25:54Z
@@ -8335,8 +8316,7 @@ creation_date: 2011-03-24T02:22:00Z
 [Term]
 id: DDPHENO:0001474
 name: obsolete increased intracellular 2,3-bisphosphoglycerate
-def: "OBSOLETE." [DDB:pf]
-synonym: "Increase in amount or accumulation of intracellular 2,3-BPG" EXACT []
+def: "OBSOLETE. Increase in amount or accumulation of intracellular 2,3-bisphosphoglycerate." [DDB:pf]
 is_obsolete: true
 created_by: pfey
 creation_date: 2011-03-24T02:29:08Z
