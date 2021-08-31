@@ -1,8 +1,9 @@
-cAMP oscillatory signalingformat-version: 1.2
-date: 29:06:2021 18:03
+format-version: 1.2
+date: 31:08:2021 10:34
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
+cAMP oscillatory signalingformat-version: 1.2
 multiple tipsformat-version: 1.2
 property_value: http://purl.org/dc/elements/1.1/description "A structured controlled vocabulary of phenotypes of the slime-mould Dictyostelium discoideum." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Dicty Phenotype Ontology (DDPHENO)" xsd:string
@@ -1412,6 +1413,7 @@ is_a: DDPHENO:0001041 ! aberrant vacuole organization
 id: DDPHENO:0000234
 name: aberrant mitosis
 def: "Deviation from the normal, usual, or expected events during mitosis." [DDB:pg]
+synonym: "mitotic nuclear division" EXACT []
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
@@ -1615,9 +1617,10 @@ creation_date: 2015-05-05T14:26:26Z
 
 [Term]
 id: DDPHENO:0000260
-name: decreased sorting to prestalk region
-def: "Reduction in extent, amount, or degree of cell sorting to prestalk region during the slug stage." [DDB:pg]
-is_a: DDPHENO:0000306 ! aberrant sorting to prestalk region
+name: decreased cell migration to prestalk region
+def: "Reduction in extent, amount, or degree of cell migration to prestalk region during the slug stage." [DDB:pg]
+synonym: "decreased sorting to prestalk region" EXACT []
+is_a: DDPHENO:0000306 ! aberrant cell migration to prestalk region
 
 [Term]
 id: DDPHENO:0000261
@@ -1945,8 +1948,9 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000306
-name: aberrant sorting to prestalk region
-def: "Deviation from the normal, usual, or expected sorting to the prestalk region." [DDB:pf]
+name: aberrant cell migration to prestalk region
+def: "Deviation from the normal, usual, or expected cell migration to the prestalk region." [DDB:pf]
+synonym: "aberrant sorting to prestalk region" EXACT []
 is_a: DDPHENO:0001014 ! aberrant slug development
 created_by: pfey
 creation_date: 2015-06-16T17:41:25Z
@@ -2015,19 +2019,19 @@ creation_date: 2015-06-17T14:40:21Z
 
 [Term]
 id: DDPHENO:0000314
-name: aberrant response to MPBD
-def: "Deviation from the normal, usual, or expected during the response to MPBD." [DDB:pf]
-synonym: "aberrant response to 4-methyl5-pentylbenzene-1,3 diol" EXACT []
+name: aberrant polyketide metabolic process
+def: "Deviation from the normal, usual, or expected during the polyketide metabolic process." [DDB:pf]
+synonym: "aberrant response to 4-methyl5-pentylbenzene-1,3 diol (MPBD)" NARROW []
 is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
 created_by: pfey
 creation_date: 2015-06-17T17:18:33Z
 
 [Term]
 id: DDPHENO:0000315
-name: abolished response to MPBD
-def: "Complete inability for the response to MPBD." [DDB:pf]
-synonym: "abolished response to 4-methyl5-pentylbenzene-1,3 diol" EXACT []
-is_a: DDPHENO:0000314 ! aberrant response to MPBD
+name: abolished polyketide metabolic process
+def: "Complete inability for polyketide metabolic process." [DDB:pf]
+synonym: "abolished response to 4-methyl5-pentylbenzene-1,3 diol (MPBD)" NARROW []
+is_a: DDPHENO:0000314 ! aberrant polyketide metabolic process
 is_a: DDPHENO:0000693 ! abolished response to biotic stimulus
 created_by: pfey
 creation_date: 2015-06-17T17:20:55Z
@@ -2431,17 +2435,20 @@ creation_date: 2017-03-13T10:24:42Z
 
 [Term]
 id: DDPHENO:0000365
-name: obsolete aberrant prestalk cell specific gene expression
-def: "OBSOLETE. Deviation from the normal, usual, or expected expression of prestalk genes." [DDB:pf]
-is_obsolete: true
+name: aberrant prestalk gene expression
+def: "Deviation from the normal, usual, or expected expression of prestalk genes." [DDB:pf]
+synonym: "aberrant prestalk cell specific gene expression" EXACT []
+is_a: DDPHENO:0001113 ! aberrant gene expression
 created_by: pfey
 creation_date: 2017-03-23T09:52:00Z
 
 [Term]
 id: DDPHENO:0000366
-name: obsolete precocious prestalk cell specific gene expression
-def: "OBSOLETE. Early onset or faster progression in the expression of prestalk genes." [DDB:pf]
-is_obsolete: true
+name: precocious prestalk gene expression
+def: "Early onset or faster progression in the expression of prestalk genes." [DDB:pf]
+synonym: "precocious prestalk cell specific gene expression" EXACT []
+is_a: DDPHENO:0000365 ! aberrant prestalk gene expression
+is_a: DDPHENO:0001116 ! precocious gene expression
 created_by: pfey
 creation_date: 2017-03-23T09:53:39Z
 
@@ -2455,41 +2462,50 @@ creation_date: 2017-03-23T13:29:35Z
 
 [Term]
 id: DDPHENO:0000368
-name: obsolete delayed prestalk cell specific gene expression
-def: "OBSOLETE. Late onset or slower progression in the expression of prestalk genes." [DDB:pf]
-is_obsolete: true
+name: delayed prestalk gene expression
+def: "Late onset or slower progression in the expression of prestalk genes." [DDB:pf]
+synonym: "delayed prestalk cell specific gene expression" EXACT []
+is_a: DDPHENO:0000365 ! aberrant prestalk gene expression
+is_a: DDPHENO:0001115 ! delayed gene expression
 created_by: pfey
 creation_date: 2017-03-23T14:54:09Z
 
 [Term]
 id: DDPHENO:0000369
-name: obsolete decreased prestalk cell specific gene expression
-def: "OBSOLETE. Reduction in extent, amount, or degree of prestalk gene expression." [DDB:pf]
-is_obsolete: true
+name: decreased prestalk gene expression
+def: "Reduction in extent, amount, or degree of prestalk gene expression." [DDB:pf]
+synonym: "decreased prestalk cell specific gene expression" EXACT []
+is_a: DDPHENO:0000300 ! decreased gene expression
+is_a: DDPHENO:0000365 ! aberrant prestalk gene expression
 created_by: pfey
 creation_date: 2017-03-23T14:54:56Z
 
 [Term]
 id: DDPHENO:0000370
-name: obsolete aberrant prespore cell specific gene expression
-def: "OBSOLETE. Deviation from the normal, usual, or expected expression of prespore genes." [DDB:pf]
-is_obsolete: true
+name: aberrant prespore gene expression
+def: "Deviation from the normal, usual, or expected expression of prespore genes." [DDB:pf]
+synonym: "aberrant prespore cell specific gene expression" EXACT []
+is_a: DDPHENO:0001113 ! aberrant gene expression
 created_by: pfey
 creation_date: 2017-03-23T15:35:42Z
 
 [Term]
 id: DDPHENO:0000371
-name: obsolete decreased prespore cell specific gene expression
-def: "OBSOLETE. Reduction in extent, amount, or degree of prespore gene expression." [DDB:pf]
-is_obsolete: true
+name: decreased prespore gene expression
+def: "Reduction in extent, amount, or degree of prespore gene expression." [DDB:pf]
+synonym: "decreased prespore cell specific gene expression" EXACT []
+is_a: DDPHENO:0000300 ! decreased gene expression
+is_a: DDPHENO:0000370 ! aberrant prespore gene expression
 created_by: pfey
 creation_date: 2017-03-23T15:36:45Z
 
 [Term]
 id: DDPHENO:0000375
-name: obsolete delayed prespore cell specific gene expression
-def: "OBSOLETE. Late onset or slower progression in the expression of prespore genes." [DDB:pf]
-is_obsolete: true
+name: delayed prespore gene expression
+def: "Late onset or slower progression in the expression of prespore genes." [DDB:pf]
+synonym: "delayed prespore cell specific gene expression" EXACT []
+is_a: DDPHENO:0000370 ! aberrant prespore gene expression
+is_a: DDPHENO:0001115 ! delayed gene expression
 created_by: pfey
 creation_date: 2017-03-23T15:38:40Z
 
@@ -2837,8 +2853,9 @@ is_a: DDPHENO:0001007 ! aberrant pinocytosis
 
 [Term]
 id: DDPHENO:0000431
-name: G1 phase mitotic cell cycle arrest
+name: mitotic G1 phase arrest
 def: "The G1 phase in the mitotic cell cycle cannot complete." [DDB:pf]
+synonym: "G1 phase mitotic cell cycle arrest" EXACT []
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
@@ -2869,10 +2886,10 @@ is_a: DDPHENO:0000397 ! aberrant cytoskeleton organization
 
 [Term]
 id: DDPHENO:0000438
-name: abolished uracil production
-def: "A specific requirement for uracil to grow or divide." [DDB:pf]
+name: abolished uracil biosynthetic process
+def: "Complete inability to produce uracil." [DDB:pf]
 synonym: "uracil auxotroph" EXACT []
-is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
+is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
 [Term]
@@ -2884,10 +2901,10 @@ is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000440
-name: abolished thymidine production
-def: "A specific requirement for thymidine to grow or divide." [DDB:pf]
+name: abolished thymidine biosynthetic process
+def: "Complete inability to produce thymidine." [DDB:pf]
 synonym: "thymidine auxotroph" EXACT []
-is_a: DDPHENO:0001031 ! aberrant response to abiotic stimulus
+is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 
 [Term]
@@ -3032,9 +3049,11 @@ is_a: DDPHENO:0001028 ! aberrant filopodium formation
 
 [Term]
 id: DDPHENO:0000463
-name: obsolete precocious prespore cell specific gene expression
-def: "OBSOLETE. Early onset or faster progression in the expression of prespore genes." [DDB:pf]
-is_obsolete: true
+name: precocious prespore gene expression
+def: "Early onset or faster progression in the expression of prespore genes." [DDB:pf]
+synonym: "precocious prespore cell specific gene expression" EXACT []
+is_a: DDPHENO:0000370 ! aberrant prespore gene expression 
+is_a: DDPHENO:0001116 ! precocious gene expression
 created_by: pfey
 creation_date: 2017-03-23T15:57:06Z
 
@@ -3160,9 +3179,10 @@ is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
 id: DDPHENO:0000487
-name: abolished sorting to prestalk region
-def: "Complete inability for cells to sort to the prestalk region during the slug stage." [DDB:pg]
-is_a: DDPHENO:0000306 ! aberrant sorting to prestalk region
+name: abolished cell migration to prestalk region
+def: "Complete inability for cells to migrate to the prestalk region during the slug stage." [DDB:pg]
+synonym: "abolished sorting to prestalk region" EXACT []
+is_a: DDPHENO:0000306 ! aberrant cell migration to prestalk region
 
 [Term]
 id: DDPHENO:0000488
@@ -3370,9 +3390,10 @@ is_a: DDPHENO:0001168 ! aberrant chemotaxis to folate
 
 [Term]
 id: DDPHENO:0000524
-name: increased sorting to prestalk region
-def: "Increase in extent, amount, or degree of cell sorting to the prestalk region during the slug stage." [DDB:pg]
-is_a: DDPHENO:0000306 ! aberrant sorting to prestalk region
+name: increased cell migration to prestalk region
+def: "Increase in extent, amount, or degree of cell migration to the prestalk region during the slug stage." [DDB:pg]
+synonym: "increased sorting to prestalk region" EXACT []
+is_a: DDPHENO:0000306 ! aberrant cell migration to prestalk region
 
 [Term]
 id: DDPHENO:0000525
@@ -4928,9 +4949,9 @@ creation_date: 2021-06-15T15:56:51Z
 
 [Term]
 id: DDPHENO:0000707
-name: aberrant response to phleomycin
-def: "Deviation from the normal, usual, or expected during the response to phleomycin." [DDB:pf]
-is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
+name: obsolete aberrant response to phleomycin
+def: "OBSOLETE. Deviation from the normal, usual, or expected during the response to phleomycin." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2021-06-21T15:50:58Z
 
@@ -4938,7 +4959,7 @@ creation_date: 2021-06-21T15:50:58Z
 id: DDPHENO:0000708
 name: decreased resistance to phleomycin
 def: "Decreased tolerance of the normal, usual, or expected events in the presence of phleomycin." [DDB:pf]
-is_a: DDPHENO:0000707 ! aberrant response to phleomycin
+is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
 created_by: pfey
 creation_date: 2021-06-21T15:52:31Z
 
@@ -4946,7 +4967,7 @@ creation_date: 2021-06-21T15:52:31Z
 id: DDPHENO:0000709
 name: increased resistance to phleomycin
 def: "Increased tolerance of the normal, usual, or expected events in the presence of  phleomycin." [DDB:pf]
-is_a: DDPHENO:0000707 ! aberrant response to phleomycin
+is_a: DDPHENO:0001032 ! aberrant response to biotic stimulus
 created_by: pfey
 creation_date: 2021-06-21T15:53:45Z
 
@@ -5009,8 +5030,9 @@ creation_date: 2021-06-24T12:40:11Z
 
 [Term]
 id: DDPHENO:0000717
-name: M phase mitotic cell cycle arrest
+name: mitotic M phase arrest
 def: "The M phase in the mitotic cell cycle cannot complete." [DDB:pf]
+synonym: "M phase mitotic cell cycle arrest" EXACT []
 is_a: DDPHENO:0001418 ! aberrant cell cycle
 created_by: pfey
 creation_date: 2021-06-24T14:40:05Z
