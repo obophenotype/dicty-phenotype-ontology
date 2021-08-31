@@ -2692,17 +2692,21 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000403
-name: obsolete increased prestalk cell specific gene expression
-def: "OBSOLETE. Increase in extent, amount, or degree of expression of prestalk genes." [DDB:pf]
-is_obsolete: true
+name: increased prestalk gene expression
+def: "Increase in extent, amount, or degree of expression of prestalk genes." [DDB:pf]
+synonym: "increased prestalk cell specific gene expression" EXACT []
+is_a: DDPHENO:0000301 ! increased gene expression
+is_a: DDPHENO:0000365 ! aberrant prestalk gene expression
 created_by: pfey
 creation_date: 2017-03-23T15:39:41Z
 
 [Term]
 id: DDPHENO:0000404
-name: obsolete increased prespore cell specific gene expression
-def: "OBSOLETE. Increase in extent, amount, or degree of expression of prespore genes." [DDB:pf]
-is_obsolete: true
+name: increased prespore gene expression
+def: "Increase in extent, amount, or degree of expression of prespore genes." [DDB:pf]
+synonym: "increased prespore gene cell specific expression" EXACT []
+is_a: DDPHENO:0000301 ! increased gene expression
+is_a: DDPHENO:0000370 ! aberrant prespore gene expression 
 created_by: pfey
 creation_date: 2017-03-23T15:54:24Z
 
