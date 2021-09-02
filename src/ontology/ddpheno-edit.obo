@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:08:2021 10:34
+date: 31:08:2021 17:45
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -2692,17 +2692,21 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000403
-name: obsolete increased prestalk cell specific gene expression
-def: "OBSOLETE. Increase in extent, amount, or degree of expression of prestalk genes." [DDB:pf]
-is_obsolete: true
+name: increased prestalk gene expression
+def: "Increase in extent, amount, or degree of expression of prestalk genes." [DDB:pf]
+synonym: "increased prestalk cell specific gene expression" EXACT []
+is_a: DDPHENO:0000301 ! increased gene expression
+is_a: DDPHENO:0000365 ! aberrant prestalk gene expression
 created_by: pfey
 creation_date: 2017-03-23T15:39:41Z
 
 [Term]
 id: DDPHENO:0000404
-name: obsolete increased prespore cell specific gene expression
-def: "OBSOLETE. Increase in extent, amount, or degree of expression of prespore genes." [DDB:pf]
-is_obsolete: true
+name: increased prespore gene expression
+def: "Increase in extent, amount, or degree of expression of prespore genes." [DDB:pf]
+synonym: "increased prespore gene cell specific expression" EXACT []
+is_a: DDPHENO:0000301 ! increased gene expression
+is_a: DDPHENO:0000370 ! aberrant prespore gene expression
 created_by: pfey
 creation_date: 2017-03-23T15:54:24Z
 
@@ -3052,7 +3056,7 @@ id: DDPHENO:0000463
 name: precocious prespore gene expression
 def: "Early onset or faster progression in the expression of prespore genes." [DDB:pf]
 synonym: "precocious prespore cell specific gene expression" EXACT []
-is_a: DDPHENO:0000370 ! aberrant prespore gene expression 
+is_a: DDPHENO:0000370 ! aberrant prespore gene expression
 is_a: DDPHENO:0001116 ! precocious gene expression
 created_by: pfey
 creation_date: 2017-03-23T15:57:06Z
@@ -5062,6 +5066,26 @@ def: "Increase in extent, amount, or degree of suppression or retraction of late
 is_a: DDPHENO:0000477 ! aberrant lateral pseudopodium formation
 created_by: pfey
 creation_date: 2021-06-29T14:28:08Z
+
+[Term]
+id: DDPHENO:0000721
+name: abolished prestalk gene expression
+def: "Complete inability for prestalk expression of genes." [DDB:pf]
+synonym: "abolished prestalk cell specific gene expression" EXACT []
+is_a: DDPHENO:0000365 ! aberrant prestalk gene expression
+is_a: DDPHENO:0001114 ! abolished gene expression
+created_by: pfey
+creation_date: 2021-08-31T17:39:53Z
+
+[Term]
+id: DDPHENO:0000722
+name: abolished prespore gene expression
+def: "Complete inability for prespore expression of genes." [DDB:pf]
+synonym: "abolished prespore cell specific gene expression" EXACT []
+is_a: DDPHENO:0000370 ! aberrant prespore gene expression
+is_a: DDPHENO:0001114 ! abolished gene expression
+created_by: pfey
+creation_date: 2021-08-31T17:42:22Z
 
 [Term]
 id: DDPHENO:0001001
