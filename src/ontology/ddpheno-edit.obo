@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:10:2021 16:33
+date: 08:11:2021 15:32
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -50,25 +50,25 @@ creation_date: 2013-08-27T16:36:33Z
 
 [Term]
 id: DDPHENO:0000005
-name: aberrant autophagy
-def: "Deviation from the normal, usual, or expected events during autophagy." [DDB:pf]
-is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
+name: obsolete aberrant autophagy
+def: "OBSOLETE. Deviation from the normal, usual, or expected events during autophagy." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2013-09-23T14:27:57Z
 
 [Term]
 id: DDPHENO:0000006
-name: increased autophagy
-def: "Increase in extent, amount, or degree of autophagy." [DDB:pf]
-is_a: DDPHENO:0000005 ! aberrant autophagy
+name: obsolete increased autophagy
+def: "OBSOLETE. Increase in extent, amount, or degree of autophagy." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2013-09-23T14:29:45Z
 
 [Term]
 id: DDPHENO:0000007
-name: decreased autophagy
-def: "Reduction in extent, amount, or degree of autophagy." [DDB:pf]
-is_a: DDPHENO:0000005 ! aberrant autophagy
+name: obsolete decreased autophagy
+def: "OBSOLETE. Reduction in extent, amount, or degree of autophagy." [DDB:pf]
+is_obsolete: true
 created_by: pfey
 creation_date: 2013-09-23T14:30:03Z
 
@@ -264,7 +264,7 @@ creation_date: 2014-01-27T14:30:48Z
 id: DDPHENO:0000032
 name: increased sporulation
 def: "Increase in extent, amount, or degree of spore formation." [DDB:pf]
-synonym: "increased number of spore cells" RELATED []
+synonym: "increased asexual sporulation" EXACT []
 synonym: "increased number of spores" RELATED []
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
@@ -1305,6 +1305,7 @@ is_a: DDPHENO:0000187 ! aberrant cell-substrate adhesion
 id: DDPHENO:0000214
 name: precocious sporulation
 def: "Early onset or faster progression through spore formation." [DDB:pf]
+synonym: "precocious asexual sporulation" EXACT []
 synonym: "precocious spore differentiation" EXACT []
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
@@ -2806,7 +2807,7 @@ is_obsolete: true
 id: DDPHENO:0000424
 name: abolished sporulation
 def: "Complete inability for sporulation." [DDB:pg]
-synonym: "abolished spore differentiation" EXACT []
+synonym: "abolished asexual sporulation" EXACT []
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
@@ -3282,6 +3283,7 @@ id: DDPHENO:0000504
 name: decreased sporulation
 alt_id: DDPHENO:0000194
 def: "Reduction in extent, amount, or degree of spore formation." [DDB:pf]
+synonym: "decreased asexual sporulation" EXACT []
 synonym: "decreased number of spores" RELATED []
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
@@ -3311,8 +3313,7 @@ id: DDPHENO:0000513
 name: aberrant sporulation
 alt_id: DDPHENO:0000023
 def: "Deviation from the normal, usual, or expected events during spore formation." [DDB:pf]
-synonym: "aberrant spore differentiation" RELATED []
-synonym: "defective spore differentiation" RELATED []
+synonym: "aberrant asexual sporulation" EXACT []
 is_a: DDPHENO:0001013 ! aberrant cell differentiation
 
 [Term]
@@ -4809,7 +4810,7 @@ id: DDPHENO:0000690
 name: aberrant spore cell differentiation
 def: "Deviation from the normal, usual, or expected events during differentiation into spores during culmination." [DDB:pf]
 synonym: "aberrant sorocarp spore cell differentiation" EXACT []
-is_a: DDPHENO:0001013 ! aberrant cell differentiation
+is_a: DDPHENO:0000513 ! aberrant sporulation
 created_by: pfey
 creation_date: 2021-04-28T18:08:10Z
 
@@ -8066,6 +8067,7 @@ is_a: DDPHENO:0000154 ! aberrant sorocarp development
 id: DDPHENO:0001432
 name: delayed sporulation
 def: "Late onset or slower progression through spore formation." [DDB:pf]
+synonym: "delayed asexual sporulation" EXACT []
 is_a: DDPHENO:0000513 ! aberrant sporulation
 
 [Term]
