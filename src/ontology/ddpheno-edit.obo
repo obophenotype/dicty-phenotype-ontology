@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:11:2021 15:32
+date: 19:11:2021 14:20
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -50,25 +50,25 @@ creation_date: 2013-08-27T16:36:33Z
 
 [Term]
 id: DDPHENO:0000005
-name: obsolete aberrant autophagy
-def: "OBSOLETE. Deviation from the normal, usual, or expected events during autophagy." [DDB:pf]
-is_obsolete: true
+name: aberrant autophagy
+def: "Deviation from the normal, usual, or expected events during autophagy, a cellular catabolic process when cells digest or remodel their parts under stress." [DDB:pf]
+is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 created_by: pfey
 creation_date: 2013-09-23T14:27:57Z
 
 [Term]
 id: DDPHENO:0000006
-name: obsolete increased autophagy
-def: "OBSOLETE. Increase in extent, amount, or degree of autophagy." [DDB:pf]
-is_obsolete: true
+name: increased autophagy
+def: "Increase in extent, amount, or degree of autophagy, a cellular catabolic process when cells digest or remodel their parts under stress." [DDB:pf]
+is_a: DDPHENO:0000005 ! aberrant autophagy
 created_by: pfey
 creation_date: 2013-09-23T14:29:45Z
 
 [Term]
 id: DDPHENO:0000007
-name: obsolete decreased autophagy
-def: "OBSOLETE. Reduction in extent, amount, or degree of autophagy." [DDB:pf]
-is_obsolete: true
+name: decreased autophagy
+def: "Reduction in extent, amount, or degree of autophagy, a cellular catabolic process when cells digest or remodel their parts under stress." [DDB:pf]
+is_a: DDPHENO:0000005 ! aberrant autophagy
 created_by: pfey
 creation_date: 2013-09-23T14:30:03Z
 
@@ -864,7 +864,7 @@ is_a: DDPHENO:0000264 ! aberrant cell motility
 id: DDPHENO:0000149
 name: aberrant cytokinesis
 def: "Deviation from the normal, usual, or expected events during cytokinesis." [DDB:pg]
-is_a: DDPHENO:0001008 ! aberrant cellular process
+is_a: DDPHENO:0001418 ! aberrant cell cycle
 
 [Term]
 id: DDPHENO:0000150
@@ -2856,7 +2856,7 @@ id: DDPHENO:0000431
 name: mitotic G1 phase arrest
 def: "The G1 phase in the mitotic cell cycle cannot complete." [DDB:pf]
 synonym: "G1 phase mitotic cell cycle arrest" EXACT []
-is_a: DDPHENO:0001418 ! aberrant cell cycle
+is_a: DDPHENO:0000234 ! aberrant mitosis
 
 [Term]
 id: DDPHENO:0000432
@@ -3400,10 +3400,10 @@ is_a: DDPHENO:0000306 ! aberrant cell migration to prestalk region
 
 [Term]
 id: DDPHENO:0000525
-name: delayed cell cycle
-def: "Increase in relative or proportionate duration of the cell cycle." [DDB:pf]
-synonym: "increased cell cycle duration" EXACT []
-is_a: DDPHENO:0001418 ! aberrant cell cycle
+name: delayed mitotic cell cycle
+def: "Increase in relative or proportionate duration of the mitotic cell cycle." [DDB:pf]
+synonym: "increased mitotic cell cycle duration" EXACT []
+is_a: DDPHENO:0000234 ! aberrant mitosis
 
 [Term]
 id: DDPHENO:0000526
@@ -4509,7 +4509,7 @@ creation_date: 2020-11-05T17:19:29Z
 
 [Term]
 id: DDPHENO:0000657
-name: abolished  protein localization to lysosomal membrane
+name: abolished protein localization to lysosomal membrane
 def: "Complete inability to localize a protein to the lysosomal membrane." [DDB:pf]
 synonym: "abolished  protein localization to lysosome membrane" EXACT []
 is_a: DDPHENO:0000649 ! abolished protein localization to lysosome
@@ -4520,7 +4520,7 @@ creation_date: 2020-11-05T17:20:08Z
 
 [Term]
 id: DDPHENO:0000658
-name: decreased  protein localization to lysosomal membrane
+name: decreased protein localization to lysosomal membrane
 def: "Reduction in amount or accumulation of a protein to the lysosomal membrane." [DDB:pf]
 synonym: "decreased  protein localization to lysosome membrane" EXACT []
 is_a: DDPHENO:0000650 ! decreased protein localization to lysosome
@@ -4530,7 +4530,7 @@ creation_date: 2020-11-05T17:20:24Z
 
 [Term]
 id: DDPHENO:0000659
-name: increased  protein localization to lysosomal membrane
+name: increased protein localization to lysosomal membrane
 def: "Increase in amount or accumulation of a protein to the lysosomal membrane." [DDB:pf]
 synonym: "increased  protein localization to lysosome membrane" EXACT []
 is_a: DDPHENO:0000651 ! increased protein localization to lysosome
@@ -5035,7 +5035,7 @@ id: DDPHENO:0000717
 name: mitotic M phase arrest
 def: "The M phase in the mitotic cell cycle cannot complete." [DDB:pf]
 synonym: "M phase mitotic cell cycle arrest" EXACT []
-is_a: DDPHENO:0001418 ! aberrant cell cycle
+is_a: DDPHENO:0000234 ! aberrant mitosis
 created_by: pfey
 creation_date: 2021-06-24T14:40:05Z
 
@@ -6261,7 +6261,7 @@ is_a: DDPHENO:0001224 ! aberrant positive chemotaxis
 id: DDPHENO:0001169
 name: delayed cytokinesis
 def: "Late onset or slower progression through cytokinesis." [DDB:pf]
-is_a: DDPHENO:0000149 ! aberrant cytokinesis
+is_a: DDPHENO:0000234 ! aberrant mitosis
 
 [Term]
 id: DDPHENO:0001170
@@ -7877,7 +7877,7 @@ is_a: DDPHENO:0001408 ! aberrant protein localization to clathrin-coated pit
 
 [Term]
 id: DDPHENO:0001407
-name: increased  protein localization to clathrin-coated pit
+name: increased protein localization to clathrin-coated pit
 alt_id: DDPHENO:0000064
 def: "Increase in amount or accumulation of a protein to coated pits." [DDB:pf]
 synonym: "increased localization to coated pits" BROAD []
@@ -7972,7 +7972,7 @@ id: DDPHENO:0001419
 name: aberrant mitotic spindle organization
 def: "Deviation from the normal, usual, or expected during mitotic spindle organization." [DDB:pf]
 synonym: "mitotic spindle stabilization" RELATED []
-is_a: DDPHENO:0001418 ! aberrant cell cycle
+is_a: DDPHENO:0000234 ! aberrant mitosis
 
 [Term]
 id: DDPHENO:0001420
@@ -7992,7 +7992,7 @@ name: aberrant mitotic sister chromatid segregation
 def: "Deviation from the normal, usual, or expected events during mitotic sister chromosome segregation, resulting in an abnormal number of chromosomes." [DDB:pf]
 synonym: "aberrant sister chromatid segregation" EXACT []
 synonym: "aneuploidy" RELATED []
-is_a: DDPHENO:0001418 ! aberrant cell cycle
+is_a: DDPHENO:0000234 ! aberrant mitosis
 
 [Term]
 id: DDPHENO:0001423
