@@ -1,0 +1,13 @@
+defined_class        	defined_class_label 	molecular_function	molecular_function_label
+DDPHENO:0000147	aberrant chemorepellant activity	GO:0045499	chemorepellant activity
+DDPHENO:0000294	aberrant protein binding	GO:0005515	protein binding
+DDPHENO:0000298	aberrant lipid binding	GO:0008289	lipid binding
+DDPHENO:0000320	aberrant polysaccharide binding	GO:0030247	polysaccharide binding
+DDPHENO:0000321	aberrant cellulose binding	GO:0030248	cellulose binding
+DDPHENO:0000324	aberrant cyclic nucleotide binding	GO:0030551	cyclic nucleotide binding
+DDPHENO:0000327	aberrant small molecule binding	GO:0036094	small molecule binding
+DDPHENO:0000331	aberrant folic acid binding	GO:0005542	folic acid binding
+DDPHENO:0001105	aberrant catalytic activity	GO:0003824	catalytic activity
+DDPHENO:0001171	aberrant molecular function	GO:0003674	molecular_function
+DDPHENO:0001255	aberrant binding	GO:0005488	binding
+DDPHENO:0001331	aberrant catalase activity	GO:0004096	catalase activity

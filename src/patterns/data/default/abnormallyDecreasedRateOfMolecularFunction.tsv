@@ -1,0 +1,18 @@
+defined_class        	defined_class_label 	molecular_function	molecular_function_label
+DDPHENO:0000153	decreased chemorepellant activity	GO:0045499	chemorepellant activity
+DDPHENO:0000296	decreased protein binding	GO:0005515	protein binding
+DDPHENO:0000323	decreased cellulose binding	GO:0030248	cellulose binding
+DDPHENO:0000325	decreased lipid binding	GO:0008289	lipid binding
+DDPHENO:0000329	decreased small molecule binding	GO:0036094	small molecule binding
+DDPHENO:0000332	decreased folic acid binding	GO:0005542	folic acid binding
+DDPHENO:0000346	decreased protein kinase activity	GO:0004672	protein kinase activity
+DDPHENO:0001229	decreased 3',5'-cyclic-AMP phosphodiesterase activity	GO:0004115	3',5'-cyclic-AMP phosphodiesterase activity
+DDPHENO:0001230	decreased 3',5'-cyclic-GMP phosphodiesterase activity	GO:0047555	3',5'-cyclic-GMP phosphodiesterase activity
+DDPHENO:0001257	decreased catalytic activity	GO:0003824	catalytic activity
+DDPHENO:0001261	decreased cAMP binding	GO:0030552	cAMP binding
+DDPHENO:0001284	decreased guanyl-nucleotide exchange factor activity	GO:0005085	guanyl-nucleotide exchange factor activity
+DDPHENO:0001285	decreased adenylate cyclase activity	GO:0004016	adenylate cyclase activity
+DDPHENO:0001288	decreased guanylyl cyclase activity	GO:0004383	guanylyl cyclase activity
+DDPHENO:0001333	decreased catalase activity	GO:0004096	catalase activity
+DDPHENO:0001384	decreased cytochrome C oxidase activity	GO:0004129	cytochrome-c oxidase activity
+DDPHENO:0001435	decreased histone deacetylase activity	GO:0004407	histone deacetylase activity
