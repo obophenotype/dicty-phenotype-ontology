@@ -1,0 +1,13 @@
+defined_class	defined_class_label	biological_process	biological_process_label	location	location_label	cellular_component	cellular_component label
+DDPHENO:0000169	increased prestalk cell differentiation	GO:0030154	cell differentiation	DDANAT:0000406	prestalk cell		
+DDPHENO:0000170	increased prespore cell differentiation	GO:0030154	cell differentiation	DDANAT:0000405	prespore cell		
+DDPHENO:0000176	increased prestalk O cell differentiation	GO:0030154	cell differentiation	DDANAT:0000407	pstO cell		
+DDPHENO:0000226	increased prestalk A cell differentiation	GO:0030154	cell differentiation	DDANAT:0000408	pstA cell		
+DDPHENO:0000403	increased prestalk gene expression	GO:0010467	gene expression	DDANAT:0000406	prestalk cell		
+DDPHENO:0000404	increased prespore gene expression	GO:0010467	gene expression	DDANAT:0000405	prespore cell		
+DDPHENO:0000445	increased slug migration	GO:0040011	locomotion	DDANAT:0000008	migratory slug		
+DDPHENO:0000524	increasedcell cell migration to prestalk region	GO:0016477	cell migration	DDANAT:0000087	prestalk region		
+DDPHENO:0000529	increased stalk cell differentiation	GO:0030154	cell differentiation	DDANAT:0000413	stalk cell		
+DDPHENO:0001166	increased prestalk B cell differentiation	GO:0030154	cell differentiation	DDANAT:0000417	pstB cell		
+DDPHENO:0001180	increased actin filament polymerization at the leading edge	GO:0030041	actin filament polymerization			GO:0031252	cell leading edge
+DDPHENO:0001525	increased prestalk U cell differentiation	GO:0030154	cell differentiation	DDANAT:0001001	pstU cell		

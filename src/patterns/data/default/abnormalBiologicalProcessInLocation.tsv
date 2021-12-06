@@ -1,0 +1,21 @@
+defined_class	defined_class_label	biological_process	biological_process_label	location	location_label	cellular_component	cellular_component_label
+DDPHENO:0000098	aberrant prestalk A cell differentiation	GO:0030154	cell differentiation	DDANAT:0000408	pstA cell		
+DDPHENO:0000306	aberrant cell migration to prestalk region	GO:0016477	cell migration	DDANAT:0000087  	prestalk region		
+DDPHENO:0000365	aberrant prestalk gene expression	GO:0010467	gene expression	DDANAT:0000406	prestalk cell		
+DDPHENO:0000370	aberrant prespore gene expression	GO:0010467	gene expression	DDANAT:0000405	prespore cell		
+DDPHENO:0000375	delayed prespore gene expression	GO:0010467	gene expression	DDANAT:0000405	prespore cell		
+DDPHENO:0000510	aberrant stalk morphogenesis	GO:0009653	anatomical structure morphogenesis	DDANAT:0000093	stalk		
+DDPHENO:0000546	aberrant stalk cell differentiation	GO:0030154	cell differentiation	DDANAT:0000413	stalk cell		
+DDPHENO:0000690	aberrant spore cell differentiation	GO:0030154	cell differentiation	DDANAT:0000414	spore		
+DDPHENO:0001023	aberrant prestalk cell differentiation	GO:0030154	cell differentiation	DDANAT:0000406	prestalk cell		
+DDPHENO:0001024	aberrant prestalk O cell differentiation	GO:0030154	cell differentiation	DDANAT:0000407	pstO cell		
+DDPHENO:0001025	aberrant prespore cell differentiation	GO:0030154	cell differentiation	DDANAT:0000405	prespore cell		
+DDPHENO:0001077	aberrant slug migration	GO:0040011	locomotion	DDANAT:0000008	migratory slug		
+DDPHENO:0001163	aberrant prestalk B cell differentiation	GO:0030154	cell differentiation	DDANAT:0000417	pstB cell		
+DDPHENO:0001354	aberrant basal disc formation	GO:0048856	anatomical structure development	DDANAT:0000089	basal disc 		
+DDPHENO:0001357	aberrant outer basal disc formation	GO:0048856	anatomical structure development	DDANAT:0000099	outer basal disc		
+DDPHENO:0001358	aberrant inner basal disc formation	GO:0048856	anatomical structure development	DDANAT:0000098	inner basal disc		
+DDPHENO:0001365	aberrant lower cup formation	GO:0048856	anatomical structure development	DDANAT:0000105	lower cup		
+DDPHENO:0001366	aberrant upper cup formation	GO:0048856	anatomical structure development	DDANAT:0000107	upper cup		
+DDPHENO:0001431	aberrant development of tipped mound	GO:0030587	sorocarp development	DDANAT:0000006	tipped mound		
+DDPHENO:0001527	aberrant prestalk U cell differentiation	GO:0030154	cell differentiation	DDANAT:0001001	pstU cell		
