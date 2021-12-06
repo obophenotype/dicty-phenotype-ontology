@@ -1,0 +1,10 @@
+defined_class	defined_class_label	cellular component	cellular component
+DDPHENO:0000053	decreased contractile vacuole size	GO:0000331	contractile vacuole
+DDPHENO:0000184	decreased size of astral microtubules	GO:0000235	astral microtubule
+DDPHENO:0000497	decreased number of vacuoles	GO:0005773	vacuole
+DDPHENO:0000500	decreased pinosome size	GO:0044352	pinosome
+DDPHENO:0000599	decreased post-lysosomal vacuole size	GO:0032195	post-lysosomal vacuole
+DDPHENO:0001178	decreased pseudopodium size	GO:0031143	pseudopodium
+DDPHENO:0001205	decreased endosome size	GO:0005768	endosome
+DDPHENO:0001207	decreased lysosome size	GO:0005764	lysosome
+DDPHENO:0001495	decreased phagolysosome size	GO:0032010	phagolysosome
