@@ -1,0 +1,13 @@
+defined_class	defined_class_label	biological_process	biological_process_label
+DDPHENO:0000167	precocious development	GO:0030587	sorocarp development
+DDPHENO:0000173	precocious spore germination	GO:0009847	spore germination
+DDPHENO:0000206	precocious aggregation	GO:0031152	aggregation involved in sorocarp development
+DDPHENO:0000214	precocious sporulation	GO:0043934	sporulation
+DDPHENO:0000503	precocious culmination	GO:0031154	culmination involved in sorocarp development
+DDPHENO:0000597	precocious contractile vacuole discharge	GO:0070177	contractile vacuole discharge
+DDPHENO:0001070	precocious hyperosmotic response	GO:0006972	hyperosmotic response
+DDPHENO:0001071	precocious hypotonic response	GO:0006971	hypotonic response
+DDPHENO:0001094	precocious response to DIF-1	GO:1903013	response to differentiation-inducing factor 1
+DDPHENO:0001116	precocious gene expression	GO:0010467	gene expression
+DDPHENO:0001420	precocious  mitotic spindle elongation	GO:0000022	mitotic spindle elongation
+DDPHENO:0001490	precocious phagosome acidification	GO:0090383	phagosome acidification
