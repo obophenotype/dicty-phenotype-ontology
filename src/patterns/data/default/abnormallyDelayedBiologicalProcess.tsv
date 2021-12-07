@@ -1,0 +1,18 @@
+defined_class	defined_class_label	biological_process	biological_process_label
+DDPHENO:0000156	delayed aggregation	GO:0031152	aggregation involved in sorocarp development
+DDPHENO:0000161	delayed culmination	GO:0031154	culmination involved in sorocarp development
+DDPHENO:0000162	delayed development	GO:0030587	sorocarp development
+DDPHENO:0000210	delayed slug development	GO:0031153	slug development involved in sorocarp development
+DDPHENO:0000488	delayed response to cAMP	GO:0051591	response to cAMP
+DDPHENO:0000525	delayed mitotic cell cycle	GO:0007067	mitotic cell cycle
+DDPHENO:0001069	delayed hyperosmotic response	GO:0006972	hyperosmotic response
+DDPHENO:0001072	delayed hypotonic response	GO:0006971	hypotonic response
+DDPHENO:0001093	delayed response to DIF-1	GO:1903013	response to differentiation-inducing factor 1
+DDPHENO:0001115	delayed gene expression	GO:0010467	gene expression
+DDPHENO:0001169	delayed cytokinesis	GO:0000910	cytokinesis
+DDPHENO:0001181	delayed pseudopodium formation	GO:0031269	pseudopodium assembly
+DDPHENO:0001417	delayed cell separation during cytokinesi	GO:0061952	midbody abscission
+DDPHENO:0001432	delayed sporulation	GO:0043934	sporulation
+DDPHENO:0001487	delayed spindle mitotic elongation	GO:0000022	mitotic spindle elongation
+DDPHENO:0001491	delayed phagosome acidification	GO:0090383	phagosome acidification
+DDPHENO:0001492	delayed phagosome reneutralization	GO:0044655	phagosome reneutralization
