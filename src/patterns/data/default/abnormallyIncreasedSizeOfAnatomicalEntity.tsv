@@ -1,0 +1,13 @@
+defined_class	defined_class_label	anatomy	anatomy label
+DDPHENO:0000111	increased mound size	DDANAT:0000005	mound
+DDPHENO:0000160	increased migratory slug size	DDANAT:0000008	migratory slug
+DDPHENO:0000269	increased basal disc size	DDANAT:0000089	basal disc
+DDPHENO:0000389	increased sorus size	DDANAT:0000094	sorus
+DDPHENO:0000406	increased vegetative cell size	DDANAT:0000002	vegetative amoebae
+DDPHENO:0000703	increased aggregation territory size	DDANAT:0000003	aggregation territory
+DDPHENO:0001183	increased spore size	DDANAT:0000414	spore
+DDPHENO:0001363	increased inner basal disc size	DDANAT:0000098	inner basal disc
+DDPHENO:0001364	increased outer basal disc size	DDANAT:0000099	outer basal disc
+DDPHENO:0001369	increased lower cup size	DDANAT:0000105	lower cup
+DDPHENO:0001371	increased upper cup size	DDANAT:0000107	upper cup
+DDPHENO:0001415	increased fruiting body size	DDANAT:0000012	fruiting body

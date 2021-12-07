@@ -1,3 +1,14 @@
-defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
-DDPHENO:0000004	decreased slug size	DDANAT:0000008	migratory slug
+109	defined_class_label	anatomy	anatomy label
+DDPHENO:0000004	decreased migratory slug size	DDANAT:0000008	migratory slug
 DDPHENO:0000077	decreased fruiting body size	DDANAT:0000012	fruiting body
+DDPHENO:0000158	decreased mound size	DDANAT:0000005	mound
+DDPHENO:0000166	decreased sorus size	DDANAT:0000094	sorus
+DDPHENO:0000379	decreased vegetative cell size	DDANAT:0000002	vegetative amoebae
+DDPHENO:0000452	decreased macrocyst size	DDANAT:0000084	macrocyst
+DDPHENO:0000702	decreased aggregation territory size	DDANAT:0000003	aggregation territory
+DDPHENO:0001182	decreased spore size	DDANAT:0000414	spore
+DDPHENO:0001355	decreased basal disc size	DDANAT:0000089	basal disc 
+DDPHENO:0001361	decreased inner basal disc size	DDANAT:0000098	inner basal disc
+DDPHENO:0001362	decreased outer basal disc size	DDANAT:0000099	outer basal disc
+DDPHENO:0001370	decreased lower cup size	DDANAT:0000105	lower cup
+DDPHENO:0001372	decreased upper cup size	DDANAT:0000107	upper cup
