@@ -1,0 +1,4 @@
+defined_class	defined_class_label	biological_process	biological_process_label
+DDPHENO:0000099	decreased chemotaxis rate	GO:0006935	chemotaxis
+DDPHENO:0000394	decreased growth rate	GO:0019954	asexual reproduction
+DDPHENO:0000399	decreased rate of endocytosis	GO:0006897	endocytosis
