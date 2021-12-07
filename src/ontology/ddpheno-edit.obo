@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:11:2021 14:20
+date: 02:12:2021 17:48
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -998,7 +998,7 @@ id: DDPHENO:0000164
 name: aberrant regulation of chemorepellant activity
 def: "Deviation from the normal, usual, or expected events during the regulation of chemorepellant activity." [DDB:pf]
 synonym: "aberrant regulation of chemorepellent activity" EXACT []
-is_a: DDPHENO:0000147 ! aberrant chemorepellant activity
+is_a: DDPHENO:0001121 ! aberrant taxis
 created_by: pfey
 creation_date: 2014-12-17T16:35:43Z
 
@@ -1355,7 +1355,7 @@ id: DDPHENO:0000227
 name: abolished regulation of chemorepellant activity
 def: "Complete inability of the regulation of chemorepellant activity." [DDB:pf]
 synonym: "abolished regulation of chemorepellent activity" EXACT []
-is_a: DDPHENO:0000147 ! aberrant chemorepellant activity
+is_a: DDPHENO:0000164 ! aberrant regulation of chemorepellant activity
 created_by: pfey
 creation_date: 2014-12-17T16:39:18Z
 
@@ -3870,20 +3870,20 @@ creation_date: 2019-11-18T14:20:30Z
 
 [Term]
 id: DDPHENO:0000586
-name: increased resistance to hypoxia
-def: "Increased tolerance of the normal, usual, or expected events in the presence of hypoxia." [DDB:pf]
-synonym: "increased resistance to decreased oxygen levels" EXACT []
-synonym: "increased resistance to detection of hypoxia" EXACT []
+name: decreased response to hypoxia
+def: "Decreased response to the normal, usual, or expected events in the presence of  lower oxygen levels." [DDB:pf]
+synonym: "decreased response to hypoxic stress" EXACT []
+synonym: "decreased response to lowered oxygen levels" EXACT []
 is_a: DDPHENO:0000585 ! aberrant response to hypoxia
 created_by: pfey
 creation_date: 2019-11-18T14:23:53Z
 
 [Term]
 id: DDPHENO:0000587
-name: decreased resistance to hypoxia
-def: "Decreased tolerance of the normal, usual, or expected events in the presence of  hypoxia." [DDB:pf]
-synonym: "decreased resistance to detection of hypoxia" EXACT []
-synonym: "decreased resistance to reduced oxygen levels" EXACT []
+name: increased response to hypoxia
+def: "Increased response to the normal, usual, or expected events in the presence of  lower oxygen levels." [DDB:pf]
+synonym: "increased response to hypoxic stress" EXACT []
+synonym: "increased response to lowered oxygen levels" EXACT []
 is_a: DDPHENO:0000585 ! aberrant response to hypoxia
 created_by: pfey
 creation_date: 2019-11-18T14:28:11Z
@@ -5816,7 +5816,7 @@ name: decreased lysosomal protein degradation
 def: "Reduction in extent, amount, or degree of  lysosomal protein degradation." [DDB:pf]
 synonym: "decreased lysosomal enzyme activity" RELATED []
 synonym: "decreased lysosomal protein catabolic process" EXACT []
-is_a: DDPHENO:0001257 ! decreased catalytic activity
+is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0001107
@@ -5824,7 +5824,7 @@ name: increased lysosomal protein degradation
 def: "Increase in extent, amount, or degree of  lysosomal protein degradation." [DDB:pf]
 synonym: "increased lysosomal enzyme activity" EXACT []
 synonym: "increased lysosomal protein catabolic process" EXACT []
-is_a: DDPHENO:0001256 ! increased catalytic activity
+is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0001108
@@ -7112,7 +7112,7 @@ name: abolished lysosomal protein degradation
 def: "Complete absence of lysosomal protein degradation." [DDB:pf]
 synonym: "abolished  lysosomal protein catabolic process" EXACT []
 synonym: "abolished lysosomal enzyme activity" EXACT []
-is_a: DDPHENO:0001289 ! abolished catalytic activity
+is_a: DDPHENO:0001005 ! aberrant cellular metabolic process
 
 [Term]
 id: DDPHENO:0001298
