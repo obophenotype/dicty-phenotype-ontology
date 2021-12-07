@@ -1,0 +1,4 @@
+defined_class	defined_class_label	biological_process	biological_process_label	location	location_label
+DDPHENO:0000178	precocious development of tipped mound	GO:0030587	sorocarp development	DDANAT:0000006	tipped mound
+DDPHENO:0000366	precocious prestalk gene expression	GO:0010467	gene expression	DDANAT:0000406	prestalk cell
+DDPHENO:0000463	precocious prespore gene expression	GO:0010467	gene expression	DDANAT:0000405	prespore cell
