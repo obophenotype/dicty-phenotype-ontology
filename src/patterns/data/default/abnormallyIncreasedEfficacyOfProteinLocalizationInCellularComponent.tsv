@@ -1,0 +1,32 @@
+defined_class	defined_class_label	cellular_component	cellular_component_label
+DDPHENO:0000107	increased protein localization to nucleolus	GO:0005730	nucleolus
+DDPHENO:0000607	increased protein localization to leading edge	GO:0031252	cell leading edge
+DDPHENO:0000611	increased protein localization to actin wave	GO:0062201	actin wave
+DDPHENO:0000615	increased protein localization to trailing edge	GO:0031254	cel trailing edge
+DDPHENO:0000619	increased protein localization to filopodium	GO:0030175	filopodium
+DDPHENO:0000623	increased protein localization to phagocytic vesicle	GO:0045335	phagocytic vesicle
+DDPHENO:0000627	increased protein localization to centrosome	GO:0005813	centrosome
+DDPHENO:0000631	increased protein localization to macropinosome	GO:0044354	macropinosome
+DDPHENO:0000635	increased protein localization to autophagosome	GO:0005776	autophagosome
+DDPHENO:0000639	increased protein localization to cell-cell contact zone	GO:0044291	cell-cell contact zone
+DDPHENO:0000643	increased protein localization to basolateral plasma membrane	GO:0016323	basolateral plasma membrane
+DDPHENO:0000647	increased protein localization to cleavage furrow	GO:0032154	cleavage furrow
+DDPHENO:0000651	increased protein localization to lysosome	GO:0005764	lysosome
+DDPHENO:0000655	increased protein localization to post-lysosomal vacuole	GO:0032195	post-lysosomal vacuole
+DDPHENO:0000659	increased protein localization to lysosomal membrane	GO:0005765	lysosomal membrane
+DDPHENO:0000663	increased protein localization to mitotic spindle	GO:0072686	mitotic spindle
+DDPHENO:0000667	increased protein localization to mitotic spindle midzone	GO:1990023	mitotic spindle midzone
+DDPHENO:0000671	increased protein localization to cytoplasmic vesicle	GO:0031410	cytoplasmic vesicle
+DDPHENO:0000679	increased protein localization to endolysosome	GO:0036019	endolysosome
+DDPHENO:0000681	increased protein localization to contractile vacuole	GO:0000331	contractile vacuole
+DDPHENO:0000683	increased protein localization to contractile vacuole membrane	GO:0031164	contractile vacuole membrane
+DDPHENO:0001341	increased protein localization to nucleus	GO:0005634	nucleus
+DDPHENO:0001390	increased protein localization to cytoplasm	GO:0005737	cytoplasm
+DDPHENO:0001396	increased protein localization to plasma membrane	GO:0005886	plasma membrane
+DDPHENO:0001403	increased protein localization to microtubules	GO:0005874	microtubule
+DDPHENO:0001404	increased protein localization to microtubule organizing center	GO:0005815	microtubule organizing center
+DDPHENO:0001407	increased protein localization to clathrin-coated pit	GO:0005905	clathrin-coated pit
+DDPHENO:0001414	increased protein localization to pseudopodium	GO:0031143	pseudopodium
+DDPHENO:0001430	increased protein localization to nuclear envelope	GO:0005635	nuclear envelope
+DDPHENO:0001499	increased protein localization to cell surface	GO:0009986	cell surface
+DDPHENO:0001510	increased protein localization to cell cortex	GO:0005938	cell cortex

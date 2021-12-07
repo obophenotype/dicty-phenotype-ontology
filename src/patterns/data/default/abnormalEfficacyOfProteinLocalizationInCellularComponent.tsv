@@ -1,0 +1,34 @@
+defined_class	defined_class_label	cellular_component	cellular_component_label
+DDPHENO:0000104	aberrant protein localization to nucleolus	GO:0005730	nucleolus
+DDPHENO:0000464	aberrant protein localization to contractile vacuole	GO:0140027	establishment of contractile vacuole localization
+DDPHENO:0000519	aberrant protein localization to contractile vacuole membrane	GO:0031164	 contractile vacuole membrane
+DDPHENO:0000604	aberrant protein localization to leading edge	GO:0031252	cell leading edge
+DDPHENO:0000608	aberrant protein localization to actin wave	GO:0062201	actin wave
+DDPHENO:0000612	aberrant protein localization to trailing edge	GO:0031254	cel trailing edge
+DDPHENO:0000616	aberrant protein localization to filopodium	GO:0030175	filopodium
+DDPHENO:0000620	aberrant protein localization to phagocytic vesicle	GO:0045335	phagocytic vesicle
+DDPHENO:0000624	aberrant protein localization to centrosome	GO:0005813	centrosome
+DDPHENO:0000628	aberrant protein localization to macropinosome	GO:0044354	macropinosome
+DDPHENO:0000632	aberrant protein localization to autophagosome	GO:0005776	autophagosome
+DDPHENO:0000636	aberrant protein localization to cell-cell contact zone	GO:0044291	cell-cell contact zone
+DDPHENO:0000640	aberrant protein localization to basolateral plasma membrane	GO:0016323	basolateral plasma membrane
+DDPHENO:0000644	aberrant protein localization to cleavage furrow	GO:0032154	cleavage furrow
+DDPHENO:0000648	aberrant protein localization to lysosome	GO:0005764	lysosome
+DDPHENO:0000652	aberrant protein localization to post-lysosomal vacuole	GO:0032195	post-lysosomal vacuole
+DDPHENO:0000656	aberrant protein localization to lysosomal membrane	GO:0005765	lysosomal membrane
+DDPHENO:0000660	aberrant protein localization to mitotic spindle	GO:0072686	mitotic spindle
+DDPHENO:0000664	aberrant protein localization to mitotic spindle midzone	GO:1990023	mitotic spindle midzone
+DDPHENO:0000668	aberrant protein localization to cytoplasmic vesicle	GO:0031410	cytoplasmic vesicle
+DDPHENO:0000672	aberrant protein localization to cell periphery	GO:0071944	cell periphery
+DDPHENO:0000674	aberrant protein localization to apical plasma membrane	GO:0016324	apical plasma membrane
+DDPHENO:0000676	aberrant protein localization to endolysosome	GO:0036019	endolysosome
+DDPHENO:0001335	aberrant protein localization to plasma membrane	GO:0005886	plasma membrane
+DDPHENO:0001336	aberrant protein localization to nucleus	GO:0005634	nucleus
+DDPHENO:0001389	aberrant protein localization to cytoplasm	GO:0005737	cytoplasm
+DDPHENO:0001408	aberrant protein localization to clathrin-coated pit	GO:0005905	clathrin-coated pit
+DDPHENO:0001412	aberrant protein localization to pseudopodium	GO:0031143	pseudopodium
+DDPHENO:0001427	aberrant protein localization to nuclear envelope	GO:0005635	nuclear envelope
+DDPHENO:0001507	aberrant protein localization to cell cortex	GO:0005938	cell cortex
+DDPHENO:0001511	aberrant protein localization to cell surface	GO:0009986	cell surface
+DDPHENO:0001513	aberrant protein localization to microtubule organizing center	GO:0005815	microtubule organizing center
+DDPHENO:0001514	aberrant protein localization to microtubules	GO:0005874	microtubule
