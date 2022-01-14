@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:12:2021 17:48
+date: 13:01:2022 18:52
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -1292,7 +1292,7 @@ is_a: DDPHENO:0001226 ! aberrant cellular response to extracellular stimulus
 id: DDPHENO:0000212
 name: aberrant macroautophagy
 def: "Deviation from the normal, usual, or expected events during macroautophagy." [DDB:pf]
-is_a: DDPHENO:0001039 ! aberrant cellular response to starvation
+is_a: DDPHENO:0000005 ! aberrant autophagy
 
 [Term]
 id: DDPHENO:0000213
