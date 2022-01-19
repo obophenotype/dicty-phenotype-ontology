@@ -1,23 +1,11 @@
 Level	Rule Name	Subject	Property	Value
-WARN	annotation_whitespace	DDPHENO:0000288	oboInOwl:hasNarrowSynonym	 increased defense response to pathogenic Gram-negative bacterium	
-WARN	annotation_whitespace	DDPHENO:0000576	oboInOwl:hasExactSynonym	 abolished DSB repair via nonhomologous end joining	
-WARN	annotation_whitespace	DDPHENO:0000577	oboInOwl:hasExactSynonym	 decreased DSB repair via nonhomologous end joining	
-WARN	annotation_whitespace	DDPHENO:0000578	oboInOwl:hasExactSynonym	 increased DSB repair via nonhomologous end joining	
-WARN	annotation_whitespace	DDPHENO:0001040	IAO:0000115	OBSOLETE. Deviation from the normal, usual, or expected events during the response to drug. 	
-WARN	annotation_whitespace	DDPHENO:0001215	oboInOwl:hasExactSynonym	 increased EDTA-sensitive cell-cell adhesion	
-WARN	annotation_whitespace	DDPHENO:0001406	oboInOwl:hasExactSynonym	decreased localization of protein to clathrin-coated pits 	
-WARN	annotation_whitespace	DDPHENO:0001407	oboInOwl:hasRelatedSynonym	increased localization of protein to clathrin-coated pits 	
-WARN	missing_definition	DDPHENO:0000021	IAO:0000115		
-WARN	missing_definition	DDPHENO:0001201	IAO:0000115		
-WARN	missing_definition	DDPHENO:0001417	IAO:0000115		
-WARN	missing_definition	DDPHENO:0010000	IAO:0000115		
-WARN	missing_definition	IAO:0000115	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasAlternativeId	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasExactSynonym	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasOBOFormatVersion	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasOBONamespace	IAO:0000115		
-WARN	missing_definition	oboInOwl:hasRelatedSynonym	IAO:0000115		
-INFO	missing_superclass	DDPHENO:0010000	rdfs:subClassOf		
+WARN	missing_definition	definition	definition	
+WARN	missing_definition	has_alternative_id	definition	
+WARN	missing_definition	has_broad_synonym	definition	
+WARN	missing_definition	database_cross_reference	definition	
+WARN	missing_definition	has_exact_synonym	definition	
+WARN	missing_definition	has_narrow_synonym	definition	
+WARN	missing_definition	has_obo_format_version	definition	
+WARN	missing_definition	has_obo_namespace	definition	
+WARN	missing_definition	has_related_synonym	definition	
+INFO	missing_superclass	Dicty Phenotypes	rdfs:subClassOf	
