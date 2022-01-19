@@ -1,4 +1,4 @@
-defined_class	defined_class_label	cellular component	cellular component
+defined_class	defined_class_label	cellular_component	cellular_component_label
 DDPHENO:0000230	aberrant endosome morphology	GO:0005768	endosome
 DDPHENO:0000263	aberrant nucleus morphology	GO:0005634	nuleus
 DDPHENO:0001002	aberrant organelle morphology	GO:0043226	organelle

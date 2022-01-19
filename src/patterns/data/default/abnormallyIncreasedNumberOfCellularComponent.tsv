@@ -1,4 +1,4 @@
-defined_class	defined_class_label	cellular component	cellular component
+defined_class	defined_class_label	cellular_component	cellular_component_label
 DDPHENO:0000203	increased number of microtubule-organizing centers	GO:0005815	microtubule organizing center
 DDPHENO:0000272	increased number of mitochondria	GO:0005739	mitochondrium
 DDPHENO:0000501	increased number of pinosomes	GO:0044352	pinosome

@@ -1,4 +1,4 @@
-defined_class	defined_class_label	anatomy	anatomy label
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 DDPHENO:0000002	aberrant standing slug morphology	DDANAT:0000007	standing slug
 DDPHENO:0000216	aberrant spore coat morphology	DDANAT:0000112	spore coat
 DDPHENO:0000236	aberrant cell morphology	DDANAT:0000401	cell

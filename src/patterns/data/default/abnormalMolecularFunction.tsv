@@ -1,4 +1,4 @@
-defined_class        	defined_class_label 	molecular_function	molecular_function_label
+defined_class	defined_class_label	molecular_function	molecular_function_label
 DDPHENO:0000147	aberrant chemorepellant activity	GO:0045499	chemorepellant activity
 DDPHENO:0000294	aberrant protein binding	GO:0005515	protein binding
 DDPHENO:0000298	aberrant lipid binding	GO:0008289	lipid binding

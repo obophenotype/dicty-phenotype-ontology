@@ -1,4 +1,4 @@
-109	defined_class_label	anatomy	anatomy label
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 DDPHENO:0000004	decreased migratory slug size	DDANAT:0000008	migratory slug
 DDPHENO:0000077	decreased fruiting body size	DDANAT:0000012	fruiting body
 DDPHENO:0000158	decreased mound size	DDANAT:0000005	mound

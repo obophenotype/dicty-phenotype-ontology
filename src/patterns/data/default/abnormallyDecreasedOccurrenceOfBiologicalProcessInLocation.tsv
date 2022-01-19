@@ -1,4 +1,4 @@
-defined_class	defined_class_label	biological_process	biological_process_label	location	location_label	cellular_component	cellular_component label
+defined_class	defined_class_label	biological_process	biological_process_label	location	location_label	cellular_component	cellular_component_label
 DDPHENO:0000175	decreased prespore cell differentiation	GO:0030154	cell differentiation	DDANAT:0000405	prespore cell		
 DDPHENO:0000191	decreased prestalk cell differentiation	GO:0030154	cell differentiation	DDANAT:0000406	prestalk cell		
 DDPHENO:0000195	decreased stalk cell differentiation	GO:0030154	cell differentiation	DDANAT:0000413	stalk cell		

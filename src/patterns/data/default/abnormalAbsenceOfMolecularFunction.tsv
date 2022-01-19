@@ -1,4 +1,4 @@
-defined_class        	defined_class_label 	molecular_function	molecular_function_label
+defined_class	defined_class_label	molecular_function	molecular_function_label
 DDPHENO:0000150	abolished chemorepellant activity	GO:0045499	chemorepellant activity
 DDPHENO:0000295	abolished protein binding	GO:0005515	protein binding
 DDPHENO:0000322	abolished cellulose binding	GO:0030248	cellulose binding

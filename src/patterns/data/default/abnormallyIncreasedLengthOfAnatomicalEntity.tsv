@@ -1,4 +1,4 @@
-defined_class	defined_class_label	anatomy	anatomy label
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 DDPHENO:0000003	increased migratory slug length	DDANAT:0000008	migratory slug
 DDPHENO:0000165	increased stalk length	DDANAT:0000093 	stalk
 DDPHENO:0000207	increased standing slug length	DDANAT:0000007	standing slug

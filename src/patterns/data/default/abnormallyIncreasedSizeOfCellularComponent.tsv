@@ -1,4 +1,4 @@
-defined_class	defined_class_label	cellular component	cellular component
+defined_class	defined_class_label	entity	entity_label
 DDPHENO:0000540	increased pseudopodium size	GO:0031143	pseudopodium
 DDPHENO:0000718	increased post-lysosomal vacuole size	GO:0032195	post-lysosomal vacuole
 DDPHENO:0001204	increased endosome size	GO:0005768	endosome

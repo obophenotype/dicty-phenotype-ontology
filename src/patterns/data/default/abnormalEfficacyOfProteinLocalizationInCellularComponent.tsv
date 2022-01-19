@@ -1,4 +1,4 @@
-defined_class	defined_class_label	cellular_component	cellular_component_label
+defined_class	defined_class_label	location	location_label
 DDPHENO:0000104	aberrant protein localization to nucleolus	GO:0005730	nucleolus
 DDPHENO:0000464	aberrant protein localization to contractile vacuole	GO:0140027	establishment of contractile vacuole localization
 DDPHENO:0000519	aberrant protein localization to contractile vacuole membrane	GO:0031164	 contractile vacuole membrane

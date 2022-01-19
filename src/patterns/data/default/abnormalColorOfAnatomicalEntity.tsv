@@ -1,4 +1,4 @@
-defined_class	defined_class_label	anatomy	anatomy label
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 DDPHENO:0000001	aberrant spore color	DDANAT:0000414	spore
 DDPHENO:0000390	aberrant sorus color	DDANAT:0000094	sorus
 DDPHENO:0000446	aberrant mound color	DDANAT:0000005	mound

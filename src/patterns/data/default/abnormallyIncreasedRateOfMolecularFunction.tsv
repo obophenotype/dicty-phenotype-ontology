@@ -1,4 +1,4 @@
-defined_class        	defined_class_label 	molecular_function	molecular_function_label
+defined_class	defined_class_label	molecular_function	molecular_function_label
 DDPHENO:0000152	increased chemorepellant activity	GO:0045499	chemorepellant activity
 DDPHENO:0000297	increased protein binding	GO:0005515	protein binding
 DDPHENO:0000333	increased folic acid binding	GO:0005542	folic acid binding

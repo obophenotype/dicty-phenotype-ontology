@@ -1,4 +1,4 @@
-defined_class        	defined_class_label 	biological_process 	biological_process_label
+defined_class	defined_class_label	biological_process	biological_process_label
 DDPHENO:0000006	increased autophagy	GO:0006914	autophagy
 DDPHENO:0000015	increased pre-miRNA processing	GO:0031054	pre-miRNA processing
 DDPHENO:0000032	increased sporulation	GO:0043934	sporulation

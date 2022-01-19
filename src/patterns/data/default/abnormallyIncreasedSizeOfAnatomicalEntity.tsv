@@ -1,4 +1,4 @@
-defined_class	defined_class_label	anatomy	anatomy label
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 DDPHENO:0000111	increased mound size	DDANAT:0000005	mound
 DDPHENO:0000160	increased migratory slug size	DDANAT:0000008	migratory slug
 DDPHENO:0000269	increased basal disc size	DDANAT:0000089	basal disc

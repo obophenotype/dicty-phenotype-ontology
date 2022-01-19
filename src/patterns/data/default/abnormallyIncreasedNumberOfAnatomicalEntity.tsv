@@ -1,4 +1,4 @@
-defined_class	defined_class_label	anatomy	anatomy label
+defined_class	defined_class_label	anatomical_entity	anatomical_entity_label
 DDPHENO:0000036	increased number of tip-organizers	DDANAT:0000103 	tip-organizer
 DDPHENO:0000102	increased number of mounds	DDANAT:0000005	mound
 DDPHENO:0001054	increased number of early culminant tips	DDANAT:0000104	tip-organizer of the early culminant
