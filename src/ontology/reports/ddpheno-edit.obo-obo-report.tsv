@@ -1,11 +1,5 @@
 Level	Rule Name	Subject	Property	Value
-WARN	missing_definition	definition	definition	
-WARN	missing_definition	has_alternative_id	definition	
-WARN	missing_definition	has_broad_synonym	definition	
-WARN	missing_definition	database_cross_reference	definition	
-WARN	missing_definition	has_exact_synonym	definition	
-WARN	missing_definition	has_narrow_synonym	definition	
-WARN	missing_definition	has_obo_format_version	definition	
-WARN	missing_definition	has_obo_namespace	definition	
-WARN	missing_definition	has_related_synonym	definition	
+ERROR	deprecated_class_reference	DDPHENO:0000023	owl:equivalentClass	3f6d2f4d-510b-4725-baa4-4ec6be96879egenid171
+WARN	multiple_equivalent_classes	delayed prespore gene expression	owl:equivalentClass	blank node
+WARN	multiple_equivalent_classes	decreased number of vacuoles	owl:equivalentClass	blank node
 INFO	missing_superclass	Dicty Phenotypes	rdfs:subClassOf	

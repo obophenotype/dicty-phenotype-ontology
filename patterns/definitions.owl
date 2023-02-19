@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1>)
+Prefix(:=<http://purl.obolibrary.org/obo/ddpheno/patterns/definitions.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ddpheno/patterns/definitions.owl>
-<http://purl.obolibrary.org/obo/ddpheno/releases/2022-01-19/patterns/definitions.owl>
-Annotation(owl:versionInfo "2022-01-19"^^xsd:string)
+<http://purl.obolibrary.org/obo/ddpheno/releases/2023-02-19/patterns/definitions.owl>
+Annotation(owl:versionInfo "2023-02-19")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000003>))
@@ -1292,6 +1292,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002218>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002339>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+
 
 
 ############################

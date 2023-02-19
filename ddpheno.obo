@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2022-01-19
+data-version: releases/2023-02-19
 date: 13:01:2022 18:52
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
@@ -8,7 +8,7 @@ ontology: ddpheno
 property_value: http://purl.org/dc/elements/1.1/description "A structured controlled vocabulary of phenotypes of the slime-mould Dictyostelium discoideum." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Dicty Phenotype Ontology (DDPHENO)" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/publicdomain/zero/1.0/
-property_value: owl:versionInfo "2022-01-19" xsd:string
+property_value: owl:versionInfo "2023-02-19" xsd:string
 
 [Term]
 id: DDPHENO:0000001
