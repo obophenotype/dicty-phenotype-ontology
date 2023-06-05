@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:05:2023 18:14
+date: 25:05:2023 19:03
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -2537,7 +2537,7 @@ is_a: DDPHENO:0000236 ! aberrant cell morphogenesis
 id: DDPHENO:0000381
 name: decreased resistance to TMB-8
 def: "Decreased tolerance of the normal, usual, or expected events towards TMB-8." [DDB:pf]
-synonym: "increased sensitivity to 8-(N,N-diethylamino)octyl-3,4,5-trimethoxybenzoate" EXACT []
+synonym: "increased sensitivity to 3,4,5-trimethoxybenzoic acid 8-(diethylamino)octyl ester" EXACT []
 is_a: DDPHENO:0000040 ! aberrant response to chemical
 
 [Term]
@@ -2876,7 +2876,7 @@ is_a: DDPHENO:0001232 ! increased protein secretion
 id: DDPHENO:0000434
 name: aberrant pinosome maturation
 def: "Deviation from the normal, usual, or expected events during pinosome maturation." [DDB:pf]
-synonym: "aberrant pinosome assembly" RELATED []
+synonym: "aberrant pinosome assembly" EXACT []
 is_a: DDPHENO:0001007 ! aberrant pinocytosis
 
 [Term]
@@ -3295,7 +3295,7 @@ is_obsolete: true
 
 [Term]
 id: DDPHENO:0000510
-name: aberrant stalk morphogenesis
+name: aberrant stalk morphology
 def: "Deviation from the normal, usual, or expected events during stalk morphogenesis." [DDB:pg]
 is_a: DDPHENO:0000009 ! aberrant fruiting body morphogenesis
 is_a: DDPHENO:0001015 ! aberrant culmination
@@ -4855,6 +4855,7 @@ creation_date: 2021-04-29T11:28:03Z
 id: DDPHENO:0000695
 name: aberrant cAMP level
 def: "Deviation from the normal, usual, or expected cAMP level." [DDB:pf]
+synonym: "aberrant 3',5'-cyclic AMP level" EXACT []
 is_a: DDPHENO:0001118 ! aberrant signal transduction
 created_by: pfey
 creation_date: 2021-04-29T18:22:43Z
@@ -4863,6 +4864,7 @@ creation_date: 2021-04-29T18:22:43Z
 id: DDPHENO:0000696
 name: decreased cAMP level
 def: "Reduction in extent, amount, or degree of the cAMP level." [DDB:pf]
+synonym: "decreased 3',5'-cyclic AMP level" EXACT []
 is_a: DDPHENO:0000695 ! aberrant cAMP level
 created_by: pfey
 creation_date: 2021-04-29T18:25:17Z
@@ -4871,6 +4873,7 @@ creation_date: 2021-04-29T18:25:17Z
 id: DDPHENO:0000697
 name: increased cAMP level
 def: "Increase in extent, amount, or degree of cAMP level." [DDB:pf]
+synonym: "increased 3',5'-cyclic AMP level" EXACT []
 is_a: DDPHENO:0000695 ! aberrant cAMP level
 created_by: pfey
 creation_date: 2021-04-29T18:26:58Z
@@ -5307,6 +5310,7 @@ name: aberrant cellular DNA damage response
 def: "Deviation from the normal, usual, or expected events during the cellular DNA damage response." [DDB:pf]
 comment: GO:0006974.
 synonym: "aberrant cellular response to DNA damage stimulus" EXACT []
+synonym: "aberrant DNA damage response" EXACT []
 is_a: DDPHENO:0001034 ! aberrant cellular response to stress
 created_by: pfey
 creation_date: 2023-01-09T15:26:54Z
@@ -5484,6 +5488,7 @@ name: decreased cellular DNA damage response
 def: "Decreased tolerance of the normal, usual, or expected event during cellular DNA damage response." [DDB:pf]
 comment: GO:0006974.
 synonym: "decreased cellular response to DNA damage stimulus" EXACT []
+synonym: "decreased DNA damage response" EXACT []
 is_a: DDPHENO:0000747 ! aberrant cellular DNA damage response
 created_by: pfey
 creation_date: 2023-01-09T15:29:03Z
@@ -5494,6 +5499,7 @@ name: increased cellular DNA damage response
 def: "Increased tolerance of the normal, usual, or expected events during cellular DNA damage response." [DDB:pf]
 comment: GO:0006974.
 synonym: "increased cellular response to DNA damage stimulus" EXACT []
+synonym: "increased DNA damage response" EXACT []
 is_a: DDPHENO:0000747 ! aberrant cellular DNA damage response
 created_by: pfey
 creation_date: 2023-01-09T15:32:04Z
@@ -5504,6 +5510,7 @@ name: abolished cellular DNA damage response
 def: "Complete inability to respond to DNA damage." [DDB:pf]
 comment: GO:0006974.
 synonym: "abolished cellular response to DNA damage stimulus" EXACT []
+synonym: "abolished DNA damage response" EXACT []
 is_a: DDPHENO:0000747 ! aberrant cellular DNA damage response
 created_by: pfey
 creation_date: 2023-01-09T15:34:30Z
@@ -9893,7 +9900,7 @@ creation_date: 2013-02-15T11:01:54Z
 id: DDPHENO:0001534
 name: increased lysosomal pH
 def: "Quantitative increase in lysosomal pH." [DDB:pf]
-synonym: "lysosomal lumen pH elevation" EXACT []
+synonym: "increased lysosomal lumen pH elevation" EXACT []
 is_a: DDPHENO:0001237 ! aberrant lysosome organization
 created_by: pfey
 creation_date: 2013-03-25T10:52:45Z
