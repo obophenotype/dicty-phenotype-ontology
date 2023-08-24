@@ -1,0 +1,10 @@
+defined_class	defined_class_label	anatomy	anatomy label
+DDPHENO:0000002	aberrant standing slug morphology	DDANAT:0000007	standing slug
+DDPHENO:0000163	aberrant spore morphology	DDANAT:0000414	spore
+DDPHENO:0000216	aberrant spore coat morphology	DDANAT:0000112	spore coat
+DDPHENO:0000236	aberrant cell morphology	DDANAT:0000401	cell
+DDPHENO:0000384	aberrant sorus morphology	DDANAT:0000094	sorus
+DDPHENO:0000482	aberrant stream morphology	DDANAT:0000013	stream
+DDPHENO:0000510	aberrant stalk morphology	DDANAT:0000093	stalk
+DDPHENO:0000547	aberrant late culminant morphology	DDANAT:0000011	late culminant
+DDPHENO:0001033	aberrant macrocyst morphology	DDANAT:0000084	macrocyst
