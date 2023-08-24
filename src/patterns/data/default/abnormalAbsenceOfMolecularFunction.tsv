@@ -1,4 +1,4 @@
-defined_class	defined_class_label	molecular_function	molecular_function_label
+defined_class        	defined_class_label 	molecular_function	molecular_function_label
 DDPHENO:0000150	abolished chemorepellant activity	GO:0045499	chemorepellant activity
 DDPHENO:0000295	abolished protein binding	GO:0005515	protein binding
 DDPHENO:0000322	abolished cellulose binding	GO:0030248	cellulose binding
@@ -7,12 +7,26 @@ DDPHENO:0000328	abolished small molecule binding	GO:0036094	small molecule bindi
 DDPHENO:0000330	abolished cAMP binding	GO:0030552	cAMP binding
 DDPHENO:0000334	abolished folic acid binding	GO:0005542	folic acid binding
 DDPHENO:0000347	abolished protein kinase activity	GO:0004672	protein kinase activity
+DDPHENO:0000724	abolished protein tyrosine kinase activity	GO:0004713	protein tyrosine kinase activity
+DDPHENO:0000730	abolished histone H3K4 methyltransferase activity	GO:0042800	histone H3K4 methyltransferase activity
+DDPHENO:0000732	abolished histone H3K79 methyltransferase activity	GO:0031151	histone H3K79 methyltransferase activity
+DDPHENO:0000734	abolished histone H3K9 methyltransferase activity	GO:0046974	histone H3K9 methyltransferase activity
+DDPHENO:0000736	abolished myosin heavy chain kinase activity	GO:0016905	myosin heavy chain kinase activity
+DDPHENO:0000746	abolished prenylcysteine carboxyl methyltransferase activity	GO:0004671	protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity
+DDPHENO:0000751	abolished phosphatase activity	GO:0016791	phosphatase activity
+DDPHENO:0000755	abolished protein tyrosine phosphatase activity	GO:0004725	protein tyrosine phosphatase activity
+DDPHENO:0000784	abolished DNA (cytosine-5-)-methyltransferase activity	GO:0003886	DNA (cytosine-5-)-methyltransferase activity
+DDPHENO:0000788	abolished adenylate cyclase regulator activity	GO:0010854	adenylate cyclase regulator activity
+DDPHENO:0000791	abolished adenylate cyclase activator activity	GO:0010856	adenylate cyclase activator activity
+DDPHENO:0000795	abolished protein kinase regulator activity	GO:0019887	protein kinase regulator activity
+DDPHENO:0000802	abolished GTPase activator activity	GO:0005096	GTPase activator activity
 DDPHENO:0001289	abolished catalytic activity	GO:0003824	catalytic activity
 DDPHENO:0001290	abolished 3',5'-cyclic-AMP phosphodiesterase activity	GO:0004115	3',5'-cyclic-AMP phosphodiesterase activity
 DDPHENO:0001291	abolished 3',5'-cyclic-GMP phosphodiesterase activity	GO:0047555	3',5'-cyclic-GMP phosphodiesterase activity
 DDPHENO:0001293	abolished adenylate cyclase activity	GO:0004016	adenylate cyclase activity
 DDPHENO:0001295	abolished guanylyl cyclase activity	GO:0004383	guanylyl cyclase activity
 DDPHENO:0001299	abolished guanyl-nucleotide exchange factor activity	GO:0005085	guanyl-nucleotide exchange factor activity
+DDPHENO:0001322	abolished peptidyl-proline 4-dioxygenase activity	GO:0031545	peptidyl-proline 4-dioxygenase activity
 DDPHENO:0001332	abolished catalase activity	GO:0004096	catalase activity
 DDPHENO:0001386	abolished cytochrome C oxidase activity	GO:0004129	cytochrome-c oxidase activity
 DDPHENO:0001409	abolished phosphatidylinositol binding	GO:0035091	phosphatidylinositol binding

@@ -13,9 +13,9 @@ DDPHENO:0000721	abolished prestalk gene expression	GO:0010467	gene expression	DD
 DDPHENO:0000722	abolished prespore gene expression	GO:0010467	gene expression	DDANAT:0000405	prespore cell
 DDPHENO:0001076	abolished prestalk A cell differentiation	GO:0030154	cell differentiation	DDANAT:0000408	pstA cell
 DDPHENO:0001164	abolished prestalk B cell differentiation	GO:0030154	cell differentiation	DDANAT:0000417	pstB cell
-DDPHENO:0001356	abolished basal disc formation	GO:0048856	anatomical structure development	DDANAT:0000089	basal disc 
-DDPHENO:0001359	abolished outer basal disc formation	GO:0048856	anatomical structure development	DDANAT:0000099	outer basal disc
-DDPHENO:0001360	abolished inner basal disc formation	GO:0048856	anatomical structure development	DDANAT:0000098	inner basal disc
-DDPHENO:0001367	abolished lower cup formation	GO:0048856	anatomical structure development	DDANAT:0000105	lower cup
-DDPHENO:0001368	abolished upper cup formation	GO:0048856	anatomical structure development	DDANAT:0000107	upper cup
+DDPHENO:0001356	abolished basal disc formation	GO:0032502	developmental process	DDANAT:0000089	basal disc 
+DDPHENO:0001359	abolished outer basal disc formation	GO:0032502	developmental process	DDANAT:0000099	outer basal disc
+DDPHENO:0001360	abolished inner basal disc formation	GO:0032502	developmental process	DDANAT:0000098	inner basal disc
+DDPHENO:0001367	abolished lower cup formation	GO:0032502	developmental process	DDANAT:0000105	lower cup
+DDPHENO:0001368	abolished upper cup formation	GO:0032502	developmental process	DDANAT:0000107	upper cup
 DDPHENO:0001528	abolished prestalk U cell differentiation	GO:0030154	cell differentiation	DDANAT:0001001	pstU cell
