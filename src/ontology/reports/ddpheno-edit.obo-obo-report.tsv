@@ -1,5 +1,9 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	deprecated_class_reference	DDPHENO:0000023	owl:equivalentClass	3f6d2f4d-510b-4725-baa4-4ec6be96879egenid171
+ERROR	deprecated_class_reference	obsolete abolished RNA interference	owl:equivalentClass	73dbf066-2dc8-427f-adc2-5265f0e52a39genid148
+ERROR	deprecated_class_reference	obsolete decreased resistance to mitomycin C	owl:equivalentClass	73dbf066-2dc8-427f-adc2-5265f0e52a39genid2406
+ERROR	deprecated_class_reference	DDPHENO:0001380	owl:equivalentClass	73dbf066-2dc8-427f-adc2-5265f0e52a39genid8008
+WARN	multiple_equivalent_classes	aberrant cell morphogenesis	owl:equivalentClass	blank node
 WARN	multiple_equivalent_classes	delayed prespore gene expression	owl:equivalentClass	blank node
-WARN	multiple_equivalent_classes	decreased number of vacuoles	owl:equivalentClass	blank node
+WARN	multiple_equivalent_classes	aberrant stream development	owl:equivalentClass	blank node
+WARN	multiple_equivalent_classes	decreased TORC2 signaling	owl:equivalentClass	blank node
 INFO	missing_superclass	Dicty Phenotypes	rdfs:subClassOf	

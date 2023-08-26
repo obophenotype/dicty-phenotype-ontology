@@ -7,9 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ddpheno/imports/ddanat_import.owl>
-<http://purl.obolibrary.org/obo/ddpheno/releases/2023-02-19/imports/ddanat_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ddanat/releases/2020-04-13/ddanat.owl>)
-Annotation(owl:versionInfo "2023-02-19")
+<http://purl.obolibrary.org/obo/ddpheno/releases/2023-08-26/imports/ddanat_import.owl>
+Annotation(owl:versionInfo "2023-08-26")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000002>))
@@ -90,6 +89,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000109>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000110>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000112>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000401>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000402>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0000403>))
@@ -106,12 +106,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0010001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0010081>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0010082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DDANAT_0010085>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/ddanat#develops_from>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/ddanat#part_of>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002202>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000231>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
@@ -127,6 +129,7 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#shorthand>))
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(rdfs:label))
 ############################
@@ -174,18 +177,22 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/ddanat#develops_from> (develops_from)
+# Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/ddanat#develops_from> "Dictyostelium_discoideum_anatomy")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ddanat#develops_from> "develops_from")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ddanat#develops_from> "develops_from")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/BFO_0000050> "BFO:0000050")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000050> "Dictyostelium_discoideum_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000050> "part_of")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/BFO_0000050> "part_of")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000050> "part of")
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>)
 
-# Object Property: <http://purl.obolibrary.org/obo/ddanat#part_of> (part of)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002202> (develops_from)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/ddanat#part_of> "Dictyostelium_discoideum_anatomy")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ddanat#part_of> "part_of")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ddanat#part_of> "part of")
-TransitiveObjectProperty(<http://purl.obolibrary.org/obo/ddanat#part_of>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002202> "RO:0002202")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO_0002202> "Dictyostelium_discoideum_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002202> "develops_from")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/RO_0002202> "develops_from")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002202> "develops_from")
 
 
 
@@ -208,8 +215,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000002> "DDANAT:0000002")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000002> "vegetative amoebae")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000002> <http://purl.obolibrary.org/obo/DDANAT_0000083>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000414>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000013>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000013>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000414>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000003> (aggregation territory)
 
@@ -227,7 +234,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000004> "DDANAT:0000004")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000004> "loose aggregate")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000004> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000005> (mound)
 
@@ -239,7 +246,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000005> "DDANAT:0000005")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000005> "mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000005> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000006> (tipped mound)
 
@@ -250,7 +257,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000006> "DDANAT:0000006")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000006> "tipped mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000006> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000007> (standing slug)
 
@@ -264,7 +271,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000007> "Synonym from Kessin book p. 166.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000007> "standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000007> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000008> (migratory slug)
 
@@ -274,7 +281,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000008> "DDANAT:0000008")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000008> "migratory slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000008> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000009> (early culminant)
 
@@ -286,7 +293,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000009> "DDANAT:0000009")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000009> "early culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000009> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000010> (mid culminant)
 
@@ -297,7 +304,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000010> "DDANAT:0000010")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000010> "mid culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000010> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000009>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000011> (late culminant)
 
@@ -310,7 +317,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000011> "Kessin book p. 201.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000011> "late culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000011> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000012> (fruiting body)
 
@@ -322,7 +329,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000012> "Synonym from Kessin book p. 12-13.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000012> "fruiting body")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000012> <http://purl.obolibrary.org/obo/DDANAT_0010082>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000011>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000013> (stream)
 
@@ -332,7 +339,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000013> "DDANAT:0000013")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000013> "stream")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000013> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000003>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000014> (surface sheath of the loose aggregate)
 
@@ -342,8 +349,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000014> "DDANAT:0000014")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000014> "surface sheath of the loose aggregate")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000014> <http://purl.obolibrary.org/obo/DDANAT_0000096>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000015> (surface sheath of the mound)
 
@@ -353,8 +360,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000015> "DDANAT:0000015")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000015> "surface sheath of the mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000015> <http://purl.obolibrary.org/obo/DDANAT_0000096>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000014>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000014>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000016> (prestalk region of the tipped mound)
 
@@ -367,8 +374,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000016> "DDANAT:0000016")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000016> "prestalk region of the tipped mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000016> <http://purl.obolibrary.org/obo/DDANAT_0000087>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000017> (prespore region of the tipped mound)
 
@@ -378,8 +385,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000017> "DDANAT:0000017")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000017> "prespore region of the tipped mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000017> <http://purl.obolibrary.org/obo/DDANAT_0000086>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000018> (surface sheath of the tipped mound)
 
@@ -389,8 +396,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000018> "DDANAT:0000018")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000018> "surface sheath of the tipped mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000018> <http://purl.obolibrary.org/obo/DDANAT_0000096>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000015>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000015>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000019> (prestalk region of the standing slug)
 
@@ -402,8 +409,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000019> "DDANAT:0000019")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000019> "prestalk region of the standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000019> <http://purl.obolibrary.org/obo/DDANAT_0000087>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000020> (tip-organizer of the standing slug)
 
@@ -413,8 +420,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000020> "DDANAT:0000020")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000020> "tip-organizer of the standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000020> <http://purl.obolibrary.org/obo/DDANAT_0000103>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000080>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000080>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000021> (prestalk A region of the standing slug)
 
@@ -426,8 +433,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000021> "See p. 146 Kessin book.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000021> "prestalk A region of the standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000021> <http://purl.obolibrary.org/obo/DDANAT_0000088>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000022> (prestalk O region of the standing slug)
 
@@ -439,8 +446,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000022> "See p. 146 Kessin book.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000022> "prestalk O region of the standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000022> <http://purl.obolibrary.org/obo/DDANAT_0000092>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000023> (prestalk AB core region of the standing slug)
 
@@ -453,8 +460,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000023> "See p. 146 Kessin book.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000023> "prestalk AB core region of the standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000023> <http://purl.obolibrary.org/obo/DDANAT_0000091>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000024> (prespore region of the standing slug)
 
@@ -464,8 +471,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000024> "DDANAT:0000024")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000024> "prespore region of the standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000024> <http://purl.obolibrary.org/obo/DDANAT_0000086>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000017>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000017>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000025> (basal region of the standing slug)
 
@@ -475,8 +482,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000025> "DDANAT:0000025")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000025> "basal region of the standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000025> <http://purl.obolibrary.org/obo/DDANAT_0000110>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000006>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000027> (surface sheath of the standing slug)
 
@@ -486,8 +493,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000027> "DDANAT:0000027")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000027> "surface sheath of the standing slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000027> <http://purl.obolibrary.org/obo/DDANAT_0000096>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000018>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000018>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000028> (prestalk region of the migratory slug)
 
@@ -498,8 +505,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000028> "DDANAT:0000028")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000028> "prestalk region of the migratory slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000028> <http://purl.obolibrary.org/obo/DDANAT_0000087>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000029> (tip-organizer of the migratory slug)
 
@@ -509,8 +516,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000029> "DDANAT:0000029")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000029> "tip-organizer of the migratory slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000029> <http://purl.obolibrary.org/obo/DDANAT_0000103>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000020>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000020>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000030> (prestalk A region of the migratory slug)
 
@@ -525,8 +532,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000030> "Synonym from Kessin book p. 175.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000030> "prestalk A region of the migratory slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000030> <http://purl.obolibrary.org/obo/DDANAT_0000088>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000021>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000021>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000031> (prestalk O region of the migratory slug)
 
@@ -538,8 +545,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000031> "See p. 146 Kessin book.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000031> "prestalk O region of the migratory slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000031> <http://purl.obolibrary.org/obo/DDANAT_0000092>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000022>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000022>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000032> (prestalk AB core region of the migratory slug)
 
@@ -553,8 +560,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000032> "See Kessin book p. 146.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000032> "prestalk AB core region of the migratory slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000032> <http://purl.obolibrary.org/obo/DDANAT_0000091>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000023>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000028>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000023>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000033> (prespore region of the migratory slug)
 
@@ -564,8 +571,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000033> "DDANAT:0000033")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000033> "prespore region of the migratory slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000033> <http://purl.obolibrary.org/obo/DDANAT_0000086>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000024>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000024>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000036> (surface sheath of the migratory slug)
 
@@ -575,8 +582,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000036> "DDANAT:0000036")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000036> "surface sheath of the migratory slug")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000036> <http://purl.obolibrary.org/obo/DDANAT_0000096>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000027>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000027>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000037> (prestalk region of the early culminant)
 
@@ -586,8 +593,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000037> "DDANAT:0000037")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000037> "prestalk region of the early culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000037> <http://purl.obolibrary.org/obo/DDANAT_0000087>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000009>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000009>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000019>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000038> (prestalk A region of the early culminant)
 
@@ -597,8 +604,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000038> "DDANAT:0000038")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000038> "prestalk A region of the early culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000038> <http://purl.obolibrary.org/obo/DDANAT_0000088>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000021>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000021>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000039> (prestalk O region of the early culminant)
 
@@ -608,8 +615,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000039> "DDANAT:0000039")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000039> "prestalk O region of the early culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000039> <http://purl.obolibrary.org/obo/DDANAT_0000092>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000021>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000021>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000040> (prestalk AB core region of the early culminant)
 
@@ -620,8 +627,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000040> "DDANAT:0000040")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000040> "prestalk AB core region of the early culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000040> <http://purl.obolibrary.org/obo/DDANAT_0000091>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000023>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000023>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000041> (prespore region of the early culminant)
 
@@ -631,8 +638,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000041> "DDANAT:0000041")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000041> "prespore region of the early culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000041> <http://purl.obolibrary.org/obo/DDANAT_0000086>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000024>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000009>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000009>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000024>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000045> (basal region of the early culminant)
 
@@ -643,8 +650,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000045> "DDANAT:0000045")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000045> "basal region of the early culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000045> <http://purl.obolibrary.org/obo/DDANAT_0000110>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000025>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000009>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000009>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000025>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000048> (prestalk region of the mid culminant)
 
@@ -654,8 +661,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000048> "DDANAT:0000048")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000048> "prestalk region of the mid culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000048> <http://purl.obolibrary.org/obo/DDANAT_0000087>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000049> (prestalk A region of the mid culminant)
 
@@ -666,8 +673,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000049> "DDANAT:0000049")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000049> "prestalk A region of the mid culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000049> <http://purl.obolibrary.org/obo/DDANAT_0000088>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000038>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000048>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000048>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000038>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000050> (prestalk O region of the mid culminant)
 
@@ -677,8 +684,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000050> "DDANAT:0000050")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000050> "prestalk O region of the mid culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000092>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000039>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000048>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000048>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000039>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000051> (prestalk AB core region of the mid culminant)
 
@@ -689,8 +696,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000051> "DDANAT:0000051")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000051> "prestalk AB core region of the mid culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000051> <http://purl.obolibrary.org/obo/DDANAT_0000091>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000040>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000048>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000048>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000040>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000052> (stalk of the mid culminant)
 
@@ -702,8 +709,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000052> "Synonym from Kessin book p. 12-13; Kessin book p. 193.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000052> "stalk of the mid culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000052> <http://purl.obolibrary.org/obo/DDANAT_0000093>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000040>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000040>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000054> (prespore region of the mid culminant)
 
@@ -713,8 +720,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000054> "DDANAT:0000054")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000054> "prespore region of the mid culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000054> <http://purl.obolibrary.org/obo/DDANAT_0000086>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000041>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000041>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000057> (basal disc of the mid culminant)
 
@@ -724,8 +731,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000057> "DDANAT:0000057")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000057> "basal disc of the mid culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000057> <http://purl.obolibrary.org/obo/DDANAT_0000089>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000057> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000045>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000057> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000057> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000057> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000045>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000059> (stalk of the late culminant)
 
@@ -737,8 +744,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/DDANAT_0000059> "Synonym from Kessin book p. 12-13, Kessin book p. 193.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000059> "stalk of the late culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000059> <http://purl.obolibrary.org/obo/DDANAT_0000093>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000052>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000011>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000011>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000052>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000061> (sorus of the late culminant)
 
@@ -748,8 +755,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000061> "DDANAT:0000061")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000061> "sorus of the late culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000061> <http://purl.obolibrary.org/obo/DDANAT_0000094>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000054>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000011>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000011>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000054>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000065> (basal disc of the late culminant)
 
@@ -758,8 +765,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000065> "DDANAT:0000065")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000065> "basal disc of the late culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000065> <http://purl.obolibrary.org/obo/DDANAT_0000089>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000057>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000011>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000011>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000057>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000066> (inner basal disc of the late culminant)
 
@@ -768,8 +775,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000066> "DDANAT:0000066")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000066> "inner basal disc of the late culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000066> <http://purl.obolibrary.org/obo/DDANAT_0000098>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000052>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000065>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000065>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000052>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000068> (stalk of the fruiting body)
 
@@ -779,8 +786,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000068> "DDANAT:0000068")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000068> "stalk of the fruiting body")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000068> <http://purl.obolibrary.org/obo/DDANAT_0000093>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000059>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000012>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000012>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000059>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000070> (sorus of the fruiting body)
 
@@ -790,8 +797,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000070> "DDANAT:0000070")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000070> "sorus of the fruiting body")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000070> <http://purl.obolibrary.org/obo/DDANAT_0000094>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000061>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000012>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000012>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000061>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000073> (basal disc of the fruiting body)
 
@@ -800,8 +807,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000073> "DDANAT:0000073")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000073> "basal disc of the fruiting body")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000073> <http://purl.obolibrary.org/obo/DDANAT_0000089>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000065>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000012>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000012>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000065>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000074> (inner basal disc of the fruiting body)
 
@@ -810,8 +817,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000074> "DDANAT:0000074")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000074> "inner basal disc of the fruiting body")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000074> <http://purl.obolibrary.org/obo/DDANAT_0000098>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000066>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000073>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000073>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000066>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000076> (slime trail)
 
@@ -821,8 +828,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000076> "DDANAT:0000076")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000076> "slime trail")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000076> <http://purl.obolibrary.org/obo/DDANAT_0010081>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000036>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000036>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000080> (tip-organizer of the tipped mound)
 
@@ -832,8 +839,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000080> "DDANAT:0000080")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000080> "tip-organizer of the tipped mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000080> <http://purl.obolibrary.org/obo/DDANAT_0000103>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000109>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000109>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000083> (Dictyostelium discoideum single cell organism)
 
@@ -879,7 +886,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000088> "DDANAT:0000088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000088> "prestalk A region")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000088> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000087>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000087>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000089> (basal disc)
 
@@ -898,7 +905,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000091> "DDANAT:0000091")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000091> "prestalk AB core region")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000091> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000087>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000087>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000092> (prestalk O region)
 
@@ -908,7 +915,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000092> "DDANAT:0000092")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000092> "prestalk O region")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000092> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000087>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000092> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000087>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000093> (stalk)
 
@@ -943,7 +950,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000098> "DDANAT:0000098")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000098> "inner basal disc")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000098> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000098> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000089>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000098> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000089>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000099> (outer basal disc)
 
@@ -952,7 +959,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000099> "DDANAT:0000099")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000099> "outer basal disc")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000099> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000089>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000089>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000100> (prestalk A region of the tipped mound)
 
@@ -962,7 +969,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000100> "DDANAT:0000100")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000100> "prestalk A region of the tipped mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000100> <http://purl.obolibrary.org/obo/DDANAT_0000088>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000101> (prestalk AB core region of the tipped mound)
 
@@ -973,7 +980,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000101> "DDANAT:0000101")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000101> "prestalk AB core region of the tipped mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000101> <http://purl.obolibrary.org/obo/DDANAT_0000091>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000101> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000101> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000102> (prestalk O region of the tipped mound)
 
@@ -983,7 +990,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000102> "DDANAT:0000102")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000102> "prestalk O region of the tipped mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000102> <http://purl.obolibrary.org/obo/DDANAT_0000092>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000016>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000103> (tip-organizer)
 
@@ -993,7 +1000,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000103> "DDANAT:0000103")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000103> "tip-organizer")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000103> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000103> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000087>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000103> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000087>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000104> (tip-organizer of the early culminant)
 
@@ -1003,9 +1010,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000104> "DDANAT:0000104")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000104> "tip-organizer of the early culminant")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000104> <http://purl.obolibrary.org/obo/DDANAT_0000103>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000020>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000029>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000020>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000104> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000029>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000105> (lower cup)
 
@@ -1014,7 +1021,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000105> "DDANAT:0000105")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000105> "lower cup")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000105> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000105> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000094>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000105> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000094>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000107> (upper cup)
 
@@ -1023,7 +1030,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000107> "DDANAT:0000107")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000107> "upper cup")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000107> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000094>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000094>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000109> (apex of the mound)
 
@@ -1032,7 +1039,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000109> "DDANAT:0000109")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000109> "apex of the mound")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000109> <http://purl.obolibrary.org/obo/DDANAT_0000111>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000109> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000110> (basal region)
 
@@ -1052,6 +1059,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000111> "apex")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000111> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
 
+# Class: <http://purl.obolibrary.org/obo/DDANAT_0000112> (spore coat)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "DDB:pf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12503851") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:2096020") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DDANAT_0000112> "A tri-layer protective wall around each spore, consisting of  secreted proteins, a polysaccharide, and cellulose produced on the cell surface.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/DDANAT_0000112> "pfey")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/DDANAT_0000112> "2020-07-01T16:29:15Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DDANAT_0000112> "Dictyostelium_discoideum_anatomy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/DDANAT_0000112> "spore wall")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000112> "DDANAT:0000112")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000112> "spore coat")
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000112> <http://purl.obolibrary.org/obo/DDANAT_0010085>)
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000112> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000414>))
+
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000401> (cell)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "CARO:MAH") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DDANAT_0000401> "Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.")
@@ -1068,8 +1087,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000402> "DDANAT:0000402")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000402> "chemotactic amoeboid cell")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000402> <http://purl.obolibrary.org/obo/DDANAT_0000083>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000402> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000414>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000402> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000013>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000402> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000013>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000402> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000414>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000403> (aggregate cell)
 
@@ -1078,10 +1097,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000403> "DDANAT:0000403")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000403> "aggregate cell")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> <http://purl.obolibrary.org/obo/DDANAT_0000401>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000402>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000003>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000403> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000402>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000405> (prespore cell)
 
@@ -1091,14 +1110,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000405> "DDANAT:0000405")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000405> "prespore cell")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> <http://purl.obolibrary.org/obo/DDANAT_0000401>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000403>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000017>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000024>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000033>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000041>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000054>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000061>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000017>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000033>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000041>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000054>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000061>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000405> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000403>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000406> (prestalk cell)
 
@@ -1118,13 +1137,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000407> "DDANAT:0000407")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000407> "pstO cell")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> <http://purl.obolibrary.org/obo/DDANAT_0000406>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000022>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000031>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000039>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000050>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000102>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000022>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000031>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000039>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000050>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000407> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000102>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000408> (pstA cell)
 
@@ -1135,13 +1154,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000408> "DDANAT:0000408")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000408> "pstA cell")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> <http://purl.obolibrary.org/obo/DDANAT_0000406>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000021>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000030>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000038>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000049>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000100>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000021>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000030>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000038>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000049>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000408> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000100>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000410> (pstAB cell)
 
@@ -1151,13 +1170,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000410> "DDANAT:0000410")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000410> "pstAB cell")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> <http://purl.obolibrary.org/obo/DDANAT_0000406>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000408>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000023>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000032>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000040>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000051>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000101>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000023>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000032>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000040>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000051>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000101>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000410> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000408>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000413> (stalk cell)
 
@@ -1166,12 +1185,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000413> "DDANAT:0000413")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000413> "stalk cell")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> <http://purl.obolibrary.org/obo/DDANAT_0000401>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000410>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000052>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000059>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000066>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000068>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000074>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000052>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000059>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000066>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000068>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000074>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000413> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000410>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000414> (spore)
 
@@ -1181,8 +1200,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000414> "DDANAT:0000414")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000414> "spore")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000414> <http://purl.obolibrary.org/obo/DDANAT_0000083>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000414> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#develops_from> <http://purl.obolibrary.org/obo/DDANAT_0000405>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000414> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000070>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000414> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000070>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000414> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/DDANAT_0000405>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000417> (pstB cell)
 
@@ -1192,8 +1211,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DDANAT_0000417> "DDANAT:0000417")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DDANAT_0000417> "pstB cell")
 SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000417> <http://purl.obolibrary.org/obo/DDANAT_0000406>)
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000417> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000417> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/ddanat#part_of> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000417> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/DDANAT_0000417> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/DDANAT_0000005>))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0001001> (pstU cell)
 
