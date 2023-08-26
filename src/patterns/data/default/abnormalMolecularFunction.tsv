@@ -7,7 +7,27 @@ DDPHENO:0000321	aberrant cellulose binding	GO:0030248	cellulose binding
 DDPHENO:0000324	aberrant cyclic nucleotide binding	GO:0030551	cyclic nucleotide binding
 DDPHENO:0000327	aberrant small molecule binding	GO:0036094	small molecule binding
 DDPHENO:0000331	aberrant folic acid binding	GO:0005542	folic acid binding
+DDPHENO:0000723	aberrant protein kinase activity	GO:0004672	protein kinase activity
+DDPHENO:0000727	aberrant protein tyrosine kinase activity	GO:0004713	protein tyrosine kinase activity
+DDPHENO:0000728	aberrant transferase activity	GO:0016740	transferase activity
+DDPHENO:0000729	aberrant histone H3K4 methyltransferase activity	GO:0042800	histone H3K4 methyltransferase activity
+DDPHENO:0000731	aberrant histone H3K79 methyltransferase activity	GO:0031151	histone H3K79 methyltransferase activity
+DDPHENO:0000733	aberrant histone H3K9 methyltransferase activity	GO:0046974	histone H3K9 methyltransferase activity
+DDPHENO:0000735	aberrant myosin heavy chain kinase activity	GO:0016905	myosin heavy chain kinase activity
+DDPHENO:0000737	aberrant DNA-methyltransferase activity	GO:0009008	DNA-methyltransferase activity
+DDPHENO:0000745	aberrant prenylcysteine carboxyl methyltransferase activity	GO:0004671	protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity
+DDPHENO:0000748	aberrant phosphatase activity	GO:0016791	phosphatase activity
+DDPHENO:0000752	aberrant protein tyrosine phosphatase activity	GO:0004725	protein tyrosine phosphatase activity
+DDPHENO:0000773	aberrant signaling receptor activity	GO:0005102	signaling receptor activity
+DDPHENO:0000782	aberrant DNA (cytosine-5-)-methyltransferase activity	GO:0003886	DNA (cytosine-5-)-methyltransferase activity
+DDPHENO:0000785	aberrant molecular function regulator activity	GO:0098772	molecular function regulator activity
+DDPHENO:0000786	aberrant adenylate cyclase regulator activity	GO:0010854	adenylate cyclase regulator activity
+DDPHENO:0000789	aberrant adenylate cyclase activator activity	GO:0010856	adenylate cyclase activator activity
+DDPHENO:0000792	aberrant protein kinase regulator activity	GO:0019887	protein kinase regulator activity
+DDPHENO:0000798	aberrant GTPase regulator activity	GO:0030695	GTPase regulator activity
+DDPHENO:0000799	aberrant GTPase activator activity	GO:0005096	GTPase activator activity
 DDPHENO:0001105	aberrant catalytic activity	GO:0003824	catalytic activity
 DDPHENO:0001171	aberrant molecular function	GO:0003674	molecular_function
 DDPHENO:0001255	aberrant binding	GO:0005488	binding
+DDPHENO:0001321	aberrant peptidyl-proline 4-dioxygenase activity	GO:0031545	peptidyl-proline 4-dioxygenase activity
 DDPHENO:0001331	aberrant catalase activity	GO:0004096	catalase activity

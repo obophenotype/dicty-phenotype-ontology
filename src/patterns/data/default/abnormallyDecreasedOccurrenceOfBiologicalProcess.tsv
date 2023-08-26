@@ -1,17 +1,17 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 DDPHENO:0000007	decreased autophagy	GO:0006914	autophagy
-DDPHENO:0000011	decreased post-transciptional gene silencing by RNA	GO:0035194	posttranscriptional gene silencing by RNA
+DDPHENO:0000011	decreased co-transcriptional gene silencing by RNA interference machinery    	GO:0033562	co-transcriptional gene silencing by RNA interference machine
 DDPHENO:0000016	decreased pre-miRNA processing	GO:0031054	pre-miRNA processing
 DDPHENO:0000037	decreased contractile vacuole discharge	GO:0070177	contractile vacuole discharge
 DDPHENO:0000043	decreased membrane ruffling	GO:0097178	ruffle assembly
-DDPHENO:0000047	decreased phosphatidylinositol biosynthesis	GO:0006661	phosphatidylinositol biosynthetic process
-DDPHENO:0000051	decreased hypotonic response	GO:0006971	hypotonic response
+DDPHENO:0000047	decreased phosphatidylinositol synthesis	GO:0006661	phosphatidylinositol biosynthetic process
+DDPHENO:0000051	decreased cellular hypotonic response	GO:0071476	cellular hypotonic response
 DDPHENO:0000112	decreased cellular localization	GO:0051641	cellular localization
 DDPHENO:0000118	decreased substrate adhesion-dependent cell spreading	GO:0034446	substrate adhesion-dependent cell spreading
 DDPHENO:0000123	decreased cGMP-mediated signaling	GO:0019934	cGMP-mediated signaling
 DDPHENO:0000128	decreased socially cooperative development	GO:0099120	socially cooperative development
 DDPHENO:0000136	decreased myosin II assembly	GO:0031036	myosin II filament assembly
-DDPHENO:0000137	decreased actin filament bundle assembly	GO:0051017	 actin filament bundle assembly
+DDPHENO:0000137	decreased actin filament bundle assembly	GO:0051017	actin filament bundle assembly
 DDPHENO:0000138	decreased cell-cell adhesion	GO:0098609	cell-cell adhesion
 DDPHENO:0000139	decreased sexual fusion	GO:0000747	conjugation with cellular fusion
 DDPHENO:0000141	decreased negative chemotaxis	GO:0050919	negative chemotaxis
@@ -27,7 +27,6 @@ DDPHENO:0000286	decreased defense response to Gram-positive bacterium	GO:0050830
 DDPHENO:0000289	decreased defense response to Gram-negative bacterium	GO:0050829	defense response to Gram-negative bacterium
 DDPHENO:0000300	decreased gene expression	GO:0010467	gene expression
 DDPHENO:0000342	decreased plasma membrane organization	GO:0007009	plasma membrane organization
-DDPHENO:0000344	decreased activation of GTPase activity	GO:0090630	activation of GTPase activity
 DDPHENO:0000352	decreased macropinocytosis	GO:0044351	macropinocytosis
 DDPHENO:0000356	decreased endocytic recycling	GO:0032456	endocytic recycling
 DDPHENO:0000360	decreased response to cAMP	GO:0051591	response to cAMP
@@ -42,9 +41,7 @@ DDPHENO:0000454	decreased cGMP biosynthesis	GO:0006182	cGMP biosynthetic process
 DDPHENO:0000461	decreased intracellular pH	GO:0051452	ntracellular pH reduction
 DDPHENO:0000462	decreased filopodium formation	GO:0046847	filopodium assembly 
 DDPHENO:0000474	decreased lateral pseudopodium formation	GO:0031271	lateral pseudopodium assembly
-DDPHENO:0000481	decreased actin phosphorylation	GO:0031289	actin phosphorylation
 DDPHENO:0000490	decreased calcium ion import	GO:0070509	calcium ion import
-DDPHENO:0000495	decreased DNA methylation on cytosine	GO:0032776	DNA methylation on cytosine
 DDPHENO:0000504	decreased sporulation	GO:0043934	sporulation
 DDPHENO:0000522	decreased chemotaxis to cAMP	GO:0043327	chemotaxis to cAMP
 DDPHENO:0000523	decreased chemotaxis to folate	GO:0043326	chemotaxis to folate
@@ -52,17 +49,33 @@ DDPHENO:0000561	decreased endosomal vesicle fusion	GO:0034058	endosomal vesicle 
 DDPHENO:0000568	decreased lipid droplet formation	GO:0140042	lipid droplet formation
 DDPHENO:0000572	decreased double-strand break repair via homologous recombination	GO:0000724	double-strand break repair via homologous recombination
 DDPHENO:0000577	decreased double-strand break repair via nonhomologous end joining	GO:0006303	double-strand break repair via nonhomologous end joining
-DDPHENO:0000586	decreased response to hypoxia	GO:0001666	response to hypoxia
+DDPHENO:0000586	decreased cellular response to hypoxia	GO:0071456	cellular response to hypoxia
 DDPHENO:0000588	decreased response to Gram-positive bacterium	GO:0140459	response to Gram-positive bacterium
 DDPHENO:0000590	decreased response to Gram-negative bacterium 	GO:0140460	response to Gram-negative bacterium
 DDPHENO:0000594	decreased response to bacterium	GO:0009617	response to bacterium
 DDPHENO:0000603	decreased intermediate filament bundle assembly	GO:0045110	intermediate filament bundle assembly
 DDPHENO:0000699	decreased epithelium-like organization	GO:0140509	epithelium-like organization
 DDPHENO:0000705	decreased cAMP biosynthesis	GO:0006171	cAMP biosynthetic process
-DDPHENO:0000716	decreased production of siRNA involved in RNA interference	GO:0030422	production of siRNA involved in RNA interference
+DDPHENO:0000716	decreased regulation of siRNA processing	GO:0070921	regulation of siRNA processing
+DDPHENO:0000742	decreased protein kinase B signaling	GO:0043491	protein kinase B signaling
+DDPHENO:0000759	decreased regulation of STAT signaling pathway	GO:1904892	regulation of receptor signaling pathway via STAT
+DDPHENO:0000762	decreased Ras protein signal transduction	GO:0007265	Ras protein signal transduction
+DDPHENO:0000766	decreased  cell-cell self recognition	GO:0097656	cell-cell self recognition
+DDPHENO:0000767	decreased cellular DNA damage response	GO:0006974	DNA damage response
+DDPHENO:0000772	decreased programmed cell death	GO:0012501	programmed cell death
+DDPHENO:0000775	decreased G protein-coupled chemorepellent receptor signaling pathway	GO:0140986	G protein-coupled chemorepellent receptor signaling pathway
+DDPHENO:0000804	decreased  autophagosome maturation	GO:0097352	 autophagosome maturation
+DDPHENO:0000807	decreased heterotrimeric G-protein complex assembly	GO:1902605	heterotrimeric G-protein complex assembly
+DDPHENO:0000811	decreased proteasomal protein catabolic process	GO:0010498	proteasomal protein catabolic process
+DDPHENO:0000814	decreased ubiquitin-dependent protein catabolic process	GO:0006511	ubiquitin-dependent protein catabolic process
+DDPHENO:0000817	decreased regulation of MAPK cascade	GO:0043408	regulation of MAPK cascade
+DDPHENO:0000820	decreased TORC2 signaling	GO:0038203	TORC2 signaling
+DDPHENO:0000824	decreased Rab protein signal transduction	GO:0032482	Rab protein signal transduction
+DDPHENO:0000828	decreased Rap protein signal transduction	GO:0032486	Rap protein signal transduction
+DDPHENO:0000832	decreased Rac protein signal transduction	GO:0016601	Rac protein signal transduction
+DDPHENO:0000836	decreased small GTPase mediated signal transduction	GO:0007264	small GTPase mediated signal transduction
 DDPHENO:0001052	decreased bleb assembly	GO:0032060	bleb assembly
 DDPHENO:0001056	decreased actin filament polymerization	GO:0030041	actin filament polymerization
-DDPHENO:0001058	decreased protein kinase activation	GO:0032147	activation of protein kinase activity
 DDPHENO:0001090	decreased response to DIF-1	GO:1903013	response to differentiation-inducing factor 1
 DDPHENO:0001097	decreased DIF-1 biosynthesis	GO:0031148	DIF-1 biosynthetic process
 DDPHENO:0001103	decreased culmination	GO:0031154	culmination involved in sorocarp development
@@ -71,17 +84,15 @@ DDPHENO:0001111	decreased exocytosis	GO:0006887	exocytosis
 DDPHENO:0001127	decreased phototaxis	GO:0042331	phototaxis
 DDPHENO:0001128	decreased thermotaxis	GO:0043052	thermotaxis
 DDPHENO:0001130	decreased taxis	GO:0042330	taxis
-DDPHENO:0001132	decreased activation of adenylate cyclase activity	GO:0007190	activation of adenylate cyclase activity
-DDPHENO:0001138	decreased positive regulation of GTPase activity	GO:0043547	positive regulation of GTPase activity
 DDPHENO:0001159	decreased cellulose biosynthesis	GO:0030244	cellulose biosynthetic process
 DDPHENO:0001161	decreased superoxide generation	GO:0042554	superoxide anion generation
 DDPHENO:0001175	decreased cell differentiation	GO:0030154	cell differentiation
 DDPHENO:0001177	decreased pseudopodium formation	GO:0031269	pseudopodium assembly
 DDPHENO:0001189	decreased macroautophagy	GO:0016236	macroautophagy
 DDPHENO:0001201	decreased actin filament sliding	GO:0033275	actin-myosin filament sliding
+DDPHENO:0001211	decreased translation	GO:0006412	translation
 DDPHENO:0001213	decreased calcium-dependent cell-cell adhesion	GO:0016339	calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules
 DDPHENO:0001214	decreased calcium-independent cell-cell adhesion	GO:0016338	calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules
-DDPHENO:0001211	decreased translation	GO:0006412	translation
 DDPHENO:0001223	decreased phagolysosome formation	GO:0001845	phagolysosome assembly
 DDPHENO:0001233	decreased protein secretion	GO:0009306	protein secretion
 DDPHENO:0001266	decreased autophagic cell death	GO:0048102	autophagic cell death
@@ -89,17 +100,11 @@ DDPHENO:0001272	decreased pseudopodium retraction	GO:0031270	pseudopodium retrac
 DDPHENO:0001273	decreased uropod retraction	GO:0034461	uropod retraction
 DDPHENO:0001277	decreased engulfment during phagocytosis	GO:0006911	phagocytosis, engulfment
 DDPHENO:0001279	decreased autophagic vacuole organization	GO:1905037	autophagosome organization
-DDPHENO:0001320	decreased peptidyl-proline modification	GO:0018208	peptidyl-proline modification
-DDPHENO:0001324	decreased peptidyl-proline hydroxylation	GO:0019511	peptidyl-proline hydroxylation
 DDPHENO:0001327	decreased protein modification	GO:0036211	protein modification process
 DDPHENO:0001338	decreased protein localization	GO:0008104	protein localization
-DDPHENO:0001344	decreased protein phosphorylation	GO:0006468	protein phosphorylation
-DDPHENO:0001347	decreased protein theronine phosphorylation	GO:0018107	peptidyl-threonine phosphorylation
-DDPHENO:0001350	decreased protein serine phosphorylation	GO:0018105	peptidyl-serine phosphorylation
-DDPHENO:0001352	decreased protein tyrosine phosphorylation	GO:0018108	peptidyl-tyrosine phosphorylation
 DDPHENO:0001373	decreased chemotaxis to arachidonic acid	GO:0034670	chemotaxis to arachidonic acid
 DDPHENO:0001398	decreased oscillatory cAMP signaling	GO:0140676	oscillatory cAMP signaling
-DDPHENO:0001439	decreased necrotic cell death	GO:0070265	necrotic cell death
+DDPHENO:0001439	decreased prgrammed necrotic cell death	GO:0097300	prgrammed necrotic cell death
 DDPHENO:0001444	decreased cell fate determination	GO:0001709	cell fate determination
 DDPHENO:0001448	decreased actin filament depolymerization	GO:0030042	actin filament depolymerization
 DDPHENO:0001467	decreased microtubule nucleation	GO:0007020	microtubule nucleation

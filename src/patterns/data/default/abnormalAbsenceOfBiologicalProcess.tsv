@@ -1,25 +1,22 @@
 defined_class	defined_class_label	biological_process	biological_process_label
-DDPHENO:0000010	abolished post-transciptional gene silencing by RNA	GO:0035194	posttranscriptional gene silencing by RNA
+DDPHENO:0000010	abolished co-transcriptional gene silencing by RNA interference machinery	GO:0033562	co-transcriptional gene silencing by RNA interference machine
 DDPHENO:0000014	abolished pre-miRNA processing	GO:0031054	pre-miRNA processing
 DDPHENO:0000018	abolished transitive RNA interference	GO:0036453	transitive RNA interference
 DDPHENO:0000019	abolished culmination	GO:0031154	culmination involved in sorocarp development
 DDPHENO:0000021	abolished RNA interference	GO:0016246	RNA interference
-DDPHENO:0000024	abolished production of siRNA involved in RNA interference	GO:0030422	production of siRNA involved in RNA interference
+DDPHENO:0000024	abolished regulation of siRNA processing	GO:0070921	regulation of siRNA processing
 DDPHENO:0000025	abolished exocytosis	GO:0006887	exocytosis
 DDPHENO:0000027	abolished phagosome reneutralization	GO:0044655	phagosome reneutralization
-DDPHENO:0000028	abolished stalk formation	GO:0031150	sorocarp stalk development
-DDPHENO:0000030	abolished slug formation	GO:0031153	slug development involved in sorocarp development
+DDPHENO:0000028	abolished stalk development	GO:0031150	sorocarp stalk development
+DDPHENO:0000030	abolished slug development	GO:0031153	slug development involved in sorocarp development
 DDPHENO:0000035	abolished contractile vacuole discharge	GO:0070177	contractile vacuole discharge
-DDPHENO:0000049	abolished phosphatidylinositol biosynthesis	GO:0006661	phosphatidylinositol biosynthetic process
-DDPHENO:0000050	abolished hypotonic response	GO:0006971	hypotonic response
+DDPHENO:0000049	abolished phosphatidylinositol synthesis	GO:0006661	phosphatidylinositol biosynthetic process
+DDPHENO:0000050	abolished cellular hypotonic response	GO:0071476	cellular hypotonic response
 DDPHENO:0000110	abolished cellular localization	GO:0051641	cellular localization
 DDPHENO:0000117	abolished substrate adhesion-dependent cell spreading	GO:0034446	substrate adhesion-dependent cell spreading
 DDPHENO:0000125	abolished cell-cell self recognition	GO:0097656	cell-cell self recognition
 DDPHENO:0000146	abolished negative chemotaxis	GO:0050919	negative chemotaxis
 DDPHENO:0000193	abolished DIF-1 biosynthesis	GO:0031148	DIF-1 biosynthetic process
-DDPHENO:0000227	abolished regulation of chemorepellant activity	GO:1903667	regulation of chemorepellant activity
-DDPHENO:0000228	abolished positive regulation of chemorepellant activity	GO:1903669	positive regulation of chemorepellant activity
-DDPHENO:0000229	abolished negative regulation of chemorepellant activity	GO:1903668	negative regulation of chemorepellant activity
 DDPHENO:0000247	abolished double strand break repair	GO:0006302	double-strand break repair
 DDPHENO:0000248	abolished single-strand break repair	GO:0000012	single strand break repair
 DDPHENO:0000257	abolished cell motility in response to calcium ion	GO:0097231	cell motility in response to calcium ion
@@ -27,7 +24,6 @@ DDPHENO:0000290	abolished defense response to Gram-positive bacterium	GO:0050830
 DDPHENO:0000291	abolished defense response to Gram-negative  bacterium	GO:0050829	defense response to Gram-negative bacterium
 DDPHENO:0000302	abolished vegetative growth	GO:0019954	asexual reproduction
 DDPHENO:0000315	abolished polyketide metabolic process	GO:0030638	polyketide metabolic process
-DDPHENO:0000343	abolished activation of GTPase activity	GO:0090630	activation of GTPase activity
 DDPHENO:0000351	abolished macropinocytosis	GO:0044351	macropinocytosis
 DDPHENO:0000355	abolished endocytic recycling	GO:0032456	endocytic recycling
 DDPHENO:0000361	abolished response to cAMP	GO:0051591	response to cAMP
@@ -40,7 +36,6 @@ DDPHENO:0000466	abolished positive chemotaxis	GO:0050918	positive chemotaxis
 DDPHENO:0000491	abolished defense response to bacterium	GO:0042742	defense response to bacterium
 DDPHENO:0000498	abolished autophagosome organization	GO:1905037	autophagosome organization
 DDPHENO:0000499	abolished cell-substrate adhesion	GO:0031589	cell-substrate adhesion
-DDPHENO:0000527	abolished histone H3-K4 methylation	GO:0051568	histone H3-K4 methylation
 DDPHENO:0000544	abolished iron ion transport	GO:0006826	iron ion transport
 DDPHENO:0000550	abolished pinocytosis	GO:0006907	pinocytosis
 DDPHENO:0000552	abolished contractile vacuole organization	GO:0033298	contractile vacuole organization
@@ -58,11 +53,25 @@ DDPHENO:0000684	abolished vacuole organization	GO:0007033	vacuole organization
 DDPHENO:0000693	abolished response to biotic stimulus	GO:0009607	response to biotic stimulus
 DDPHENO:0000700	abolished epithelium-like organization	GO:0140509	epithelium-like organization
 DDPHENO:0000704	abolished cAMP biosynthesis	GO:0006171	cAMP biosynthetic process
-DDPHENO:0000719	abolished protein tyrosin phosphorylation	GO:0018108	peptidyl-tyrosine phosphorylation
+DDPHENO:0000740	abolished regulation of MAPK cascade	GO:0043408	regulation of MAPK cascade
+DDPHENO:0000744	abolished protein kinase B signaling	GO:0043491	protein kinase B signaling
+DDPHENO:0000757	abolished STAT signaling pathway	GO:0097696	receptor signaling pathway via STAT
+DDPHENO:0000760	abolished regulation of STAT signaling pathway	GO:1904892	regulation of receptor signaling pathway via STAT
+DDPHENO:0000764	abolished Ras protein signal transduction	GO:0007265	Ras protein signal transduction
+DDPHENO:0000769	abolished cellular DNA damage response	GO:0006974	DNA damage response
+DDPHENO:0000777	abolished G protein-coupled chemorepellent receptor signaling pathway	GO:0140986	G protein-coupled chemorepellent receptor signaling pathway
+DDPHENO:0000805	abolished autophagosome maturation	GO:0097352	 autophagosome maturation
+DDPHENO:0000808	abolished heterotrimeric G-protein complex assembly	GO:1902605	heterotrimeric G-protein complex assembly
+DDPHENO:0000812	abolished proteasomal protein catabolic process	GO:0010498	proteasomal protein catabolic process
+DDPHENO:0000815	abolished ubiquitin-dependent protein catabolic process	GO:0006511	ubiquitin-dependent protein catabolic process
+DDPHENO:0000816	abolished programmed cell death	GO:0012501	programmed cell death
+DDPHENO:0000821	abolished TORC2 signaling	GO:0038203	TORC2 signaling
+DDPHENO:0000826	abolished Rab protein signal transduction	GO:0032482	Rab protein signal transduction
+DDPHENO:0000830	abolished Rap protein signal transduction	GO:0032486	Rap protein signal transduction
+DDPHENO:0000834	abolished Rac protein signal transduction	GO:0016601	Rac protein signal transduction
+DDPHENO:0000838	abolished small GTPase mediated signal transduction	GO:0007264	small GTPase mediated signal transduction
 DDPHENO:0001050	abolished bleb assembly	GO:0032060	bleb assembly
 DDPHENO:0001057	abolished actin filament polymerization	GO:0030041	actin filament polymerization
-DDPHENO:0001057	abolished actin filament polymerization	GO:0030041	actin filament polymerization
-DDPHENO:0001062	abolished protein kinase activation	GO:0032147	activation of protein kinase activity
 DDPHENO:0001080	abolished aggregation	GO:0031152	aggregation involved in sorocarp development
 DDPHENO:0001092	abolished response to DIF-1	GO:1903013	response to differentiation-inducing factor 1
 DDPHENO:0001101	abolished chemotaxis to cAMP	GO:0043327	chemotaxis to cAMP
@@ -71,7 +80,6 @@ DDPHENO:0001114	abolished gene expression	GO:0010467	gene expression
 DDPHENO:0001125	abolished phototaxis	GO:0042331	phototaxis
 DDPHENO:0001126	abolished thermotaxis	GO:0043052	thermotaxis
 DDPHENO:0001131	abolished taxis	GO:0042330	taxis
-DDPHENO:0001133	abolished activation of adenylate cyclase activity	GO:0007190	activation of adenylate cyclase activity
 DDPHENO:0001157	abolished cellulose biosynthesis	GO:0030244	cellulose biosynthetic process
 DDPHENO:0001160	abolished superoxide generation	GO:0042554	superoxide anion generation
 DDPHENO:0001176	abolished cell differentiation	GO:0030154	cell differentiation
@@ -80,31 +88,19 @@ DDPHENO:0001210	abolished translation	GO:0006412	translation
 DDPHENO:0001231	abolished protein secretion	GO:0009306	protein secretion
 DDPHENO:0001239	abolished cell motility	GO:0048870	cell motility
 DDPHENO:0001246	abolished oscillatory cAMP signaling	GO:0140676	oscillatory cAMP signaling
-DDPHENO:0001248	abolished protein methylation	GO:0006479	protein methylation
-DDPHENO:0001249	abolished C-terminal protein methylation	GO:0006481	C-terminal protein methylation
 DDPHENO:0001250	abolished establishment of cell polarity	GO:0030010	establishment of cell polarity
 DDPHENO:0001264	abolished autophagic cell death	GO:0048102	autophagic cell death
 DDPHENO:0001274	abolished phagocytosis	GO:0006909	phagocytosis
 DDPHENO:0001276	abolished engulfment during phagocytosis	GO:0006911	phagocytosis, engulfment
 DDPHENO:0001297	abolished lysosomal protein degradation	GO:1905146	lysosomal protein catabolic process
-DDPHENO:0001299	abolished guanyl-nucleotide exchange factor activity	GO:0005085	guanyl-nucleotide exchange factor activity
 DDPHENO:0001305	abolished cGMP-mediated signaling	GO:0019934	cGMP-mediated signaling
-DDPHENO:0001322	abolished peptidyl-proline modification	GO:0018208	peptidyl-proline modification
-DDPHENO:0001325	abolished peptidyl-proline hydroxylation	GO:0019511	peptidyl-proline hydroxylation
 DDPHENO:0001328	abolished protein modification	GO:0036211	protein modification process
 DDPHENO:0001339	abolished secretion of lysosomal enzymes	GO:0033299	secretion of lysosomal enzymes
 DDPHENO:0001393	abolished protein localization	GO:0008104	protein localization
-DDPHENO:0001438	abolished necrotic cell death	GO:0070265	necrotic cell death
+DDPHENO:0001409	abolished phosphatidylinositol binding	GO:0035091	phosphatidylinositol binding
+DDPHENO:0001410	abolished phosphatidylinositol-4,5-bisphosphate binding	GO:0005546	phosphatidylinositol-4,5-bisphosphate binding
+DDPHENO:0001438	abolished programmed necrotic cell death	GO:0097300	prgrammed necrotic cell death
 DDPHENO:0001447	abolished actin filament depolymerization	GO:0030042	actin filament depolymerization
-DDPHENO:0001450	abolished protein phosphorylation	GO:0006468	protein phosphorylation
-DDPHENO:0001451	abolished actin phosphorylation	GO:0031289	actin phosphorylation
-DDPHENO:0001452	abolished protein serine phosphorylation	GO:0018105	peptidyl-serine phosphorylation
-DDPHENO:0001453	abolished protein threonine phosphorylation	GO:0018107	peptidyl-threonine phosphorylation
-DDPHENO:0001454	abolished protein tyrosine phosphorylation	GO:0018108	peptidyl-tyrosine phosphorylation
-DDPHENO:0001475	abolished histone H3-K79 methylation	GO:0034729	histone H3-K79 methylation
-DDPHENO:0001476	abolished histone lysine methylation	GO:0034968	histone lysine methylation
-DDPHENO:0001477	abolished histone H3-K9 methylation	GO:0051567	histone H3-K9 methylation
-DDPHENO:0001478	abolished cell-cell adhesion	GO:0098609	cell-cell adhesion
 DDPHENO:0001478	abolished cell-cell adhesion	GO:0098609	cell-cell adhesion
 DDPHENO:0001479	abolished calcium-dependent cell-cell adhesion	GO:0016339	calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules
 DDPHENO:0001480	abolished calcium-independent cell-cell adhesion	GO:0016338	calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules

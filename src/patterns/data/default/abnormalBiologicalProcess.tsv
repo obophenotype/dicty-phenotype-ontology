@@ -1,12 +1,10 @@
 defined_class	defined_class_label	biological_process	biological_process_label
 DDPHENO:0000005	aberrant autophagy	GO:0006914	autophagy
-DDPHENO:0000008	aberrant post-transciptional gene silencing by RNA	GO:0016441	posttranscriptional gene silencing
+DDPHENO:0000008	aberrant co-transcriptional gene silencing by RNA interference machinery	GO:0033562	co-transcriptional gene silencing by RNA interference machinery
 DDPHENO:0000009	aberrant fruiting body morphogenesis	GO:0031288	sorocarp morphogenesis
 DDPHENO:0000012	aberrant pre-miRNA processing	GO:0031054	pre-miRNA processing
 DDPHENO:0000017	aberrant transitive RNA interference	GO:0036453	transitive RNA interference
-DDPHENO:0000020	aberrant RNA interference	GO:0016246	RNA interference
-DDPHENO:0000022	aberrant production of siRNA involved in RNA interference	GO:0030422	production of siRNA involved in RNA interference
-DDPHENO:0000023	aberrant sporulation	GO:0043934	sporulation
+DDPHENO:0000022	aberrant regulation of siRNA processing	GO:0070921	regulation of siRNA processing
 DDPHENO:0000033	aberrant secretion	GO:0032940	secretion by cell
 DDPHENO:0000034	aberrant contractile vacuole discharge	GO:0070177	contractile vacuole discharge
 DDPHENO:0000039	aberrant plasma membrane organization	GO:0007009	plasma membrane organization
@@ -14,27 +12,24 @@ DDPHENO:0000040	aberrant response to chemical	GO:0042221	response to chemical
 DDPHENO:0000041	aberrant response to N-Phenylthiourea	GO:1902610	response to N-phenylthiourea
 DDPHENO:0000042	aberrant membrane ruffling	GO:0097178	ruffle assembly
 DDPHENO:0000045	aberrant phosphatidylinositol metabolism	GO:0046488	phosphatidylinositol metabolic process
-DDPHENO:0000046	aberrant phosphatidylinositol biosynthesis	GO:0006661	phosphatidylinositol biosynthetic process
+DDPHENO:0000046	aberrant phosphatidylinositol synthesis	GO:0006661	phosphatidylinositol biosynthetic process
 DDPHENO:0000090	aberrant endocytosis	GO:0006897	endocytosis
 DDPHENO:0000115	aberrant substrate adhesion-dependent cell spreading	GO:0034446	substrate adhesion-dependent cell spreading
 DDPHENO:0000120	aberrant cell-cell recognition	GO:0009988	cell-cell recognition
 DDPHENO:0000122	aberrant cell-cell self recognition	GO:0097656	cell-cell self recognition
 DDPHENO:0000127	aberrant socially cooperative development	GO:0099120	socially cooperative development
 DDPHENO:0000149	aberrant cytokinesis	GO:0000910	cytokinesis
-DDPHENO:0000151	aberrant F-actin organization	GO:0007015	actin filament organization
+DDPHENO:0000151	aberrant actin filament organization	GO:0007015	actin filament organization
 DDPHENO:0000154	aberrant sorocarp development	GO:0030587	sorocarp development
-DDPHENO:0000164	aberrant regulation of chemorepellant activity	GO:1903667	regulation of chemorepellent activity
-DDPHENO:0000177	aberrant positive regulation of chemorepellant activity	GO:1903669	positive regulation of chemorepellent activity
 DDPHENO:0000187	aberrant cell-substrate adhesion	GO:0031589	cell-substrate adhesion
-DDPHENO:0000190	aberrant negative regulation of chemorepellant activity	GO:1903668	negative regulation of chemorepellent activity
-DDPHENO:0000198	aberrant activation of adenylate cyclase activity	GO:0007190	activation of adenylate cyclase activity
-DDPHENO:0000209	aberrant response to osmotic stress	GO:0006970	response to osmotic stress
+DDPHENO:0000209	aberrant cellular response to osmotic stress	GO:0071470	cellular response to osmotic stress
 DDPHENO:0000211	aberrant cellular response to nitrogen starvation	GO:0006995	cellular response to nitrogen starvation
 DDPHENO:0000212	aberrant macroautophagy	GO:0016236	macroautophagy
 DDPHENO:0000222	aberrant phototaxis	GO:0042331	phototaxis
 DDPHENO:0000223	aberrant thermotaxis	GO:0043052	thermotaxis
 DDPHENO:0000233	aberrant contractile vacuole organization	GO:0033298	contractile vacuole organization
 DDPHENO:0000234	aberrant mitosis	GO:0140014	mitotic nuclear division
+DDPHENO:0000236	aberrant cell morphogenesis	GO:0000902	cell morphogenesis
 DDPHENO:0000242	aberrant DNA repair	GO:0006281	DNA repair
 DDPHENO:0000243	aberrant single-strand break repair	GO:0000012	single strand break repair
 DDPHENO:0000244	aberrant double-strand break repair	GO:0006302	double-strand break repair
@@ -61,13 +56,12 @@ DDPHENO:0000413	aberrant microtubule cytoskeleton organization	GO:0000226	microt
 DDPHENO:0000426	aberrant response to UV	GO:0009411	response to UV
 DDPHENO:0000429	aberrant vesicle coat assembly	GO:0006901	vesicle coating
 DDPHENO:0000432	aberrant glycogen metabolism	GO:0005977	glycogen metabolic process
-DDPHENO:0000457	aberrant actin phosphorylation 	GO:0031289	actin phosphorylation
 DDPHENO:0000471	aberrant protein localization	GO:0008104	protein localization 
 DDPHENO:0000472	aberrant regulation of protein modification	GO:0031399	regulation of protein modification process
 DDPHENO:0000477	aberrant lateral pseudopodium formation	GO:0031271	lateral pseudopodium assembly
 DDPHENO:0000483	aberrant aggregation	GO:0031152	aggregation involved in sorocarp development
 DDPHENO:0000513	aberrant sporulation	GO:0043934	sporulation
-DDPHENO:0000533	aberrant anaphase	GO:0051322	anaphase
+DDPHENO:0000533	aberrant mitotic anaphase	GO:0000090	mitotic anaphase
 DDPHENO:0000553	aberrant contractile vacuole localization	GO:0140027	contractile vacuole localization
 DDPHENO:0000554	aberrant contractile vacuole tethering involved in discharge	GO:0140025	contractile vacuole tethering involved in discharge
 DDPHENO:0000556	aberrant contractile vacuole dissociation from plasma membrane	GO:0140026	contractile vacuole dissociation from plasma membrane
@@ -81,7 +75,7 @@ DDPHENO:0000571	aberrant double-strand break repair via homologous recombination
 DDPHENO:0000575	aberrant double-strand break repair via nonhomologous end joining	GO:0006303	double-strand break repair via nonhomologous end joining
 DDPHENO:0000579	aberrant cheating during development	GO:0099139	cheating during chimeric sorocarp development
 DDPHENO:0000583	aberrant mating type determination	GO:0007531	mating type determination
-DDPHENO:0000585	aberrant response to hypoxia	GO:0001666	response to hypoxia
+DDPHENO:0000585	aberrant cellular response to hypoxia	GO:0071456	cellular response to hypoxia
 DDPHENO:0000592	aberrant response to bacterium	GO:0009617	response to bacterium
 DDPHENO:0000600	aberrant intermediate filament organization	GO:0045109	intermediate filament organization
 DDPHENO:0000601	aberrant intermediate filament bundle assembly	GO:0045110	intermediate filament bundle assembly
@@ -90,6 +84,25 @@ DDPHENO:0000694	aberrant cGMP-mediated signaling	GO:0019934	cGMP-mediated signal
 DDPHENO:0000698	aberrant epithelium-like organization	GO:0140509	epithelium-like organization
 DDPHENO:0000710	aberrant response to bleomycin	GO:1904975	response to bleomycin
 DDPHENO:0000713	aberrant response to hydroxyurea	GO:0072710	 response to hydroxyurea
+DDPHENO:0000739	aberrant regulation of MAPK cascade	GO:0043408	regulation of MAPK cascade
+DDPHENO:0000741	aberrant protein kinase B signaling	GO:0043491	protein kinase B signaling
+DDPHENO:0000747	aberrant cellular DNA damage response	GO:0006974	DNA damage response
+DDPHENO:0000756	aberrant STAT signaling pathway	GO:0097696	receptor signaling pathway via STAT
+DDPHENO:0000758	aberrant regulation of STAT signaling pathway	GO:1904892	regulation of receptor signaling pathway via STAT
+DDPHENO:0000761	aberrant Ras protein signal transduction	GO:0007265	Ras protein signal transduction
+DDPHENO:0000765	aberrant protein-containing complex assembly	GO:0065003	protein-containing complex assembly
+DDPHENO:0000770	aberrant programmed cell death	GO:0012501	programmed cell death
+DDPHENO:0000774	aberrant G protein-coupled chemorepellent receptor signaling pathway	GO:0140986	G protein-coupled chemorepellent receptor signaling pathway
+DDPHENO:0000803	aberrant  autophagosome maturation	GO:0097352	autophagosome maturation
+DDPHENO:0000806	aberrant heterotrimeric G-protein complex assembly	GO:1902605	heterotrimeric G-protein complex assembly
+DDPHENO:0000809	aberrant protein metabolic process	GO:0019538	protein metabolic process
+DDPHENO:0000810	aberrant proteasomal protein catabolic process	GO:0010498	proteasomal protein catabolic process
+DDPHENO:0000813	aberrant ubiquitin-dependent protein catabolic process	GO:0006511	ubiquitin-dependent protein catabolic process
+DDPHENO:0000819	aberrant TORC2 signaling	GO:0038203	TORC2 signaling
+DDPHENO:0000823	aberrant Rab protein signal transduction	GO:0032482	Rab protein signal transduction
+DDPHENO:0000827	aberrant Rap protein signal transduction	GO:0032486	Rap protein signal transduction
+DDPHENO:0000831	aberrant Rac protein signal transduction	GO:0016601	Rac protein signal transduction
+DDPHENO:0000835	aberrant small GTPase mediated signal transduction	GO:0007264	small GTPase mediated signal transduction
 DDPHENO:0001003	aberrant response to stimulus	GO:0050896	response to stimulus
 DDPHENO:0001005	aberrant cellular metabolic process	GO:0044237	cellular metabolic process
 DDPHENO:0001006	aberrant phagocytosis	GO:0006909	phagocytosis
@@ -97,9 +110,7 @@ DDPHENO:0001007	aberrant pinocytosis	GO:0006907	pinocytosis
 DDPHENO:0001008	aberrant cellular process	GO:0009987	cellular process
 DDPHENO:0001009	aberrant localization	GO:0051179	localization
 DDPHENO:0001010	aberrant macrocyst formation	GO:0140084	sexual macrocyst formation
-DDPHENO:0001012	aberrant stalk development	GO:0031150	sorocarp stalk development
 DDPHENO:0001013	aberrant cell differentiation	GO:0030154	cell differentiation
-DDPHENO:0001014	aberrant slug development	GO:0031153	slug development involved in sorocarp development
 DDPHENO:0001015	aberrant culmination	GO:0031154	culmination involved in sorocarp development
 DDPHENO:0001016	aberrant regulation of fruiting body formation	GO:0031156	regulation of sorocarp formation
 DDPHENO:0001020	aberrant regulation of stalk cell differentiation	GO:0031285	regulation of sorocarp stalk cell differentiation
@@ -119,14 +130,14 @@ DDPHENO:0001038	aberrant extracellular cAMP signaling pathway	GO:0140582	adenyla
 DDPHENO:0001039	aberrant cellular response to starvation	GO:0009267	cellular response to starvation
 DDPHENO:0001041	aberrant vacuole organization	GO:0007033	vacuole organization
 DDPHENO:0001042	aberrant cellular component organization	GO:0016043	cellular component organization
-DDPHENO:0001043	aberrant organelle organization	GO:0006996	organelle organizatio
+DDPHENO:0001043	aberrant organelle organization	GO:0006996	organelle organization
 DDPHENO:0001044	aberrant cell adhesion	GO:0007155	cell adhesion
 DDPHENO:0001046	aberrant spore germination	GO:0009847	spore germination
 DDPHENO:0001047	aberrant transport	GO:0006810	transport
 DDPHENO:0001048	aberrant cell projection biogenesis	GO:0030031	cell projection assembly
 DDPHENO:0001049	aberrant bleb assembly	GO:0032060	bleb assembly
-DDPHENO:0001067	aberrant hyperosmotic response	GO:0006972	hyperosmotic response
-DDPHENO:0001068	aberrant hypotonic response	GO:0006971	hypotonic response
+DDPHENO:0001067	aberrant cellular hyperosmotic response	GO:0071474	cellular hypotonic response
+DDPHENO:0001068	aberrant cellular hypotonic response	GO:0071476	cellular hypotonic response
 DDPHENO:0001074	aberrant osmosensory signaling pathway	GO:0007231	osmosensory signaling pathway
 DDPHENO:0001084	aberrant vegetative growth	GO:0019954	asexual reproduction
 DDPHENO:0001088	aberrant response to DIF-1	GO:1903013	response to differentiation-inducing factor 1
@@ -135,16 +146,13 @@ DDPHENO:0001108	aberrant response to lithium	GO:0010226	response to lithium ion
 DDPHENO:0001110	aberrant exocytosis	GO:0006887	exocytosis
 DDPHENO:0001113	aberrant gene expression	GO:0010467	gene expression
 DDPHENO:0001118	aberrant signal transduction	GO:0007165	signal transduction
-DDPHENO:0001119	aberrant regulation of protein kinase activity	GO:0045859	regulation of protein kinase activity
 DDPHENO:0001121	aberrant taxis	GO:0042330	taxis
 DDPHENO:0001122	aberrant chemotaxis	GO:0006935	chemotaxis
-DDPHENO:0001137	aberrant regulation of GTPase activity	GO:0043087	regulation of GTPase activity
 DDPHENO:0001155	aberrant macromolecule biosynthesis	GO:0009059	macromolecule biosynthetic process
 DDPHENO:0001156	aberrant cellulose biosynthesis	GO:0030244	cellulose biosynthetic process
 DDPHENO:0001167	aberrant chemotaxis to cAMP	GO:0043327	chemotaxis to cAMP
 DDPHENO:0001168	aberrant chemotaxis to folate	GO:0043326	chemotaxis to folate
 DDPHENO:0001170	aberrant mitotic actomyosin contractile ring contraction	 GO:1902404	aberrant mitotic actomyosin contractile ring contraction
-DDPHENO:0001171	aberrant molecular function	GO:0003674	molecular_function
 DDPHENO:0001203	aberrant response to nutrient	GO:0007584	response to nutrient
 DDPHENO:0001209	aberrant translation	GO:0006412	translation
 DDPHENO:0001217	aberrant cellular localization	GO:0051641	cellular localization
@@ -153,26 +161,17 @@ DDPHENO:0001219	aberrant Golgi localization	GO:0051645	Golgi localization
 DDPHENO:0001220	aberrant nucleus localization	GO:0051647	nucleus localization
 DDPHENO:0001221	aberrant centrosome localization	GO:0051642	centrosome localization
 DDPHENO:0001222	aberrant phagolysosome formation	GO:0001845	phagolysosome assembly
+DDPHENO:0001224	aberrant positive chemotaxis	GO:0050918	positive chemotaxis
 DDPHENO:0001225	aberrant negative chemotaxis	GO:0050919	negative chemotaxis
 DDPHENO:0001226	aberrant cellular response to extracellular stimulus	GO:0031668	cellular response to extracellular stimulus
 DDPHENO:0001234	aberrant mitochondrion organization 	GO:0007005	mitochondrion organization 
-DDPHENO:0001237	aberrant lysosome organization	GO:0007040	 lysosome organization
+DDPHENO:0001237	aberrant lysosome organization	GO:0007040	lysosome organization
 DDPHENO:0001245	aberrant oscillatory cAMP signaling	GO:0140676	oscillatory cAMP signaling
-DDPHENO:0001247	aberrant protein methylation	GO:0006479	protein methylation
 DDPHENO:0001262	aberrant adaptation of signaling pathway	GO:0023058	adaptation of signaling pathway
 DDPHENO:0001263	aberrant autophagic cell death	GO:0048102	autophagic cell death
 DDPHENO:0001267	aberrant cell death	GO:0008219	cell death
 DDPHENO:0001275	aberrant engulfment during phagocytosis	GO:0006911	phagocytosis, engulfment
-DDPHENO:0001303	aberrant regulation of catalytic activity	GO:0050790	regulation of catalytic activity
-DDPHENO:0001304	aberrant regulation of adenylate cyclase activity	GO:0045761	regulation of adenylate cyclase activity
-DDPHENO:0001311	aberrant activation of GTPase activity	GO:0090630	activation of GTPase activity
 DDPHENO:0001317	aberrant protein modification	GO:0036211	protein modification process
-DDPHENO:0001318	aberrant peptidyl-proline modification	GO:0018208	peptidyl-proline modification
-DDPHENO:0001321	aberrant peptidyl-proline hydroxylation	GO:0019511	peptidyl-proline hydroxylation
-DDPHENO:0001342	aberrant protein phosphorylation	GO:0006468	protein phosphorylation
-DDPHENO:0001345	aberrant protein tyrosine phosphorylation	GO:0018108	peptidyl-tyrosine phosphorylation
-DDPHENO:0001348	aberrant protein serine phosphorylation	GO:0018105	peptidyl-serine phosphorylation
-DDPHENO:0001349	aberrant protein threonine phosphorylation	GO:0018107	peptidyl-threonine phosphorylation
 DDPHENO:0001375	aberrant cellular homeostasis	GO:0019725	cellular homeostasis
 DDPHENO:0001416	aberrant cell separation during cytokinesis	GO:0061952	midbody abscission
 DDPHENO:0001418	aberrant cell cycle	GO:0007049	cell cycle
@@ -181,7 +180,7 @@ DDPHENO:0001422	aberrant sister chromosome segregation	GO:0000070	mitotic sister
 DDPHENO:0001424	aberrant aberrant nuclear membrane organization	GO:0071763	nuclear membrane organization
 DDPHENO:0001425	aberrant centrosome organization	GO:0007098	centrosome cycle
 DDPHENO:0001433	aberrant GABA signaling pathway	GO:0007214	gamma-aminobutyric acid signaling pathway
-DDPHENO:0001437	aberrant necrotic cell death	GO:0070265	necrotic cell death
+DDPHENO:0001437	aberrant programmed necrotic cell death	GO:0097300	prgrammed necrotic cell death
 DDPHENO:0001443	aberrant cell fate determination	GO:0001709	cell fate determination
 DDPHENO:0001445	aberrant actin filament polymerization	GO:0030041	actin filament polymerization
 DDPHENO:0001446	aberrant actin filament depolymerization	GO:0030042	actin filament depolymerization

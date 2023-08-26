@@ -1,7 +1,7 @@
 defined_class	defined_class_label	location	location_label
 DDPHENO:0000104	aberrant protein localization to nucleolus	GO:0005730	nucleolus
 DDPHENO:0000464	aberrant protein localization to contractile vacuole	GO:0140027	establishment of contractile vacuole localization
-DDPHENO:0000519	aberrant protein localization to contractile vacuole membrane	GO:0031164	 contractile vacuole membrane
+DDPHENO:0000519	aberrant protein localization to contractile vacuole membrane	GO:0031164	contractile vacuole membrane
 DDPHENO:0000604	aberrant protein localization to leading edge	GO:0031252	cell leading edge
 DDPHENO:0000608	aberrant protein localization to actin wave	GO:0062201	actin wave
 DDPHENO:0000612	aberrant protein localization to trailing edge	GO:0031254	cel trailing edge
@@ -22,6 +22,7 @@ DDPHENO:0000668	aberrant protein localization to cytoplasmic vesicle	GO:0031410	
 DDPHENO:0000672	aberrant protein localization to cell periphery	GO:0071944	cell periphery
 DDPHENO:0000674	aberrant protein localization to apical plasma membrane	GO:0016324	apical plasma membrane
 DDPHENO:0000676	aberrant protein localization to endolysosome	GO:0036019	endolysosome
+DDPHENO:0000796	aberrant protein localization to mitotic actomyosin contractile ring	GO:0110085	mitotic actomyosin contractile ring
 DDPHENO:0001335	aberrant protein localization to plasma membrane	GO:0005886	plasma membrane
 DDPHENO:0001336	aberrant protein localization to nucleus	GO:0005634	nucleus
 DDPHENO:0001389	aberrant protein localization to cytoplasm	GO:0005737	cytoplasm

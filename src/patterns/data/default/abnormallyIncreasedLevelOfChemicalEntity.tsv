@@ -1,0 +1,11 @@
+defined_class	defined_class_label	chemical_entity	chemical_entity_label	Pattern
+DDPHENO:0000108	increased glucose level	CHEBI:17234	glucose	
+DDPHENO:0000536	increased glutamate level	CHEBI:14321	glutamate-1	
+DDPHENO:0000537	increased ammonia level	CHEBI:16134	ammonia	
+DDPHENO:0000697	increased cAMP level	CHEBI:17489	3',5'-cyclic AMP	
+DDPHENO:0001185	increased myo-inositol level	CHEBI:17268	myo-inositol	
+DDPHENO:0001186	increased 2,3-bisphosphoglycerate level	CHEBI:19324	2,3-bisphosphoglycerate	
+DDPHENO:0001236	increased ATP level	CHEBI:15422	ATP	
+DDPHENO:0001243	increased protein level	CHEBI:36080	protein	
+DDPHENO:0001376	increased glycogen level	CHEBI:28087	glycogen	
+DDPHENO:0001380	increased ammonia level	CHEBI:16134	ammonia	

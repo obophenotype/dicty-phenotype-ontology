@@ -1,0 +1,12 @@
+defined_class	defined_class_label	anatomy	anatomy label	entity	entity_label	GO	GO_label
+DDPHENO:0000185	decreased resistance to nocodazole	DDANAT:0000002	vegetative amoebae	CHEBI:34892	nocodazole		
+DDPHENO:0000215	decreased spore resistance to hydrogen peroxide	DDANAT:0000414	spore	CHEBI:16240	hydrogen peroxide		
+DDPHENO:0000381	decreased resistance to TMB-8	DDANAT:0000002	vegetative amoebae	CHEBI:107633	3,4,5-trimethoxybenzoic acid 8-(diethylamino)octyl ester		
+DDPHENO:0000409	decreased resistance to carboplatin	DDANAT:0000002	vegetative amoebae	CHEBI:31355	carboplatin		
+DDPHENO:0000410	decreased resistance to cisplatin	DDANAT:0000002	vegetative amoebae	CHEBI:27899	cisplatin		
+DDPHENO:0000425	decreased resistance to hydrogen peroxide	DDANAT:0000002	vegetative amoebae	CHEBI:16240	hydrogen peroxide		
+DDPHENO:0000427	decreased resistance to mitomycin C	DDANAT:0000002	vegetative amoebae	CHEBI:27504	mitomycin C		
+DDPHENO:0000581	decreased resistance to cheating during development	DDANAT:0000403	aggregate cell			GO:0099139	cheating during chimeric sorocarp development
+DDPHENO:0000708	decreased resistance to phleomycin	DDANAT:0000002	vegetative amoebae	CHEBI:75044	phleomycin		
+DDPHENO:0000711	decreased resistance to bleomycin	DDANAT:0000002	vegetative amoebae	CHEBI:22907	bleomycin		
+DDPHENO:0000715	decreased resistance to hydroxyurea	DDANAT:0000002	vegetative amoebae	CHEBI:44423	hydroxyurea		

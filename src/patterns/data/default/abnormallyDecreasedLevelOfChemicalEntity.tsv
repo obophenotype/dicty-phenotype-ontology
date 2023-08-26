@@ -1,0 +1,12 @@
+defined_class	defined_class_label	chemical_entity	chemical_entity_label	Pattern
+DDPHENO:0000121	decreased glucose level	CHEBI:17234	glucose	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0000313	decreased MPBD level	CHEBI:61089	4-methyl-5-pentylbenzene-1,3-diol	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0000428	decreased fatty acid level	CHEBI:35366	fatty acid	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0000535	decreased glycogen level	CHEBI:28087	glycogen	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0000538	decreased pteridine level	CHEBI:27601	pteridine	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0000696	decreased cAMP level	CHEBI:17489	3',5'-cyclic AMP	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0001184	decreased myo-inositol level	CHEBI:17268	myo-inositol	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0001187	decreased 2,3-bisphosphoglycerate level	CHEBI:19324	2,3-bisphosphoglycerate	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0001235	decreased ATP level	CHEBI:15422	ATP	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0001242	decreased protein level	CHEBI:36080	protein	abnormallyDecreasedLevelOfChemicalEntity
+DDPHENO:0001378	decreased ammonia level	CHEBI:16134	ammonia	abnormallyDecreasedLevelOfChemicalEntity

@@ -6,6 +6,15 @@ DDPHENO:0000325	decreased lipid binding	GO:0008289	lipid binding
 DDPHENO:0000329	decreased small molecule binding	GO:0036094	small molecule binding
 DDPHENO:0000332	decreased folic acid binding	GO:0005542	folic acid binding
 DDPHENO:0000346	decreased protein kinase activity	GO:0004672	protein kinase activity
+DDPHENO:0000725	decreased protein tyrosine kinase activity	GO:0004713	protein tyrosine kinase activity
+DDPHENO:0000738	decreased DNA-methyltransferase activity	GO:0009008	DNA-methyltransferase activity
+DDPHENO:0000749	decreased phosphatase activity	GO:0016791	phosphatase activity
+DDPHENO:0000753	decreased protein tyrosine phosphatase activity	GO:0004725	protein tyrosine phosphatase activity
+DDPHENO:0000783	decreased DNA (cytosine-5-)-methyltransferase activity	GO:0003886	DNA (cytosine-5-)-methyltransferase activity
+DDPHENO:0000787	decreased adenylate cyclase regulator activity	GO:0010854	adenylate cyclase regulator activity
+DDPHENO:0000790	decreased adenylate cyclase activator activity	GO:0010856	adenylate cyclase activator activity
+DDPHENO:0000794	decreased protein kinase regulator activity	GO:0019887	protein kinase regulator activity
+DDPHENO:0000801	decreased GTPase activator activity	GO:0005096	GTPase activator activity
 DDPHENO:0001229	decreased 3',5'-cyclic-AMP phosphodiesterase activity	GO:0004115	3',5'-cyclic-AMP phosphodiesterase activity
 DDPHENO:0001230	decreased 3',5'-cyclic-GMP phosphodiesterase activity	GO:0047555	3',5'-cyclic-GMP phosphodiesterase activity
 DDPHENO:0001257	decreased catalytic activity	GO:0003824	catalytic activity
@@ -13,6 +22,7 @@ DDPHENO:0001261	decreased cAMP binding	GO:0030552	cAMP binding
 DDPHENO:0001284	decreased guanyl-nucleotide exchange factor activity	GO:0005085	guanyl-nucleotide exchange factor activity
 DDPHENO:0001285	decreased adenylate cyclase activity	GO:0004016	adenylate cyclase activity
 DDPHENO:0001288	decreased guanylyl cyclase activity	GO:0004383	guanylyl cyclase activity
+DDPHENO:0001320	decreased peptidyl-proline 4-dioxygenase activity	GO:0031545	peptidyl-proline 4-dioxygenase activity
 DDPHENO:0001333	decreased catalase activity	GO:0004096	catalase activity
 DDPHENO:0001384	decreased cytochrome C oxidase activity	GO:0004129	cytochrome-c oxidase activity
 DDPHENO:0001435	decreased histone deacetylase activity	GO:0004407	histone deacetylase activity

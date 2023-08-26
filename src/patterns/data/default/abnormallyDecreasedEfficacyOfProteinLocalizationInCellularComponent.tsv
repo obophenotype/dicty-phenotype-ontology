@@ -20,6 +20,7 @@ DDPHENO:0000670	decreased protein localization to cytoplasmic vesicle	GO:0031410
 DDPHENO:0000678	decreased protein localization to endolysosome	GO:0036019	endolysosome
 DDPHENO:0000680	decreased protein localization to contractile vacuole	GO:0000331	contractile vacuole
 DDPHENO:0000682	decreased protein localization to contractile vacuole membrane	GO:0031164	contractile vacuole membrane
+DDPHENO:0000778	decreased protein localization to mitotic actomyosin contractile ring	GO:0110085	mitotic actomyosin contractile ring
 DDPHENO:0001340	decreased protein localization to nucleus	GO:0005634	nucleus
 DDPHENO:0001391	decreased protein localization to cytoplasm	GO:0005737	cytoplasm
 DDPHENO:0001395	decreased protein localization to plasma membrane	GO:0005886	plasma membrane

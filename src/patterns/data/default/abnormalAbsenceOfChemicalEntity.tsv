@@ -1,3 +1,3 @@
-defined_class	defined_class_label	chemical	chemical_label	Pattern
+defined_class	defined_class_label	chemical_entity	chemical_entity_label	Pattern
 DDPHENO:0000312	abolished MPBD level	CHEBI:61089	4-methyl-5-pentylbenzene-1,3-diol	
 DDPHENO:0001244	abolished protein level	CHEBI:36080	protein	
