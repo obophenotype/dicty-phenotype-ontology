@@ -8,8 +8,15 @@ http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalCellularComponentProc
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalColorOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalEfficacyOfProteinLocalizationInCellularComponent.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMolecularFunction.yaml
+http://purl.obolibrary.org/obo/upheno/patterns/abnormalLevelOfChemicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedResistanceOfWholeOrganismToEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedLevelOfChemicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyDecreasedLevelOfChemicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfAnatomicalEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalArrestedDevelopmentDuringStage.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalMorphologyOfCellularComponent.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormallyIncreasedResistanceOfWholeOrganismToEntity.yaml
+http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfChemicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalSizeOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalStabilityOfAnatomicalEntity.yaml
 http://purl.obolibrary.org/obo/upheno/patterns-dev/abnormalAbsenceOfBiologicalProcess.yaml
