@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:05:2023 19:03
+date: 26:09:2023 13:36
 saved-by: pfey
 auto-generated-by: OBO-Edit 2.2
 default-namespace: Dicty Phenotypes
@@ -1016,7 +1016,7 @@ def: "Having a relative long stalk." [DDB:pg]
 synonym: "long stalk" EXACT []
 synonym: "stalky" RELATED []
 xref: PATO:0000573
-is_a: DDPHENO:0000510 ! aberrant stalk morphogenesis
+is_a: DDPHENO:0000510 ! aberrant stalk morphology
 
 [Term]
 id: DDPHENO:0000166
@@ -2552,7 +2552,7 @@ name: decreased stalk length
 def: "Having a relative short stalk." [DDB:pg]
 synonym: "short stalk" EXACT []
 xref: PATO:0000574
-is_a: DDPHENO:0000510 ! aberrant stalk morphogenesis
+is_a: DDPHENO:0000510 ! aberrant stalk morphology
 
 [Term]
 id: DDPHENO:0000384
@@ -3118,6 +3118,7 @@ is_a: DDPHENO:0000040 ! aberrant response to chemical
 id: DDPHENO:0000477
 name: aberrant lateral pseudopodium formation
 def: "Deviation from the normal, usual, or expected events during lateral pseudopodium formation." [DDB:pf]
+comment: GO:0031271.
 synonym: "aberrant lateral pseudopodium assembly" EXACT []
 is_a: DDPHENO:0001027 ! aberrant pseudopodium formation
 
@@ -3242,7 +3243,7 @@ is_obsolete: true
 id: DDPHENO:0000497
 name: decreased number of vacuoles
 def: "Quantitative reduction in vacuoles." [DDB:pg]
-is_a: DDPHENO:0001041 ! aberrant vacuole organizationn
+is_a: DDPHENO:0001041 ! aberrant vacuole organization
 
 [Term]
 id: DDPHENO:0000498
@@ -3345,7 +3346,7 @@ name: increased stalk width
 def: "Having a relative thick stalk." [DDB:pg]
 synonym: "thick stalk" EXACT []
 xref: PATO:0000599
-is_a: DDPHENO:0000510 ! aberrant stalk morphogenesis
+is_a: DDPHENO:0000510 ! aberrant stalk morphology
 
 [Term]
 id: DDPHENO:0000519
@@ -3538,7 +3539,7 @@ name: decreased stalk width
 def: "Having a relative thin stalk." [DDB:pg]
 synonym: "thin stalk" EXACT []
 xref: PATO:0000600
-is_a: DDPHENO:0000510 ! aberrant stalk morphogenesis
+is_a: DDPHENO:0000510 ! aberrant stalk morphology
 
 [Term]
 id: DDPHENO:0000550
@@ -5249,38 +5250,42 @@ creation_date: 2022-12-20T16:28:14Z
 
 [Term]
 id: DDPHENO:0000741
-name: aberrant protein kinase B signaling
-def: "Deviation from the normal, usual, or expected events during protein kinase B signaling." [DDB:pf]
+name: aberrant phosphatidylinositol 3-kinase/protein kinase B signal transduction
+def: "Deviation from the normal, usual, or expected events during phosphatidylinositol 3-kinase/protein kinase B signal transduction." [DDB:pf]
 comment: GO:0043491.
 synonym: "aberrant PKB signaling" EXACT []
+synonym: "aberrant protein kinase B signaling" EXACT []
 is_a: DDPHENO:0001118 ! aberrant signal transduction
 created_by: pfey
 creation_date: 2022-12-20T16:37:59Z
 
 [Term]
 id: DDPHENO:0000742
-name: decreased protein kinase B signaling
-def: "Reduction in extent, amount, or degree of activation of protein kinase B signaling." [DDB:pf]
+name: decreased phosphatidylinositol 3-kinase/protein kinase B signal transduction
+def: "Reduction in extent, amount, or degree of activation of phosphatidylinositol 3-kinase/protein kinase B signal transduction." [DDB:pf]
 synonym: "decreased PKB signaling" EXACT []
-is_a: DDPHENO:0000741 ! aberrant protein kinase B signaling
+synonym: "decreased protein kinase B signaling" EXACT []
+is_a: DDPHENO:0000741 ! aberrant phosphatidylinositol 3-kinase/protein kinase B signal transduction
 created_by: pfey
 creation_date: 2022-12-20T16:40:41Z
 
 [Term]
 id: DDPHENO:0000743
-name: increased protein kinase B signaling
-def: "Increase in extent, amount, or degree of protein kinase B signaling." [DDB:pf]
+name: increased phosphatidylinositol 3-kinase/protein kinase B signal transduction
+def: "Increase in extent, amount, or degree of phosphatidylinositol 3-kinase/protein kinase B signal transduction." [DDB:pf]
 synonym: "increased PKB signaling" EXACT []
-is_a: DDPHENO:0000741 ! aberrant protein kinase B signaling
+synonym: "increased protein kinase B signaling" RELATED []
+is_a: DDPHENO:0000741 ! aberrant phosphatidylinositol 3-kinase/protein kinase B signal transduction
 created_by: pfey
 creation_date: 2022-12-20T16:44:24Z
 
 [Term]
 id: DDPHENO:0000744
-name: abolished protein kinase B signaling
-def: "Complete absence of  protein kinase B signaling." [DDB:pf]
+name: abolished phosphatidylinositol 3-kinase/protein kinase B signal transduction
+def: "Complete absence of   phosphatidylinositol 3-kinase/protein kinase B signal transduction." [DDB:pf]
 synonym: "abolished PKB signaling" EXACT []
-is_a: DDPHENO:0000741 ! aberrant protein kinase B signaling
+synonym: "abolished protein kinase B signaling" EXACT []
+is_a: DDPHENO:0000741 ! aberrant phosphatidylinositol 3-kinase/protein kinase B signal transduction
 created_by: pfey
 creation_date: 2022-12-20T16:45:53Z
 
@@ -6266,6 +6271,7 @@ is_a: DDPHENO:0001047 ! aberrant transport
 id: DDPHENO:0001027
 name: aberrant pseudopodium formation
 def: "Deviation from the normal, usual, or expected events during pseudopodium formation." [DDB:pg]
+comment: GO:0031269.
 synonym: "aberrant pseudopodium assembly" EXACT []
 is_a: DDPHENO:0001048 ! aberrant cell projection biogenesis
 
@@ -9050,6 +9056,7 @@ is_a: DDPHENO:0000513 ! aberrant sporulation
 id: DDPHENO:0001433
 name: aberrant GABA signaling pathway
 def: "Deviation from the normal, usual, or expected events during the gamma-aminobutyric acid signaling pathway." [DDB:pf]
+comment: GO:0007214.
 synonym: "aberrant gamma-aminobutyric acid signaling pathway" EXACT []
 is_a: DDPHENO:0001118 ! aberrant signal transduction
 
